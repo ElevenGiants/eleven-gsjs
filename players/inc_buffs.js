@@ -516,7 +516,7 @@ function buffs_fire_apply(class_tsid){
 		buff.def.on_apply.call(buff, this, this.buffs.buffs[class_tsid]);
 	}
 	catch (e){
-		log.error(this+" Error applying buff "+class_tsid+": ", e);
+		log.error(e, this+" Error applying buff "+class_tsid);
 	}
 }
 
@@ -545,7 +545,7 @@ function buffs_fire_tick(class_tsid){
 		buff.def.on_tick.call(buff, this, this.buffs.buffs[class_tsid]);
 	}
 	catch (e){
-		log.error("Error ticking buff", e);
+		log.error(e, "Error ticking buff");
 	}
 }
 
@@ -564,7 +564,7 @@ function buffs_fire_remove(class_tsid){
 		}
 	}
 	catch (e){
-		log.error("Error removing buff", e);
+		log.error(e, "Error removing buff");
 	}
 }
 

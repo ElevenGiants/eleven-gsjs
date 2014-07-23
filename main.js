@@ -3279,7 +3279,7 @@ function doVerb(pc, msg) {
 		it.notifyVerb(pc, msg.verb, old_count, handler_success);
 	}
 	catch (e){
-		log.error('Caught exception during verb processing', e);
+		log.error(e, 'Caught exception during verb processing');
 	}
 	log.info("-- returned from verb handler");
 
@@ -4453,7 +4453,7 @@ function doConversationChoice(pc, msg){
 		log.info('conversation handling complete');
 	}
 	catch (e){
-		log.error('Caught exception during conversation processing', e);
+		log.error(e, 'Caught exception during conversation processing');
 	}
 
 	item.apiPutBack();

@@ -370,7 +370,7 @@ function maybe_set_evasion_record(msg){
 	if (location.instance_of) location = apiFindObject(location.instance_of);
 	
 	if (!location) {
-		log.error('no location?', e);
+		log.error('no location?');
 		return {status: 'fail', msg: 'no location?'};
 	}
 	

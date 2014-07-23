@@ -123,7 +123,7 @@ function adminExec(args){
 		return eval(args.code);
 	}
 	catch (e){
-		log.error('Exception during ADMIN_CALL eval', args, e);
+		log.error(e, 'Exception during ADMIN_CALL eval', args);
 	}
 }
 
@@ -150,7 +150,7 @@ function adminExecMulti(args){
 		}
 	}
 	catch (e){
-		log.error('Exception during ADMIN_CALL eval return', args, e);
+		log.error(e, 'Exception during ADMIN_CALL eval return', args);
 		return { ok: 0, e: e};
 	}
 }

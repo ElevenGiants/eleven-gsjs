@@ -209,7 +209,7 @@ function getPlayersCustom(args){
 			}
 
 		} catch(e){
-			log.error('Exception during getPlayersCustom', e);
+			log.error(e, 'Exception during getPlayersCustom');
 		}
 	}
 
@@ -254,7 +254,7 @@ function adminExec(args){
 			error: "Exception",
 			ex: e,
 		};
-                log.error('Exception during ADMIN_CALL eval', e, args.code);
+                log.error(e, 'Exception during ADMIN_CALL eval', args.code);
         }
 }
 
