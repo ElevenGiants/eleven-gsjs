@@ -742,8 +742,8 @@ function conversation_run_give_first_time(pc, msg, replay){ // defined by conver
 
 	if ((msg.choice == "give_first_time-4-2") && (!replay)){
 		this.setAndBroadcastState('exitWithBox');
-this.apiSetTimer('giveReset',1000);
-this.has_conversed = true;
+		this.apiSetTimer('giveReset',1000);
+		this.has_conversed = true;
 	}
 
 	if (msg.choice == "give_first_time-4-2"){
@@ -754,10 +754,9 @@ this.has_conversed = true;
 
 	if ((msg.choice == "give_first_time-3-3") && (!replay)){
 		this.setAndBroadcastState('idleNoBox');
-this.apiSetTimer('giveDoDisappear',500);
-this.has_conversed = true;
-pc.run_overlay_script('smuggling_explain_restrictions');
-
+		this.apiSetTimer('giveDoDisappear',500);
+		this.has_conversed = true;
+		pc.run_overlay_script('smuggling_explain_restrictions');
 	}
 
 	if (msg.choice == "give_first_time-3-3"){
@@ -826,10 +825,10 @@ function conversation_run_receive_first_time(pc, msg, replay){ // defined by con
 
 	if ((msg.choice == "receive_first_time-2-2") && (!replay)){
 		this.setAndBroadcastState('takeBox');
-this.setInstanceProp('talk_state', 'talkWithBox');
-pc.quests_set_flag('contraband_delivered');
-pc.announce_sound('SMUGGLER_GIVES_OR_TAKES_BOX');
-this.received_package = true;
+		this.setInstanceProp('talk_state', 'talkWithBox');
+		pc.quests_set_flag('contraband_delivered');
+		pc.announce_sound('SMUGGLER_GIVES_OR_TAKES_BOX');
+		this.received_package = true;
 	}
 
 	if (msg.choice == "receive_first_time-3-4"){
@@ -881,10 +880,10 @@ this.received_package = true;
 
 	if ((msg.choice == "receive_first_time-4-4") && (!replay)){
 		this.apiSetTimer('receiveDoDisappear',3000);
-pc.apiSendMsg({type: 'clear_location_path'});
-pc.clearPath();
-pc.completeQuest('smuggling_basic',true);
-this.has_conversed = true;
+		pc.apiSendMsg({type: 'clear_location_path'});
+		pc.clearPath();
+		pc.completeQuest('smuggling_basic',true);
+		this.has_conversed = true;
 	}
 
 }
@@ -918,7 +917,7 @@ function conversation_run_give_repeat1(pc, msg, replay){ // defined by conversat
 
 	if ((msg.choice == "give_repeat1-1-2") && (!replay)){
 		this.setAndBroadcastState('exitWithBox');
-this.apiSetTimer('giveReset',1000);
+		this.apiSetTimer('giveReset',1000);
 	}
 
 	if (msg.choice == "give_repeat1-1-2"){
@@ -945,9 +944,9 @@ this.apiSetTimer('giveReset',1000);
 
 	if ((msg.choice == "give_repeat1-4-2") && (!replay)){
 		this.setAndBroadcastState('idleNoBox');
-this.apiSetTimer('giveDoDisappear',500);
-this.has_conversed = true;
-pc.run_overlay_script('smuggling_reveal_destination');
+		this.apiSetTimer('giveDoDisappear',500);
+		this.has_conversed = true;
+		pc.run_overlay_script('smuggling_reveal_destination');
 	}
 
 	if (msg.choice == "give_repeat1-4-2"){
@@ -986,7 +985,7 @@ function conversation_run_give_repeat2(pc, msg, replay){ // defined by conversat
 
 	if ((msg.choice == "give_repeat2-1-2") && (!replay)){
 		this.setAndBroadcastState('exitWithBox');
-this.apiSetTimer('giveReset',1000);
+		this.apiSetTimer('giveReset',1000);
 	}
 
 	if (msg.choice == "give_repeat2-1-2"){
@@ -1007,9 +1006,9 @@ this.apiSetTimer('giveReset',1000);
 
 	if ((msg.choice == "give_repeat2-3-2") && (!replay)){
 		this.setAndBroadcastState('idleNoBox');
-this.apiSetTimer('giveDoDisappear',500);
-this.has_conversed = true;
-pc.run_overlay_script('smuggling_reveal_destination');
+		this.apiSetTimer('giveDoDisappear',500);
+		this.has_conversed = true;
+		pc.run_overlay_script('smuggling_reveal_destination');
 	}
 
 	if (msg.choice == "give_repeat2-3-2"){
@@ -1049,7 +1048,7 @@ function conversation_run_give_repeat3(pc, msg, replay){ // defined by conversat
 
 	if ((msg.choice == "give_repeat3-1-2") && (!replay)){
 		this.setAndBroadcastState('exitWithBox');
-this.apiSetTimer('giveReset',1000);
+		this.apiSetTimer('giveReset',1000);
 	}
 
 	if (msg.choice == "give_repeat3-1-2"){
@@ -1076,9 +1075,9 @@ this.apiSetTimer('giveReset',1000);
 
 	if ((msg.choice == "give_repeat3-4-2") && (!replay)){
 		this.setAndBroadcastState('idleNoBox');
-this.apiSetTimer('giveDoDisappear',500);
-this.has_conversed = true;
-pc.run_overlay_script('smuggling_reveal_destination');
+		this.apiSetTimer('giveDoDisappear',500);
+		this.has_conversed = true;
+		pc.run_overlay_script('smuggling_reveal_destination');
 	}
 
 	if (msg.choice == "give_repeat3-4-2"){
@@ -1116,10 +1115,10 @@ function conversation_run_receive_repeat1(pc, msg, replay){ // defined by conver
 
 	if ((msg.choice == "receive_repeat1-1-2") && (!replay)){
 		this.setAndBroadcastState('takeBox');
-this.setInstanceProp('talk_state', 'talkWithBox');
-pc.announce_sound('SMUGGLER_GIVES_OR_TAKES_BOX');
-pc.quests_set_flag('contraband_delivered');
-this.received_package = true;
+		this.setInstanceProp('talk_state', 'talkWithBox');
+		pc.announce_sound('SMUGGLER_GIVES_OR_TAKES_BOX');
+		pc.quests_set_flag('contraband_delivered');
+		this.received_package = true;
 	}
 
 	if (msg.choice == "receive_repeat1-1-2"){
@@ -1192,10 +1191,10 @@ this.received_package = true;
 
 	if ((msg.choice == "receive_repeat1-3-5") && (!replay)){
 		this.apiSetTimer('receiveDoDisappear',3000);
-pc.apiSendMsg({type: 'clear_location_path'});
-pc.clearPath();
-pc.completeQuest('smuggling_basic',true);
-this.has_conversed = true;
+		pc.apiSendMsg({type: 'clear_location_path'});
+		pc.clearPath();
+		pc.completeQuest('smuggling_basic',true);
+		this.has_conversed = true;
 	}
 
 }
@@ -1227,10 +1226,10 @@ function conversation_run_receive_repeat2(pc, msg, replay){ // defined by conver
 
 	if ((msg.choice == "receive_repeat2-1-2") && (!replay)){
 		this.setAndBroadcastState('takeBox');
-this.setInstanceProp('talk_state', 'talkWithBox');
-pc.announce_sound('SMUGGLER_GIVES_OR_TAKES_BOX');
-pc.quests_set_flag('contraband_delivered');
-this.received_package = true;
+		this.setInstanceProp('talk_state', 'talkWithBox');
+		pc.announce_sound('SMUGGLER_GIVES_OR_TAKES_BOX');
+		pc.quests_set_flag('contraband_delivered');
+		this.received_package = true;
 	}
 
 	if (msg.choice == "receive_repeat2-1-2"){
@@ -1303,10 +1302,10 @@ this.received_package = true;
 
 	if ((msg.choice == "receive_repeat2-3-5") && (!replay)){
 		this.apiSetTimer('receiveDoDisappear',3000);
-pc.apiSendMsg({type: 'clear_location_path'});
-pc.clearPath();
-pc.completeQuest('smuggling_basic',true);
-this.has_conversed = true;
+		pc.apiSendMsg({type: 'clear_location_path'});
+		pc.clearPath();
+		pc.completeQuest('smuggling_basic',true);
+		this.has_conversed = true;
 	}
 
 }
@@ -1338,10 +1337,10 @@ function conversation_run_receive_repeat3(pc, msg, replay){ // defined by conver
 
 	if ((msg.choice == "receive_repeat3-1-2") && (!replay)){
 		this.setAndBroadcastState('takeBox');
-this.setInstanceProp('talk_state', 'talkWithBox');
-pc.announce_sound('SMUGGLER_GIVES_OR_TAKES_BOX');
-pc.quests_set_flag('contraband_delivered');
-this.received_package = true;
+		this.setInstanceProp('talk_state', 'talkWithBox');
+		pc.announce_sound('SMUGGLER_GIVES_OR_TAKES_BOX');
+		pc.quests_set_flag('contraband_delivered');
+		this.received_package = true;
 	}
 
 	if (msg.choice == "receive_repeat3-1-2"){
@@ -1414,10 +1413,10 @@ this.received_package = true;
 
 	if ((msg.choice == "receive_repeat3-3-5") && (!replay)){
 		this.apiSetTimer('receiveDoDisappear',3000);
-pc.apiSendMsg({type: 'clear_location_path'});
-pc.clearPath();
-pc.completeQuest('smuggling_basic',true);
-this.has_conversed = true;
+		pc.apiSendMsg({type: 'clear_location_path'});
+		pc.clearPath();
+		pc.completeQuest('smuggling_basic',true);
+		this.has_conversed = true;
 	}
 
 }
