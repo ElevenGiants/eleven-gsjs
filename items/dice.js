@@ -111,7 +111,7 @@ verbs.roll = { // defined by dice
 
 		var failed = 0;
 
-		var rsp = {
+		var diceleft = {
 			type: 'pc_overlay',
 			uid: pc.tsid+'-dice-left',
 			swf_url: overlay_key_to_url('dice_overlay'),
@@ -127,11 +127,24 @@ verbs.roll = { // defined by dice
 			height: 56
 		};
 
-		pc.location.apiSendAnnouncement(rsp);
+		var diceright = {
+			type: 'pc_overlay',
+			uid: pc.tsid+'-dice-right',
+			swf_url: overlay_key_to_url('dice_overlay'),
+			state: 'spin',
+			duration: 6000,
+			locking: false,
+			dismissible: false,
+			bubble: false,
+			pc_tsid: pc.tsid,
+			delta_x: 20,
+			delta_y: -120,
+			width: 56,
+			height: 56
+		};
 
-		rsp.uid = pc.tsid+'-dice-right';
-		rsp.delta_x = 20;
-		pc.location.apiSendAnnouncement(rsp);
+		pc.location.apiSendAnnouncement(diceleft);
+		pc.location.apiSendAnnouncement(diceright);
 
 		this.apiSetTimer('onDiceRollCompleteLeft', 1000);
 		this.apiSetTimer('onDiceRollCompleteRight', 2000);
