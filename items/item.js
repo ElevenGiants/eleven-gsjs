@@ -117,7 +117,7 @@ function buildSimpleVerbMessage(more_msgs, self_effects, they_effects){
 		if (effects.length){
 			var effects_text = this.formatEffectsList(effects);
 
-			msg += 'Everyone around you: '+effects_text+'. ';
+			msg += '. Everyone around you: '+effects_text+'. ';
 		}
 	}
 	
