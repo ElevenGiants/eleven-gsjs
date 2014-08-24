@@ -648,8 +648,8 @@ function performTending(msg, type, pc){ // defined by paper_tree
 			var watering_can = pc.getAllContents()[msg.target_itemstack_tsid];
 		}
 		else{
-			function is_watering_can(it){ return it.class_tsid == 'irrigator_9000' && it.isWorking() ? true : false; }
-			var watering_can = pc.findFirst(is_watering_can);
+			function is_irrigator_9000(it){ return it.class_tsid == 'irrigator_9000' && it.isWorking() ? true : false; }
+			var watering_can = pc.findFirst(is_irrigator_9000);
 			if (!watering_can){
 				function is_watering_can(it){ return it.class_tsid == 'watering_can' && it.isWorking() ? true : false; }
 				watering_can = pc.findFirst(is_watering_can);

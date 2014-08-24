@@ -90,8 +90,8 @@ verbs.scrape = { // defined by ice_knob
 			return this.startScraping(pc, msg);
 		}
 		else{
-			function is_scraper(it){ return it.class_tsid =='super_scraper' && it.isWorking() ? true : false; }
-			var scraper = pc.findFirst(is_scraper);
+			function is_super_scraper(it){ return it.class_tsid =='super_scraper' && it.isWorking() ? true : false; }
+			var scraper = pc.findFirst(is_super_scraper);
 			if (!scraper){
 				function is_scraper(it){ return it.class_tsid =='scraper' && it.isWorking() ? true : false; }
 				scraper = pc.findFirst(is_scraper);

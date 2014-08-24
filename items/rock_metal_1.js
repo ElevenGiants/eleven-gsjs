@@ -196,8 +196,8 @@ verbs.mine = { // defined by mineable_rock
 		}
 
 		if (this.getClassProp('rock_type') == 'metal_rock'){
-			function is_pick(it){ return it.is_pick && it.isWorking() && it.class_tsid == 'fancy_pick' ? true : false; }
-			if (!pc.items_has(is_pick, 1)){
+			function is_fancy_pick(it){ return it.is_pick && it.isWorking() && it.class_tsid == 'fancy_pick' ? true : false; }
+			if (!pc.items_has(is_fancy_pick, 1)){
 				return {state: 'disabled', reason: "You'll need a Fancy Pick first."};
 			}
 		}
@@ -213,8 +213,8 @@ verbs.mine = { // defined by mineable_rock
 	"effects"			: function(pc){
 
 		// this assumes we'll use the best pick we have...
-		function is_pick(it){ return it.class_tsid =='fancy_pick' && it.isWorking() ? true : false; }
-		var pick = pc.findFirst(is_pick);
+		function is_fancy_pick(it){ return it.class_tsid =='fancy_pick' && it.isWorking() ? true : false; }
+		var pick = pc.findFirst(is_fancy_pick);
 		if (!pick){
 			function is_pick(it){ return it.class_tsid =='pick' && it.isWorking() ? true : false; }
 			pick = pc.findFirst(is_pick);
@@ -242,8 +242,8 @@ verbs.mine = { // defined by mineable_rock
 			return this.startMining(pc, msg);
 		}
 		else{
-			function is_pick(it){ return it.class_tsid =='fancy_pick' && it.isWorking() ? true : false; }
-			var pick = pc.findFirst(is_pick);
+			function is_fancy_pick(it){ return it.class_tsid =='fancy_pick' && it.isWorking() ? true : false; }
+			var pick = pc.findFirst(is_fancy_pick);
 			if (!pick || msg.force_pick){
 				function is_pick(it){ return it.class_tsid =='pick' && it.isWorking() ? true : false; }
 				pick = pc.findFirst(is_pick);
