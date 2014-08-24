@@ -1,3 +1,6 @@
+function getTime() {
+	return new Date().getTime();
+}
 
 function getPlayer(tsid){
 	if (!tsid) return null;
