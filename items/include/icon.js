@@ -564,9 +564,9 @@ function modal_callback(pc, value, details){
 
 function onPlayerCollision(pc){
 	if (this.conversations){
-		for (var i=0; i<conversations.length; i++){
-log.info('convo: '+conversations[i]);
-			if (pc.conversations_offer(this, conversations[i])){
+		for (var i=0; i<this.conversations.length; i++){
+log.info('convo: '+this.conversations[i]);
+			if (pc.conversations_offer(this, this.conversations[i])){
 log.info('can offer');
 				return pc.conversations_offer_bubble(this);
 			}

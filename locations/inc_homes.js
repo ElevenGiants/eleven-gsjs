@@ -2169,7 +2169,7 @@ function homes_rebuild_ceilings(ceiling_config, preview){
 			var floor_idx = intval(a[1]);
 
 			var deco_key = ceiling_config[floor_idx];
-			var deco_hash = homes_fetch_texture_hash(deco_key, config.homes_ceiling_configs);
+			var deco_hash = this.homes_fetch_texture_hash(deco_key, config.homes_ceiling_configs);
 
 			var idx = utils.has_key('ceiling_idx', deco) ? deco.ceiling_idx : 0;
 			var new_deco = this.homes_get_ceiling_sprite(idx, deco_hash);

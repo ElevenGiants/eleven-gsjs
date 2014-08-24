@@ -117,7 +117,7 @@ function drink_drink(pc, msg, suppress_activity){
 		}
 	}
 
-	pc.sendActivity(buildVerbMessage(count, 'drink', 'drank', 0, self_msgs, self_effects, {}));
+	pc.sendActivity(this.buildVerbMessage(count, 'drink', 'drank', 0, self_msgs, self_effects, {}));
 	pc.announce_sound('ITEM_DRINK');
 
 	pc.achievements_increment('items_drank', this.class_tsid, count);

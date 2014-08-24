@@ -216,8 +216,8 @@ function onLoad(){ // defined by mortar_barnacle
 
 function onPlayerCollision(pc){ // defined by mortar_barnacle
 	if (this.conversations){
-		for (var i=0; i<conversations.length; i++){
-			if (pc.conversations_offer(this, conversations[i])){
+		for (var i=0; i<this.conversations.length; i++){
+			if (pc.conversations_offer(this, this.conversations[i])){
 				return pc.conversations_offer_bubble(this);
 			}
 		}

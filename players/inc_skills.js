@@ -479,7 +479,7 @@ function skills_unlearnable_list() {
 	
 	for (var id in config.data_skills){
 		if (this.skills_can_unlearn(id)) {
-			out[id] = skills_get_name(id);
+			out[id] = this.skills_get_name(id);
 		}
 	}
 
@@ -1392,7 +1392,7 @@ function skills_is_learning(){
 
 // Is this glitch unlearning something?
 function skills_is_unlearning(){
-	var length = skills_get_unlearning_queue_length();
+	var length = this.skills_get_unlearning_queue_length();
 	
 	if (length > 0) { 
 		return true;
@@ -1827,7 +1827,7 @@ function skills_learnable_list(is_new_style, include_locked){
 		if (!skills[i].got && (skills[i].can_learn || include_locked)){
 			if (is_new_style){
 				out[i] = {
-					'name': skills_get_name(i),
+					'name': this.skills_get_name(i),
 					'url': '/skills/'+config.data_skills[i].id+'/',
 					'description': config.data_skills[i].description,
 					'seconds': skills[i].total_time,
@@ -1841,7 +1841,7 @@ function skills_learnable_list(is_new_style, include_locked){
 					out[i].can_learn = !!skills[i].can_learn;
 				}
 			} else {
-				out[i] = skills_get_name(i);
+				out[i] = this.skills_get_name(i);
 			}
 		}
 	}

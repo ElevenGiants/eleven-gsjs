@@ -837,7 +837,7 @@ function quests_familiar_turnin_do(choice, details){
 		}
 
 		// Copy rewards
-		var new_rewards = rewards_deep_copy(quest.rewards);
+		var new_rewards = this.rewards_deep_copy(quest.rewards);
 		
 		// If we are under the effects of the Silvertongue buff, we need to display updated rewards
 		// to reflect the bonuses.

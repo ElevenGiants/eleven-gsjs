@@ -54,7 +54,7 @@ function geo_signpost_add_dest_pos(signpost_id, dest, x, y, skip_source){
 
 	if (!signpost.connects) signpost.connects = {};
 
-	var connect_key = geo_get_next_index(signpost.connects);
+	var connect_key = this.geo_get_next_index(signpost.connects);
 	var info = dest.geo_get_info();
 
 	signpost.connects[connect_key] = {

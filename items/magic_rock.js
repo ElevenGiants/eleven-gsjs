@@ -60,7 +60,7 @@ verbs.whatcha_reading = { // defined by magic_rock
 		this.setInstanceProp('talk_state', 'readTalk');
 		this.setAndBroadcastState('readBreak');
 
-		var story = choose_one(intro_strings)+' '+choose_one(story_strings);
+		var story = choose_one(this.intro_strings)+' '+choose_one(this.story_strings);
 		this.apiSetTimerX('conversation_start', 1*1000, pc, story);
 	}
 };

@@ -185,7 +185,7 @@ function food_eat(pc, msg, suppress_activity){
 		}
 	}
 
-	if (!suppress_activity) pc.sendActivity(buildVerbMessage(count, 'eat', 'ate', 0, self_msgs, self_effects, {}));
+	if (!suppress_activity) pc.sendActivity(this.buildVerbMessage(count, 'eat', 'ate', 0, self_msgs, self_effects, {}));
 	pc.announce_sound('ITEM_EAT');
 
 	if ((this.base_cost * count) > 10) {

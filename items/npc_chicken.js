@@ -1318,8 +1318,8 @@ function onPlayerCollision(pc){ // defined by npc_chicken
 	}
 
 	if (this.conversations && !this.isRooked()){
-		for (var i=0; i<conversations.length; i++){
-			if (pc.conversations_offer(this, conversations[i])){
+		for (var i=0; i<this.conversations.length; i++){
+			if (pc.conversations_offer(this, this.conversations[i])){
 				return pc.conversations_offer_bubble(this);
 			}
 		}

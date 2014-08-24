@@ -112,17 +112,17 @@ var artifact_necklaces = {
 };
 
 function artifactPieceAdded(stack){
-	if (artifact_necklaces[stack.class_tsid]){
-		if (this.items_has(stack.class_tsid, artifact_necklaces[stack.class_tsid].required)){
+	if (this.artifact_necklaces[stack.class_tsid]){
+		if (this.items_has(stack.class_tsid, this.artifact_necklaces[stack.class_tsid].required)){
 			this.apiSetTimerX('createArtifactNecklace', 1*1000, stack.class_tsid);
 		}
 	}
 	else{
 		var artifact_type = this.findArtifactForPiece(stack.class_tsid);
-		if (artifact_map[artifact_type] && artifact_map[artifact_type].pieces){
+		if (this.artifact_map[artifact_type] && this.artifact_map[artifact_type].pieces){
 			var has_all_pieces = true;
-			for (var i in artifact_map[artifact_type].pieces){
-				if (!this.items_has(artifact_map[artifact_type].pieces[i], 1)){
+			for (var i in this.artifact_map[artifact_type].pieces){
+				if (!this.items_has(this.artifact_map[artifact_type].pieces[i], 1)){
 					has_all_pieces = false;
 					break;
 				}
@@ -138,9 +138,9 @@ function artifactPieceAdded(stack){
 function findArtifactForPiece(class_tsid){
 	var artifact;
 	
-	for (var i in artifact_map){
-		for (var j in artifact_map[i].pieces){
-			if (artifact_map[i].pieces[j] == class_tsid){
+	for (var i in this.artifact_map){
+		for (var j in this.artifact_map[i].pieces){
+			if (this.artifact_map[i].pieces[j] == class_tsid){
 				artifact = i;
 				break;
 			}
@@ -152,7 +152,7 @@ function findArtifactForPiece(class_tsid){
 
 
 function createArtifact(artifact_type){
-	var prot = apiFindItemPrototype(artifact_map[artifact_type].artifact);
+	var prot = apiFindItemPrototype(this.artifact_map[artifact_type].artifact);
 	this.announce_vp_overlay({
 			duration: 5000,
 			locking: true,
@@ -166,19 +166,19 @@ function createArtifact(artifact_type){
 		});
 	
 	var stack = null;
-	for (var i in artifact_map[artifact_type].pieces){
+	for (var i in this.artifact_map[artifact_type].pieces){
 		stack = this.removeItemStackClass(this.artifact_map[artifact_type].pieces[i], 1);
 		if (!stack)	break;
 		stack.apiDelete();
 	}
 		
-	this.apiSetTimerX('createItemFromGround', 5000, artifact_map[artifact_type].artifact, 1);
-	this.achievements_increment('artifacts_made', artifact_map[artifact_type].artifact, 1);
+	this.apiSetTimerX('createItemFromGround', 5000, this.artifact_map[artifact_type].artifact, 1);
+	this.achievements_increment('artifacts_made', this.artifact_map[artifact_type].artifact, 1);
 }
 
 
 function createArtifactNecklace(piece_type){
-	var prot = apiFindItemPrototype(artifact_necklaces[piece_type].produces);
+	var prot = apiFindItemPrototype(this.artifact_necklaces[piece_type].produces);
 	this.announce_vp_overlay({
 			duration: 5000,
 			locking: true,
@@ -187,12 +187,12 @@ function createArtifactNecklace(piece_type){
 			top_y: '15%',
 			click_to_advance: false,
 			text: [
-				'<p align="center"><span class="nuxp_vog">You\'ve combined '+artifact_necklaces[piece_type].required+' beads to make a '+prot.label+'!</span></p>'
+				'<p align="center"><span class="nuxp_vog">You\'ve combined '+this.artifact_necklaces[piece_type].required+' beads to make a '+prot.label+'!</span></p>'
 			],
 		});
 	
-	this.items_destroy(piece_type, artifact_necklaces[piece_type].required);
+	this.items_destroy(piece_type, this.artifact_necklaces[piece_type].required);
 		
-	this.apiSetTimerX('createItemFromGround', 5000, artifact_necklaces[piece_type].produces, 1);
-	this.achievements_increment('necklaces_made', artifact_necklaces[piece_type].produces, 1);
+	this.apiSetTimerX('createItemFromGround', 5000, this.artifact_necklaces[piece_type].produces, 1);
+	this.achievements_increment('necklaces_made', this.artifact_necklaces[piece_type].produces, 1);
 }

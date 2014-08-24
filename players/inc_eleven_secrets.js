@@ -337,7 +337,7 @@ function getSecretNotification(giant){
 	var message = Math.floor(Math.random() * 3);
 	
 	this.secret_message_index = message;
-	return secret_giant_messages[giant][message];
+	return this.secret_giant_messages[giant][message];
 }
 
 // Called from location.js to do the announcements & favor & stuff
@@ -498,6 +498,6 @@ function doGrowl() {
 		var message = Math.floor(Math.random() * 3);
 	}
 	
-	this.sendActivity(secret_giant_growls[giant][message] + effects_msg);
+	this.sendActivity(this.secret_giant_growls[giant][message] + effects_msg);
 	this.apiSetTimer('elevenSecretsIncrement', 1000);
 }

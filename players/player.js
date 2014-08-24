@@ -1853,7 +1853,7 @@ function performPostProcessing(msg){
 		
 		// Upgrades: meditative_arts_less_distraction = not distracted by incoming messages
 		//           meditative_arts_less_distraction_2 = not distracted by outgoing messages
-		var meditation_ok_copy = meditation_ok_types.slice();
+		var meditation_ok_copy = this.meditation_ok_types.slice();
 		if (this.imagination_has_upgrade("meditative_arts_less_distraction")) {
 			meditation_ok_copy.push("im_recv"); // only one incoming type that distracts
 		}

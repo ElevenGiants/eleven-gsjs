@@ -174,7 +174,7 @@ function adminTendGarden(args){
 				this.data.plots[args.plot].wet = true;
 				this.clearEvents(args.plot, 'dry');
 				this.data.plots[args.plot].start_water = time();
-				this.pushEvent(args.plot, timings.water, 'dry');
+				this.pushEvent(args.plot, this.timings.water, 'dry');
 				
 				var overlay_item_class = watering_can.class_tsid;
 				
@@ -1120,7 +1120,7 @@ function dryGarden() {
 		if(!plot.wet) {
 			continue;
 		}
-		plot.start_water = time() - timings.water * 60 * 60;
+		plot.start_water = time() - this.timings.water * 60 * 60;
 		this.stateChanged(i, "dry");
 	}
 	
@@ -1210,7 +1210,7 @@ function getPlotStatus(key){
 	}
 	
 	if (plot.wet){
-		water_time = Math.max(0, intval((timings.water * 60 * 60) - (time() - (plot.start_water))));
+		water_time = Math.max(0, intval((this.timings.water * 60 * 60) - (time() - (plot.start_water))));
 	}
 	
 	if (plot.state == 'dirty') mature_level = 4;

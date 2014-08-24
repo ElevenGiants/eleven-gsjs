@@ -541,7 +541,7 @@ function onPlayerCollision(pc){ // defined by street_spirit
 
 	if (this.conversations){
 		for (var i=0; i<this.conversations.length; i++){
-			if (pc.conversations_offer(this, conversations[i])){
+			if (pc.conversations_offer(this, this.conversations[i])){
 				return pc.conversations_offer_bubble(this);
 			}
 		}
