@@ -270,9 +270,9 @@ function messages_deliver(timeout){
 	// Many things are optional
 	
 	var start_time = getTime();
-	for (var i in this.message_queue){		
+	for (var i in this.message_queue){
 		// check processing timeout
-		if (timeout && getTime() - time_start >= timeout) break;
+		if (timeout && getTime() - time_start >= timeout) break;  // TODO this looks like a bug to me... (time_start vs. start_time)
 		
 		// have we reached TEH FUTURE!?
 		var message = this.message_queue[i];
