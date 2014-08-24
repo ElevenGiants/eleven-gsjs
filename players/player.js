@@ -1279,7 +1279,7 @@ function croak(){
 			y:	this.y
 		};
 		
-		if (this.location == this.home.interior) {
+		if (this.home && this.location == this.home.interior) {
 			this.achievements_increment("croaked", "at_home", 1);
 		}
 	}
