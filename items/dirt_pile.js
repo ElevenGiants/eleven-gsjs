@@ -339,7 +339,7 @@ function onDigComplete(pc, ret){ // defined by dirt_pile
 		}
 
 		// don't show slugs unless there's at least two
-		if (slugs.__length <= 1) { 
+		if (utils.lengthOfObj(slugs) <= 1) { 
 			slugs = null;
 		}	
 		

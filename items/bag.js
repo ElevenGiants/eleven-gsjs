@@ -739,7 +739,7 @@ function getBagCategories(){
 
 function isBagCategorized(){
 	if (!this.bag_categories) return false;
-	if (this.hasCustomBagCategory || this.bag_categories.__length > 0) return true;
+	if (this.hasCustomBagCategory || utils.lengthOfObj(this.bag_categories) > 0) return true;
 	
 	return false;
 }

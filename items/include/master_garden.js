@@ -776,13 +776,13 @@ function potionTendGarden(args){
 			//log.info("MG doing drop with max luck");
 		}
 		else { 
-			if (this.data.plots.__length == 4) { 
+			if (utils.lengthOfObj(this.data.plots) == 4) { 
 				var chance = .18;
 			}
-			else if (this.data.plots.__length == 8) { 
+			else if (utils.lengthOfObj(this.data.plots) == 8) { 
 				var chance = .36;
 			}
-			else if (this.data.plots.__length >= 15 ) {  
+			else if (utils.lengthOfObj(this.data.plots) >= 15) {  
 				var chance = .67;
 			}
 			
@@ -794,7 +794,7 @@ function potionTendGarden(args){
 			
 		if (config.is_dev) { pc.sendActivity("Drop chance is "+chance); }
 		
-		//log.info("MG chance is "+chance+" and num plots is "+this.data.plots.__length);
+		//log.info("MG chance is "+chance+" and num plots is "+utils.lengthOfObj(this.data.plots));
 		
 		if (this.getInstanceProp('garden_type') == "herb") {	
 			if (is_chance(chance)) {
@@ -1075,7 +1075,7 @@ function onFinishPick(pc, results, energy, mood, xp) {
 	var x = this.x;
 	var y = this.y; 
 	
-	var num_results = results.__length;
+	var num_results = utils.lengthOfObj(results);
 	var count = 0;
 	for (var i in results) { 
 		if (announcement_msg != "You picked ") { 

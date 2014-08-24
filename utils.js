@@ -7,6 +7,18 @@
 //#include utils/json.js
 //stuff will go here!
 
+function latestKeyValue(obj) {
+	if (Object.keys(obj).length === 0) return {};
+	var sortArr = [];
+	for (var key in obj) sortArr.push([key, obj[key]]);
+	sortArr.sort(function(a, b) { return b[1] - a[1] });
+	return { key: sortArr[0][0], value: sortArr[0][1] };
+}
+
+function lengthOfObj(obj) {
+	return Object.keys(obj).length;
+}
+
 function http_get(url, args){
 
 	// jdev/jstaging have callbacks disabled by unsetting these config vars

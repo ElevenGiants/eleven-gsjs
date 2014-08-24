@@ -167,7 +167,7 @@ function geo_clear_signposts(){
 function geo_count_signposts(){
 	if (!this.geo || !this.geo.signposts) return 0;
 
-	return this.geo.signposts.__length;
+	return utils.lengthOfObj(this.geo.signposts);
 }
 
 function geo_door_set_deco(door_id, sprite, w, h){

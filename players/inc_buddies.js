@@ -96,7 +96,7 @@ function buddies_is_reverse(pc){
 
 function buddies_count(){
 	try{
-		return this.friends.group1.pcs.__length;
+		return utils.lengthOfObj(this.friends.group1.pcs);
 	} catch(e) {
 		return 0;
 	}
@@ -111,7 +111,7 @@ function buddiesHasMax(){
 function buddies_reverse_count(){
 
 	if (this.friends && this.friends.reverse && this.friends.reverse.pcs){
-		return this.friends.reverse.pcs.__length;
+		return utils.lengthOfObj(this.friends.reverse.pcs);
 	} else {
 		return 0;
 	}

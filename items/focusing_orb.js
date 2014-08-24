@@ -1282,7 +1282,7 @@ function endTranscendentalRadiationNew(pc){ // defined by focusing_orb
 		msg += " Your \"Transcendental Highway\" upgrade got you an extra "+img_upgrade_bonus+" iMG!";
 	}
 
-	if (this.tr_recipients && this.tr_recipients.__length > 0){
+	if (this.tr_recipients && utils.lengthOfObj(this.tr_recipients) > 0){
 		msg += " Everyone around you gains some mood and energy.";
 	}
 

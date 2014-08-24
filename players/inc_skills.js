@@ -81,7 +81,7 @@ function skills_get_list(){
 function skillsGetLatest(){
 	this.skills_init();
 
-	var skill = this.skills.skills.__latestKeyValue;
+	var skill = utils.latestKeyValue(this.skills.skills);
 
 	return {
 		id : skill.key,
@@ -726,7 +726,7 @@ function skills_unlearn(id) {
 }
 
 function skillsGetCount(){
-	return this.skills.skills.__length;
+	return utils.lengthOfObj(this.skills.skills);
 }
 
 function skills_train(id){

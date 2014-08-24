@@ -204,7 +204,7 @@ function geo_links_get_all_signposts(){
 	var out = [];
 
 	for (var i in this.geo.signposts){
-		if (this.geo.signposts[i].connects && this.geo.signposts[i].connects.__length){
+		if (this.geo.signposts[i].connects && utils.lengthOfObj(this.geo.signposts[i].connects)){
 			for (var j in this.geo.signposts[i].connects){
 				var c = this.geo.signposts[i].connects[j];
 

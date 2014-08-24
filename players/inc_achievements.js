@@ -669,11 +669,11 @@ function achievements_get_all(){
 }
 
 function achievementsGetCount(){
-	return this.achievements.achievements.__length;
+	return utils.lengthOfObj(this.achievements.achievements);
 }
 
 function achievementsGetLatest(){
-	var row = this.achievements.achievements.__latestKeyValue;
+	var row = utils.latestKeyValue(this.achievements.achievements);
 
 	if (row.key){
 		var latest_achievement = utils.copy_hash(this.achievements_get(row.key));

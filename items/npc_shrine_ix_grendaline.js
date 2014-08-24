@@ -607,7 +607,7 @@ function onPlayerCollision(pc, hitbox){ // defined by npc_shrine_base
 		if (!pc.shrines_passed[this.tsid]) pc.shrines_passed[this.tsid] = 0;
 		pc.shrines_passed[this.tsid]++;
 
-		if (pc.shrines_passed.__length == 3){
+		if (utils.lengthOfObj(pc.shrines_passed) == 3){
 			pc.announce_vog_fade("Lo, a shrine to "+capitalize(this.get_giant())+"//Try donating something.");
 			pc.shrine_announced = true;
 			return;

@@ -487,7 +487,7 @@ function home_cleanup_visitors(){
 
 		for (var i in this.real_daily_visitors){
 			if (i != today){
-				var count = this.real_daily_visitors[i].__length;
+				var count = utils.lengthOfObj(this.real_daily_visitors[i]);
 
 				//log.info('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& '+i+' = '+count);
 

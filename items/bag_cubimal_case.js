@@ -428,7 +428,7 @@ verbs.magic_sort = { // defined by bag_generic
 	"conditions"			: function(pc, drop_stack){
 
 		if ((this.getClassProp('can_specialize') == 'true' || this.getCustomBagCategories) && pc.imagination_has_upgrade('pack_magic_sort')){
-			if (this.getCustomBagCategories || (this.bag_categories && this.bag_categories.__length > 0)){
+			if (this.getCustomBagCategories || (this.bag_categories && utils.lengthOfObj(this.bag_categories) > 0)){
 				return {state:'enabled'};
 			}else{
 				return {state:'disabled', reason:'This bag needs to be specialized before it can be magically sorted.'};

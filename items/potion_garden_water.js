@@ -540,7 +540,7 @@ function canPour(pc){ // defined by potion_garden_water
 		}
 
 		var details = pc.getSkillPackageDetails(package_water);
-		if (pc.metabolics_get_energy() <= (details.energy_cost * targets[i].data.plots.__length)){
+		if (pc.metabolics_get_energy() <= (details.energy_cost * utils.lengthOfObj(targets[i].data.plots))){
 			return {ok:0, error: "You don't have enough energy to do that!"};
 		}
 
