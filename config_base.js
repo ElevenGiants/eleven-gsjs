@@ -1,7 +1,7 @@
 //#include inc_data_clothing.js
 //#include inc_data_faces.js
 //#include inc_data_skills.js
-//#include achievements/inc_data_counters.js
+//#include inc_data_counters.js
 //#include inc_data_imagination.js
 //#include inc_data_homes.js
 //#include inc_data_default_avatars.js
@@ -233,18 +233,18 @@ var home_limits = {
 
 	START_INT_TEMPLATE		: 'meadows_int_default__high',
 	START_EXT_TEMPLATE		: 'meadow_ext_default_high',
+
+	FRONTYARD_EXPAND_COSTS: [
+		100, 125, 156, 195, 244, 305, 381, 477, 596, 745,
+		834, 935, 1047, 1172, 1313, 1471, 1647, 1845, 2066, 2314,
+		2453, 2600, 2756, 2921, 3097, 3283, 3479, 3688,
+	],
+
+	BACKYARD_EXPAND_COSTS: [
+		200, 250, 313, 391, 488, 610, 763, 916, 1099, 1318,
+		1582, 1898, 2278, 2734, 3281,
+	],
 };
-
-home_limits.FRONTYARD_EXPAND_COSTS = [
-	100, 125, 156, 195, 244, 305, 381, 477, 596, 745,
-	834, 935, 1047, 1172, 1313, 1471, 1647, 1845, 2066, 2314,
-	2453, 2600, 2756, 2921, 3097, 3283, 3479, 3688,
-];
-
-home_limits.BACKYARD_EXPAND_COSTS = [
-	200, 250, 313, 391, 488, 610, 763, 916, 1099, 1318,
-	1582, 1898, 2278, 2734, 3281,
-];
 
 var disable_old_pols = true;
 

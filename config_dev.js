@@ -376,9 +376,6 @@ var portal_group = 'RMF1113TT0H2BOT';
 
 var teleportation_ok_streets = []; // Streets where teleportation targets/scripts are ok, even if locked, etc
 
-home_limits.START_INT_TEMPLATE			= 'meadows_int_default__high';
-home_limits.START_EXT_TEMPLATE			= 'meadow_ext_default_high';
-
 var machine_rooms = [];
 
 var sequence_object = 'RRO10CSPCT63JT4';
