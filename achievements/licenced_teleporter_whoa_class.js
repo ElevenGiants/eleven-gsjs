@@ -7,10 +7,10 @@ var last_published	= 1348801497;
 var is_shareworthy	= 1;
 var url		= "licenced-teleporter-whoa-class";
 var category		= "exploring";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/licenced_teleporter_whoa_class_1315686095.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/licenced_teleporter_whoa_class_1315686095_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/licenced_teleporter_whoa_class_1315686095_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/licenced_teleporter_whoa_class_1315686095_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-09-10\/licenced_teleporter_whoa_class_1315686095.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-09-10\/licenced_teleporter_whoa_class_1315686095_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-09-10\/licenced_teleporter_whoa_class_1315686095_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-09-10\/licenced_teleporter_whoa_class_1315686095_40.png";
 function on_apply(pc){
 	
 }

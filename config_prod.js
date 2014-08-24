@@ -665,9 +665,9 @@ var transit_instances = {
 		'type': 'subway',
 		'vehicle': 'train',
 		
-		'map_background_url': 'http://c1.glitch.bz/img/maps/subway_map_bg_59215.jpg',
-		'map_forwards_url': 'http://c1.glitch.bz/img/maps/subway_red_line_fg_59215.png',
-		'map_backwards_url': 'http://c1.glitch.bz/img/maps/subway_blue_line_fg_59215.png',
+		'map_background_url': '/c1.glitch.bz/img/maps/subway_map_bg_59215.jpg',
+		'map_forwards_url': '/c1.glitch.bz/img/maps/subway_red_line_fg_59215.png',
+		'map_backwards_url': '/c1.glitch.bz/img/maps/subway_blue_line_fg_59215.png',
 		
 		'forwards_name': 'Red Line',
 		'backwards_name': 'Blue Line',
@@ -1296,15 +1296,15 @@ var trade_chat_groups = ['RA5DT5I72543L5R'];
 var public_machine_rooms = ['LCR101Q98A12EHH', 'LIF16EM56A12FSB', 'LA9MU59GB792T80'];
 
 var party_spaces = {
-	nylon: {tsid: 'LDOK0A8OG1E2C7O', desc: "Perfect underwater pool party hang-out. Ingredients for juices, smoothies and Grog, plus complimentary DIY three-course pescetarian meal.", img: "http://c1.glitch.bz/img/party/nylon_phool_67649.jpg", prices: {5:'3500', 10:'5500', 15:'10000', 30:'16000'}},
-	rainbow: {tsid: 'LDOGBH4BG1E2BM0', desc: "Totally cute party paddock, complete with rainbows. Contains: minable sparkly rocks, mixable cosmopolitans and a make-your-own cold taco bar.", img: "http://c1.glitch.bz/img/party/double_rainbow_67649.jpg", prices: {5:'2000', 10:'3000', 15:'6000', 30:'9250'}},
-	pitchen: {tsid: 'LDOGNQICG1E2PNI', desc: "Miniature Ur for Glitchean giants. Rental includes minables, ingredients for nibbles, snacks and sammiches, and DIY fancy-cocktail bar.", img: "http://c1.glitch.bz/img/party/pitchen_lilliputt_67649.jpg", prices: {5:'3000', 10:'4500', 15:'8500', 30:'13250'}},
-	moon: {tsid: 'LDOBUP8IR8E2IPH', desc: "Secluded lunar location, with sparkly moonrock. Provisions provided: complimentary cocktail bar and other refreshments.", img: "http://c1.glitch.bz/img/party/toxic_moon_67649.jpg", prices: {5:'3000', 10:'4500', 15:'8500', 30:'13250'}},
-	mazzala: {tsid: 'LDOE67MFL6E2FBR', desc: "Atmospheric five-room party lodge. Contains: DIY hearty party feast (gumbo, sammiches etc), beer, booze, and \"other refreshments\".", img: "http://c1.glitch.bz/img/party/shimla_shack_67649.jpg", prices: {5:'3000', 10:'4500', 15:'8500', 30:'13250'}},
-	halloween: {tsid: 'LDOG1ST9G1E2EV5', desc: "Something something halloween", img: "http://c1.glitch.bz/img/party/shimla_shack_67649.jpg", prices: {5:'3000', 10:'4500', 15:'8500', 30:'13250'}},
-	glitchmas: {tsid: 'LDOOS17UPNJ2HT7', desc: "One temporary wonderland, perfect for holiday get-togethers and winterly fun. When activated, this icy private party spot includes trees for decorating, ingredients for heart-warming drinkables and a DIY pie bar.", img: "http://c1.glitch.bz/img/party/winter_wingding_76754.png", prices: {5:'2000', 10:'3000', 15:'6000', 30:'9250'}},
-	val_holla: {tsid: 'LUVNGTHAGP93U34', desc: "Soar to new heights in this quoin-heavy party space. Grab a bunch of your closest friends, and get ready to Party Shardy!", img: "http://c1.glitch.bz/img/party/valholla_116968.jpg", prices: {5:'5000', 10:'8500', 15:'15000', 30:'25000'}},
-	aquarius: {tsid: 'LUVU11R1HP9341R', desc: "Swim, float & drift your way around this quoin-laden party space. And, remember … quoining is always more fun with friends!", img: "http://c1.glitch.bz/img/party/aquarius_116968.jpg", prices: {5:'5000', 10:'8500', 15:'15000', 30:'25000'}}
+	nylon: {tsid: 'LDOK0A8OG1E2C7O', desc: "Perfect underwater pool party hang-out. Ingredients for juices, smoothies and Grog, plus complimentary DIY three-course pescetarian meal.", img: "/c1.glitch.bz/img/party/nylon_phool_67649.jpg", prices: {5:'3500', 10:'5500', 15:'10000', 30:'16000'}},
+	rainbow: {tsid: 'LDOGBH4BG1E2BM0', desc: "Totally cute party paddock, complete with rainbows. Contains: minable sparkly rocks, mixable cosmopolitans and a make-your-own cold taco bar.", img: "/c1.glitch.bz/img/party/double_rainbow_67649.jpg", prices: {5:'2000', 10:'3000', 15:'6000', 30:'9250'}},
+	pitchen: {tsid: 'LDOGNQICG1E2PNI', desc: "Miniature Ur for Glitchean giants. Rental includes minables, ingredients for nibbles, snacks and sammiches, and DIY fancy-cocktail bar.", img: "/c1.glitch.bz/img/party/pitchen_lilliputt_67649.jpg", prices: {5:'3000', 10:'4500', 15:'8500', 30:'13250'}},
+	moon: {tsid: 'LDOBUP8IR8E2IPH', desc: "Secluded lunar location, with sparkly moonrock. Provisions provided: complimentary cocktail bar and other refreshments.", img: "/c1.glitch.bz/img/party/toxic_moon_67649.jpg", prices: {5:'3000', 10:'4500', 15:'8500', 30:'13250'}},
+	mazzala: {tsid: 'LDOE67MFL6E2FBR', desc: "Atmospheric five-room party lodge. Contains: DIY hearty party feast (gumbo, sammiches etc), beer, booze, and \"other refreshments\".", img: "/c1.glitch.bz/img/party/shimla_shack_67649.jpg", prices: {5:'3000', 10:'4500', 15:'8500', 30:'13250'}},
+	halloween: {tsid: 'LDOG1ST9G1E2EV5', desc: "Something something halloween", img: "/c1.glitch.bz/img/party/shimla_shack_67649.jpg", prices: {5:'3000', 10:'4500', 15:'8500', 30:'13250'}},
+	glitchmas: {tsid: 'LDOOS17UPNJ2HT7', desc: "One temporary wonderland, perfect for holiday get-togethers and winterly fun. When activated, this icy private party spot includes trees for decorating, ingredients for heart-warming drinkables and a DIY pie bar.", img: "/c1.glitch.bz/img/party/winter_wingding_76754.png", prices: {5:'2000', 10:'3000', 15:'6000', 30:'9250'}},
+	val_holla: {tsid: 'LUVNGTHAGP93U34', desc: "Soar to new heights in this quoin-heavy party space. Grab a bunch of your closest friends, and get ready to Party Shardy!", img: "/c1.glitch.bz/img/party/valholla_116968.jpg", prices: {5:'5000', 10:'8500', 15:'15000', 30:'25000'}},
+	aquarius: {tsid: 'LUVU11R1HP9341R', desc: "Swim, float & drift your way around this quoin-laden party space. And, remember … quoining is always more fun with friends!", img: "/c1.glitch.bz/img/party/aquarius_116968.jpg", prices: {5:'5000', 10:'8500', 15:'15000', 30:'25000'}}
 };
 
 var paradise_locations = {

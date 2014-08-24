@@ -7,10 +7,10 @@ var last_published	= 1338918543;
 var is_shareworthy	= 0;
 var url		= "hairball-gonzales";
 var category		= "alchemy";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-01-17\/hairball_gonzales_1326824157.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-01-17\/hairball_gonzales_1326824157_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-01-17\/hairball_gonzales_1326824157_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-01-17\/hairball_gonzales_1326824157_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-01-17\/hairball_gonzales_1326824157.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-01-17\/hairball_gonzales_1326824157_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-01-17\/hairball_gonzales_1326824157_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-01-17\/hairball_gonzales_1326824157_40.png";
 function on_apply(pc){
 	
 }

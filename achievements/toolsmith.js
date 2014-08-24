@@ -7,10 +7,10 @@ var last_published	= 1348802943;
 var is_shareworthy	= 1;
 var url		= "toolsmith";
 var category		= "industrial";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/toolsmith_1315686119.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/toolsmith_1315686119_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/toolsmith_1315686119_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/toolsmith_1315686119_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-09-10\/toolsmith_1315686119.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-09-10\/toolsmith_1315686119_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-09-10\/toolsmith_1315686119_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-09-10\/toolsmith_1315686119_40.png";
 function on_apply(pc){
 	
 }

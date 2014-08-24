@@ -7,10 +7,10 @@ var last_published	= 1348802894;
 var is_shareworthy	= 1;
 var url		= "superior-mixologist";
 var category		= "cooking";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/superior_mixologist_1304983591.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/superior_mixologist_1304983591_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/superior_mixologist_1304983591_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/superior_mixologist_1304983591_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/superior_mixologist_1304983591.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/superior_mixologist_1304983591_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/superior_mixologist_1304983591_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/superior_mixologist_1304983591_40.png";
 function on_apply(pc){
 	
 }

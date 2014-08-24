@@ -7,10 +7,10 @@ var last_published	= 1348803105;
 var is_shareworthy	= 1;
 var url		= "world-class-traveler";
 var category		= "exploring";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-18\/world_class_traveler_1316414518.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-18\/world_class_traveler_1316414518_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-18\/world_class_traveler_1316414518_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-18\/world_class_traveler_1316414518_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-09-18\/world_class_traveler_1316414518.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-09-18\/world_class_traveler_1316414518_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-09-18\/world_class_traveler_1316414518_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-09-18\/world_class_traveler_1316414518_40.png";
 function on_apply(pc){
 	
 }

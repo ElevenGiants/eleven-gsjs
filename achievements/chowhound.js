@@ -7,10 +7,10 @@ var last_published	= 1323914082;
 var is_shareworthy	= 0;
 var url		= "chowhound";
 var category		= "cooking";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-13\/chowhound_1315979176.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-13\/chowhound_1315979176_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-13\/chowhound_1315979176_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-13\/chowhound_1315979176_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-09-13\/chowhound_1315979176.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-09-13\/chowhound_1315979176_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-09-13\/chowhound_1315979176_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-09-13\/chowhound_1315979176_40.png";
 function on_apply(pc){
 	
 }

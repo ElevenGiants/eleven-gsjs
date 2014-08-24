@@ -7,10 +7,10 @@ var last_published	= 1338919154;
 var is_shareworthy	= 0;
 var url		= "roux-guru";
 var category		= "cooking";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/roux_guru_1304983440.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/roux_guru_1304983440_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/roux_guru_1304983440_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/roux_guru_1304983440_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/roux_guru_1304983440.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/roux_guru_1304983440_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/roux_guru_1304983440_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/roux_guru_1304983440_40.png";
 function on_apply(pc){
 	
 }

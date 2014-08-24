@@ -7,10 +7,10 @@ var last_published	= 1348801478;
 var is_shareworthy	= 1;
 var url		= "lanternerer";
 var category		= "seasonal";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-10-27\/lanternerer_1319740040.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-10-27\/lanternerer_1319740040_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-10-27\/lanternerer_1319740040_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-10-27\/lanternerer_1319740040_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-10-27\/lanternerer_1319740040.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-10-27\/lanternerer_1319740040_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-10-27\/lanternerer_1319740040_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-10-27\/lanternerer_1319740040_40.png";
 function on_apply(pc){
 	
 }

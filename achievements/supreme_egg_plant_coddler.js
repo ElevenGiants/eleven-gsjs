@@ -7,10 +7,10 @@ var last_published	= 1348802897;
 var is_shareworthy	= 1;
 var url		= "supreme-egg-plant-coddler";
 var category		= "trees";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/supreme_egg_plant_coddler_1304984565.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/supreme_egg_plant_coddler_1304984565_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/supreme_egg_plant_coddler_1304984565_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/supreme_egg_plant_coddler_1304984565_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/supreme_egg_plant_coddler_1304984565.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/supreme_egg_plant_coddler_1304984565_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/supreme_egg_plant_coddler_1304984565_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/supreme_egg_plant_coddler_1304984565_40.png";
 function on_apply(pc){
 	
 }

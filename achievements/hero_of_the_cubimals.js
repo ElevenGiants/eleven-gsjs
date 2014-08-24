@@ -7,10 +7,10 @@ var last_published	= 1348799134;
 var is_shareworthy	= 1;
 var url		= "hero-of-the-cubimals";
 var category		= "player";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/hero_of_the_cubimals_1339702833.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/hero_of_the_cubimals_1339702833_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/hero_of_the_cubimals_1339702833_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/hero_of_the_cubimals_1339702833_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-06-14\/hero_of_the_cubimals_1339702833.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-06-14\/hero_of_the_cubimals_1339702833_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-06-14\/hero_of_the_cubimals_1339702833_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-06-14\/hero_of_the_cubimals_1339702833_40.png";
 function on_apply(pc){
 	
 }

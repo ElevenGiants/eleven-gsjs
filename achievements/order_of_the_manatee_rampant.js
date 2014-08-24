@@ -7,10 +7,10 @@ var last_published	= 1348802183;
 var is_shareworthy	= 1;
 var url		= "order-of-the-manatee-rampant";
 var category		= "games";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-08\/order_of_the_manatee_rampant_1315512135.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-08\/order_of_the_manatee_rampant_1315512135_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-08\/order_of_the_manatee_rampant_1315512135_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-08\/order_of_the_manatee_rampant_1315512135_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-09-08\/order_of_the_manatee_rampant_1315512135.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-09-08\/order_of_the_manatee_rampant_1315512135_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-09-08\/order_of_the_manatee_rampant_1315512135_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-09-08\/order_of_the_manatee_rampant_1315512135_40.png";
 function on_apply(pc){
 	
 }

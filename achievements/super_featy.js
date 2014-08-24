@@ -7,10 +7,10 @@ var last_published	= 1351302479;
 var is_shareworthy	= 1;
 var url		= "super-featy";
 var category		= "feats";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-26\/super_featy_1351300686.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-26\/super_featy_1351300686_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-26\/super_featy_1351300686_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-26\/super_featy_1351300686_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-10-26\/super_featy_1351300686.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-10-26\/super_featy_1351300686_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-10-26\/super_featy_1351300686_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-10-26\/super_featy_1351300686_40.png";
 function on_apply(pc){
 	
 }

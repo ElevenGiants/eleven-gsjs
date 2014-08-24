@@ -5,7 +5,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_1(){
 		return {
 			"name"		: "MAIN HUB",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -19,7 +19,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_8(){
 		return {
 			"name"		: "Secondary hub",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -33,7 +33,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_9(){
 		return {
 			"name"		: "Joseon",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -47,7 +47,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_10(){
 		return {
 			"name"		: "Wintermute's Corner",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -61,7 +61,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_15(){
 		return {
 			"name"		: "the mines",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -75,7 +75,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_16(){
 		return {
 			"name"		: "the refineries",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -89,7 +89,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_17(){
 		return {
 			"name"		: "the factories",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -103,7 +103,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_18(){
 		return {
 			"name"		: "Obaix",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -117,7 +117,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_19(){
 		return {
 			"name"		: "The Porcine Woods",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -131,7 +131,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_20(){
 		return {
 			"name"		: "The School",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -145,7 +145,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_21(){
 		return {
 			"name"		: "cozytown",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -159,7 +159,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_22(){
 		return {
 			"name"		: "Ootoo",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -173,7 +173,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_23(){
 		return {
 			"name"		: "Leavens",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -187,7 +187,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_24(){
 		return {
 			"name"		: "Kukubee",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -201,7 +201,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_25(){
 		return {
 			"name"		: "Arbito",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -215,7 +215,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_26(){
 		return {
 			"name"		: "Abbasid",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -243,7 +243,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_28(){
 		return {
 			"name"		: "Groddle Forest",
-			"bg"		: "http:\/\/c2.glitch.bz\/client_maps\/2011-12-16\/groddle_forest_bg_1324082034.jpg",
+			"bg"		: "\/c2.glitch.bz\/client_maps\/2011-12-16\/groddle_forest_bg_1324082034.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -257,7 +257,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_29(){
 		return {
 			"name"		: "Burkaville",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -271,7 +271,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_30(){
 		return {
 			"name"		: "Myles",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -285,7 +285,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_31(){
 		return {
 			"name"		: "SM TEST",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -299,7 +299,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_32(){
 		return {
 			"name"		: "The Gulf of Finland",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -313,7 +313,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_33(){
 		return {
 			"name"		: "Quoin Paradise",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -327,7 +327,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_34(){
 		return {
 			"name"		: "Groups",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -341,7 +341,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_35(){
 		return {
 			"name"		: "Hub Stress Test",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -355,7 +355,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_36(){
 		return {
 			"name"		: "Coloration",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -369,7 +369,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_37(){
 		return {
 			"name"		: "POLs",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -383,7 +383,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_38(){
 		return {
 			"name"		: "Backed Up Levels",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -397,7 +397,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_39(){
 		return {
 			"name"		: "Zutto",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -411,7 +411,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_40(){
 		return {
 			"name"		: "Purgatory",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -425,7 +425,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_41(){
 		return {
 			"name"		: "arbito bonus room",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -439,7 +439,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_42(){
 		return {
 			"name"		: "GeoTest",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -453,7 +453,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_43(){
 		return {
 			"name"		: "Freeny",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -467,7 +467,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_44(){
 		return {
 			"name"		: "Starting location (in future)",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -481,7 +481,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_45(){
 		return {
 			"name"		: "Firebog",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -495,7 +495,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_46(){
 		return {
 			"name"		: "Uralia",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -509,7 +509,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_47(){
 		return {
 			"name"		: "Gyoza",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -523,7 +523,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_48(){
 		return {
 			"name"		: "Zutto Asset Tests",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -537,7 +537,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_49(){
 		return {
 			"name"		: "Houses!",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -551,7 +551,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_50(){
 		return {
 			"name"		: "Groddle WIP",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -565,7 +565,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_51(){
 		return {
 			"name"		: "Zutto Caves WIP ",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -579,7 +579,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_52(){
 		return {
 			"name"		: "SWF Tests",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -593,7 +593,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_53(){
 		return {
 			"name"		: "Firebog WIP",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -607,7 +607,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_54(){
 		return {
 			"name"		: "Leavens WIP",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -621,7 +621,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_55(){
 		return {
 			"name"		: "Kukubee2",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -635,7 +635,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_56(){
 		return {
 			"name"		: "Firebog Levelups",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -649,7 +649,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_57(){
 		return {
 			"name"		: "Groddle Levelups",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -663,7 +663,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_58(){
 		return {
 			"name"		: "New Groddle ",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -677,7 +677,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_59(){
 		return {
 			"name"		: "first street",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -691,7 +691,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_60(){
 		return {
 			"name"		: "New Groddle Forest",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -705,7 +705,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_61(){
 		return {
 			"name"		: "Mysterium",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -719,7 +719,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_62(){
 		return {
 			"name"		: "Arbito Bonus",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -733,7 +733,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_63(){
 		return {
 			"name"		: "Groddle styles",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -747,7 +747,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_64(){
 		return {
 			"name"		: "second street",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -761,7 +761,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_65(){
 		return {
 			"name"		: "Limbo Style",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -775,7 +775,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_66(){
 		return {
 			"name"		: "Cal Tests",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -789,7 +789,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_67(){
 		return {
 			"name"		: "upgrades",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -803,7 +803,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_68(){
 		return {
 			"name"		: "_TEMPLATES_",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -817,7 +817,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_69(){
 		return {
 			"name"		: "Lisa",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -831,7 +831,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_70(){
 		return {
 			"name"		: "Billy",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -845,7 +845,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_71(){
 		return {
 			"name"		: "Examples",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -859,7 +859,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_72(){
 		return {
 			"name"		: "Subway",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -873,7 +873,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_73(){
 		return {
 			"name"		: "Ryan",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -887,7 +887,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_74(){
 		return {
 			"name"		: "Derek",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -901,7 +901,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_75(){
 		return {
 			"name"		: "Graham",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -915,7 +915,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_76(){
 		return {
 			"name"		: "Bryan",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -929,7 +929,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_77(){
 		return {
 			"name"		: "Simple Level Quests",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -943,7 +943,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_78(){
 		return {
 			"name"		: "Tarence",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -957,7 +957,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_79(){
 		return {
 			"name"		: "Street Unlock Test",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -971,7 +971,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_80(){
 		return {
 			"name"		: "Darryl",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -985,7 +985,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_81(){
 		return {
 			"name"		: "Production Instances for testing",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -999,7 +999,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_82(){
 		return {
 			"name"		: "Ian",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1013,7 +1013,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_83(){
 		return {
 			"name"		: "Starting Streets",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1027,7 +1027,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_84(){
 		return {
 			"name"		: "Chuu Chuu",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1041,7 +1041,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_85(){
 		return {
 			"name"		: "Things Always Breaking",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1055,7 +1055,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_86(){
 		return {
 			"name"		: "Conversations Corner",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1069,7 +1069,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_87(){
 		return {
 			"name"		: "For Brent",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1083,7 +1083,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_88(){
 		return {
 			"name"		: "Rook",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1097,7 +1097,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_89(){
 		return {
 			"name"		: "B1",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1111,7 +1111,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_90(){
 		return {
 			"name"		: "Sounds",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1125,8 +1125,8 @@ function maps_get_hubs(){
 	function maps_get_hubs_91(){
 		return {
 			"name"		: "Baqala",
-			"bg"		: "http:\/\/c2.glitch.bz\/client_maps\/2011-12-16\/baqala_bg_1324081121.jpg",
-			"fg"		: "http:\/\/c2.glitch.bz\/client_maps\/2011-12-16\/baqala_fg_1324081824.png",
+			"bg"		: "\/c2.glitch.bz\/client_maps\/2011-12-16\/baqala_bg_1324081121.jpg",
+			"fg"		: "\/c2.glitch.bz\/client_maps\/2011-12-16\/baqala_fg_1324081824.png",
 			"color"		: "#959b00",
 			"btm_color"	: "#82897f",
 			"top_color"	: "#9eaa9c",
@@ -1139,7 +1139,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_92(){
 		return {
 			"name"		: "Blankalia",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1153,7 +1153,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_93(){
 		return {
 			"name"		: "The World",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1167,7 +1167,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_94(){
 		return {
 			"name"		: "hub 1",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1181,7 +1181,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_95(){
 		return {
 			"name"		: "Pirate Cove",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1195,7 +1195,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_96(){
 		return {
 			"name"		: "Lerloyd",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1209,7 +1209,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_97(){
 		return {
 			"name"		: "NewNewXP",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1223,7 +1223,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_98(){
 		return {
 			"name"		: "Parent Streets",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1237,7 +1237,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_99(){
 		return {
 			"name"		: "Secondary Streets",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1251,7 +1251,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_100(){
 		return {
 			"name"		: "unlocked Hub",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1265,7 +1265,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_101(){
 		return {
 			"name"		: "locked Hub",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1279,7 +1279,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_102(){
 		return {
 			"name"		: "Attapu Amnat",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1293,7 +1293,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_103(){
 		return {
 			"name"		: "Templates",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1307,7 +1307,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_104(){
 		return {
 			"name"		: "Mountaineering Quest",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1321,7 +1321,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_105(){
 		return {
 			"name"		: "Mountaineering Tests",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1335,7 +1335,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_106(){
 		return {
 			"name"		: "Consumable Deco Test",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1349,7 +1349,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_107(){
 		return {
 			"name"		: "Test Streets",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1363,7 +1363,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_108(){
 		return {
 			"name"		: "Itemstacks",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1377,7 +1377,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_109(){
 		return {
 			"name"		: "Decos",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1391,7 +1391,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_110(){
 		return {
 			"name"		: "Layers",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1405,7 +1405,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_111(){
 		return {
 			"name"		: "Locations",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1419,7 +1419,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_112(){
 		return {
 			"name"		: "Overkill",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1433,7 +1433,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_113(){
 		return {
 			"name"		: "Empty",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1447,7 +1447,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_114(){
 		return {
 			"name"		: "Expedition Quests",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1461,7 +1461,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_115(){
 		return {
 			"name"		: "Ian",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1475,7 +1475,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_116(){
 		return {
 			"name"		: "Expedition Tests (F)",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1489,7 +1489,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_117(){
 		return {
 			"name"		: "Item Scale",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1503,7 +1503,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_118(){
 		return {
 			"name"		: "random tests",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1517,7 +1517,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_119(){
 		return {
 			"name"		: "Stoot",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1531,7 +1531,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_120(){
 		return {
 			"name"		: "test1",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1545,7 +1545,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_121(){
 		return {
 			"name"		: "TestWorld",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1559,7 +1559,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_122(){
 		return {
 			"name"		: "POL Chassis",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1573,7 +1573,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_123(){
 		return {
 			"name"		: "Furniture",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1587,7 +1587,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_124(){
 		return {
 			"name"		: "Tantiscant",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1601,7 +1601,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_125(){
 		return {
 			"name"		: "Bonus Level WIPs (Fernando)",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1615,7 +1615,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_126(){
 		return {
 			"name"		: "QR",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1629,7 +1629,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_127(){
 		return {
 			"name"		: "plat_test",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1643,7 +1643,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_128(){
 		return {
 			"name"		: "Test",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -1657,7 +1657,7 @@ function maps_get_hubs(){
 	function maps_get_hubs_129(){
 		return {
 			"name"		: "Gentle Island",
-			"bg"		: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"		: "",
 			"color"		: "#ff0000",
 			"btm_color"	: "#606669",
@@ -2088,7 +2088,7 @@ function maps_get_maps(){
 					"tsid"		: "LM411S8HUM5OC"
 				}
 			},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -2099,7 +2099,7 @@ function maps_get_maps(){
 	function maps_get_maps_8(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -2163,7 +2163,7 @@ function maps_get_maps(){
 					"tsid"		: "LM411V6VFUKC4"
 				}
 			},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -2174,7 +2174,7 @@ function maps_get_maps(){
 	function maps_get_maps_10(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -2185,7 +2185,7 @@ function maps_get_maps(){
 	function maps_get_maps_15(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -2196,7 +2196,7 @@ function maps_get_maps(){
 	function maps_get_maps_16(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -2207,7 +2207,7 @@ function maps_get_maps(){
 	function maps_get_maps_17(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -2333,7 +2333,7 @@ function maps_get_maps(){
 					"tsid"		: "LHH3TL3G4H61N0Q"
 				}
 			},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -2413,7 +2413,7 @@ function maps_get_maps(){
 					"tsid"		: "LM411L6REPK42"
 				}
 			},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -2424,7 +2424,7 @@ function maps_get_maps(){
 	function maps_get_maps_20(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -2435,7 +2435,7 @@ function maps_get_maps(){
 	function maps_get_maps_21(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -2583,7 +2583,7 @@ function maps_get_maps(){
 					"tsid"		: "LM41276VJ75RG"
 				}
 			},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -2627,7 +2627,7 @@ function maps_get_maps(){
 					"tsid"	: "LM417IQ0DOA4Q"
 				}
 			},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -2638,7 +2638,7 @@ function maps_get_maps(){
 	function maps_get_maps_24(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -2649,7 +2649,7 @@ function maps_get_maps(){
 	function maps_get_maps_25(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -2765,7 +2765,7 @@ function maps_get_maps(){
 					"tsid"	: "LM41IUQ6OO3KP"
 				}
 			},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3013,7 +3013,7 @@ function maps_get_maps(){
 					"tsid"	: "LRO14NIV0O83A5D"
 				}
 			},
-			"bg"	: "http:\/\/c2.glitch.bz\/client_maps\/2011-12-16\/groddle_forest_bg_1324082034.jpg",
+			"bg"	: "\/c2.glitch.bz\/client_maps\/2011-12-16\/groddle_forest_bg_1324082034.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3024,7 +3024,7 @@ function maps_get_maps(){
 	function maps_get_maps_29(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3110,7 +3110,7 @@ function maps_get_maps(){
 					"tsid"		: "LHH196BO60O10TN"
 				}
 			},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3121,7 +3121,7 @@ function maps_get_maps(){
 	function maps_get_maps_31(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3221,7 +3221,7 @@ function maps_get_maps(){
 					"tsid"	: "LHH107PLQLJ110S"
 				}
 			},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3232,7 +3232,7 @@ function maps_get_maps(){
 	function maps_get_maps_33(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3243,7 +3243,7 @@ function maps_get_maps(){
 	function maps_get_maps_34(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3254,7 +3254,7 @@ function maps_get_maps(){
 	function maps_get_maps_35(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3265,7 +3265,7 @@ function maps_get_maps(){
 	function maps_get_maps_36(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3309,7 +3309,7 @@ function maps_get_maps(){
 					"tsid"	: "LHH1DN920RBYFJ"
 				}
 			},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3320,7 +3320,7 @@ function maps_get_maps(){
 	function maps_get_maps_38(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3331,7 +3331,7 @@ function maps_get_maps(){
 	function maps_get_maps_39(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3342,7 +3342,7 @@ function maps_get_maps(){
 	function maps_get_maps_40(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3353,7 +3353,7 @@ function maps_get_maps(){
 	function maps_get_maps_41(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3364,7 +3364,7 @@ function maps_get_maps(){
 	function maps_get_maps_42(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3375,7 +3375,7 @@ function maps_get_maps(){
 	function maps_get_maps_43(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3386,7 +3386,7 @@ function maps_get_maps(){
 	function maps_get_maps_44(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3397,7 +3397,7 @@ function maps_get_maps(){
 	function maps_get_maps_45(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3473,7 +3473,7 @@ function maps_get_maps(){
 					"tsid"	: "LHH103P32121ID5"
 				}
 			},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3525,7 +3525,7 @@ function maps_get_maps(){
 					"tsid"	: "LHH10DGFM731A1I"
 				}
 			},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3536,7 +3536,7 @@ function maps_get_maps(){
 	function maps_get_maps_48(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3547,7 +3547,7 @@ function maps_get_maps(){
 	function maps_get_maps_49(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3558,7 +3558,7 @@ function maps_get_maps(){
 	function maps_get_maps_50(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3569,7 +3569,7 @@ function maps_get_maps(){
 	function maps_get_maps_51(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3580,7 +3580,7 @@ function maps_get_maps(){
 	function maps_get_maps_52(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3591,7 +3591,7 @@ function maps_get_maps(){
 	function maps_get_maps_53(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3602,7 +3602,7 @@ function maps_get_maps(){
 	function maps_get_maps_54(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3613,7 +3613,7 @@ function maps_get_maps(){
 	function maps_get_maps_55(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3624,7 +3624,7 @@ function maps_get_maps(){
 	function maps_get_maps_56(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3635,7 +3635,7 @@ function maps_get_maps(){
 	function maps_get_maps_57(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3646,7 +3646,7 @@ function maps_get_maps(){
 	function maps_get_maps_58(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3666,7 +3666,7 @@ function maps_get_maps(){
 					"tsid"	: "LMF1EAR7VRG2TF2"
 				}
 			},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3677,7 +3677,7 @@ function maps_get_maps(){
 	function maps_get_maps_60(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3688,7 +3688,7 @@ function maps_get_maps(){
 	function maps_get_maps_61(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3699,7 +3699,7 @@ function maps_get_maps(){
 	function maps_get_maps_62(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3710,7 +3710,7 @@ function maps_get_maps(){
 	function maps_get_maps_63(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3721,7 +3721,7 @@ function maps_get_maps(){
 	function maps_get_maps_64(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3732,7 +3732,7 @@ function maps_get_maps(){
 	function maps_get_maps_65(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3743,7 +3743,7 @@ function maps_get_maps(){
 	function maps_get_maps_66(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3754,7 +3754,7 @@ function maps_get_maps(){
 	function maps_get_maps_67(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3765,7 +3765,7 @@ function maps_get_maps(){
 	function maps_get_maps_68(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3776,7 +3776,7 @@ function maps_get_maps(){
 	function maps_get_maps_69(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3787,7 +3787,7 @@ function maps_get_maps(){
 	function maps_get_maps_70(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3798,7 +3798,7 @@ function maps_get_maps(){
 	function maps_get_maps_71(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3809,7 +3809,7 @@ function maps_get_maps(){
 	function maps_get_maps_72(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3820,7 +3820,7 @@ function maps_get_maps(){
 	function maps_get_maps_73(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3831,7 +3831,7 @@ function maps_get_maps(){
 	function maps_get_maps_74(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3842,7 +3842,7 @@ function maps_get_maps(){
 	function maps_get_maps_75(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3853,7 +3853,7 @@ function maps_get_maps(){
 	function maps_get_maps_76(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3864,7 +3864,7 @@ function maps_get_maps(){
 	function maps_get_maps_77(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3875,7 +3875,7 @@ function maps_get_maps(){
 	function maps_get_maps_78(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3911,7 +3911,7 @@ function maps_get_maps(){
 					"tsid"	: "LHH10Q6QCVQ1PUF"
 				}
 			},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3922,7 +3922,7 @@ function maps_get_maps(){
 	function maps_get_maps_80(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3933,7 +3933,7 @@ function maps_get_maps(){
 	function maps_get_maps_81(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3944,7 +3944,7 @@ function maps_get_maps(){
 	function maps_get_maps_82(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3955,7 +3955,7 @@ function maps_get_maps(){
 	function maps_get_maps_83(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3966,7 +3966,7 @@ function maps_get_maps(){
 	function maps_get_maps_84(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -3977,7 +3977,7 @@ function maps_get_maps(){
 	function maps_get_maps_85(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4005,7 +4005,7 @@ function maps_get_maps(){
 					"tsid"	: "LHH1EHUH6D42VOK"
 				}
 			},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4016,7 +4016,7 @@ function maps_get_maps(){
 	function maps_get_maps_87(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4027,7 +4027,7 @@ function maps_get_maps(){
 	function maps_get_maps_88(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4038,7 +4038,7 @@ function maps_get_maps(){
 	function maps_get_maps_89(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4049,7 +4049,7 @@ function maps_get_maps(){
 	function maps_get_maps_90(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4060,8 +4060,8 @@ function maps_get_maps(){
 	function maps_get_maps_91(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c2.glitch.bz\/client_maps\/2011-12-16\/baqala_bg_1324081121.jpg",
-			"fg"	: "http:\/\/c2.glitch.bz\/client_maps\/2011-12-16\/baqala_fg_1324081824.png",
+			"bg"	: "\/c2.glitch.bz\/client_maps\/2011-12-16\/baqala_bg_1324081121.jpg",
+			"fg"	: "\/c2.glitch.bz\/client_maps\/2011-12-16\/baqala_fg_1324081824.png",
 			"color"	: "#959b00"
 		};
 	}
@@ -4071,7 +4071,7 @@ function maps_get_maps(){
 	function maps_get_maps_92(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4163,7 +4163,7 @@ function maps_get_maps(){
 					"tsid"	: "LMF1B000JVC2P8P"
 				}
 			},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4207,7 +4207,7 @@ function maps_get_maps(){
 					"tsid"	: "LMFPLK4QNRG2MTT"
 				}
 			},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4218,7 +4218,7 @@ function maps_get_maps(){
 	function maps_get_maps_95(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4229,7 +4229,7 @@ function maps_get_maps(){
 	function maps_get_maps_96(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4315,7 +4315,7 @@ function maps_get_maps(){
 					"tsid"		: "LM411L6REPK42"
 				}
 			},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4326,7 +4326,7 @@ function maps_get_maps(){
 	function maps_get_maps_98(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4337,7 +4337,7 @@ function maps_get_maps(){
 	function maps_get_maps_99(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4357,7 +4357,7 @@ function maps_get_maps(){
 					"tsid"	: "LMF10IT6P3H28EU"
 				}
 			},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4377,7 +4377,7 @@ function maps_get_maps(){
 					"tsid"	: "LMF10K88P3H2MJV"
 				}
 			},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4445,7 +4445,7 @@ function maps_get_maps(){
 					"tsid"	: "LMF105GDM8R26EN"
 				}
 			},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4456,7 +4456,7 @@ function maps_get_maps(){
 	function maps_get_maps_103(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4467,7 +4467,7 @@ function maps_get_maps(){
 	function maps_get_maps_104(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4478,7 +4478,7 @@ function maps_get_maps(){
 	function maps_get_maps_105(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4489,7 +4489,7 @@ function maps_get_maps(){
 	function maps_get_maps_106(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4500,7 +4500,7 @@ function maps_get_maps(){
 	function maps_get_maps_107(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4511,7 +4511,7 @@ function maps_get_maps(){
 	function maps_get_maps_108(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4522,7 +4522,7 @@ function maps_get_maps(){
 	function maps_get_maps_109(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4533,7 +4533,7 @@ function maps_get_maps(){
 	function maps_get_maps_110(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4544,7 +4544,7 @@ function maps_get_maps(){
 	function maps_get_maps_111(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4555,7 +4555,7 @@ function maps_get_maps(){
 	function maps_get_maps_112(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4566,7 +4566,7 @@ function maps_get_maps(){
 	function maps_get_maps_113(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4577,7 +4577,7 @@ function maps_get_maps(){
 	function maps_get_maps_114(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4588,7 +4588,7 @@ function maps_get_maps(){
 	function maps_get_maps_115(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4599,7 +4599,7 @@ function maps_get_maps(){
 	function maps_get_maps_116(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4675,7 +4675,7 @@ function maps_get_maps(){
 					"tsid"	: "LMF2A6P8HOO27QO"
 				}
 			},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4686,7 +4686,7 @@ function maps_get_maps(){
 	function maps_get_maps_118(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4697,7 +4697,7 @@ function maps_get_maps(){
 	function maps_get_maps_119(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4708,7 +4708,7 @@ function maps_get_maps(){
 	function maps_get_maps_120(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4719,7 +4719,7 @@ function maps_get_maps(){
 	function maps_get_maps_121(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4739,7 +4739,7 @@ function maps_get_maps(){
 					"tsid"	: "LPF14MQ97CS2AMO"
 				}
 			},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4759,7 +4759,7 @@ function maps_get_maps(){
 					"tsid"	: "LPF4BT3JQ5T2D9M"
 				}
 			},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4779,7 +4779,7 @@ function maps_get_maps(){
 					"tsid"	: "LPF5DOV9DIT27TS"
 				}
 			},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4790,7 +4790,7 @@ function maps_get_maps(){
 	function maps_get_maps_125(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4801,7 +4801,7 @@ function maps_get_maps(){
 	function maps_get_maps_126(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4812,7 +4812,7 @@ function maps_get_maps(){
 	function maps_get_maps_127(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4823,7 +4823,7 @@ function maps_get_maps(){
 	function maps_get_maps_128(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};
@@ -4834,7 +4834,7 @@ function maps_get_maps(){
 	function maps_get_maps_129(){
 		return {
 			"objs"	: {},
-			"bg"	: "http:\/\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
+			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_fake_island_45490.jpg",
 			"fg"	: "",
 			"color"	: "#ff0000"
 		};

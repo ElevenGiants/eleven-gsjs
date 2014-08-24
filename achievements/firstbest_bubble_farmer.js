@@ -7,10 +7,10 @@ var last_published	= 1348798465;
 var is_shareworthy	= 1;
 var url		= "firstbest-bubble-farmer";
 var category		= "trees";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/firstbest_bubble_farmer_1304984496.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/firstbest_bubble_farmer_1304984496_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/firstbest_bubble_farmer_1304984496_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/firstbest_bubble_farmer_1304984496_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/firstbest_bubble_farmer_1304984496.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/firstbest_bubble_farmer_1304984496_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/firstbest_bubble_farmer_1304984496_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/firstbest_bubble_farmer_1304984496_40.png";
 function on_apply(pc){
 	
 }

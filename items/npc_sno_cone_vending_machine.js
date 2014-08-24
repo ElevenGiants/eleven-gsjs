@@ -604,7 +604,7 @@ var itemDef = {
 	is_hidden	: this.is_hidden,
 	has_info	: this.has_info,
 	adjusted_scale	: this.adjusted_scale,
-	asset_swf_v	: "http:\/\/c2.glitch.bz\/items\/2012-07\/npc_sno_cone_vending_machine-1342568384.swf",
+	asset_swf_v	: "\/c2.glitch.bz\/items\/2012-07\/npc_sno_cone_vending_machine-1342568384.swf",
 	admin_props	: true,
 	obey_physics	: false,
 	in_background	: false,

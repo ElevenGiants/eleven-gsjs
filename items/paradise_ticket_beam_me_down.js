@@ -372,7 +372,7 @@ var itemDef = {
 	is_hidden	: this.is_hidden,
 	has_info	: this.has_info,
 	adjusted_scale	: this.adjusted_scale,
-	asset_swf_v	: "http:\/\/c2.glitch.bz\/items\/2012-08\/paradise_ticket_beam_me_down-1344041733.swf",
+	asset_swf_v	: "\/c2.glitch.bz\/items\/2012-08\/paradise_ticket_beam_me_down-1344041733.swf",
 	admin_props	: false,
 	obey_physics	: true,
 	in_background	: false,

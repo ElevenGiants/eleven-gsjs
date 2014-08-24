@@ -715,7 +715,7 @@ var itemDef = {
 	is_hidden	: this.is_hidden,
 	has_info	: this.has_info,
 	adjusted_scale	: this.adjusted_scale,
-	asset_swf_v	: "http:\/\/c2.glitch.bz\/items\/2012-05\/class_axe-1338250618.swf",
+	asset_swf_v	: "\/c2.glitch.bz\/items\/2012-05\/class_axe-1338250618.swf",
 	admin_props	: true,
 	obey_physics	: true,
 	in_background	: false,

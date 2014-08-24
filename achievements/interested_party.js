@@ -7,10 +7,10 @@ var last_published	= 1316467706;
 var is_shareworthy	= 0;
 var url		= "interested-party";
 var category		= "projects";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/interested_party_1315686048.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/interested_party_1315686048_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/interested_party_1315686048_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/interested_party_1315686048_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-09-10\/interested_party_1315686048.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-09-10\/interested_party_1315686048_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-09-10\/interested_party_1315686048_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-09-10\/interested_party_1315686048_40.png";
 function on_apply(pc){
 	
 }

@@ -7,10 +7,10 @@ var last_published	= 1348796778;
 var is_shareworthy	= 1;
 var url		= "best-nester";
 var category		= "animals";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/best_nester_1304984159.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/best_nester_1304984159_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/best_nester_1304984159_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/best_nester_1304984159_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/best_nester_1304984159.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/best_nester_1304984159_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/best_nester_1304984159_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/best_nester_1304984159_40.png";
 function on_apply(pc){
 	
 }

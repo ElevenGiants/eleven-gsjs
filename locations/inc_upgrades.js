@@ -304,8 +304,8 @@ function upgrades_get_details(){
 }
 
 function upgrades_image(src){
-	if (src) return 'http://c2.glitch.bz/'+src;
-	return 'http://c2.glitch.bz/default_upgrade.png';
+	if (src) return '/c2.glitch.bz/'+src;
+	return '/c2.glitch.bz/default_upgrade.png';
 }
 
 function upgrades_apply(details){

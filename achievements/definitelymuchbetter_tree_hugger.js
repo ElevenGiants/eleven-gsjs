@@ -7,10 +7,10 @@ var last_published	= 1348797460;
 var is_shareworthy	= 1;
 var url		= "definitelymuchbetter-tree-hugger";
 var category		= "trees";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/definitelymuchbetter_tree_hugger_1304984661.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/definitelymuchbetter_tree_hugger_1304984661_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/definitelymuchbetter_tree_hugger_1304984661_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/definitelymuchbetter_tree_hugger_1304984661_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/definitelymuchbetter_tree_hugger_1304984661.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/definitelymuchbetter_tree_hugger_1304984661_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/definitelymuchbetter_tree_hugger_1304984661_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/definitelymuchbetter_tree_hugger_1304984661_40.png";
 function on_apply(pc){
 	
 }

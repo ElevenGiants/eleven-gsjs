@@ -7,10 +7,10 @@ var last_published	= 1316304211;
 var is_shareworthy	= 0;
 var url		= "transrational-meat-aficionado";
 var category		= "animals";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/transrational_meat_aficionado_1304984230.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/transrational_meat_aficionado_1304984230_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/transrational_meat_aficionado_1304984230_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/transrational_meat_aficionado_1304984230_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/transrational_meat_aficionado_1304984230.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/transrational_meat_aficionado_1304984230_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/transrational_meat_aficionado_1304984230_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/transrational_meat_aficionado_1304984230_40.png";
 function on_apply(pc){
 	
 }

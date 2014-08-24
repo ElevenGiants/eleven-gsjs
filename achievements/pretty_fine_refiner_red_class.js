@@ -7,10 +7,10 @@ var last_published	= 1338930587;
 var is_shareworthy	= 0;
 var url		= "pretty-fine-refiner-red-class";
 var category		= "industrial";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/pretty_fine_refiner_red_class_1304984864.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/pretty_fine_refiner_red_class_1304984864_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/pretty_fine_refiner_red_class_1304984864_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/pretty_fine_refiner_red_class_1304984864_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/pretty_fine_refiner_red_class_1304984864.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/pretty_fine_refiner_red_class_1304984864_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/pretty_fine_refiner_red_class_1304984864_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/pretty_fine_refiner_red_class_1304984864_40.png";
 function on_apply(pc){
 	
 }

@@ -1706,7 +1706,7 @@ var itemDef = {
 	is_hidden	: this.is_hidden,
 	has_info	: this.has_info,
 	adjusted_scale	: this.adjusted_scale,
-	asset_swf_v	: "http:\/\/c2.glitch.bz\/items\/2012-10\/npc_combat_cubimal-1350112398.swf",
+	asset_swf_v	: "\/c2.glitch.bz\/items\/2012-10\/npc_combat_cubimal-1350112398.swf",
 	admin_props	: true,
 	obey_physics	: false,
 	in_background	: false,

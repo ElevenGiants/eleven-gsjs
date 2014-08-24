@@ -7,10 +7,10 @@ var last_published	= 1348798486;
 var is_shareworthy	= 1;
 var url		= "friend-of-cubimals";
 var category		= "player";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/friend_of_cubimals_1339702831.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/friend_of_cubimals_1339702831_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/friend_of_cubimals_1339702831_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/friend_of_cubimals_1339702831_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-06-14\/friend_of_cubimals_1339702831.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-06-14\/friend_of_cubimals_1339702831_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-06-14\/friend_of_cubimals_1339702831_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-06-14\/friend_of_cubimals_1339702831_40.png";
 function on_apply(pc){
 	
 }

@@ -7,10 +7,10 @@ var last_published	= 1348802863;
 var is_shareworthy	= 1;
 var url		= "spin-doctor";
 var category		= "industrial";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-07-03\/spin_doctor_1341345443.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-07-03\/spin_doctor_1341345443_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-07-03\/spin_doctor_1341345443_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-07-03\/spin_doctor_1341345443_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-07-03\/spin_doctor_1341345443.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-07-03\/spin_doctor_1341345443_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-07-03\/spin_doctor_1341345443_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-07-03\/spin_doctor_1341345443_40.png";
 function on_apply(pc){
 	
 }

@@ -7,10 +7,10 @@ var last_published	= 1351203977;
 var is_shareworthy	= 1;
 var url		= "globetrotter-extraordinaire";
 var category		= "exploring";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-18\/globetrotter_extraordinaire_1316414520.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-18\/globetrotter_extraordinaire_1316414520_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-18\/globetrotter_extraordinaire_1316414520_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-18\/globetrotter_extraordinaire_1316414520_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-09-18\/globetrotter_extraordinaire_1316414520.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-09-18\/globetrotter_extraordinaire_1316414520_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-09-18\/globetrotter_extraordinaire_1316414520_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-09-18\/globetrotter_extraordinaire_1316414520_40.png";
 function on_apply(pc){
 	
 }

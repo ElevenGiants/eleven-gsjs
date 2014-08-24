@@ -7,10 +7,10 @@ var last_published	= 1351812826;
 var is_shareworthy	= 1;
 var url		= "hi-velocity";
 var category		= "social";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-11-01\/hi_as_a_kite_1351811570.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-11-01\/hi_as_a_kite_1351811570_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-11-01\/hi_as_a_kite_1351811570_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-11-01\/hi_as_a_kite_1351811570_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-11-01\/hi_as_a_kite_1351811570.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-11-01\/hi_as_a_kite_1351811570_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-11-01\/hi_as_a_kite_1351811570_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-11-01\/hi_as_a_kite_1351811570_40.png";
 function on_apply(pc){
 	
 }

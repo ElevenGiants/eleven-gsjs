@@ -7,10 +7,10 @@ var last_published	= 1348799103;
 var is_shareworthy	= 1;
 var url		= "healthy-img-turnover";
 var category		= "cultivation";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/healthy_img_turnover_1339702869.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/healthy_img_turnover_1339702869_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/healthy_img_turnover_1339702869_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/healthy_img_turnover_1339702869_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-06-14\/healthy_img_turnover_1339702869.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-06-14\/healthy_img_turnover_1339702869_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-06-14\/healthy_img_turnover_1339702869_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-06-14\/healthy_img_turnover_1339702869_40.png";
 function on_apply(pc){
 	
 }

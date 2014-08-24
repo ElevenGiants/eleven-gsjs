@@ -7,10 +7,10 @@ var last_published	= 1350066312;
 var is_shareworthy	= 1;
 var url		= "kalavana-completist";
 var category		= "exploring";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-20\/kalavana_completist_1316577438.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-20\/kalavana_completist_1316577438_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-20\/kalavana_completist_1316577438_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-20\/kalavana_completist_1316577438_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-09-20\/kalavana_completist_1316577438.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-09-20\/kalavana_completist_1316577438_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-09-20\/kalavana_completist_1316577438_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-09-20\/kalavana_completist_1316577438_40.png";
 function on_apply(pc){
 	pc.quests_offer('where_the_blue_grew');
 	

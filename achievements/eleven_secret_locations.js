@@ -7,10 +7,10 @@ var last_published	= 1348797744;
 var is_shareworthy	= 1;
 var url		= "11-secret-spots";
 var category		= "exploring";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-28\/eleven_secret_locations_1322501351.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-28\/eleven_secret_locations_1322501351_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-28\/eleven_secret_locations_1322501351_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-28\/eleven_secret_locations_1322501351_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-11-28\/eleven_secret_locations_1322501351.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-11-28\/eleven_secret_locations_1322501351_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-11-28\/eleven_secret_locations_1322501351_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-11-28\/eleven_secret_locations_1322501351_40.png";
 function on_apply(pc){
 	
 }

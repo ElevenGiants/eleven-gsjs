@@ -2261,7 +2261,7 @@ function get_info(){
 
 	if (ret.image && ret.image.url){
 		ret.image_full = utils.copy_hash(ret.image);
-		ret.image_full.url = 'http://c2.glitch.bz/' + ret.image_full.url;
+		ret.image_full.url = '/c2.glitch.bz/' + ret.image_full.url;
 	}
 
 	return ret;
@@ -3376,13 +3376,13 @@ function getLoadingInfo(pc, no_formatting){
 	if (this.loading_image && this.loading_image.url){
 
 		rsp.loading_img = utils.copy_hash(this.loading_image);
-		rsp.loading_img.url = 'http://c2.glitch.bz/'+rsp.loading_img.url;
+		rsp.loading_img.url = '/c2.glitch.bz/'+rsp.loading_img.url;
 	}
 
 	if (this.special_loading_image && this.special_loading_image.url){
 
 		rsp.loading_img = utils.copy_hash(this.special_loading_image);
-		rsp.loading_img.url = 'http://c2.glitch.bz/'+rsp.loading_img.url;
+		rsp.loading_img.url = '/c2.glitch.bz/'+rsp.loading_img.url;
 		rsp.is_basic = true;
 		rsp.top_color = '#ffffff';
 		rsp.bottom_color = '#ffffff';

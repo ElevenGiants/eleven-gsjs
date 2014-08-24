@@ -7,10 +7,10 @@ var last_published	= 1352512171;
 var is_shareworthy	= 1;
 var url		= "down-to-the-wire";
 var category		= "feats";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-26\/down_to_the_wire_1351301840.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-26\/down_to_the_wire_1351301840_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-26\/down_to_the_wire_1351301840_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-26\/down_to_the_wire_1351301840_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-10-26\/down_to_the_wire_1351301840.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-10-26\/down_to_the_wire_1351301840_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-10-26\/down_to_the_wire_1351301840_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-10-26\/down_to_the_wire_1351301840_40.png";
 function on_apply(pc){
 	
 }

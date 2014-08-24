@@ -7,10 +7,10 @@ var last_published	= 1348802954;
 var is_shareworthy	= 1;
 var url		= "11-secrets-of-jethimadh-tower-base";
 var category		= "exploring";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/tower_secret_areas_1304998959.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/tower_secret_areas_1304998959_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/tower_secret_areas_1304998959_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/tower_secret_areas_1304998959_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/tower_secret_areas_1304998959.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/tower_secret_areas_1304998959_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/tower_secret_areas_1304998959_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/tower_secret_areas_1304998959_40.png";
 function on_apply(pc){
 	
 }

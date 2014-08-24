@@ -7,10 +7,10 @@ var last_published	= 1348802220;
 var is_shareworthy	= 1;
 var url		= "piggy-hash-slinger-1st-class";
 var category		= "animals";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/piggy_hash_slinger_1st_class_1304984250.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/piggy_hash_slinger_1st_class_1304984250_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/piggy_hash_slinger_1st_class_1304984250_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/piggy_hash_slinger_1st_class_1304984250_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/piggy_hash_slinger_1st_class_1304984250.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/piggy_hash_slinger_1st_class_1304984250_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/piggy_hash_slinger_1st_class_1304984250_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/piggy_hash_slinger_1st_class_1304984250_40.png";
 function on_apply(pc){
 	
 }

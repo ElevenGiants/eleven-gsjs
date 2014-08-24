@@ -7,10 +7,10 @@ var last_published	= 1348797464;
 var is_shareworthy	= 1;
 var url		= "delirious-foxbrusher";
 var category		= "animals";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/delirious_foxbrusher_1339701057.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/delirious_foxbrusher_1339701057_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/delirious_foxbrusher_1339701057_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/delirious_foxbrusher_1339701057_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-06-14\/delirious_foxbrusher_1339701057.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-06-14\/delirious_foxbrusher_1339701057_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-06-14\/delirious_foxbrusher_1339701057_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-06-14\/delirious_foxbrusher_1339701057_40.png";
 function on_apply(pc){
 	
 }

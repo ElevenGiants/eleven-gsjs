@@ -2316,10 +2316,10 @@ function isOnline(){
 function reloadGeometry(x, y, type){
 
 	var loading_urls = {
-		'street_style'	: ['http://c1.glitch.bz/img/loading/houses_street_style_87558.png' , 500, 211],
-		'expand_street'	: ['http://c1.glitch.bz/img/loading/houses_expand_street_87558.png', 500, 211],
-		'expand_house'	: ['http://c1.glitch.bz/img/loading/houses_expand_house_87558.png' , 500, 211],
-		'add_floor'	: ['http://c1.glitch.bz/img/loading/houses_add_floor_87558.png'    , 500, 211],
+		'street_style'	: ['/c1.glitch.bz/img/loading/houses_street_style_87558.png' , 500, 211],
+		'expand_street'	: ['/c1.glitch.bz/img/loading/houses_expand_street_87558.png', 500, 211],
+		'expand_house'	: ['/c1.glitch.bz/img/loading/houses_expand_house_87558.png' , 500, 211],
+		'add_floor'	: ['/c1.glitch.bz/img/loading/houses_add_floor_87558.png'    , 500, 211],
 	};
 
 	// Start music

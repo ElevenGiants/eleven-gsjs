@@ -7,10 +7,10 @@ var last_published	= 1348796025;
 var is_shareworthy	= 1;
 var url		= "a1-comrade";
 var category		= "social";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-14\/a1_comrade_1316061695.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-14\/a1_comrade_1316061695_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-14\/a1_comrade_1316061695_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-14\/a1_comrade_1316061695_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-09-14\/a1_comrade_1316061695.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-09-14\/a1_comrade_1316061695_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-09-14\/a1_comrade_1316061695_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-09-14\/a1_comrade_1316061695_40.png";
 function on_apply(pc){
 	
 }

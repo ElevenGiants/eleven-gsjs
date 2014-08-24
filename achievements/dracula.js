@@ -7,10 +7,10 @@ var last_published	= 1348797682;
 var is_shareworthy	= 1;
 var url		= "dracula";
 var category		= "player";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/dracula_1304983956.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/dracula_1304983956_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/dracula_1304983956_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/dracula_1304983956_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/dracula_1304983956.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/dracula_1304983956_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/dracula_1304983956_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/dracula_1304983956_40.png";
 function on_apply(pc){
 	
 }

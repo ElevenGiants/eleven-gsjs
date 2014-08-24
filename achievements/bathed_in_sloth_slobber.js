@@ -7,10 +7,10 @@ var last_published	= 1348796760;
 var is_shareworthy	= 1;
 var url		= "bathed-in-sloth-slobber";
 var category		= "animals";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/bathed_in_sloth_slobber_1339708101.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/bathed_in_sloth_slobber_1339708101_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/bathed_in_sloth_slobber_1339708101_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/bathed_in_sloth_slobber_1339708101_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-06-14\/bathed_in_sloth_slobber_1339708101.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-06-14\/bathed_in_sloth_slobber_1339708101_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-06-14\/bathed_in_sloth_slobber_1339708101_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-06-14\/bathed_in_sloth_slobber_1339708101_40.png";
 function on_apply(pc){
 	
 }

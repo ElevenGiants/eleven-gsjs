@@ -7,10 +7,10 @@ var last_published	= 1348802491;
 var is_shareworthy	= 1;
 var url		= "right-honorable-robber-ducker";
 var category		= "player";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/right_honorable_robber_ducker_1315686139.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/right_honorable_robber_ducker_1315686139_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/right_honorable_robber_ducker_1315686139_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/right_honorable_robber_ducker_1315686139_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-09-10\/right_honorable_robber_ducker_1315686139.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-09-10\/right_honorable_robber_ducker_1315686139_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-09-10\/right_honorable_robber_ducker_1315686139_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-09-10\/right_honorable_robber_ducker_1315686139_40.png";
 function on_apply(pc){
 	
 }

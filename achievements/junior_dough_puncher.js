@@ -7,10 +7,10 @@ var last_published	= 1323914086;
 var is_shareworthy	= 0;
 var url		= "junior-dough-puncher";
 var category		= "cooking";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-13\/junior_dough_puncher_1315979177.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-13\/junior_dough_puncher_1315979177_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-13\/junior_dough_puncher_1315979177_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-13\/junior_dough_puncher_1315979177_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-09-13\/junior_dough_puncher_1315979177.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-09-13\/junior_dough_puncher_1315979177_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-09-13\/junior_dough_puncher_1315979177_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-09-13\/junior_dough_puncher_1315979177_40.png";
 function on_apply(pc){
 	
 }

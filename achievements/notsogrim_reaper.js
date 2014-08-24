@@ -7,10 +7,10 @@ var last_published	= 1348801940;
 var is_shareworthy	= 1;
 var url		= "notsogrim-reaper";
 var category		= "gardens";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/notsogrim_reaper_1304983829.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/notsogrim_reaper_1304983829_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/notsogrim_reaper_1304983829_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/notsogrim_reaper_1304983829_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/notsogrim_reaper_1304983829.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/notsogrim_reaper_1304983829_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/notsogrim_reaper_1304983829_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/notsogrim_reaper_1304983829_40.png";
 function on_apply(pc){
 	
 }

@@ -7,10 +7,10 @@ var last_published	= 1348799167;
 var is_shareworthy	= 1;
 var url		= "hot-rodmaker";
 var category		= "industrial";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/hot_rodmaker_1339717674.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/hot_rodmaker_1339717674_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/hot_rodmaker_1339717674_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/hot_rodmaker_1339717674_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-06-14\/hot_rodmaker_1339717674.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-06-14\/hot_rodmaker_1339717674_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-06-14\/hot_rodmaker_1339717674_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-06-14\/hot_rodmaker_1339717674_40.png";
 function on_apply(pc){
 	
 }

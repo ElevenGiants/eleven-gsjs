@@ -7,10 +7,10 @@ var last_published	= 1351302429;
 var is_shareworthy	= 1;
 var url		= "qualified-artifactologist";
 var category		= "feats";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-26\/qualified_artifactologist_1351300719.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-26\/qualified_artifactologist_1351300719_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-26\/qualified_artifactologist_1351300719_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-26\/qualified_artifactologist_1351300719_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-10-26\/qualified_artifactologist_1351300719.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-10-26\/qualified_artifactologist_1351300719_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-10-26\/qualified_artifactologist_1351300719_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-10-26\/qualified_artifactologist_1351300719_40.png";
 function on_apply(pc){
 	
 }

@@ -7,10 +7,10 @@ var last_published	= 1348802551;
 var is_shareworthy	= 1;
 var url		= "showered-with-sloth-dribble";
 var category		= "animals";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/showered_with_sloth_dribble_1339708098.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/showered_with_sloth_dribble_1339708098_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/showered_with_sloth_dribble_1339708098_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/showered_with_sloth_dribble_1339708098_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-06-14\/showered_with_sloth_dribble_1339708098.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-06-14\/showered_with_sloth_dribble_1339708098_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-06-14\/showered_with_sloth_dribble_1339708098_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-06-14\/showered_with_sloth_dribble_1339708098_40.png";
 function on_apply(pc){
 	
 }

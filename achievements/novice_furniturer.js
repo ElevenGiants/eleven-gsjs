@@ -7,10 +7,10 @@ var last_published	= 1348801944;
 var is_shareworthy	= 1;
 var url		= "novice-furniturer";
 var category		= "furniture";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/novice_furniturer_1339717946.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/novice_furniturer_1339717946_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/novice_furniturer_1339717946_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/novice_furniturer_1339717946_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-06-14\/novice_furniturer_1339717946.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-06-14\/novice_furniturer_1339717946_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-06-14\/novice_furniturer_1339717946_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-06-14\/novice_furniturer_1339717946_40.png";
 function on_apply(pc){
 	
 }

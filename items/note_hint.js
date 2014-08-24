@@ -20,7 +20,7 @@ var has_instance_props = true;
 
 var classProps = {
 	"collection_id"	: "",	// defined by takeable
-	"note_background"	: "http:\/\/c1.glitch.bz\/img\/dialogs\/notehint_bg_01_80921.jpg"	// defined by note_hint
+	"note_background"	: "\/c1.glitch.bz\/img\/dialogs\/notehint_bg_01_80921.jpg"	// defined by note_hint
 };
 
 function initInstanceProps(){
@@ -397,7 +397,7 @@ var itemDef = {
 	is_hidden	: this.is_hidden,
 	has_info	: this.has_info,
 	adjusted_scale	: this.adjusted_scale,
-	asset_swf_v	: "http:\/\/c2.glitch.bz\/items\/2012-04\/note_hint-1334192240.swf",
+	asset_swf_v	: "\/c2.glitch.bz\/items\/2012-04\/note_hint-1334192240.swf",
 	admin_props	: true,
 	obey_physics	: true,
 	in_background	: false,

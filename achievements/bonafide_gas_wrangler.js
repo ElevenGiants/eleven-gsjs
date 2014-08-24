@@ -7,10 +7,10 @@ var last_published	= 1349461155;
 var is_shareworthy	= 1;
 var url		= "bonafide-gas-wrangler";
 var category		= "trees";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/bonafide_gas_wrangler_1304984329.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/bonafide_gas_wrangler_1304984329_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/bonafide_gas_wrangler_1304984329_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/bonafide_gas_wrangler_1304984329_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/bonafide_gas_wrangler_1304984329.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/bonafide_gas_wrangler_1304984329_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/bonafide_gas_wrangler_1304984329_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/bonafide_gas_wrangler_1304984329_40.png";
 function on_apply(pc){
 	
 }

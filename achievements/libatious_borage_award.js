@@ -7,10 +7,10 @@ var last_published	= 1348801489;
 var is_shareworthy	= 1;
 var url		= "libatious-borage-award";
 var category		= "alchemy";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-23\/libatious_borage_award_1322093719.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-23\/libatious_borage_award_1322093719_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-23\/libatious_borage_award_1322093719_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-23\/libatious_borage_award_1322093719_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-11-23\/libatious_borage_award_1322093719.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-11-23\/libatious_borage_award_1322093719_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-11-23\/libatious_borage_award_1322093719_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-11-23\/libatious_borage_award_1322093719_40.png";
 function on_apply(pc){
 	
 }

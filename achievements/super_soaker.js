@@ -7,10 +7,10 @@ var last_published	= 1323931231;
 var is_shareworthy	= 0;
 var url		= "super-soaker";
 var category		= "trees";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/super_soaker_1304984721.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/super_soaker_1304984721_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/super_soaker_1304984721_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/super_soaker_1304984721_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/super_soaker_1304984721.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/super_soaker_1304984721_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/super_soaker_1304984721_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/super_soaker_1304984721_40.png";
 function on_apply(pc){
 	
 }

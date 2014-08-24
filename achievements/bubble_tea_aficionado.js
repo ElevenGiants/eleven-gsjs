@@ -7,10 +7,10 @@ var last_published	= 1349461120;
 var is_shareworthy	= 1;
 var url		= "bubble-tea-aficionado";
 var category		= "player";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/bubble_tea_aficionado_1304984254.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/bubble_tea_aficionado_1304984254_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/bubble_tea_aficionado_1304984254_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/bubble_tea_aficionado_1304984254_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/bubble_tea_aficionado_1304984254.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/bubble_tea_aficionado_1304984254_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/bubble_tea_aficionado_1304984254_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/bubble_tea_aficionado_1304984254_40.png";
 function on_apply(pc){
 	
 }

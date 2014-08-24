@@ -7,10 +7,10 @@ var last_published	= 1323924152;
 var is_shareworthy	= 0;
 var url		= "mini-tricksy-treater";
 var category		= "seasonal";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-10-26\/mini_tricksy_treater_1319680238.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-10-26\/mini_tricksy_treater_1319680238_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-10-26\/mini_tricksy_treater_1319680238_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-10-26\/mini_tricksy_treater_1319680238_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-10-26\/mini_tricksy_treater_1319680238.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-10-26\/mini_tricksy_treater_1319680238_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-10-26\/mini_tricksy_treater_1319680238_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-10-26\/mini_tricksy_treater_1319680238_40.png";
 function on_apply(pc){
 	
 }

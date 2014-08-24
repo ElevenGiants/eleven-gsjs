@@ -75,9 +75,9 @@ var transit_instances = {
 		'type': 'subway',
 		'vehicle': 'train',
 		
-		'map_background_url': 'http://c1.glitch.bz/img/maps/subway_map_bg_47802.jpg',
-		'map_forwards_url': 'http://c1.glitch.bz/img/maps/subway_red_line_fg_48118.png',
-		'map_backwards_url': 'http://c1.glitch.bz/img/maps/subway_blue_line_fg_48051.png',
+		'map_background_url': '/c1.glitch.bz/img/maps/subway_map_bg_47802.jpg',
+		'map_forwards_url': '/c1.glitch.bz/img/maps/subway_red_line_fg_48118.png',
+		'map_backwards_url': '/c1.glitch.bz/img/maps/subway_blue_line_fg_48051.png',
 		
 		'forwards_name': 'Red Line',
 		'backwards_name': 'Blue Line',
@@ -342,9 +342,9 @@ var global_chat_groups = ['RMF104IKCLA2CDD'];
 var trade_chat_groups = ['RPF57AP0G543BFS'];
 
 var party_spaces = {
-	test: {tsid: 'LMF1017U9KD2CTD', desc: "Totally cute party paddock, complete with rainbows. Contains: minable sparkly rocks, mixable cosmopolitans and a make-your-own cold taco bar.", img: "http://c1.glitch.bz/img/party/double_rainbow_67649.jpg", prices: {5:'3500', 10:'5500', 15:'10000', 30:'16000'}},
-	mountain1: {tsid: 'LMF11AR6L9L2EAB', desc: "Partially constructed test level", img: "http://c1.glitch.bz/img/party/double_rainbow_67649.jpg", prices: {5:'3500', 10:'5500', 15:'10000', 30:'16000'}, rungs: [{yPos:0, height:400, freezeTime:25}, {yPos:-400, height:400, freezeTime:25}, {yPos:-800, height:400, freezeTime:20}, {yPos:-1600, height:400, freezeTime:20}, {yPos:-2400, height:400, freezeTime:15}, {yPos:-3200, height:400, freezeTime:12}, {yPos:-40000, height:400, freezeTime:12}, {yPos:-48000, height:400, freezeTime:10}] },
-	mountain2: {tsid: 'LMF12LQTIEL20FC', desc: "A challenging mountain environment.", img: "http://c1.glitch.bz/img/party/double_rainbow_67649.jpg", prices: {5:'3500', 10:'5500', 15:'10000', 30:'16000'},
+	test: {tsid: 'LMF1017U9KD2CTD', desc: "Totally cute party paddock, complete with rainbows. Contains: minable sparkly rocks, mixable cosmopolitans and a make-your-own cold taco bar.", img: "/c1.glitch.bz/img/party/double_rainbow_67649.jpg", prices: {5:'3500', 10:'5500', 15:'10000', 30:'16000'}},
+	mountain1: {tsid: 'LMF11AR6L9L2EAB', desc: "Partially constructed test level", img: "/c1.glitch.bz/img/party/double_rainbow_67649.jpg", prices: {5:'3500', 10:'5500', 15:'10000', 30:'16000'}, rungs: [{yPos:0, height:400, freezeTime:25}, {yPos:-400, height:400, freezeTime:25}, {yPos:-800, height:400, freezeTime:20}, {yPos:-1600, height:400, freezeTime:20}, {yPos:-2400, height:400, freezeTime:15}, {yPos:-3200, height:400, freezeTime:12}, {yPos:-40000, height:400, freezeTime:12}, {yPos:-48000, height:400, freezeTime:10}] },
+	mountain2: {tsid: 'LMF12LQTIEL20FC', desc: "A challenging mountain environment.", img: "/c1.glitch.bz/img/party/double_rainbow_67649.jpg", prices: {5:'3500', 10:'5500', 15:'10000', 30:'16000'},
 				rungs: [	{yPos:0, height:400, freezeTime:30, ids:null },
 							{yPos:-400, height:400, freezeTime:30,  ids:["freeze_1_rung_1_1326333498704", "freeze_2_rung_1_1326333498706"]},
 							{yPos:-800, height:400, freezeTime:30, ids:["freeze_1_rung_2_1326333498707", "freeze_2_rung_2_1326333498708"] },
@@ -353,7 +353,7 @@ var party_spaces = {
 							{yPos:-3200, height:400, freezeTime:30, ids:["freeze_1_rung_5_1326333498716", "freeze_2_rung_5_1326333498717"]}
 							]
 				},
-	mountain3: {tsid: 'LMF5E6Q9TGL26CM', desc: "Test level with Stewart's physics.", img: "http://c1.glitch.bz/img/party/double_rainbow_67649.jpg", prices: {5:'3500', 10:'5500', 15:'10000', 30:'16000'},
+	mountain3: {tsid: 'LMF5E6Q9TGL26CM', desc: "Test level with Stewart's physics.", img: "/c1.glitch.bz/img/party/double_rainbow_67649.jpg", prices: {5:'3500', 10:'5500', 15:'10000', 30:'16000'},
 				rungs: [	{yPos:0, height:500, freezeTime:50, ids:null },
 							{yPos:-500, height:500, freezeTime:50,  ids:["freeze_1_rung_1_1326333498704", "freeze_2_rung_1_1326333498706"]},
 							{yPos:-1000, height:500, freezeTime:50, ids:["freeze_1_rung_2_1326333498707", "freeze_2_rung_2_1326333498708"] },

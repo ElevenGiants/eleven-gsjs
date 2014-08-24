@@ -329,7 +329,7 @@ var itemDef = {
 	is_hidden	: this.is_hidden,
 	has_info	: this.has_info,
 	adjusted_scale	: this.adjusted_scale,
-	asset_swf_v	: "http:\/\/c2.glitch.bz\/items\/2012-08\/stoot_barfield_pullstring_doll-1343948918.swf",
+	asset_swf_v	: "\/c2.glitch.bz\/items\/2012-08\/stoot_barfield_pullstring_doll-1343948918.swf",
 	admin_props	: true,
 	obey_physics	: true,
 	in_background	: false,

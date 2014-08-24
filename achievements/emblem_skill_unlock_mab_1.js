@@ -7,10 +7,10 @@ var last_published	= 1345146291;
 var is_shareworthy	= 0;
 var url		= "spent-first-emblem-of-mab";
 var category		= "giants";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-05-08\/emblem_skill_unlock_mab_1_1336503045.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-05-08\/emblem_skill_unlock_mab_1_1336503045_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-05-08\/emblem_skill_unlock_mab_1_1336503045_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-05-08\/emblem_skill_unlock_mab_1_1336503045_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-05-08\/emblem_skill_unlock_mab_1_1336503045.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-05-08\/emblem_skill_unlock_mab_1_1336503045_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-05-08\/emblem_skill_unlock_mab_1_1336503045_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-05-08\/emblem_skill_unlock_mab_1_1336503045_40.png";
 function on_apply(pc){
 	
 }

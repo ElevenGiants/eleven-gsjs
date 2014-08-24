@@ -7,10 +7,10 @@ var last_published	= 1338920533;
 var is_shareworthy	= 0;
 var url		= "order-of-the-rearing-piggy";
 var category		= "games";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-08\/order_of_the_rearing_piggy_1315512123.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-08\/order_of_the_rearing_piggy_1315512123_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-08\/order_of_the_rearing_piggy_1315512123_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-08\/order_of_the_rearing_piggy_1315512123_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-09-08\/order_of_the_rearing_piggy_1315512123.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-09-08\/order_of_the_rearing_piggy_1315512123_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-09-08\/order_of_the_rearing_piggy_1315512123_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-09-08\/order_of_the_rearing_piggy_1315512123_40.png";
 function on_apply(pc){
 	
 }

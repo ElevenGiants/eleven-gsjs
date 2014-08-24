@@ -7,10 +7,10 @@ var last_published	= 1351302517;
 var is_shareworthy	= 1;
 var url		= "order-of-the-third-otter";
 var category		= "feats";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-26\/order_of_the_third_otter_1351300701.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-26\/order_of_the_third_otter_1351300701_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-26\/order_of_the_third_otter_1351300701_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-26\/order_of_the_third_otter_1351300701_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-10-26\/order_of_the_third_otter_1351300701.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-10-26\/order_of_the_third_otter_1351300701_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-10-26\/order_of_the_third_otter_1351300701_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-10-26\/order_of_the_third_otter_1351300701_40.png";
 function on_apply(pc){
 	
 }

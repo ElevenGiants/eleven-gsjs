@@ -7,10 +7,10 @@ var last_published	= 1323924113;
 var is_shareworthy	= 0;
 var url		= "candy-muncher";
 var category		= "seasonal";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-10-26\/candy_muncher_1319680221.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-10-26\/candy_muncher_1319680221_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-10-26\/candy_muncher_1319680221_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-10-26\/candy_muncher_1319680221_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-10-26\/candy_muncher_1319680221.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-10-26\/candy_muncher_1319680221_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-10-26\/candy_muncher_1319680221_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-10-26\/candy_muncher_1319680221_40.png";
 function on_apply(pc){
 	
 }

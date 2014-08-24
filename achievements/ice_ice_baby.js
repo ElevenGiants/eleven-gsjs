@@ -7,10 +7,10 @@ var last_published	= 1351708128;
 var is_shareworthy	= 1;
 var url		= "ice-ice-baby";
 var category		= "harvesting";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-30\/ice_ice_baby_1351618914.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-30\/ice_ice_baby_1351618914_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-30\/ice_ice_baby_1351618914_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-30\/ice_ice_baby_1351618914_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-10-30\/ice_ice_baby_1351618914.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-10-30\/ice_ice_baby_1351618914_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-10-30\/ice_ice_baby_1351618914_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-10-30\/ice_ice_baby_1351618914_40.png";
 function on_apply(pc){
 	
 }

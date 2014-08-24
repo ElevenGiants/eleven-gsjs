@@ -287,7 +287,7 @@ var itemDef = {
 	is_hidden	: this.is_hidden,
 	has_info	: this.has_info,
 	adjusted_scale	: this.adjusted_scale,
-	asset_swf_v	: "http:\/\/c2.glitch.bz\/items\/2011-08\/fortune_cookie-1314818574.swf",
+	asset_swf_v	: "\/c2.glitch.bz\/items\/2011-08\/fortune_cookie-1314818574.swf",
 	admin_props	: false,
 	obey_physics	: true,
 	in_background	: false,

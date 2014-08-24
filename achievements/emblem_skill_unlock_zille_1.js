@@ -7,10 +7,10 @@ var last_published	= 1323915907;
 var is_shareworthy	= 0;
 var url		= "spent-first-emblem-of-zille";
 var category		= "giants";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/emblem_skill_unlock_zille_1_1304985053.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/emblem_skill_unlock_zille_1_1304985053_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/emblem_skill_unlock_zille_1_1304985053_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/emblem_skill_unlock_zille_1_1304985053_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/emblem_skill_unlock_zille_1_1304985053.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/emblem_skill_unlock_zille_1_1304985053_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/emblem_skill_unlock_zille_1_1304985053_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/emblem_skill_unlock_zille_1_1304985053_40.png";
 function on_apply(pc){
 	
 }

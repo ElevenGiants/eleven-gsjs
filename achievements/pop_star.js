@@ -7,10 +7,10 @@ var last_published	= 1348802231;
 var is_shareworthy	= 1;
 var url		= "pop-idol";
 var category		= "seasonal";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-12-20\/pop_star_1324407015.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-12-20\/pop_star_1324407015_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-12-20\/pop_star_1324407015_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-12-20\/pop_star_1324407015_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-12-20\/pop_star_1324407015.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-12-20\/pop_star_1324407015_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-12-20\/pop_star_1324407015_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-12-20\/pop_star_1324407015_40.png";
 function on_apply(pc){
 	
 }

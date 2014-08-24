@@ -7,10 +7,10 @@ var last_published	= 1323931402;
 var is_shareworthy	= 0;
 var url		= "little-squirt";
 var category		= "trees";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/little_squirt_1304984697.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/little_squirt_1304984697_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/little_squirt_1304984697_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/little_squirt_1304984697_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/little_squirt_1304984697.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/little_squirt_1304984697_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/little_squirt_1304984697_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/little_squirt_1304984697_40.png";
 function on_apply(pc){
 	
 }

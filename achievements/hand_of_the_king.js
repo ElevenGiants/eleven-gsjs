@@ -7,10 +7,10 @@ var last_published	= 1348798891;
 var is_shareworthy	= 1;
 var url		= "hand-of-the-king";
 var category		= "games";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-08\/hand_of_the_king_1315512119.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-08\/hand_of_the_king_1315512119_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-08\/hand_of_the_king_1315512119_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-08\/hand_of_the_king_1315512119_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-09-08\/hand_of_the_king_1315512119.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-09-08\/hand_of_the_king_1315512119_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-09-08\/hand_of_the_king_1315512119_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-09-08\/hand_of_the_king_1315512119_40.png";
 function on_apply(pc){
 	
 }

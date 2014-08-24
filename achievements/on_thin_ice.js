@@ -7,10 +7,10 @@ var last_published	= 1351879461;
 var is_shareworthy	= 1;
 var url		= "on-thin-ice";
 var category		= "harvesting";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-30\/on_thin_ice_1351618917.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-30\/on_thin_ice_1351618917_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-30\/on_thin_ice_1351618917_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-30\/on_thin_ice_1351618917_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-10-30\/on_thin_ice_1351618917.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-10-30\/on_thin_ice_1351618917_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-10-30\/on_thin_ice_1351618917_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-10-30\/on_thin_ice_1351618917_40.png";
 function on_apply(pc){
 	
 }

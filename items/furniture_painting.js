@@ -191,7 +191,7 @@ var itemDef = {
 	stackmax	: this.stackmax,
 	is_hidden	: this.is_hidden,
 	has_info	: this.has_info,
-	asset_swf_v	: "http:\/\/c2.glitch.bz\/items\/2012-01\/furniture_painting-1328042409.swf",
+	asset_swf_v	: "\/c2.glitch.bz\/items\/2012-01\/furniture_painting-1328042409.swf",
 	admin_props	: true,
 	obey_physics	: false,
 	in_background	: false,

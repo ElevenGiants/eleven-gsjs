@@ -4,19 +4,19 @@
 function getPoemChoices() { 
 	return [ {	contents:"Merry Glitchmas, tiny Glitch, and may you be all jolly \nand may each happy glitchy day be filled with frivolous folly \nMay each New Day bring you cheer \nAnd Beer cans filled with beer \nAnd Hairball Flowers to make you all hairbally.", 
 						title:"Merry Glitchmas!", 
-						url:"http://c1.glitch.bz/img/glitchmas_cards/glitchmasreinpig_76887.jpg"
+						url:"/c1.glitch.bz/img/glitchmas_cards/glitchmasreinpig_76887.jpg"
 					  },
 					  {	contents:"The mountains are all frosted \nwith snowy white No-No \nAnd I say happy Glitchmas \nWith a high class hoe hoe hoe.", 
 						title:"Merry Glitchmas!", 
-						url:"http://c1.glitch.bz/img/glitchmas_cards/glitchmasyeti_76887.jpg"
+						url:"/c1.glitch.bz/img/glitchmas_cards/glitchmasyeti_76887.jpg"
 					  },
 					  {	contents:"The snow is on the mountains \nThe Rook is fast asleep \nThe Bubble Trees are grumbling in the dell \nIt's festive happy funtime \nor 'Glitchmas' if you like;\nSo happy that, and joy and stuff as well.", 
 						title:"Merry Glitchmas!", 
-						url:"http://c1.glitch.bz/img/glitchmas_cards/glitchmasrube_76887.jpg"
+						url:"/c1.glitch.bz/img/glitchmas_cards/glitchmasrube_76887.jpg"
 					  },
 					  { contents: "Here's a special message \nFor your health and safety rights: \nSure, Sparkly looks like snowballs\nBut DO NOT use it for fights. \n(Srsly).",
 						title: "Merry Glitchmas!",
-						url: "http://c1.glitch.bz/img/glitchmas_cards/glitchmassnow_76887.jpg"
+						url: "/c1.glitch.bz/img/glitchmas_cards/glitchmassnow_76887.jpg"
 					  }
 					];
 }		

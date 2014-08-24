@@ -28,9 +28,9 @@ function skills_get_alchemy_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/alchemy_1_29740.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/alchemy_1_29740.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/alchemy_1_29740.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/alchemy_1_29740.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/alchemy_1_29740.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/alchemy_1_29740.png"
 		},
 	};
 };
@@ -65,9 +65,9 @@ function skills_get_alchemy_2(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/alchemy_2_29740.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/alchemy_2_29740.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/alchemy_2_29740.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/alchemy_2_29740.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/alchemy_2_29740.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/alchemy_2_29740.png"
 		},
 	};
 };
@@ -102,9 +102,9 @@ function skills_get_animalhusbandry_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/animalhusbandry_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/animalhusbandry_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/animalhusbandry_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/animalhusbandry_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/animalhusbandry_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/animalhusbandry_1_28144.png"
 		},
 	};
 };
@@ -139,9 +139,9 @@ function skills_get_animalkinship_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/animalkinship_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/animalkinship_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/animalkinship_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/animalkinship_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/animalkinship_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/animalkinship_1_28144.png"
 		},
 	};
 };
@@ -176,9 +176,9 @@ function skills_get_animalkinship_2(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/animalkinship_2_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/animalkinship_2_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/animalkinship_2_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/animalkinship_2_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/animalkinship_2_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/animalkinship_2_28144.png"
 		},
 	};
 };
@@ -213,9 +213,9 @@ function skills_get_animalkinship_3(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/animalkinship_3_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/animalkinship_3_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/animalkinship_3_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/animalkinship_3_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/animalkinship_3_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/animalkinship_3_28144.png"
 		},
 	};
 };
@@ -250,9 +250,9 @@ function skills_get_animalkinship_4(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/animalkinship_4_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/animalkinship_4_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/animalkinship_4_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/animalkinship_4_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/animalkinship_4_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/animalkinship_4_28144.png"
 		},
 	};
 };
@@ -287,9 +287,9 @@ function skills_get_animalkinship_5(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/animalkinship_5_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/animalkinship_5_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/animalkinship_5_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/animalkinship_5_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/animalkinship_5_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/animalkinship_5_28144.png"
 		},
 	};
 };
@@ -324,9 +324,9 @@ function skills_get_animalkinship_6(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/animalkinship_6_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/animalkinship_6_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/animalkinship_6_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/animalkinship_6_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/animalkinship_6_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/animalkinship_6_28144.png"
 		},
 	};
 };
@@ -361,9 +361,9 @@ function skills_get_animalkinship_7(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/animalkinship_7_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/animalkinship_7_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/animalkinship_7_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/animalkinship_7_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/animalkinship_7_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/animalkinship_7_28144.png"
 		},
 	};
 };
@@ -398,9 +398,9 @@ function skills_get_blending_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/blending_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/blending_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/blending_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/blending_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/blending_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/blending_1_28144.png"
 		},
 	};
 };
@@ -435,9 +435,9 @@ function skills_get_blending_2(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/blending_2_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/blending_2_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/blending_2_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/blending_2_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/blending_2_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/blending_2_28144.png"
 		},
 	};
 };
@@ -472,9 +472,9 @@ function skills_get_blockmaking_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/blockmaking_1_37979.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/blockmaking_1_37979.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/blockmaking_1_37979.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/blockmaking_1_37979.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/blockmaking_1_37979.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/blockmaking_1_37979.png"
 		},
 	};
 };
@@ -509,9 +509,9 @@ function skills_get_bogspecialization_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/bogspecialization_1_30557.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/bogspecialization_1_30557.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/bogspecialization_1_30557.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/bogspecialization_1_30557.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/bogspecialization_1_30557.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/bogspecialization_1_30557.png"
 		},
 	};
 };
@@ -546,9 +546,9 @@ function skills_get_botany_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/botany_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/botany_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/botany_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/botany_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/botany_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/botany_1_28144.png"
 		},
 	};
 };
@@ -583,9 +583,9 @@ function skills_get_bubbletuning_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/bubbletuning_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/bubbletuning_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/bubbletuning_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/bubbletuning_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/bubbletuning_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/bubbletuning_1_28144.png"
 		},
 	};
 };
@@ -620,9 +620,9 @@ function skills_get_bureaucraticarts_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/bureaucraticarts_1_29741.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/bureaucraticarts_1_29741.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/bureaucraticarts_1_29741.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/bureaucraticarts_1_29741.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/bureaucraticarts_1_29741.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/bureaucraticarts_1_29741.png"
 		},
 	};
 };
@@ -657,9 +657,9 @@ function skills_get_bureaucraticarts_2(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/bureaucraticarts_2_29741.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/bureaucraticarts_2_29741.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/bureaucraticarts_2_29741.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/bureaucraticarts_2_29741.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/bureaucraticarts_2_29741.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/bureaucraticarts_2_29741.png"
 		},
 	};
 };
@@ -694,9 +694,9 @@ function skills_get_bureaucraticarts_3(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/bureaucraticarts_3_34604.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/bureaucraticarts_3_34604.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/bureaucraticarts_3_34604.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/bureaucraticarts_3_34604.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/bureaucraticarts_3_34604.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/bureaucraticarts_3_34604.png"
 		},
 	};
 };
@@ -731,9 +731,9 @@ function skills_get_cheffery_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/cheffery_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/cheffery_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/cheffery_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/cheffery_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/cheffery_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/cheffery_1_28144.png"
 		},
 	};
 };
@@ -768,9 +768,9 @@ function skills_get_cheffery_2(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/cheffery_2_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/cheffery_2_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/cheffery_2_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/cheffery_2_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/cheffery_2_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/cheffery_2_28144.png"
 		},
 	};
 };
@@ -805,9 +805,9 @@ function skills_get_cheffery_3(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/cheffery_3_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/cheffery_3_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/cheffery_3_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/cheffery_3_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/cheffery_3_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/cheffery_3_28144.png"
 		},
 	};
 };
@@ -842,9 +842,9 @@ function skills_get_cocktailcrafting_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/cocktailcrafting_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/cocktailcrafting_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/cocktailcrafting_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/cocktailcrafting_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/cocktailcrafting_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/cocktailcrafting_1_28144.png"
 		},
 	};
 };
@@ -879,9 +879,9 @@ function skills_get_cocktailcrafting_2(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/cocktailcrafting_2_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/cocktailcrafting_2_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/cocktailcrafting_2_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/cocktailcrafting_2_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/cocktailcrafting_2_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/cocktailcrafting_2_28144.png"
 		},
 	};
 };
@@ -916,9 +916,9 @@ function skills_get_croppery_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/croppery_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/croppery_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/croppery_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/croppery_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/croppery_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/croppery_1_28144.png"
 		},
 	};
 };
@@ -953,9 +953,9 @@ function skills_get_croppery_2(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/croppery_2_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/croppery_2_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/croppery_2_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/croppery_2_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/croppery_2_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/croppery_2_28144.png"
 		},
 	};
 };
@@ -990,9 +990,9 @@ function skills_get_croppery_3(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/croppery_3_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/croppery_3_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/croppery_3_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/croppery_3_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/croppery_3_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/croppery_3_28144.png"
 		},
 	};
 };
@@ -1027,9 +1027,9 @@ function skills_get_crystalography_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/crystalography_1_37979.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/crystalography_1_37979.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/crystalography_1_37979.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/crystalography_1_37979.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/crystalography_1_37979.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/crystalography_1_37979.png"
 		},
 	};
 };
@@ -1064,9 +1064,9 @@ function skills_get_distilling_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/distilling_1_73379.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/distilling_1_73379.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/distilling_1_73379.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/distilling_1_73379.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/distilling_1_73379.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/distilling_1_73379.png"
 		},
 	};
 };
@@ -1101,9 +1101,9 @@ function skills_get_elementhandling_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/elementhandling_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/elementhandling_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/elementhandling_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/elementhandling_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/elementhandling_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/elementhandling_1_28144.png"
 		},
 	};
 };
@@ -1138,9 +1138,9 @@ function skills_get_engineering_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/engineering_1_37979.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/engineering_1_37979.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/engineering_1_37979.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/engineering_1_37979.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/engineering_1_37979.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/engineering_1_37979.png"
 		},
 	};
 };
@@ -1175,9 +1175,9 @@ function skills_get_eyeballery_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/eyeballery_1_65997.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/eyeballery_1_65997.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/eyeballery_1_65997.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/eyeballery_1_65997.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/eyeballery_1_65997.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/eyeballery_1_65997.png"
 		},
 	};
 };
@@ -1212,9 +1212,9 @@ function skills_get_ezcooking_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/ezcooking_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/ezcooking_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/ezcooking_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/ezcooking_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/ezcooking_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/ezcooking_1_28144.png"
 		},
 	};
 };
@@ -1249,9 +1249,9 @@ function skills_get_ezcooking_2(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/ezcooking_2_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/ezcooking_2_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/ezcooking_2_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/ezcooking_2_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/ezcooking_2_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/ezcooking_2_28144.png"
 		},
 	};
 };
@@ -1286,9 +1286,9 @@ function skills_get_fiber_arts_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/fiber_arts_1_87006.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/fiber_arts_1_86491.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/fiber_arts_1_86491.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/fiber_arts_1_87006.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/fiber_arts_1_86491.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/fiber_arts_1_86491.png"
 		},
 	};
 };
@@ -1323,9 +1323,9 @@ function skills_get_fiber_arts_2(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/fiber_arts_2_87006.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/fiber_arts_2_86491.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/fiber_arts_2_86491.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/fiber_arts_2_87006.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/fiber_arts_2_86491.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/fiber_arts_2_86491.png"
 		},
 	};
 };
@@ -1360,9 +1360,9 @@ function skills_get_focused_meditation_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/focused_meditation_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/focused_meditation_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/focused_meditation_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/focused_meditation_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/focused_meditation_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/focused_meditation_1_28144.png"
 		},
 	};
 };
@@ -1397,9 +1397,9 @@ function skills_get_foxbrushing_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/foxbrushing_1_87008.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/foxbrushing_1_86491.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/foxbrushing_1_86491.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/foxbrushing_1_87008.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/foxbrushing_1_86491.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/foxbrushing_1_86491.png"
 		},
 	};
 };
@@ -1434,9 +1434,9 @@ function skills_get_fruitchanging_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/fruitchanging_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/fruitchanging_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/fruitchanging_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/fruitchanging_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/fruitchanging_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/fruitchanging_1_28144.png"
 		},
 	};
 };
@@ -1471,9 +1471,9 @@ function skills_get_fuelmaking_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/fuelmaking_1_37979.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/fuelmaking_1_37979.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/fuelmaking_1_37979.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/fuelmaking_1_37979.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/fuelmaking_1_37979.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/fuelmaking_1_37979.png"
 		},
 	};
 };
@@ -1508,9 +1508,9 @@ function skills_get_furnituremaking_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/furnituremaking_1_87006.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/furnituremaking_1_86491.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/furnituremaking_1_86491.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/furnituremaking_1_87006.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/furnituremaking_1_86491.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/furnituremaking_1_86491.png"
 		},
 	};
 };
@@ -1545,9 +1545,9 @@ function skills_get_furnituremaking_2(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/furnituremaking_2_87006.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/furnituremaking_2_86491.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/furnituremaking_2_86491.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/furnituremaking_2_87006.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/furnituremaking_2_86491.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/furnituremaking_2_86491.png"
 		},
 	};
 };
@@ -1582,9 +1582,9 @@ function skills_get_gardening_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/gardening_1_94576.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/gardening_1_94576.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/gardening_1_94576.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/gardening_1_94576.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/gardening_1_94576.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/gardening_1_94576.png"
 		},
 	};
 };
@@ -1619,9 +1619,9 @@ function skills_get_gardening_2(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/gardening_2_94576.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/gardening_2_94576.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/gardening_2_94576.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/gardening_2_94576.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/gardening_2_94576.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/gardening_2_94576.png"
 		},
 	};
 };
@@ -1656,9 +1656,9 @@ function skills_get_gardening_3(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/gardening_3_94576.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/gardening_3_94576.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/gardening_3_94576.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/gardening_3_94576.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/gardening_3_94576.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/gardening_3_94576.png"
 		},
 	};
 };
@@ -1693,9 +1693,9 @@ function skills_get_gardening_4(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/gardening_4_94576.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/gardening_4_94576.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/gardening_4_94576.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/gardening_4_94576.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/gardening_4_94576.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/gardening_4_94576.png"
 		},
 	};
 };
@@ -1730,9 +1730,9 @@ function skills_get_gardening_5(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/gardening_5_94576.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/gardening_5_94576.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/gardening_5_94576.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/gardening_5_94576.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/gardening_5_94576.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/gardening_5_94576.png"
 		},
 	};
 };
@@ -1767,9 +1767,9 @@ function skills_get_gasmogrification_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/gasmogrification_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/gasmogrification_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/gasmogrification_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/gasmogrification_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/gasmogrification_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/gasmogrification_1_28144.png"
 		},
 	};
 };
@@ -1804,9 +1804,9 @@ function skills_get_grilling_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/grilling_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/grilling_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/grilling_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/grilling_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/grilling_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/grilling_1_28144.png"
 		},
 	};
 };
@@ -1841,9 +1841,9 @@ function skills_get_grilling_2(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/grilling_2_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/grilling_2_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/grilling_2_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/grilling_2_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/grilling_2_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/grilling_2_28144.png"
 		},
 	};
 };
@@ -1878,9 +1878,9 @@ function skills_get_herbalism_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/herbalism_1_53939.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/herbalism_1_53939.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/herbalism_1_53939.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/herbalism_1_53939.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/herbalism_1_53939.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/herbalism_1_53939.png"
 		},
 	};
 };
@@ -1915,9 +1915,9 @@ function skills_get_herbalism_2(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/herbalism_2_53939.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/herbalism_2_53939.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/herbalism_2_53939.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/herbalism_2_53939.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/herbalism_2_53939.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/herbalism_2_53939.png"
 		},
 	};
 };
@@ -1952,9 +1952,9 @@ function skills_get_herbalism_3(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/herbalism_3_53939.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/herbalism_3_53939.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/herbalism_3_53939.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/herbalism_3_53939.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/herbalism_3_53939.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/herbalism_3_53939.png"
 		},
 	};
 };
@@ -1989,9 +1989,9 @@ function skills_get_herdkeeping_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/herdkeeping_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/herdkeeping_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/herdkeeping_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/herdkeeping_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/herdkeeping_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/herdkeeping_1_28144.png"
 		},
 	};
 };
@@ -2026,9 +2026,9 @@ function skills_get_intermediateadmixing_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/intermediateadmixing_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/intermediateadmixing_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/intermediateadmixing_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/intermediateadmixing_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/intermediateadmixing_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/intermediateadmixing_1_28144.png"
 		},
 	};
 };
@@ -2063,9 +2063,9 @@ function skills_get_jellisac_hands_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/jellisac_hands_1_37979.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/jellisac_hands_1_37979.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/jellisac_hands_1_37979.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/jellisac_hands_1_37979.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/jellisac_hands_1_37979.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/jellisac_hands_1_37979.png"
 		},
 	};
 };
@@ -2100,9 +2100,9 @@ function skills_get_levitation_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/levitation_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/levitation_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/levitation_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/levitation_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/levitation_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/levitation_1_28144.png"
 		},
 	};
 };
@@ -2137,9 +2137,9 @@ function skills_get_light_green_thumb_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/light_green_thumb_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/light_green_thumb_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/light_green_thumb_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/light_green_thumb_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/light_green_thumb_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/light_green_thumb_1_28144.png"
 		},
 	};
 };
@@ -2174,9 +2174,9 @@ function skills_get_light_green_thumb_2(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/light_green_thumb_2_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/light_green_thumb_2_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/light_green_thumb_2_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/light_green_thumb_2_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/light_green_thumb_2_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/light_green_thumb_2_28144.png"
 		},
 	};
 };
@@ -2211,9 +2211,9 @@ function skills_get_light_green_thumb_3(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/light_green_thumb_3_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/light_green_thumb_3_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/light_green_thumb_3_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/light_green_thumb_3_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/light_green_thumb_3_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/light_green_thumb_3_28144.png"
 		},
 	};
 };
@@ -2248,9 +2248,9 @@ function skills_get_martial_imagination_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/martial_imagination_1_57098.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/martial_imagination_1_57098.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/martial_imagination_1_57098.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/martial_imagination_1_57098.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/martial_imagination_1_57098.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/martial_imagination_1_57098.png"
 		},
 	};
 };
@@ -2285,9 +2285,9 @@ function skills_get_masterchef_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/masterchef_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/masterchef_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/masterchef_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/masterchef_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/masterchef_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/masterchef_1_28144.png"
 		},
 	};
 };
@@ -2322,9 +2322,9 @@ function skills_get_masterchef_2(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/masterchef_2_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/masterchef_2_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/masterchef_2_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/masterchef_2_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/masterchef_2_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/masterchef_2_28144.png"
 		},
 	};
 };
@@ -2359,9 +2359,9 @@ function skills_get_mastergardener_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/mastergardener_1_112781.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/mastergardener_1_112781.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/mastergardener_1_112781.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/mastergardener_1_112781.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/mastergardener_1_112781.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/mastergardener_1_112781.png"
 		},
 	};
 };
@@ -2396,9 +2396,9 @@ function skills_get_meditativearts_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/meditativearts_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/meditativearts_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/meditativearts_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/meditativearts_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/meditativearts_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/meditativearts_1_28144.png"
 		},
 	};
 };
@@ -2433,9 +2433,9 @@ function skills_get_meditativearts_2(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/meditativearts_2_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/meditativearts_2_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/meditativearts_2_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/meditativearts_2_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/meditativearts_2_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/meditativearts_2_28144.png"
 		},
 	};
 };
@@ -2470,9 +2470,9 @@ function skills_get_meditativearts_3(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/meditativearts_3_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/meditativearts_3_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/meditativearts_3_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/meditativearts_3_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/meditativearts_3_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/meditativearts_3_28144.png"
 		},
 	};
 };
@@ -2507,9 +2507,9 @@ function skills_get_metalwork_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/metalwork_1_87006.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/metalwork_1_86491.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/metalwork_1_86491.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/metalwork_1_87006.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/metalwork_1_86491.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/metalwork_1_86491.png"
 		},
 	};
 };
@@ -2544,9 +2544,9 @@ function skills_get_mining_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/mining_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/mining_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/mining_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/mining_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/mining_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/mining_1_28144.png"
 		},
 	};
 };
@@ -2581,9 +2581,9 @@ function skills_get_mining_2(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/mining_2_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/mining_2_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/mining_2_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/mining_2_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/mining_2_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/mining_2_28144.png"
 		},
 	};
 };
@@ -2618,9 +2618,9 @@ function skills_get_mining_3(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/mining_3_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/mining_3_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/mining_3_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/mining_3_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/mining_3_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/mining_3_28144.png"
 		},
 	};
 };
@@ -2655,9 +2655,9 @@ function skills_get_mining_4(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/mining_4_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/mining_4_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/mining_4_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/mining_4_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/mining_4_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/mining_4_28144.png"
 		},
 	};
 };
@@ -2692,9 +2692,9 @@ function skills_get_nudgery_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/nudgery_1_97203.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/nudgery_1_97203.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/nudgery_1_97203.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/nudgery_1_97203.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/nudgery_1_97203.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/nudgery_1_97203.png"
 		},
 	};
 };
@@ -2729,9 +2729,9 @@ function skills_get_penmanship_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/penmanship_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/penmanship_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/penmanship_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/penmanship_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/penmanship_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/penmanship_1_28144.png"
 		},
 	};
 };
@@ -2766,9 +2766,9 @@ function skills_get_piety_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/piety_1_57098.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/piety_1_57098.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/piety_1_57098.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/piety_1_57098.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/piety_1_57098.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/piety_1_57098.png"
 		},
 	};
 };
@@ -2803,9 +2803,9 @@ function skills_get_potionmaking_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/potionmaking_1_73379.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/potionmaking_1_73379.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/potionmaking_1_73379.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/potionmaking_1_73379.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/potionmaking_1_73379.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/potionmaking_1_73379.png"
 		},
 	};
 };
@@ -2840,9 +2840,9 @@ function skills_get_potionmaking_2(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/potionmaking_2_73379.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/potionmaking_2_73379.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/potionmaking_2_73379.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/potionmaking_2_73379.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/potionmaking_2_73379.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/potionmaking_2_73379.png"
 		},
 	};
 };
@@ -2877,9 +2877,9 @@ function skills_get_potionmaking_3(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/potionmaking_3_73379.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/potionmaking_3_73379.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/potionmaking_3_73379.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/potionmaking_3_73379.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/potionmaking_3_73379.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/potionmaking_3_73379.png"
 		},
 	};
 };
@@ -2914,9 +2914,9 @@ function skills_get_refining_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/refining_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/refining_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/refining_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/refining_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/refining_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/refining_1_28144.png"
 		},
 	};
 };
@@ -2951,9 +2951,9 @@ function skills_get_refining_2(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/refining_2_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/refining_2_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/refining_2_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/refining_2_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/refining_2_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/refining_2_28144.png"
 		},
 	};
 };
@@ -2988,9 +2988,9 @@ function skills_get_remoteherdkeeping_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/remoteherdkeeping_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/remoteherdkeeping_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/remoteherdkeeping_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/remoteherdkeeping_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/remoteherdkeeping_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/remoteherdkeeping_1_28144.png"
 		},
 	};
 };
@@ -3025,9 +3025,9 @@ function skills_get_saucery_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/saucery_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/saucery_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/saucery_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/saucery_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/saucery_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/saucery_1_28144.png"
 		},
 	};
 };
@@ -3062,9 +3062,9 @@ function skills_get_saucery_2(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/saucery_2_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/saucery_2_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/saucery_2_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/saucery_2_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/saucery_2_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/saucery_2_28144.png"
 		},
 	};
 };
@@ -3099,9 +3099,9 @@ function skills_get_smelting_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/smelting_1_29740.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/smelting_1_29740.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/smelting_1_29740.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/smelting_1_29740.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/smelting_1_29740.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/smelting_1_29740.png"
 		},
 	};
 };
@@ -3136,9 +3136,9 @@ function skills_get_soil_appreciation_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/soil_appreciation_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/soil_appreciation_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/soil_appreciation_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/soil_appreciation_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/soil_appreciation_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/soil_appreciation_1_28144.png"
 		},
 	};
 };
@@ -3173,9 +3173,9 @@ function skills_get_soil_appreciation_2(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/soil_appreciation_2_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/soil_appreciation_2_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/soil_appreciation_2_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/soil_appreciation_2_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/soil_appreciation_2_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/soil_appreciation_2_28144.png"
 		},
 	};
 };
@@ -3210,9 +3210,9 @@ function skills_get_soil_appreciation_3(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/soil_appreciation_3_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/soil_appreciation_3_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/soil_appreciation_3_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/soil_appreciation_3_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/soil_appreciation_3_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/soil_appreciation_3_28144.png"
 		},
 	};
 };
@@ -3247,9 +3247,9 @@ function skills_get_soil_appreciation_4(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/soil_appreciation_4_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/soil_appreciation_4_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/soil_appreciation_4_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/soil_appreciation_4_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/soil_appreciation_4_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/soil_appreciation_4_28144.png"
 		},
 	};
 };
@@ -3284,9 +3284,9 @@ function skills_get_soil_appreciation_5(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/soil_appreciation_5_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/soil_appreciation_5_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/soil_appreciation_5_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/soil_appreciation_5_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/soil_appreciation_5_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/soil_appreciation_5_28144.png"
 		},
 	};
 };
@@ -3321,9 +3321,9 @@ function skills_get_spicemilling_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/spicemilling_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/spicemilling_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/spicemilling_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/spicemilling_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/spicemilling_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/spicemilling_1_28144.png"
 		},
 	};
 };
@@ -3358,9 +3358,9 @@ function skills_get_teleportation_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/teleportation_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/teleportation_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/teleportation_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/teleportation_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/teleportation_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/teleportation_1_28144.png"
 		},
 	};
 };
@@ -3395,9 +3395,9 @@ function skills_get_teleportation_2(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/teleportation_2_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/teleportation_2_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/teleportation_2_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/teleportation_2_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/teleportation_2_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/teleportation_2_28144.png"
 		},
 	};
 };
@@ -3432,9 +3432,9 @@ function skills_get_teleportation_3(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/teleportation_3_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/teleportation_3_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/teleportation_3_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/teleportation_3_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/teleportation_3_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/teleportation_3_28144.png"
 		},
 	};
 };
@@ -3469,9 +3469,9 @@ function skills_get_teleportation_4(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/teleportation_4_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/teleportation_4_49176.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/teleportation_4_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/teleportation_4_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/teleportation_4_49176.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/teleportation_4_28144.png"
 		},
 	};
 };
@@ -3506,9 +3506,9 @@ function skills_get_teleportation_5(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/teleportation_5_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/teleportation_5_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/teleportation_5_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/teleportation_5_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/teleportation_5_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/teleportation_5_28144.png"
 		},
 	};
 };
@@ -3543,9 +3543,9 @@ function skills_get_tincturing_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/tincturing_1_73379.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/tincturing_1_73379.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/tincturing_1_73379.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/tincturing_1_73379.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/tincturing_1_73379.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/tincturing_1_73379.png"
 		},
 	};
 };
@@ -3580,9 +3580,9 @@ function skills_get_tinkering_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/tinkering_1_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/tinkering_1_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/tinkering_1_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/tinkering_1_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/tinkering_1_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/tinkering_1_28144.png"
 		},
 	};
 };
@@ -3617,9 +3617,9 @@ function skills_get_tinkering_2(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/tinkering_2_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/tinkering_2_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/tinkering_2_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/tinkering_2_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/tinkering_2_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/tinkering_2_28144.png"
 		},
 	};
 };
@@ -3654,9 +3654,9 @@ function skills_get_tinkering_3(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/tinkering_3_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/tinkering_3_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/tinkering_3_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/tinkering_3_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/tinkering_3_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/tinkering_3_28144.png"
 		},
 	};
 };
@@ -3691,9 +3691,9 @@ function skills_get_tinkering_4(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/tinkering_4_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/tinkering_4_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/tinkering_4_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/tinkering_4_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/tinkering_4_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/tinkering_4_28144.png"
 		},
 	};
 };
@@ -3728,9 +3728,9 @@ function skills_get_tinkering_5(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/tinkering_5_28144.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/tinkering_5_28144.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/tinkering_5_28144.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/tinkering_5_28144.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/tinkering_5_28144.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/tinkering_5_28144.png"
 		},
 	};
 };
@@ -3765,9 +3765,9 @@ function skills_get_transcendental_radiation_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/transcendental_radiation_1_93673.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/transcendental_radiation_1_93673.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/transcendental_radiation_1_93673.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/transcendental_radiation_1_93673.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/transcendental_radiation_1_93673.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/transcendental_radiation_1_93673.png"
 		},
 	};
 };
@@ -3802,9 +3802,9 @@ function skills_get_transcendental_radiation_2(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/transcendental_radiation_2_93673.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/transcendental_radiation_2_93673.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/transcendental_radiation_2_93673.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/transcendental_radiation_2_93673.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/transcendental_radiation_2_93673.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/transcendental_radiation_2_93673.png"
 		},
 	};
 };
@@ -3839,9 +3839,9 @@ function skills_get_transcendental_radiation_3(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/transcendental_radiation_3_118176.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/transcendental_radiation_3_118176.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/transcendental_radiation_3_118176.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/transcendental_radiation_3_118176.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/transcendental_radiation_3_118176.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/transcendental_radiation_3_118176.png"
 		},
 	};
 };
@@ -3876,9 +3876,9 @@ function skills_get_woodworking_1(){
 			},
 		},
 		icons: {
-			icon_44: "http:\/\/c1.glitch.bz\/img\/skills\/woodworking_1_87006.png",
-			icon_100: "http:\/\/c1.glitch.bz\/img\/skills-100\/woodworking_1_86563.png",
-			icon_460: "http:\/\/c1.glitch.bz\/img\/skills-460\/woodworking_1_86563.png"
+			icon_44: "\/c1.glitch.bz\/img\/skills\/woodworking_1_87006.png",
+			icon_100: "\/c1.glitch.bz\/img\/skills-100\/woodworking_1_86563.png",
+			icon_460: "\/c1.glitch.bz\/img\/skills-460\/woodworking_1_86563.png"
 		},
 	};
 };

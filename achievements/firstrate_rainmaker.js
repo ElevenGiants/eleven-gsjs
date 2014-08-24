@@ -7,10 +7,10 @@ var last_published	= 1323932225;
 var is_shareworthy	= 0;
 var url		= "firstrate-rainmaker";
 var category		= "trees";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/firstrate_rainmaker_1304983882.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/firstrate_rainmaker_1304983882_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/firstrate_rainmaker_1304983882_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/firstrate_rainmaker_1304983882_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/firstrate_rainmaker_1304983882.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/firstrate_rainmaker_1304983882_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/firstrate_rainmaker_1304983882_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/firstrate_rainmaker_1304983882_40.png";
 function on_apply(pc){
 	
 }

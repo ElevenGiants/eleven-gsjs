@@ -8,7 +8,7 @@ var pol_types = {
 		"label"		: "Old",
 		"template_tsid"	: "",
 		"cost"		: "0",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_unknown_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_unknown_28144.png"
 	},
 	"2"	: {
 		"uid"		: "s1",
@@ -19,7 +19,7 @@ var pol_types = {
 		"label"		: "Small 1",
 		"template_tsid"	: "LLI1219QFT7184O",
 		"cost"		: "4200",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_small_01_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_small_01_28144.png"
 	},
 	"3"	: {
 		"uid"		: "s2",
@@ -30,7 +30,7 @@ var pol_types = {
 		"label"		: "Small 2",
 		"template_tsid"	: "LLI1221RFT71H7G",
 		"cost"		: "3500",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_small_02_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_small_02_28144.png"
 	},
 	"4"	: {
 		"uid"		: "s3",
@@ -41,7 +41,7 @@ var pol_types = {
 		"label"		: "Small 3",
 		"template_tsid"	: "LLI123VRFT714DD",
 		"cost"		: "5000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_small_03_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_small_03_28144.png"
 	},
 	"5"	: {
 		"uid"		: "s4",
@@ -52,7 +52,7 @@ var pol_types = {
 		"label"		: "Small 4",
 		"template_tsid"	: "LLI124LSFT71NI9",
 		"cost"		: "4500",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_small_04_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_small_04_28144.png"
 	},
 	"6"	: {
 		"uid"		: "s5",
@@ -63,7 +63,7 @@ var pol_types = {
 		"label"		: "Small 5",
 		"template_tsid"	: "LLI125HTFT71C3R",
 		"cost"		: "3900",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_small_05_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_small_05_28144.png"
 	},
 	"7"	: {
 		"uid"		: "m1",
@@ -74,7 +74,7 @@ var pol_types = {
 		"label"		: "Medium 1",
 		"template_tsid"	: "LLI10LH3CT71MLR",
 		"cost"		: "10000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_medium_01_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_medium_01_28144.png"
 	},
 	"8"	: {
 		"uid"		: "m2",
@@ -85,7 +85,7 @@ var pol_types = {
 		"label"		: "Medium 2",
 		"template_tsid"	: "LLI10MC4CT712I1",
 		"cost"		: "10000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_medium_02_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_medium_02_28144.png"
 	},
 	"9"	: {
 		"uid"		: "m3",
@@ -96,7 +96,7 @@ var pol_types = {
 		"label"		: "Medium 3",
 		"template_tsid"	: "LLI10NU4CT71617",
 		"cost"		: "10000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_medium_03_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_medium_03_28144.png"
 	},
 	"10"	: {
 		"uid"		: "m4",
@@ -107,7 +107,7 @@ var pol_types = {
 		"label"		: "Medium 4",
 		"template_tsid"	: "LLI10OJ5CT71TGA",
 		"cost"		: "10000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_medium_04_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_medium_04_28144.png"
 	},
 	"11"	: {
 		"uid"		: "m5",
@@ -118,7 +118,7 @@ var pol_types = {
 		"label"		: "Medium 5",
 		"template_tsid"	: "LLI10P29CT71GV6",
 		"cost"		: "10000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_medium_05_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_medium_05_28144.png"
 	},
 	"12"	: {
 		"uid"		: "l1",
@@ -129,7 +129,7 @@ var pol_types = {
 		"label"		: "Large 1",
 		"template_tsid"	: "LLI11ATJDT71DR9",
 		"cost"		: "15000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_large_01_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_large_01_28144.png"
 	},
 	"13"	: {
 		"uid"		: "l2",
@@ -140,7 +140,7 @@ var pol_types = {
 		"label"		: "Large 2",
 		"template_tsid"	: "LLI11BIKDT71LGG",
 		"cost"		: "15000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_large_02_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_large_02_28144.png"
 	},
 	"14"	: {
 		"uid"		: "l3",
@@ -151,7 +151,7 @@ var pol_types = {
 		"label"		: "Large 3",
 		"template_tsid"	: "LLI11C5LDT71NA1",
 		"cost"		: "15000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_large_03_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_large_03_28144.png"
 	},
 	"15"	: {
 		"uid"		: "l4",
@@ -162,7 +162,7 @@ var pol_types = {
 		"label"		: "Large 4",
 		"template_tsid"	: "LLI11DPLDT71MD4",
 		"cost"		: "15000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_large_04_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_large_04_28144.png"
 	},
 	"16"	: {
 		"uid"		: "l5",
@@ -173,7 +173,7 @@ var pol_types = {
 		"label"		: "Large 5",
 		"template_tsid"	: "LLI11E9ODT71B11",
 		"cost"		: "15000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_large_05_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_large_05_28144.png"
 	},
 	"17"	: {
 		"uid"		: "gf01",
@@ -184,7 +184,7 @@ var pol_types = {
 		"label"		: "GF Quarter LHang 01",
 		"template_tsid"	: "LLI1811ADFH1232",
 		"cost"		: "4000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_treehouse_01_28153.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_treehouse_01_28153.png"
 	},
 	"18"	: {
 		"uid"		: "gf02",
@@ -195,7 +195,7 @@ var pol_types = {
 		"label"		: "GF Quarter LHang 02",
 		"template_tsid"	: "LLI1811ADFH1232",
 		"cost"		: "4000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_treehouse_02_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_treehouse_02_28144.png"
 	},
 	"19"	: {
 		"uid"		: "gf03",
@@ -206,7 +206,7 @@ var pol_types = {
 		"label"		: "GF Quarter LHang 03",
 		"template_tsid"	: "LLI1811ADFH1232",
 		"cost"		: "4000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_treehouse_03_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_treehouse_03_28144.png"
 	},
 	"20"	: {
 		"uid"		: "gf04",
@@ -217,7 +217,7 @@ var pol_types = {
 		"label"		: "GF Quarter RHang 01",
 		"template_tsid"	: "LLI1811ADFH1232",
 		"cost"		: "4000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_treehouse_04_28153.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_treehouse_04_28153.png"
 	},
 	"21"	: {
 		"uid"		: "gf05",
@@ -228,7 +228,7 @@ var pol_types = {
 		"label"		: "GF Quarter RHang 02",
 		"template_tsid"	: "LLI1811ADFH1232",
 		"cost"		: "4000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_treehouse_05_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_treehouse_05_28144.png"
 	},
 	"22"	: {
 		"uid"		: "gf06",
@@ -239,7 +239,7 @@ var pol_types = {
 		"label"		: "GF Quarter RHang 03",
 		"template_tsid"	: "LLI1811ADFH1232",
 		"cost"		: "4000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_treehouse_06_28153.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_treehouse_06_28153.png"
 	},
 	"23"	: {
 		"uid"		: "gf07",
@@ -250,7 +250,7 @@ var pol_types = {
 		"label"		: "GF Quarter Ground 01",
 		"template_tsid"	: "LLI1811ADFH1232",
 		"cost"		: "4000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_treehouse_07_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_treehouse_07_28144.png"
 	},
 	"24"	: {
 		"uid"		: "gf08",
@@ -261,7 +261,7 @@ var pol_types = {
 		"label"		: "GF Quarter Ground 02",
 		"template_tsid"	: "LLI1811ADFH1232",
 		"cost"		: "4000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_treehouse_08_28153.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_treehouse_08_28153.png"
 	},
 	"25"	: {
 		"uid"		: "gf09",
@@ -272,7 +272,7 @@ var pol_types = {
 		"label"		: "GF Quarter Ground 03",
 		"template_tsid"	: "LLI1811ADFH1232",
 		"cost"		: "4000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_treehouse_09_28153.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_treehouse_09_28153.png"
 	},
 	"26"	: {
 		"uid"		: "apt01",
@@ -283,7 +283,7 @@ var pol_types = {
 		"label"		: "Apartment 1",
 		"template_tsid"	: "LCR13BOJ0PK1E46",
 		"cost"		: "1500",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_apartment_01_30154.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_apartment_01_30154.png"
 	},
 	"27"	: {
 		"uid"		: "gh01",
@@ -294,7 +294,7 @@ var pol_types = {
 		"label"		: "GH 01",
 		"template_tsid"	: "LCR16D52TSL1BSH",
 		"cost"		: "4000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_heights_01_31667.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_heights_01_31667.png"
 	},
 	"28"	: {
 		"uid"		: "gh02",
@@ -305,7 +305,7 @@ var pol_types = {
 		"label"		: "GH 02",
 		"template_tsid"	: "LCR16D52TSL1BSH",
 		"cost"		: "4000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_heights_02_31667.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_heights_02_31667.png"
 	},
 	"29"	: {
 		"uid"		: "gh03",
@@ -316,7 +316,7 @@ var pol_types = {
 		"label"		: "GH 03",
 		"template_tsid"	: "LCR16D52TSL1BSH",
 		"cost"		: "4000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_heights_03_31667.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_heights_03_31667.png"
 	},
 	"30"	: {
 		"uid"		: "gh04",
@@ -327,7 +327,7 @@ var pol_types = {
 		"label"		: "GH 04",
 		"template_tsid"	: "LCR16D52TSL1BSH",
 		"cost"		: "4000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_heights_04_31667.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_heights_04_31667.png"
 	},
 	"31"	: {
 		"uid"		: "sm_large_01",
@@ -338,7 +338,7 @@ var pol_types = {
 		"label"		: "SM Large 01",
 		"template_tsid"	: "LCR17I8NN8S1KIP",
 		"cost"		: "7500",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_sm_apartment_large_39945.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_sm_apartment_large_39945.png"
 	},
 	"32"	: {
 		"uid"		: "sm_medium_01",
@@ -349,7 +349,7 @@ var pol_types = {
 		"label"		: "SM Medium 01",
 		"template_tsid"	: "LCR17JPON8S1OR7",
 		"cost"		: "5000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_sm_apartment_medium_39945.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_sm_apartment_medium_39945.png"
 	},
 	"33"	: {
 		"uid"		: "sm_medium_02",
@@ -360,7 +360,7 @@ var pol_types = {
 		"label"		: "SM Medium 02",
 		"template_tsid"	: "LCR17KOPN8S1I6N",
 		"cost"		: "5000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_sm_apartment_medium_39945.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_sm_apartment_medium_39945.png"
 	},
 	"34"	: {
 		"uid"		: "sm_small_01",
@@ -371,7 +371,7 @@ var pol_types = {
 		"label"		: "SM Small 01",
 		"template_tsid"	: "LCR17LJQN8S1U9E",
 		"cost"		: "3500",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_sm_apartment_small_39945.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_sm_apartment_small_39945.png"
 	},
 	"35"	: {
 		"uid"		: "sm_small_02",
@@ -382,7 +382,7 @@ var pol_types = {
 		"label"		: "SM Small 02",
 		"template_tsid"	: "LCR17MCRN8S1M7A",
 		"cost"		: "3500",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_sm_apartment_small_39945.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_sm_apartment_small_39945.png"
 	},
 	"36"	: {
 		"uid"		: "sm_apt_large_01",
@@ -393,7 +393,7 @@ var pol_types = {
 		"label"		: "SM Apt Large 01",
 		"template_tsid"	: "LCR17I8NN8S1KIP",
 		"cost"		: "7500",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_sm_apartment_generic_40259.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_sm_apartment_generic_40259.png"
 	},
 	"37"	: {
 		"uid"		: "sm_apt_medium_01",
@@ -404,7 +404,7 @@ var pol_types = {
 		"label"		: "SM Apt Medium 01",
 		"template_tsid"	: "LCR17JPON8S1OR7",
 		"cost"		: "5000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_sm_apartment_generic_40259.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_sm_apartment_generic_40259.png"
 	},
 	"38"	: {
 		"uid"		: "sm_apt_medium_02",
@@ -415,7 +415,7 @@ var pol_types = {
 		"label"		: "SM Apt Medium 02",
 		"template_tsid"	: "LCR17KOPN8S1I6N",
 		"cost"		: "5000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_sm_apartment_generic_40259.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_sm_apartment_generic_40259.png"
 	},
 	"39"	: {
 		"uid"		: "sm_apt_small_01",
@@ -426,7 +426,7 @@ var pol_types = {
 		"label"		: "SM Apt Small 01",
 		"template_tsid"	: "LCR17LJQN8S1U9E",
 		"cost"		: "3500",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_sm_apartment_generic_40259.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_sm_apartment_generic_40259.png"
 	},
 	"40"	: {
 		"uid"		: "sm_apt_small_02",
@@ -437,7 +437,7 @@ var pol_types = {
 		"label"		: "SM Apt Small 02",
 		"template_tsid"	: "LCR17MCRN8S1M7A",
 		"cost"		: "3500",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_sm_apartment_generic_40259.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_sm_apartment_generic_40259.png"
 	},
 	"41"	: {
 		"uid"		: "al_l1",
@@ -448,7 +448,7 @@ var pol_types = {
 		"label"		: "Alakol Large 01",
 		"template_tsid"	: "LIFE3C0NLA32547",
 		"cost"		: "50000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_alakol_large_01_49465.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_alakol_large_01_49465.png"
 	},
 	"42"	: {
 		"uid"		: "al_l2",
@@ -459,7 +459,7 @@ var pol_types = {
 		"label"		: "Alakol Large 02",
 		"template_tsid"	: "LIFE3C0NLA32547",
 		"cost"		: "50000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_alakol_large_02_49574.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_alakol_large_02_49574.png"
 	},
 	"43"	: {
 		"uid"		: "al_m3",
@@ -470,7 +470,7 @@ var pol_types = {
 		"label"		: "Alakol Medium 03",
 		"template_tsid"	: "LIFE42L6PA32MUJ",
 		"cost"		: "30000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_alakol_medium_03_49572.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_alakol_medium_03_49572.png"
 	},
 	"44"	: {
 		"uid"		: "al_m1",
@@ -481,7 +481,7 @@ var pol_types = {
 		"label"		: "Alakol Medium 01",
 		"template_tsid"	: "LIFE42L6PA32MUJ",
 		"cost"		: "30000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_alakol_medium_01_49575.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_alakol_medium_01_49575.png"
 	},
 	"45"	: {
 		"uid"		: "al_m2",
@@ -492,7 +492,7 @@ var pol_types = {
 		"label"		: "Alakol Medium 02",
 		"template_tsid"	: "LIFE42L6PA32MUJ",
 		"cost"		: "30000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_alakol_medium_02_49465.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_alakol_medium_02_49465.png"
 	},
 	"46"	: {
 		"uid"		: "kj_l1",
@@ -503,7 +503,7 @@ var pol_types = {
 		"label"		: "Kajuu Large 01",
 		"template_tsid"	: "LIFCH1JF8K42GUU",
 		"cost"		: "50000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_alakol_large_01_49465.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_alakol_large_01_49465.png"
 	},
 	"47"	: {
 		"uid"		: "kj_l2",
@@ -514,7 +514,7 @@ var pol_types = {
 		"label"		: "Kajuu Large 02",
 		"template_tsid"	: "LIFCH1JF8K42GUU",
 		"cost"		: "50000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_alakol_large_02_49574.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_alakol_large_02_49574.png"
 	},
 	"48"	: {
 		"uid"		: "kj_m1",
@@ -525,7 +525,7 @@ var pol_types = {
 		"label"		: "Kajuu Medium 01",
 		"template_tsid"	: "LIF1737DK0526F5",
 		"cost"		: "30000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_alakol_medium_01_49575.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_alakol_medium_01_49575.png"
 	},
 	"49"	: {
 		"uid"		: "kj_m2",
@@ -536,7 +536,7 @@ var pol_types = {
 		"label"		: "Kajuu Medium 02",
 		"template_tsid"	: "LIF1737DK0526F5",
 		"cost"		: "30000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_alakol_medium_02_49465.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_alakol_medium_02_49465.png"
 	},
 	"50"	: {
 		"uid"		: "kj_m3",
@@ -547,7 +547,7 @@ var pol_types = {
 		"label"		: "Kajuu Medium 03",
 		"template_tsid"	: "LIF1737DK0526F5",
 		"cost"		: "30000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_alakol_medium_03_49572.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_alakol_medium_03_49572.png"
 	},
 	"51"	: {
 		"uid"		: "an_l1",
@@ -558,7 +558,7 @@ var pol_types = {
 		"label"		: "Andra Large 01",
 		"template_tsid"	: "LHVPFH43LS62345",
 		"cost"		: "10000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_andra_large_01_55976.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_andra_large_01_55976.png"
 	},
 	"52"	: {
 		"uid"		: "an_m1",
@@ -569,7 +569,7 @@ var pol_types = {
 		"label"		: "Andra Medium 01",
 		"template_tsid"	: "LHV38U7BAS62F3N",
 		"cost"		: "7500",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_andra_medium_01_55976.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_andra_medium_01_55976.png"
 	},
 	"53"	: {
 		"uid"		: "an_s1",
@@ -580,7 +580,7 @@ var pol_types = {
 		"label"		: "Andra Small 01",
 		"template_tsid"	: "LHVCIQTACS62VLN",
 		"cost"		: "5000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_andra_small_01_55976.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_andra_small_01_55976.png"
 	},
 	"54"	: {
 		"uid"		: "groupgm01",
@@ -591,7 +591,7 @@ var pol_types = {
 		"label"		: "Group Meadows 1",
 		"template_tsid"	: "LIFDBASTSAA2AIU",
 		"cost"		: "0",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_unknown_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_unknown_28144.png"
 	},
 	"55"	: {
 		"uid"		: "groupgm02",
@@ -602,7 +602,7 @@ var pol_types = {
 		"label"		: "Group Meadows 2",
 		"template_tsid"	: "LA5H0CNSTAA2G64",
 		"cost"		: "0",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_unknown_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_unknown_28144.png"
 	},
 	"56"	: {
 		"uid"		: "groupgf01",
@@ -613,7 +613,7 @@ var pol_types = {
 		"label"		: "Group Forest 1",
 		"template_tsid"	: "LA9IKALC0BA2VJP",
 		"cost"		: "0",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_unknown_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_unknown_28144.png"
 	},
 	"57"	: {
 		"uid"		: "groupgf02",
@@ -624,7 +624,7 @@ var pol_types = {
 		"label"		: "Group Forest 2",
 		"template_tsid"	: "LA92HU6EPAA25JL",
 		"cost"		: "0",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_unknown_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_unknown_28144.png"
 	},
 	"58"	: {
 		"uid"		: "ara_l1",
@@ -635,7 +635,7 @@ var pol_types = {
 		"label"		: "Aranna Large 01",
 		"template_tsid"	: "LA5BHS0TKEB2L5R",
 		"cost"		: "10000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_aranna_large_01_62654.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_aranna_large_01_62654.png"
 	},
 	"59"	: {
 		"uid"		: "ara_m1",
@@ -646,7 +646,7 @@ var pol_types = {
 		"label"		: "Aranna Medium 01",
 		"template_tsid"	: "LA5D0U360NB2LJB",
 		"cost"		: "7500",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_aranna_medium_01_62654.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_aranna_medium_01_62654.png"
 	},
 	"60"	: {
 		"uid"		: "ara_s1",
@@ -657,7 +657,7 @@ var pol_types = {
 		"label"		: "Aranna Small 01",
 		"template_tsid"	: "LA55GIHG9MB21JH",
 		"cost"		: "5000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_aranna_small_01_62654.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_aranna_small_01_62654.png"
 	},
 	"61"	: {
 		"uid"		: "am_small_01",
@@ -668,7 +668,7 @@ var pol_types = {
 		"label"		: "AM Small 01",
 		"template_tsid"	: "LHV8GOFIH0H29P3",
 		"cost"		: "4200",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_small_01_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_small_01_28144.png"
 	},
 	"62"	: {
 		"uid"		: "am_small_02",
@@ -679,7 +679,7 @@ var pol_types = {
 		"label"		: "AM Small 02",
 		"template_tsid"	: "LHV8LHAJH0H2HM0",
 		"cost"		: "3500",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_small_02_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_small_02_28144.png"
 	},
 	"63"	: {
 		"uid"		: "am_small_03",
@@ -690,7 +690,7 @@ var pol_types = {
 		"label"		: "AM Small 03",
 		"template_tsid"	: "LHV8QG7KH0H2I5N",
 		"cost"		: "5000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_small_03_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_small_03_28144.png"
 	},
 	"64"	: {
 		"uid"		: "am_small_04",
@@ -701,7 +701,7 @@ var pol_types = {
 		"label"		: "AM Small 04",
 		"template_tsid"	: "LHV90M8LH0H2VJ1",
 		"cost"		: "4500",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_small_04_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_small_04_28144.png"
 	},
 	"65"	: {
 		"uid"		: "am_small_05",
@@ -712,7 +712,7 @@ var pol_types = {
 		"label"		: "AM Small 05",
 		"template_tsid"	: "LHV94P9MH0H2B1R",
 		"cost"		: "3900",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_small_05_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_small_05_28144.png"
 	},
 	"66"	: {
 		"uid"		: "am_medium_01",
@@ -723,7 +723,7 @@ var pol_types = {
 		"label"		: "AM Medium 01",
 		"template_tsid"	: "LHV7BAQAH0H2I8I",
 		"cost"		: "10000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_medium_01_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_medium_01_28144.png"
 	},
 	"67"	: {
 		"uid"		: "am_medium_02",
@@ -734,7 +734,7 @@ var pol_types = {
 		"label"		: "AM Medium 02",
 		"template_tsid"	: "LHV7LFLCH0H2PTS",
 		"cost"		: "10000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_medium_02_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_medium_02_28144.png"
 	},
 	"68"	: {
 		"uid"		: "am_medium_03",
@@ -745,7 +745,7 @@ var pol_types = {
 		"label"		: "AM Medium 03",
 		"template_tsid"	: "LHV7QAHDH0H2N3P",
 		"cost"		: "10000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_medium_03_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_medium_03_28144.png"
 	},
 	"69"	: {
 		"uid"		: "am_medium_04",
@@ -756,7 +756,7 @@ var pol_types = {
 		"label"		: "AM Medium 04",
 		"template_tsid"	: "LHV85QBGH0H28S6",
 		"cost"		: "10000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_medium_04_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_medium_04_28144.png"
 	},
 	"70"	: {
 		"uid"		: "am_medium_05",
@@ -767,7 +767,7 @@ var pol_types = {
 		"label"		: "AM Medium 05",
 		"template_tsid"	: "LHV89T7HH0H2DLL",
 		"cost"		: "10000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_medium_05_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_medium_05_28144.png"
 	},
 	"71"	: {
 		"uid"		: "am_large_01",
@@ -778,7 +778,7 @@ var pol_types = {
 		"label"		: "AM Large 01",
 		"template_tsid"	: "LHV4QHQRG0H2R7S",
 		"cost"		: "15000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_large_01_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_large_01_28144.png"
 	},
 	"72"	: {
 		"uid"		: "am_large_02",
@@ -789,7 +789,7 @@ var pol_types = {
 		"label"		: "AM Large 02",
 		"template_tsid"	: "LHV52D7TG0H21J4",
 		"cost"		: "15000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_large_02_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_large_02_28144.png"
 	},
 	"73"	: {
 		"uid"		: "am_large_03",
@@ -800,7 +800,7 @@ var pol_types = {
 		"label"		: "AM Large 03",
 		"template_tsid"	: "LHV572STG0H2NKH",
 		"cost"		: "15000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_large_03_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_large_03_28144.png"
 	},
 	"74"	: {
 		"uid"		: "am_large_04",
@@ -811,7 +811,7 @@ var pol_types = {
 		"label"		: "AM Large 04",
 		"template_tsid"	: "LHV5B5JUG0H2NRD",
 		"cost"		: "15000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_large_04_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_large_04_28144.png"
 	},
 	"75"	: {
 		"uid"		: "am_large_05",
@@ -822,7 +822,7 @@ var pol_types = {
 		"label"		: "AM Large 05",
 		"template_tsid"	: "LHV6TR88H0H221O",
 		"cost"		: "15000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_large_05_28144.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_large_05_28144.png"
 	},
 	"76"	: {
 		"uid"		: "ah_small_01",
@@ -833,7 +833,7 @@ var pol_types = {
 		"label"		: "AH Small 01",
 		"template_tsid"	: "LHV6SM9RV0H2SFJ",
 		"cost"		: "5000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_aranna_small_01_62654.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_aranna_small_01_62654.png"
 	},
 	"77"	: {
 		"uid"		: "ah_medium_01",
@@ -844,7 +844,7 @@ var pol_types = {
 		"label"		: "AH Medium 01",
 		"template_tsid"	: "LHV2G13TU0H25IQ",
 		"cost"		: "7500",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_aranna_medium_01_62654.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_aranna_medium_01_62654.png"
 	},
 	"78"	: {
 		"uid"		: "ah_large_01",
@@ -855,7 +855,7 @@ var pol_types = {
 		"label"		: "AH Large 01",
 		"template_tsid"	: "LHVTS542U0H2ECL",
 		"cost"		: "10000",
-		"ext_img_full"	: "http:\/\/c1.glitch.bz\/img\/houses\/ext_150_aranna_large_01_62654.png"
+		"ext_img_full"	: "\/c1.glitch.bz\/img\/houses\/ext_150_aranna_large_01_62654.png"
 	}
 };
 var quarter_templates = {

@@ -7,10 +7,10 @@ var last_published	= 1323915599;
 var is_shareworthy	= 0;
 var url		= "first-emblem-of-friendly";
 var category		= "giants";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/first_friendly_emblem_1304983701.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/first_friendly_emblem_1304983701_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/first_friendly_emblem_1304983701_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/first_friendly_emblem_1304983701_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/first_friendly_emblem_1304983701.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/first_friendly_emblem_1304983701_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/first_friendly_emblem_1304983701_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/first_friendly_emblem_1304983701_40.png";
 function on_apply(pc){
 	
 }

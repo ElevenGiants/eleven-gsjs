@@ -7,10 +7,10 @@ var last_published	= 1348801449;
 var is_shareworthy	= 1;
 var url		= "jiggers-ribbon";
 var category		= "alchemy";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-23\/jiggers_ribbon_1322093715.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-23\/jiggers_ribbon_1322093715_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-23\/jiggers_ribbon_1322093715_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-23\/jiggers_ribbon_1322093715_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-11-23\/jiggers_ribbon_1322093715.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-11-23\/jiggers_ribbon_1322093715_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-11-23\/jiggers_ribbon_1322093715_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-11-23\/jiggers_ribbon_1322093715_40.png";
 function on_apply(pc){
 	
 }

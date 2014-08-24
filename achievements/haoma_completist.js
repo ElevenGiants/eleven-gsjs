@@ -7,10 +7,10 @@ var last_published	= 1350066106;
 var is_shareworthy	= 1;
 var url		= "haoma-completist";
 var category		= "exploring";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-09-07\/haoma_completist_1347052794.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-09-07\/haoma_completist_1347052794_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-09-07\/haoma_completist_1347052794_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-09-07\/haoma_completist_1347052794_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-09-07\/haoma_completist_1347052794.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-09-07\/haoma_completist_1347052794_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-09-07\/haoma_completist_1347052794_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-09-07\/haoma_completist_1347052794_40.png";
 function on_apply(pc){
 	
 }

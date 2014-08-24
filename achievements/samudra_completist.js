@@ -7,10 +7,10 @@ var last_published	= 1353545323;
 var is_shareworthy	= 1;
 var url		= "samudra-completist";
 var category		= "exploring";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-11-18\/samudra_completist_1353295420.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-11-18\/samudra_completist_1353295420_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-11-18\/samudra_completist_1353295420_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-11-18\/samudra_completist_1353295420_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-11-18\/samudra_completist_1353295420.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-11-18\/samudra_completist_1353295420_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-11-18\/samudra_completist_1353295420_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-11-18\/samudra_completist_1353295420_40.png";
 function on_apply(pc){
 	
 }

@@ -7,10 +7,10 @@ var last_published	= 1348796821;
 var is_shareworthy	= 1;
 var url		= "bowser";
 var category		= "industrial";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/bowser_1339713867.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/bowser_1339713867_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/bowser_1339713867_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/bowser_1339713867_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-06-14\/bowser_1339713867.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-06-14\/bowser_1339713867_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-06-14\/bowser_1339713867_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-06-14\/bowser_1339713867_40.png";
 function on_apply(pc){
 	
 }

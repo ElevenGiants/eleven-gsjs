@@ -7,10 +7,10 @@ var last_published	= 1338918371;
 var is_shareworthy	= 0;
 var url		= "entrylevel-admixificator";
 var category		= "alchemy";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/entrylevel_admixificator_1304984093.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/entrylevel_admixificator_1304984093_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/entrylevel_admixificator_1304984093_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/entrylevel_admixificator_1304984093_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/entrylevel_admixificator_1304984093.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/entrylevel_admixificator_1304984093_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/entrylevel_admixificator_1304984093_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/entrylevel_admixificator_1304984093_40.png";
 function on_apply(pc){
 	
 }

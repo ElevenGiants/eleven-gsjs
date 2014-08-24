@@ -7,10 +7,10 @@ var last_published	= 1351724334;
 var is_shareworthy	= 0;
 var url		= "blendmaster";
 var category		= "cooking";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/blendmaster_1304983608.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/blendmaster_1304983608_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/blendmaster_1304983608_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/blendmaster_1304983608_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/blendmaster_1304983608.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/blendmaster_1304983608_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/blendmaster_1304983608_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/blendmaster_1304983608_40.png";
 function on_apply(pc){
 	
 }

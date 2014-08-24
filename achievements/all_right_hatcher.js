@@ -7,10 +7,10 @@ var last_published	= 1349313892;
 var is_shareworthy	= 1;
 var url		= "all-right-hatcher";
 var category		= "animals";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/all_right_hatcher_1304984155.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/all_right_hatcher_1304984155_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/all_right_hatcher_1304984155_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/all_right_hatcher_1304984155_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/all_right_hatcher_1304984155.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/all_right_hatcher_1304984155_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/all_right_hatcher_1304984155_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/all_right_hatcher_1304984155_40.png";
 function on_apply(pc){
 	
 }

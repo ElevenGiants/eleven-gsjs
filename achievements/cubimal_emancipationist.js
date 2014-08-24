@@ -7,10 +7,10 @@ var last_published	= 1348797396;
 var is_shareworthy	= 1;
 var url		= "cubimal-emancipationist";
 var category		= "player";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-21\/cubimal_emancipationist_1340313072.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-21\/cubimal_emancipationist_1340313072_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-21\/cubimal_emancipationist_1340313072_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-21\/cubimal_emancipationist_1340313072_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-06-21\/cubimal_emancipationist_1340313072.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-06-21\/cubimal_emancipationist_1340313072_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-06-21\/cubimal_emancipationist_1340313072_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-06-21\/cubimal_emancipationist_1340313072_40.png";
 function on_apply(pc){
 	
 }

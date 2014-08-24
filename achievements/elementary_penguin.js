@@ -7,10 +7,10 @@ var last_published	= 1348797737;
 var is_shareworthy	= 1;
 var url		= "elementary-penguin";
 var category		= "alchemy";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-17\/elementary_penguin_1321580404.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-17\/elementary_penguin_1321580404_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-17\/elementary_penguin_1321580404_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-17\/elementary_penguin_1321580404_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-11-17\/elementary_penguin_1321580404.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-11-17\/elementary_penguin_1321580404_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-11-17\/elementary_penguin_1321580404_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-11-17\/elementary_penguin_1321580404_40.png";
 function on_apply(pc){
 	
 }

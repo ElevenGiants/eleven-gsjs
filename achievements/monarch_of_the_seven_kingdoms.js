@@ -7,10 +7,10 @@ var last_published	= 1348801894;
 var is_shareworthy	= 1;
 var url		= "monarch-of-the-seven-kingdoms";
 var category		= "games";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-08\/monarch_of_the_seven_kingdoms_1315512121.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-08\/monarch_of_the_seven_kingdoms_1315512121_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-08\/monarch_of_the_seven_kingdoms_1315512121_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-08\/monarch_of_the_seven_kingdoms_1315512121_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-09-08\/monarch_of_the_seven_kingdoms_1315512121.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-09-08\/monarch_of_the_seven_kingdoms_1315512121_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-09-08\/monarch_of_the_seven_kingdoms_1315512121_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-09-08\/monarch_of_the_seven_kingdoms_1315512121_40.png";
 function on_apply(pc){
 	
 }

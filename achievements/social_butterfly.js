@@ -7,10 +7,10 @@ var last_published	= 1351309723;
 var is_shareworthy	= 1;
 var url		= "social-butterfly";
 var category		= "social";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-29\/social_butterfly_1351536165.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-29\/social_butterfly_1351536165_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-29\/social_butterfly_1351536165_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-29\/social_butterfly_1351536165_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-10-29\/social_butterfly_1351536165.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-10-29\/social_butterfly_1351536165_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-10-29\/social_butterfly_1351536165_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-10-29\/social_butterfly_1351536165_40.png";
 function on_apply(pc){
 	
 }

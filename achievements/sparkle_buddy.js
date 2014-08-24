@@ -7,10 +7,10 @@ var last_published	= 1316303737;
 var is_shareworthy	= 0;
 var url		= "sparkle-buddy";
 var category		= "alchemy";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/sparkle_buddy_1304984077.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/sparkle_buddy_1304984077_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/sparkle_buddy_1304984077_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/sparkle_buddy_1304984077_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/sparkle_buddy_1304984077.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/sparkle_buddy_1304984077_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/sparkle_buddy_1304984077_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/sparkle_buddy_1304984077_40.png";
 function on_apply(pc){
 	
 }

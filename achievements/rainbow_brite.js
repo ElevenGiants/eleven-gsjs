@@ -7,10 +7,10 @@ var last_published	= 1351725155;
 var is_shareworthy	= 1;
 var url		= "rainbo-brite";
 var category		= "cooking";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-30\/rainbow_brite_1351618935.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-30\/rainbow_brite_1351618935_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-30\/rainbow_brite_1351618935_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-30\/rainbow_brite_1351618935_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-10-30\/rainbow_brite_1351618935.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-10-30\/rainbow_brite_1351618935_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-10-30\/rainbow_brite_1351618935_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-10-30\/rainbow_brite_1351618935_40.png";
 function on_apply(pc){
 	
 }

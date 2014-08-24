@@ -7,10 +7,10 @@ var last_published	= 1348801857;
 var is_shareworthy	= 1;
 var url		= "master-overlord-of-the-spice-dominion";
 var category		= "trees";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/master_overlord_of_the_spice_dominion_1304984507.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/master_overlord_of_the_spice_dominion_1304984507_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/master_overlord_of_the_spice_dominion_1304984507_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/master_overlord_of_the_spice_dominion_1304984507_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/master_overlord_of_the_spice_dominion_1304984507.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/master_overlord_of_the_spice_dominion_1304984507_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/master_overlord_of_the_spice_dominion_1304984507_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/master_overlord_of_the_spice_dominion_1304984507_40.png";
 function on_apply(pc){
 	
 }

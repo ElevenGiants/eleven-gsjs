@@ -7,10 +7,10 @@ var last_published	= 1348797057;
 var is_shareworthy	= 1;
 var url		= "captain-of-the-anti-temperance-league";
 var category		= "alchemy";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-17\/captain_of_the_anti_temperance_league_1321576683.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-17\/captain_of_the_anti_temperance_league_1321576683_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-17\/captain_of_the_anti_temperance_league_1321576683_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-17\/captain_of_the_anti_temperance_league_1321576683_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-11-17\/captain_of_the_anti_temperance_league_1321576683.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-11-17\/captain_of_the_anti_temperance_league_1321576683_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-11-17\/captain_of_the_anti_temperance_league_1321576683_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-11-17\/captain_of_the_anti_temperance_league_1321576683_40.png";
 function on_apply(pc){
 	
 }

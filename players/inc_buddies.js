@@ -724,7 +724,7 @@ function buddies_get_cache_data(){
 			out[i] = props[i];
 		}
 		else{
-			out[i] = props[i] ? props[i].replace('http://c2.glitch.bz/avatars/', '') : props[i];
+			out[i] = props[i] ? props[i].replace('/c2.glitch.bz/avatars/', '') : props[i];
 		}
 	}
 
@@ -805,8 +805,8 @@ function buddies_get_from_cache(tsid){
 		is_admin: false,
 		is_guide: false,
 		sheet_pending: cache.sheet_pending,
-		sheet_url: cache.sheet_url ? 'http://c2.glitch.bz/avatars/'+cache.sheet_url : null,
-		singles_url: cache.singles_url ? 'http://c2.glitch.bz/avatars/'+cache.singles_url : null
+		sheet_url: cache.sheet_url ? '/c2.glitch.bz/avatars/'+cache.sheet_url : null,
+		singles_url: cache.singles_url ? '/c2.glitch.bz/avatars/'+cache.singles_url : null
 	};
 
 	if (cache.is_deleted) ret.is_deleted = true;

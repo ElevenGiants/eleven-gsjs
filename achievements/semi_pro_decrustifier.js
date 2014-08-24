@@ -7,10 +7,10 @@ var last_published	= 1348802522;
 var is_shareworthy	= 1;
 var url		= "semi-pro-decrustifier";
 var category		= "harvesting";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/semi_pro_decrustifier_1315685949.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/semi_pro_decrustifier_1315685949_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/semi_pro_decrustifier_1315685949_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/semi_pro_decrustifier_1315685949_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-09-10\/semi_pro_decrustifier_1315685949.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-09-10\/semi_pro_decrustifier_1315685949_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-09-10\/semi_pro_decrustifier_1315685949_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-09-10\/semi_pro_decrustifier_1315685949_40.png";
 function on_apply(pc){
 	
 }

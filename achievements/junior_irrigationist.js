@@ -7,10 +7,10 @@ var last_published	= 1349313886;
 var is_shareworthy	= 1;
 var url		= "junior-irrigationist";
 var category		= "trees";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/junior_irrigationist_1304984676.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/junior_irrigationist_1304984676_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/junior_irrigationist_1304984676_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/junior_irrigationist_1304984676_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/junior_irrigationist_1304984676.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/junior_irrigationist_1304984676_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/junior_irrigationist_1304984676_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/junior_irrigationist_1304984676_40.png";
 function on_apply(pc){
 	
 }

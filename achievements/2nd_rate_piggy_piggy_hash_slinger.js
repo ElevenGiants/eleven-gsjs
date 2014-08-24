@@ -7,10 +7,10 @@ var last_published	= 1352092060;
 var is_shareworthy	= 0;
 var url		= "2nd-rate-piggy-piggy-hash-slinger";
 var category		= "animals";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/2nd_rate_piggy_piggy_hash_slinger_1304984245.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/2nd_rate_piggy_piggy_hash_slinger_1304984245_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/2nd_rate_piggy_piggy_hash_slinger_1304984245_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/2nd_rate_piggy_piggy_hash_slinger_1304984245_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/2nd_rate_piggy_piggy_hash_slinger_1304984245.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/2nd_rate_piggy_piggy_hash_slinger_1304984245_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/2nd_rate_piggy_piggy_hash_slinger_1304984245_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/2nd_rate_piggy_piggy_hash_slinger_1304984245_40.png";
 function on_apply(pc){
 	
 }

@@ -7,10 +7,10 @@ var last_published	= 1348801518;
 var is_shareworthy	= 1;
 var url		= "loneliness-of-the-long-distance-cubimal";
 var category		= "player";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-20\/loneliness_of_the_long_distance_cubimal_1340238848.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-20\/loneliness_of_the_long_distance_cubimal_1340238848_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-20\/loneliness_of_the_long_distance_cubimal_1340238848_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-20\/loneliness_of_the_long_distance_cubimal_1340238848_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-06-20\/loneliness_of_the_long_distance_cubimal_1340238848.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-06-20\/loneliness_of_the_long_distance_cubimal_1340238848_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-06-20\/loneliness_of_the_long_distance_cubimal_1340238848_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-06-20\/loneliness_of_the_long_distance_cubimal_1340238848_40.png";
 function on_apply(pc){
 	
 }

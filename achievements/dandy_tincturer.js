@@ -7,10 +7,10 @@ var last_published	= 1338918622;
 var is_shareworthy	= 0;
 var url		= "dandy-tincturer";
 var category		= "alchemy";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-17\/dandy_tincturer_1321576686.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-17\/dandy_tincturer_1321576686_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-17\/dandy_tincturer_1321576686_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-17\/dandy_tincturer_1321576686_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-11-17\/dandy_tincturer_1321576686.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-11-17\/dandy_tincturer_1321576686_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-11-17\/dandy_tincturer_1321576686_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-11-17\/dandy_tincturer_1321576686_40.png";
 function on_apply(pc){
 	
 }

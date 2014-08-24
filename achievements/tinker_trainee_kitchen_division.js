@@ -7,10 +7,10 @@ var last_published	= 1340231247;
 var is_shareworthy	= 0;
 var url		= "tinker-trainee-kitchen-division";
 var category		= "industrial";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/tinker_trainee_kitchen_division_1304984908.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/tinker_trainee_kitchen_division_1304984908_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/tinker_trainee_kitchen_division_1304984908_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/tinker_trainee_kitchen_division_1304984908_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/tinker_trainee_kitchen_division_1304984908.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/tinker_trainee_kitchen_division_1304984908_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/tinker_trainee_kitchen_division_1304984908_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/tinker_trainee_kitchen_division_1304984908_40.png";
 function on_apply(pc){
 	
 }

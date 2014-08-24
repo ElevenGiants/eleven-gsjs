@@ -115,7 +115,7 @@ var itemDef = {
 	is_hidden	: this.is_hidden,
 	has_info	: this.has_info,
 	adjusted_scale	: this.adjusted_scale,
-	asset_swf_v	: "http:\/\/c2.glitch.bz\/items\/2011-06\/bag_trophycase_bottletree-1308950615.swf",
+	asset_swf_v	: "\/c2.glitch.bz\/items\/2011-06\/bag_trophycase_bottletree-1308950615.swf",
 	admin_props	: false,
 	obey_physics	: false,
 	in_background	: true,

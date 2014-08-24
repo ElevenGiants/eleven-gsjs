@@ -432,7 +432,7 @@ var itemDef = {
 	is_hidden	: this.is_hidden,
 	has_info	: this.has_info,
 	adjusted_scale	: this.adjusted_scale,
-	asset_swf_v	: "http:\/\/c2.glitch.bz\/items\/2012-04\/musicblock_b_brown_05-1334256357.swf",
+	asset_swf_v	: "\/c2.glitch.bz\/items\/2012-04\/musicblock_b_brown_05-1334256357.swf",
 	admin_props	: false,
 	obey_physics	: true,
 	in_background	: false,

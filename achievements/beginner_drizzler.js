@@ -7,10 +7,10 @@ var last_published	= 1323931324;
 var is_shareworthy	= 0;
 var url		= "beginner-drizzler";
 var category		= "trees";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/beginner_drizzler_1304984691.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/beginner_drizzler_1304984691_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/beginner_drizzler_1304984691_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/beginner_drizzler_1304984691_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/beginner_drizzler_1304984691.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/beginner_drizzler_1304984691_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/beginner_drizzler_1304984691_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/beginner_drizzler_1304984691_40.png";
 function on_apply(pc){
 	
 }

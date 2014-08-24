@@ -1724,7 +1724,7 @@ var itemDef = {
 	is_hidden	: this.is_hidden,
 	has_info	: this.has_info,
 	adjusted_scale	: this.adjusted_scale,
-	asset_swf_v	: "http:\/\/c2.glitch.bz\/items\/2012-07\/metalmaker-1342140736.swf",
+	asset_swf_v	: "\/c2.glitch.bz\/items\/2012-07\/metalmaker-1342140736.swf",
 	admin_props	: true,
 	obey_physics	: false,
 	in_background	: false,

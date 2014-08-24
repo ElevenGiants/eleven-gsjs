@@ -7,10 +7,10 @@ var last_published	= 1354139883;
 var is_shareworthy	= 1;
 var url		= "haraiva-completist";
 var category		= "exploring";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-03-20\/haraiva_completist_1332294024.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-03-20\/haraiva_completist_1332294024_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-03-20\/haraiva_completist_1332294024_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-03-20\/haraiva_completist_1332294024_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-03-20\/haraiva_completist_1332294024.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-03-20\/haraiva_completist_1332294024_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-03-20\/haraiva_completist_1332294024_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-03-20\/haraiva_completist_1332294024_40.png";
 function on_apply(pc){
 	
 }

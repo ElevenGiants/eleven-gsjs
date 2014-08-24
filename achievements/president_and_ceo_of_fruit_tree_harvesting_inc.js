@@ -7,10 +7,10 @@ var last_published	= 1348802253;
 var is_shareworthy	= 1;
 var url		= "president-and-ceo-of-fruit-tree-harvesting-inc";
 var category		= "trees";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/president_and_ceo_of_fruit_tree_harvesting_inc_1304984502.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/president_and_ceo_of_fruit_tree_harvesting_inc_1304984502_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/president_and_ceo_of_fruit_tree_harvesting_inc_1304984502_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/president_and_ceo_of_fruit_tree_harvesting_inc_1304984502_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/president_and_ceo_of_fruit_tree_harvesting_inc_1304984502.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/president_and_ceo_of_fruit_tree_harvesting_inc_1304984502_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/president_and_ceo_of_fruit_tree_harvesting_inc_1304984502_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/president_and_ceo_of_fruit_tree_harvesting_inc_1304984502_40.png";
 function on_apply(pc){
 	
 }

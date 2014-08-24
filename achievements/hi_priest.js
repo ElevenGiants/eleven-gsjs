@@ -7,10 +7,10 @@ var last_published	= 1351302645;
 var is_shareworthy	= 1;
 var url		= "hi-priest";
 var category		= "social";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-26\/hi_priest_1351296894.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-26\/hi_priest_1351296894_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-26\/hi_priest_1351296894_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-10-26\/hi_priest_1351296894_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-10-26\/hi_priest_1351296894.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-10-26\/hi_priest_1351296894_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-10-26\/hi_priest_1351296894_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-10-26\/hi_priest_1351296894_40.png";
 function on_apply(pc){
 	
 }

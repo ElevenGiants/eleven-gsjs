@@ -7,10 +7,10 @@ var last_published	= 1348803102;
 var is_shareworthy	= 1;
 var url		= "whack-job-extraordinaire";
 var category		= "trees";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/whack_job_extraordinaire_1304984276.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/whack_job_extraordinaire_1304984276_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/whack_job_extraordinaire_1304984276_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/whack_job_extraordinaire_1304984276_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/whack_job_extraordinaire_1304984276.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/whack_job_extraordinaire_1304984276_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/whack_job_extraordinaire_1304984276_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/whack_job_extraordinaire_1304984276_40.png";
 function on_apply(pc){
 	
 }

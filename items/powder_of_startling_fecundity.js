@@ -569,7 +569,7 @@ var itemDef = {
 	is_hidden	: this.is_hidden,
 	has_info	: this.has_info,
 	adjusted_scale	: this.adjusted_scale,
-	asset_swf_v	: "http:\/\/c2.glitch.bz\/items\/2012-04\/powder_of_startling_fecundity-1334336355.swf",
+	asset_swf_v	: "\/c2.glitch.bz\/items\/2012-04\/powder_of_startling_fecundity-1334336355.swf",
 	admin_props	: true,
 	obey_physics	: true,
 	in_background	: false,

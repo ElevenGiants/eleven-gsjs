@@ -7,10 +7,10 @@ var last_published	= 1349460895;
 var is_shareworthy	= 1;
 var url		= "promising-lush";
 var category		= "player";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/promising_lush_1304983578.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/promising_lush_1304983578_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/promising_lush_1304983578_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/promising_lush_1304983578_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/promising_lush_1304983578.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/promising_lush_1304983578_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/promising_lush_1304983578_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/promising_lush_1304983578_40.png";
 function on_apply(pc){
 	
 }

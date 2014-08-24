@@ -7,10 +7,10 @@ var last_published	= 1350066411;
 var is_shareworthy	= 1;
 var url		= "muufo-completist";
 var category		= "exploring";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-22\/muufo_completist_1316741860.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-22\/muufo_completist_1316741860_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-22\/muufo_completist_1316741860_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-22\/muufo_completist_1316741860_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-09-22\/muufo_completist_1316741860.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-09-22\/muufo_completist_1316741860_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-09-22\/muufo_completist_1316741860_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-09-22\/muufo_completist_1316741860_40.png";
 function on_apply(pc){
 	
 }

@@ -7,10 +7,10 @@ var last_published	= 1348798876;
 var is_shareworthy	= 1;
 var url		= "ground-hogger";
 var category		= "exploring";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/ground_hogger_1315686088.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/ground_hogger_1315686088_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/ground_hogger_1315686088_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/ground_hogger_1315686088_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-09-10\/ground_hogger_1315686088.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-09-10\/ground_hogger_1315686088_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-09-10\/ground_hogger_1315686088_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-09-10\/ground_hogger_1315686088_40.png";
 function on_apply(pc){
 	
 }

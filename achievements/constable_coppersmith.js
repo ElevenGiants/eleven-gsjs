@@ -7,10 +7,10 @@ var last_published	= 1315936987;
 var is_shareworthy	= 0;
 var url		= "constable-coppersmith";
 var category		= "alchemy";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/constable_coppersmith_1315685805.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/constable_coppersmith_1315685805_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/constable_coppersmith_1315685805_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-10\/constable_coppersmith_1315685805_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-09-10\/constable_coppersmith_1315685805.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-09-10\/constable_coppersmith_1315685805_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-09-10\/constable_coppersmith_1315685805_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-09-10\/constable_coppersmith_1315685805_40.png";
 function on_apply(pc){
 	
 }

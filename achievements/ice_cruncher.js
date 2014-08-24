@@ -7,10 +7,10 @@ var last_published	= 1348799181;
 var is_shareworthy	= 1;
 var url		= "ice-cruncher";
 var category		= "player";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-24\/ice_cruncher_1316906561.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-24\/ice_cruncher_1316906561_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-24\/ice_cruncher_1316906561_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-09-24\/ice_cruncher_1316906561_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-09-24\/ice_cruncher_1316906561.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-09-24\/ice_cruncher_1316906561_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-09-24\/ice_cruncher_1316906561_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-09-24\/ice_cruncher_1316906561_40.png";
 function on_apply(pc){
 	
 }

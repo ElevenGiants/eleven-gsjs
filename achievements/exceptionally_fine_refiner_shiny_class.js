@@ -7,10 +7,10 @@ var last_published	= 1348798416;
 var is_shareworthy	= 1;
 var url		= "exceptionally-fine-refiner-shiny-class";
 var category		= "industrial";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/exceptionally_fine_refiner_shiny_class_1304984891.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/exceptionally_fine_refiner_shiny_class_1304984891_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/exceptionally_fine_refiner_shiny_class_1304984891_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-05-09\/exceptionally_fine_refiner_shiny_class_1304984891_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-05-09\/exceptionally_fine_refiner_shiny_class_1304984891.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-05-09\/exceptionally_fine_refiner_shiny_class_1304984891_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-05-09\/exceptionally_fine_refiner_shiny_class_1304984891_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-05-09\/exceptionally_fine_refiner_shiny_class_1304984891_40.png";
 function on_apply(pc){
 	
 }

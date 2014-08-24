@@ -7,10 +7,10 @@ var last_published	= 1348796811;
 var is_shareworthy	= 1;
 var url		= "bootleg-facilitator";
 var category		= "alchemy";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-17\/bootleg_facilitator_1321576680.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-17\/bootleg_facilitator_1321576680_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-17\/bootleg_facilitator_1321576680_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2011-11-17\/bootleg_facilitator_1321576680_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2011-11-17\/bootleg_facilitator_1321576680.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2011-11-17\/bootleg_facilitator_1321576680_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2011-11-17\/bootleg_facilitator_1321576680_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2011-11-17\/bootleg_facilitator_1321576680_40.png";
 function on_apply(pc){
 	
 }

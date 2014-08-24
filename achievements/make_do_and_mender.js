@@ -7,10 +7,10 @@ var last_published	= 1348801544;
 var is_shareworthy	= 1;
 var url		= "make-do-and-mender";
 var category		= "cultivation";
-var url_swf		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/make_do_and_mender_1339702882.swf";
-var url_img_180		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/make_do_and_mender_1339702882_180.png";
-var url_img_60		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/make_do_and_mender_1339702882_60.png";
-var url_img_40		= "http:\/\/c2.glitch.bz\/achievements\/2012-06-14\/make_do_and_mender_1339702882_40.png";
+var url_swf		= "\/c2.glitch.bz\/achievements\/2012-06-14\/make_do_and_mender_1339702882.swf";
+var url_img_180		= "\/c2.glitch.bz\/achievements\/2012-06-14\/make_do_and_mender_1339702882_180.png";
+var url_img_60		= "\/c2.glitch.bz\/achievements\/2012-06-14\/make_do_and_mender_1339702882_60.png";
+var url_img_40		= "\/c2.glitch.bz\/achievements\/2012-06-14\/make_do_and_mender_1339702882_40.png";
 function on_apply(pc){
 	
 }

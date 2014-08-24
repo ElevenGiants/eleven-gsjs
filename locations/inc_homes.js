@@ -2815,7 +2815,7 @@ function homes_get_style_choices(is_admin){
 				'label'		: style.label,
 				'is_current'	: !!(i == this.cfg.style),
 				'is_subscriber'	: style.is_subscriber,
-				'image'		: 'http://c2.glitch.bz/' + (style.thumb ? style.thumb : (img ? img.url : '')),
+				'image'		: '/c2.glitch.bz/' + (style.thumb ? style.thumb : (img ? img.url : '')),
 				'main_image'	: style.main_image,
 				'loading_image'	: style.loading_image,
 			};
@@ -2844,7 +2844,7 @@ function homes_get_style_choices(is_admin){
 				'label'		: style.label,
 				'is_current'	: !!(i == this.cfg.style),
 				'is_subscriber'	: style.is_subscriber,
-				'image'		: 'http://c2.glitch.bz/' + (style.thumb ? style.thumb : img.url),
+				'image'		: '/c2.glitch.bz/' + (style.thumb ? style.thumb : img.url),
 				'main_image'	: style.main_image,
 				'loading_image'	: style.loading_image,
 			};
