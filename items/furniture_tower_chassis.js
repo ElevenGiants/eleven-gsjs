@@ -507,6 +507,13 @@ function onJobComplete(job){ // defined by furniture_tower_chassis
 
 		pc.home.tower.tower_set_label(pc.label+"'s Tower");
 
+		// make home street Location object update its clientGeo property, so
+		// the client shows the door (after player.reloadGeometry).
+		// homes_position_tower above creates the door by manipulating
+		// loc.geometry; it is unclear how this change was propagated to
+		// clientGeo in the original server without calling apiGeometryUpdated.
+		pc.home.exterior.apiGeometryUpdated();
+		
 		pc.home.exterior.upgrades_move_players('tower');
 
 		pc.quests_set_flag('build_tower');

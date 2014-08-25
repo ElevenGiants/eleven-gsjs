@@ -868,6 +868,10 @@ function houses_go_to_new_house(force_recreate, no_teleport, go_inside){
 		this.home.interior.geo_door_set_dest_pos(doors_out[0].door_id, this.home.exterior, marker_outside.found ? marker_outside.x : doors_in[0].my_x, marker_outside.found ? marker_outside.y : doors_in[0].my_y);
 		this.home.exterior.geo_door_set_dest_pos(doors_in[0].door_id, this.home.interior, marker_inside.found ? marker_inside.x : doors_out[0].my_x, marker_inside.found ? marker_inside.y : doors_out[0].my_y);
 
+		// update home street clientGeo after changes to its geometry property
+		// (in geo_door_set_dest_pos); unclear why this was not required with
+		// the original server
+		this.home.exterior.apiGeometryUpdated();
 
 		//
 		// CH: build some demo rooms on the interior
