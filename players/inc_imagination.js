@@ -879,9 +879,6 @@ function imagination_get_quest_modifier(){
 
 function imagination_get_quoin_limit() {
 
-	// juicing for end of world
-	return 1355100037;
-
 	if (this.imagination_has_upgrade('daily_quoin_limit_5')) {
 		return 150;
 	}

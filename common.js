@@ -268,9 +268,6 @@ function isBirthday(pc) {
 //
 function isZilloween() {
 
-	// Special for end of the world:
-	return true;
-	
 	// Special for Halloween 2012 - start 6pm PST on the 30th, runs for 48 hours
 	var now = time();
 	var start = 1351645200;
@@ -293,9 +290,6 @@ function isZilloween() {
 }
 
 function isGlitchmas() {
-
-	// Special for end of the world:
-	return true;
 
 	// Currently enabled up until the 2012-01-03 10AM PST
 	if (getTime()/1000 < 1325613600){

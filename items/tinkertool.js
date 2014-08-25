@@ -793,9 +793,7 @@ function use(pc, points){ // defined by tool_base
 				}
 			}
 
-			// max_luck is undesirable for end of world
-			// if (is_chance(chance) || pc.buffs_has('max_luck')){
-			if (is_chance(chance)){
+			if (is_chance(chance) || pc.buffs_has('max_luck')){
 				this.doBreak();
 			}
 		}

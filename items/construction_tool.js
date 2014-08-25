@@ -329,9 +329,8 @@ function onMakingComplete(pc, recipe_id, count){ // defined by construction_tool
 	}
 
 	// Only a 5% chance
-	// not sure exactly what max_luck is doing here -- it may not wokr. removing it for end of world.
-	// if (!is_chance(0.05) && !pc.buffs_has('max_luck')) return;
-	if (!is_chance(0.05)) return;
+	// not sure exactly what max_luck is doing here -- it may not wokr.
+	if (!is_chance(0.05) && !pc.buffs_has('max_luck')) return;
 
 	// Need the required upgrade
 	if (!pc.imagination_has_upgrade('furnituremaking_bonus_upgrade_1') && 
@@ -666,9 +665,7 @@ function use(pc, points){ // defined by tool_base
 				}
 			}
 
-			// max_luck is undesirable for end of world
-			// if (is_chance(chance) || pc.buffs_has('max_luck')){
-			if (is_chance(chance)){
+			if (is_chance(chance) || pc.buffs_has('max_luck')){
 				this.doBreak();
 			}
 		}
