@@ -2315,6 +2315,14 @@ function doChatCommand(pc, msg, txt){
 
 		pc.apiSendMsg({ type: 'pc_itemstack_verb' });
 
+	}else if (words[0] == '/tpto'){ // /tpto TSID X Y ('template')
+
+		if (words[4] == "template") { // Allows users to edit instanced locations.
+			pc.teleportToLocation(words[1], words[2], words[3], { ignore_instance_me: true });
+		} else {
+			pc.teleportToLocation(words[1], words[2], words[3]);
+		}
+
 	}else if (words[0] == '/demo1'){
 
 		pc.stats_next_level();
