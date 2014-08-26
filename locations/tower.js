@@ -720,7 +720,7 @@ function tower_set_ceiling(ceiling_key, ceiling_type, preview){
 
 	if (preview){
 
-		var temp = utils.apiCopyHash(this.cfg.ceilings);
+		var temp = apiCopyHash(this.cfg.ceilings);
 		temp[floor_idx] = ceiling_type;
 		this.geo_textures_rebuild_ceilings(temp, preview);
 
@@ -755,7 +755,7 @@ function tower_set_floor(floor_key, floor_type, preview){
 
 	if (preview){
 
-		var temp = utils.apiCopyHash(this.cfg.flooring);
+		var temp = apiCopyHash(this.cfg.flooring);
 		temp[floor_idx] = floor_type;
 		this.geo_textures_rebuild_floors(temp, preview);
 	}else{
@@ -772,7 +772,7 @@ function tower_set_wp(wp_key, wp_type, preview){
 	var walls_config = {};
 
 	if (preview){
-		walls_config = utils.apiCopyHash(this.cfg.wallpaper);
+		walls_config = apiCopyHash(this.cfg.wallpaper);
 	}else{
 		walls_config = this.cfg.wallpaper;
 	}

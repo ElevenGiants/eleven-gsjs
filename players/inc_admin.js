@@ -1202,7 +1202,7 @@ function admin_get_named_animals(){
 	if (this.animals_named){
 		for (var i in this.animals_named){
 
-			var row = utils.apiCopyHash(this.animals_named[i]);
+			var row = apiCopyHash(this.animals_named[i]);
 
 			var item = null;
 			if (row.tsid) item = apiFindObject(row.tsid);

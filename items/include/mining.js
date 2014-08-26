@@ -11,7 +11,7 @@ function getVerbLabel(pc, verb) {
 		 * but before mining is actually completed. This means that if you're the only miner, you can get "help mine" as the
 		 * verb if you just hit the button fast enough. Ugh.
 	     */
-	     	var miner_count = utils.num_keys(this.miners);
+	     	var miner_count = num_keys(this.miners);
 
 
 		if(!this.miners || miner_count == 0 || (miner_count == 1 && this.miners[0] == pc.tsid)) {

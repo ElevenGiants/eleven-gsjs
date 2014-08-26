@@ -3,7 +3,6 @@
 // Kevin, there weren't any licensing terms on this, so please let us know 
 // (feedback@slack.com) if you'd like us to remove it.
 //
-//#include common.js
 //#include utils/craftytasking.js
 //#include utils/json.js
 //stuff will go here!
@@ -278,7 +277,7 @@ function ago(ts){
 }
 
 function copy_hash(hash){
-	return this.apiCopyHash(hash);
+	return apiCopyHash(hash);
 }
 
 function copy_value(v){

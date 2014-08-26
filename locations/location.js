@@ -4446,7 +4446,7 @@ function cloneLocationInfo(template){
 function getCloneLocationInfo(){
 
 	return {
-		events: utils.apiCopyHash(this.events),
+		events: apiCopyHash(this.events),
 	};
 }
 

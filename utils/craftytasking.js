@@ -350,7 +350,7 @@ function craftytasking_get_build_spec_recurs(crafty_bot, class_tsid, req_count, 
 							continue;
 						}
 						
-						var ing_spec = utils.craftytasking_get_build_spec_recurs(crafty_bot, ingredients[i][0], diff_required*ingredients[i][1], use_current_ingredients, claimed_ingredients, required_elements, claimed_crafting_items, level, cache_data);
+						var ing_spec = this.craftytasking_get_build_spec_recurs(crafty_bot, ingredients[i][0], diff_required*ingredients[i][1], use_current_ingredients, claimed_ingredients, required_elements, claimed_crafting_items, level, cache_data);
 						if (ing_spec){
 							var cannot_make = false;
 							//
@@ -514,7 +514,7 @@ function craftytasking_get_build_spec_list(spec, depth){
 	depth++;
 	
 	for (var i in spec['ingredients']){
-		var res = utils.craftytasking_get_build_spec_list(spec['ingredients'][i], depth);
+		var res = this.craftytasking_get_build_spec_list(spec['ingredients'][i], depth);
 		for (var j in res){
 			if (j){
 				if (!list[j]) list[j] = {};
@@ -856,7 +856,7 @@ function craftytasking_recipe_request(crafty_bot, msg){
 				// Found a match!
 				if (r.outputs[o][0] == class_id){
 					// Copy the recipe so we don't modify the catalog
-					rsp[class_id] = utils.copy_hash(r);
+					rsp[class_id] = this.copy_hash(r);
 					rsp[class_id].id = j; // We need recipe id too
 					
 					// Discoverable?
@@ -1381,7 +1381,7 @@ function craftytasking_build_cache(container){
 		recipe = all_recipes[i];
 		recipe['id'] = i;
 		for (var j in recipe.outputs){
-			cache_data['recipe_cache'][recipe.outputs[j][0]] = utils.copy_hash(recipe);
+			cache_data['recipe_cache'][recipe.outputs[j][0]] = this.copy_hash(recipe);
 		}
 	}
 	

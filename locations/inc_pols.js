@@ -1317,8 +1317,8 @@ function pol_get_template_geo(){
 	var mg = this.geometry.layers.middleground;
 
 	return {
-		platform_lines: utils.apiCopyHash(mg.platform_lines),
-		signposts: utils.apiCopyHash(mg.signposts),
+		platform_lines: apiCopyHash(mg.platform_lines),
+		signposts: apiCopyHash(mg.signposts),
 	};
 }
 

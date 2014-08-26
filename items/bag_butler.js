@@ -1,4 +1,4 @@
-//#include include/butler_data.js, include/butler_strings.js, include/../../utils.js, include/butler_responses.js, include/butler_hints.js, include/butler_convos.js, include/butler_emotes.js, include/npc_quests.js, include/npc_conversation.js, include/npc_ai.js, include/events.js
+//#include include/butler_data.js, include/butler_strings.js, include/butler_responses.js, include/butler_hints.js, include/butler_convos.js, include/butler_emotes.js, include/npc_quests.js, include/npc_conversation.js, include/npc_ai.js, include/events.js
 
 var label = "Butler";
 var version = "1352488262";

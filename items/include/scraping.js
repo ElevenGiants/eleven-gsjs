@@ -6,7 +6,7 @@ function getVerbLabel(pc, verb) {
 		 * but before scraping is actually completed. This means that if you're the only scraper, you can get "help mine" as the
 		 * verb if you just hit the button fast enough. Ugh.
 	     */
-	     	var scraper_count = utils.num_keys(this.scrapers);
+	     	var scraper_count = num_keys(this.scrapers);
 
 
 		if(!this.scrapers || scraper_count == 0 || (scraper_count == 1 && this.scrapers[0] == pc.tsid)) {

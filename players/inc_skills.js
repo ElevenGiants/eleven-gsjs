@@ -562,7 +562,7 @@ function skills_linkify(id){
 //
 function skills_unlearning_time(point_cost) {
 
-	var duration = point_cost / this.config.skill_points_per_second;
+	var duration = point_cost / config.skill_points_per_second;
 
 	if (duration <= 0) duration = 0;
 

@@ -19,11 +19,11 @@ function time(){
 
 function current_gametime(){
 	var ts = intval(Math.round(getTime() / 1000));
-	return this.timestamp_to_gametime(ts);
+	return timestamp_to_gametime(ts);
 }
 
 function current_day_key(){
-	return this.gametime_to_key(current_gametime());
+	return gametime_to_key(current_gametime());
 }
 
 function real_day_key(){
@@ -82,7 +82,7 @@ function timestamp_to_gametime(ts){
 	// turn the 0-based day number into a day & month
 	//
 
-	var md = this.calendar__day_to_md(d);
+	var md = calendar__day_to_md(d);
 
 	d = md[1];
 	var m = md[0];
@@ -92,7 +92,7 @@ function timestamp_to_gametime(ts){
 
 function gametime_to_timestamp(gt){
 
-	var d = this.calendar__md_to_day(intval(gt[1]), intval(gt[2]));
+	var d = calendar__md_to_day(intval(gt[1]), intval(gt[2]));
 
 	var ts = 1238562000;
 
