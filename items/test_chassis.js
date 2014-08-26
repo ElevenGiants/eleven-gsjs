@@ -20,12 +20,6 @@ var instancePropsDef = {};
 
 var verbs = {};
 
-function (){ // defined by test_chassis
-	return {
-		door: 'door_knockergreen'
-	};
-}
-
 function make_config(){ // defined by test_chassis
 	return {
 		door: 'door_knockerwood',
