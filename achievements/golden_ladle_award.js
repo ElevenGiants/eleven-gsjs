@@ -56,6 +56,4 @@ var rewards	= {
 	}
 };
 
-//log.info("golden_ladle_award.js LOADED");
-
 // generated ok (NO DATE)

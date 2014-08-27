@@ -433,6 +433,4 @@ itemDef.keys_in_pack = {
 	"t"	: "stop_waiting"
 };
 
-log.info("glitchmas_cracker.js LOADED");
-
 // generated ok 2012-05-25 10:00:15 by eric

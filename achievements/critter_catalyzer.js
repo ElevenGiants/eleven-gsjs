@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("critter_catalyzer.js LOADED");
-
 // generated ok (NO DATE)

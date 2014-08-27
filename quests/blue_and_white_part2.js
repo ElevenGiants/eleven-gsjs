@@ -114,6 +114,4 @@ function onStarted(pc){
 	return {ok: 1};
 }
 
-//log.info("blue_and_white_part2.js LOADED");
-
 // generated ok (NO DATE)

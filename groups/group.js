@@ -1,5 +1,3 @@
-log.info("loading group.js");
-
 var all_perms = {
 	'can_invite'		: 1,
 	'can_approve'		: 1,

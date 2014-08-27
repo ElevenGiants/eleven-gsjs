@@ -755,6 +755,4 @@ itemDef.keys_in_pack = {
 	"c"	: "scrape"
 };
 
-log.info("super_scraper.js LOADED");
-
 // generated ok 2012-12-09 12:50:56 by ali

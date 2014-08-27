@@ -71,6 +71,4 @@ var rewards = {
 	}
 };
 
-//log.info("animalhusbandry_make_three_eggs.js LOADED");
-
 // generated ok (NO DATE)

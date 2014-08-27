@@ -439,6 +439,4 @@ itemDef.keys_in_pack = {
 	"e"	: "place"
 };
 
-log.info("magic_pig_stick.js LOADED");
-
 // generated ok 2012-09-19 19:05:42 by lizg

@@ -636,6 +636,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("npc_sno_cone_vending_machine.js LOADED");
-
 // generated ok 2012-08-14 15:10:33 by simon

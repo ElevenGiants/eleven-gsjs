@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("culinarian_supreme.js LOADED");
-
 // generated ok (NO DATE)

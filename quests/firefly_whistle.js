@@ -62,6 +62,4 @@ function onStarted(pc){
 	return { ok: 1 };
 }
 
-//log.info("firefly_whistle.js LOADED");
-
 // generated ok (NO DATE)

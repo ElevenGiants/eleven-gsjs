@@ -141,6 +141,4 @@ var performance_rewards = {
 	}
 };
 
-//log.info("job_street_baq_9.js LOADED");
-
 // generated ok (NO DATE)

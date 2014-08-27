@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("fox_flurrier.js LOADED");
-
 // generated ok (NO DATE)

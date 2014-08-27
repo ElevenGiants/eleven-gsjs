@@ -102,6 +102,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("ball.js LOADED");
-
 // generated ok 2011-12-01 15:19:22 by martlume

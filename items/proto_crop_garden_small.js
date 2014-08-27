@@ -286,6 +286,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("proto_crop_garden_small.js LOADED");
-
 // generated ok 2012-09-17 11:45:56 by martlume

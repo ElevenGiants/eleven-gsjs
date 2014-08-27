@@ -182,6 +182,4 @@ itemDef.keys_in_pack = {
 	"t"	: "take_picture"
 };
 
-log.info("camera.js LOADED");
-
 // generated ok 2012-10-26 17:05:14 by mackenzie

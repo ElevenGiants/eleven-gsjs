@@ -69,6 +69,4 @@ var rewards = {
 	"xp"	: 200
 };
 
-//log.info("umbra_black_white.js LOADED");
-
 // generated ok (NO DATE)

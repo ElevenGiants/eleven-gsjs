@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("the_candyglitch.js LOADED");
-
 // generated ok (NO DATE)

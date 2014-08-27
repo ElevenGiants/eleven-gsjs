@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("pork_fondler.js LOADED");
-
 // generated ok (NO DATE)

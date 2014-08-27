@@ -42,6 +42,4 @@ var rewards	= {
 	}
 };
 
-//log.info("hi_and_mighty.js LOADED");
-
 // generated ok (NO DATE)

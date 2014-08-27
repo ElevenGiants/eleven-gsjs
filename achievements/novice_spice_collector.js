@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("novice_spice_collector.js LOADED");
-
 // generated ok (NO DATE)

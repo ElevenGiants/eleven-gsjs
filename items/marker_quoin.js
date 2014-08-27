@@ -182,6 +182,4 @@ itemDef.keys_in_pack = {
 	"c"	: "place"
 };
 
-log.info("marker_quoin.js LOADED");
-
 // generated ok 2012-09-21 17:08:30 by mygrant

@@ -238,6 +238,4 @@ var performance_rewards = {
 	}
 };
 
-//log.info("job_cw_test.js LOADED");
-
 // generated ok (NO DATE)

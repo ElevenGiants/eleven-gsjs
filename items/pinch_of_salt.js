@@ -262,6 +262,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("pinch_of_salt.js LOADED");
-
 // generated ok 2012-12-03 18:32:05 by martlume

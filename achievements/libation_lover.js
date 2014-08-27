@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("libation_lover.js LOADED");
-
 // generated ok (NO DATE)

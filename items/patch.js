@@ -1335,6 +1335,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("patch.js LOADED");
-
 // generated ok 2012-11-14 15:36:42 by jupro

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("head_honcho.js LOADED");
-
 // generated ok (NO DATE)

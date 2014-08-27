@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("midmanagement_fruit_tree_harvester.js LOADED");
-
 // generated ok (NO DATE)

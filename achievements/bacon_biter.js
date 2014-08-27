@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("bacon_biter.js LOADED");
-
 // generated ok (NO DATE)

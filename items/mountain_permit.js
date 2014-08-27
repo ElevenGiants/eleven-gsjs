@@ -260,6 +260,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("mountain_permit.js LOADED");
-
 // generated ok 2012-01-18 13:39:01 by mackenzie

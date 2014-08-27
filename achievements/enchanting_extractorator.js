@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("enchanting_extractorator.js LOADED");
-
 // generated ok (NO DATE)

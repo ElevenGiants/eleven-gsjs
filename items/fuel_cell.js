@@ -154,6 +154,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("fuel_cell.js LOADED");
-
 // generated ok 2012-07-18 13:35:24 by martlume

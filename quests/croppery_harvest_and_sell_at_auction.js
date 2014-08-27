@@ -81,6 +81,4 @@ var rewards = {
 	}
 };
 
-//log.info("croppery_harvest_and_sell_at_auction.js LOADED");
-
 // generated ok (NO DATE)

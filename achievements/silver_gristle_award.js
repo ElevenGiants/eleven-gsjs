@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("silver_gristle_award.js LOADED");
-
 // generated ok (NO DATE)

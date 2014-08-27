@@ -150,6 +150,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("fox_permit.js LOADED");
-
 // generated ok 2012-06-14 15:20:53

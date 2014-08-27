@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("bubble_coaxer.js LOADED");
-
 // generated ok (NO DATE)

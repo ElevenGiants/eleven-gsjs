@@ -179,6 +179,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("proto_rock.js LOADED");
-
 // generated ok 2011-11-04 09:32:31 by eric

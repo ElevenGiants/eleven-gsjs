@@ -705,6 +705,4 @@ itemDef.keys_in_pack = {
 	"j"	: "upgrade"
 };
 
-log.info("furniture_tabledeco.js LOADED");
-
 // generated ok 2012-08-23 16:17:50 by eric

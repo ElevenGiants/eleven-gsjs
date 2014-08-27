@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("friend_of_cubimals.js LOADED");
-
 // generated ok (NO DATE)

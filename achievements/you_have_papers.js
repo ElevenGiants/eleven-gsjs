@@ -40,6 +40,4 @@ var rewards	= {
 	}
 };
 
-//log.info("you_have_papers.js LOADED");
-
 // generated ok (NO DATE)

@@ -203,6 +203,4 @@ itemDef.keys_in_pack = {
 	"e"	: "resurrect"
 };
 
-log.info("upgrade_card_instant_resurrection.js LOADED");
-
 // generated ok 2012-08-22 10:55:25 by martlume

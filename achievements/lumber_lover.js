@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("lumber_lover.js LOADED");
-
 // generated ok (NO DATE)

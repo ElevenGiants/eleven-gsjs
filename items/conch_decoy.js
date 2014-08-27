@@ -123,6 +123,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("conch_decoy.js LOADED");
-
 // generated ok 2012-09-14 10:24:22

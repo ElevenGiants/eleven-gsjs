@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("hot_rodmaker.js LOADED");
-
 // generated ok (NO DATE)

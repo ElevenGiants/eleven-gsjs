@@ -62,6 +62,4 @@ var rewards = {
 	}
 };
 
-//log.info("water_neighbor_garden.js LOADED");
-
 // generated ok (NO DATE)

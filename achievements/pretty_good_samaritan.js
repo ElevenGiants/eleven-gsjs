@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("pretty_good_samaritan.js LOADED");
-
 // generated ok (NO DATE)

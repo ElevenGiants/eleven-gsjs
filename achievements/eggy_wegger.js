@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("eggy_wegger.js LOADED");
-
 // generated ok (NO DATE)

@@ -249,6 +249,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("party_pack_taster_winter_wingding.js LOADED");
-
 // generated ok 2012-11-15 13:43:54 by martlume

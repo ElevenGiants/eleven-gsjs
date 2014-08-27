@@ -73,6 +73,4 @@ function onCreate(pc){
 	if (exterior && exterior.cultivation_count_items('proto_furniture_tower_chassis')) pc.quests_set_flag('cultivate_tower');
 }
 
-//log.info("build_a_tower.js LOADED");
-
 // generated ok (NO DATE)

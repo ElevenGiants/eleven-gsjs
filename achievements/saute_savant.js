@@ -56,6 +56,4 @@ var rewards	= {
 	}
 };
 
-//log.info("saute_savant.js LOADED");
-
 // generated ok (NO DATE)

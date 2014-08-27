@@ -97,6 +97,4 @@ function onStarted(pc){
 	return {ok: 1};
 }
 
-//log.info("an_autumn_day.js LOADED");
-
 // generated ok (NO DATE)

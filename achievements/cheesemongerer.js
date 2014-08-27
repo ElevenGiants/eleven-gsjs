@@ -42,6 +42,4 @@ var rewards	= {
 	}
 };
 
-//log.info("cheesemongerer.js LOADED");
-
 // generated ok (NO DATE)

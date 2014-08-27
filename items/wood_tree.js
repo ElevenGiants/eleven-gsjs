@@ -1491,6 +1491,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("wood_tree.js LOADED");
-
 // generated ok 2012-10-28 18:09:57 by mygrant

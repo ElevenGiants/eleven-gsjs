@@ -101,6 +101,4 @@ function onStarted(pc){
 	return {ok: 1};
 }
 
-//log.info("stale_but_necessary.js LOADED");
-
 // generated ok (NO DATE)

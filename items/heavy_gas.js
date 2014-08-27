@@ -249,6 +249,4 @@ itemDef.keys_in_pack = {
 	"t"	: "lift"
 };
 
-log.info("heavy_gas.js LOADED");
-
 // generated ok 2012-09-17 12:07:59 by martlume

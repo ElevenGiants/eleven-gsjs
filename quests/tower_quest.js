@@ -46,6 +46,4 @@ function onComplete_custom(pc){
 	pc.buffs_remove('its_so_hot2');
 }
 
-//log.info("tower_quest.js LOADED");
-
 // generated ok (NO DATE)

@@ -151,6 +151,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("jellisac_clump.js LOADED");
-
 // generated ok 2012-10-24 15:05:03 by martlume

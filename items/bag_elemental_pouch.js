@@ -813,6 +813,4 @@ itemDef.keys_in_pack = {
 	"z"	: "sort_mining"
 };
 
-log.info("bag_elemental_pouch.js LOADED");
-
 // generated ok 2012-11-05 09:31:23 by mygrant

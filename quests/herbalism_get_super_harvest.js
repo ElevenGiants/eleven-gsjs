@@ -60,6 +60,4 @@ var rewards = {
 	}
 };
 
-//log.info("herbalism_get_super_harvest.js LOADED");
-
 // generated ok (NO DATE)

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("gastronaut.js LOADED");
-
 // generated ok (NO DATE)

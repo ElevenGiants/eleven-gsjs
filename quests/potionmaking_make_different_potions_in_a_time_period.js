@@ -71,6 +71,4 @@ function onStarted(pc){
 	return {ok:1};
 }
 
-//log.info("potionmaking_make_different_potions_in_a_time_period.js LOADED");
-
 // generated ok (NO DATE)

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("elementary_penguin.js LOADED");
-
 // generated ok (NO DATE)

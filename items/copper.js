@@ -154,6 +154,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("copper.js LOADED");
-
 // generated ok 2012-08-23 20:55:52 by martlume

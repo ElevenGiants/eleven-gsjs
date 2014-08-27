@@ -971,6 +971,4 @@ itemDef.keys_in_pack = {
 	"z"	: "sort_mining"
 };
 
-log.info("bag_gift_box_wrapped.js LOADED");
-
 // generated ok 2012-11-20 13:09:55 by mygrant

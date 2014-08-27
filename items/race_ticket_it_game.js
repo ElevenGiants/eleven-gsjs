@@ -245,6 +245,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("race_ticket_it_game.js LOADED");
-
 // generated ok 2012-06-22 11:32:24 by simon

@@ -154,6 +154,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("artifact_ebony_teaspoon.js LOADED");
-
 // generated ok 2012-12-07 18:57:30 by ali

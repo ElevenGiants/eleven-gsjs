@@ -78,6 +78,4 @@ var rewards	= {
 	}
 };
 
-//log.info("mad_gasser.js LOADED");
-
 // generated ok (NO DATE)

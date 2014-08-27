@@ -1094,6 +1094,4 @@ itemDef.keys_in_pack = {
 	"h"	: "shake"
 };
 
-log.info("potion_draught_of_giant_amicability.js LOADED");
-
 // generated ok 2012-12-09 12:50:56 by ali

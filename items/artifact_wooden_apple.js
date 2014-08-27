@@ -152,6 +152,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("artifact_wooden_apple.js LOADED");
-
 // generated ok 2012-09-21 13:39:24 by martlume

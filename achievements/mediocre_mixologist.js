@@ -56,6 +56,4 @@ var rewards	= {
 	}
 };
 
-//log.info("mediocre_mixologist.js LOADED");
-
 // generated ok (NO DATE)

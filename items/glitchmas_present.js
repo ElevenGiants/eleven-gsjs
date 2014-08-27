@@ -185,6 +185,4 @@ itemDef.keys_in_pack = {
 	"u"	: "unwrap"
 };
 
-log.info("glitchmas_present.js LOADED");
-
 // generated ok 2012-05-25 10:00:14 by eric

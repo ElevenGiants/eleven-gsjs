@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("full_time_swami.js LOADED");
-
 // generated ok (NO DATE)

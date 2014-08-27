@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("ok_hewer.js LOADED");
-
 // generated ok (NO DATE)

@@ -56,6 +56,4 @@ var rewards	= {
 	}
 };
 
-//log.info("nice_dicer.js LOADED");
-
 // generated ok (NO DATE)

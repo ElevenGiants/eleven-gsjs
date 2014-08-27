@@ -71,6 +71,4 @@ function onStarted(pc){
 	return { ok: 1 };
 }
 
-//log.info("refining_refine_ore_in_time_period.js LOADED");
-
 // generated ok (NO DATE)

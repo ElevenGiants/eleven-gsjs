@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("regular_whack_job.js LOADED");
-
 // generated ok (NO DATE)

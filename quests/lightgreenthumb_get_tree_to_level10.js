@@ -59,6 +59,4 @@ var rewards = {
 	}
 };
 
-//log.info("lightgreenthumb_get_tree_to_level10.js LOADED");
-
 // generated ok (NO DATE)

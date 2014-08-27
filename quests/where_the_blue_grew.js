@@ -99,6 +99,4 @@ function onStarted(pc){
 	return {ok: 1};
 }
 
-//log.info("where_the_blue_grew.js LOADED");
-
 // generated ok (NO DATE)

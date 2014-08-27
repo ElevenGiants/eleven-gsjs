@@ -450,6 +450,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("npc_gwendolyn.js LOADED");
-
 // generated ok 2012-09-19 11:58:53 by ryan

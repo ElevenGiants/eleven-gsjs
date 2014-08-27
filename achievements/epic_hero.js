@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("epic_hero.js LOADED");
-
 // generated ok (NO DATE)

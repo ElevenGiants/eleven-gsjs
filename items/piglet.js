@@ -391,6 +391,4 @@ itemDef.keys_in_pack = {
 	"h"	: "hum_to"
 };
 
-log.info("piglet.js LOADED");
-
 // generated ok 2012-12-02 23:26:52 by ali

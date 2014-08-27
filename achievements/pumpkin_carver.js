@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("pumpkin_carver.js LOADED");
-
 // generated ok (NO DATE)

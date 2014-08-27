@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("rumrunner.js LOADED");
-
 // generated ok (NO DATE)

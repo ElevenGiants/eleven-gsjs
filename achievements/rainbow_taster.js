@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("rainbow_taster.js LOADED");
-
 // generated ok (NO DATE)

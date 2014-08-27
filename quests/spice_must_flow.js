@@ -73,6 +73,4 @@ var rewards = {
 	}
 };
 
-//log.info("spice_must_flow.js LOADED");
-
 // generated ok (NO DATE)

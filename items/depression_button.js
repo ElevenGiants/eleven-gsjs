@@ -78,6 +78,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("depression_button.js LOADED");
-
 // generated ok 2012-05-01 15:59:57 by mygrant

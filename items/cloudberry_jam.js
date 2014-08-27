@@ -264,6 +264,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("cloudberry_jam.js LOADED");
-
 // generated ok 2012-12-04 11:16:51 by martlume

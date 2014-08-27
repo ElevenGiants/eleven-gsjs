@@ -244,6 +244,4 @@ itemDef.keys_in_pack = {
 	"o"	: "roll"
 };
 
-log.info("dice.js LOADED");
-
 // generated ok 2012-11-20 12:20:24 by mygrant

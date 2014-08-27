@@ -260,6 +260,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("visiting_stone.js LOADED");
-
 // generated ok 2012-10-28 19:13:43 by mygrant

@@ -78,6 +78,4 @@ var rewards = {
 	}
 };
 
-//log.info("blending_make_level1_recipes.js LOADED");
-
 // generated ok (NO DATE)

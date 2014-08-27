@@ -184,6 +184,4 @@ var performance_rewards = {
 	}
 };
 
-//log.info("job_tower_ph4.js LOADED");
-
 // generated ok (NO DATE)

@@ -483,6 +483,4 @@ itemDef.keys_in_pack = {
 	"k"	: "lick"
 };
 
-log.info("cheese_stinky.js LOADED");
-
 // generated ok 2012-12-03 21:20:38 by martlume

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("spice_intern.js LOADED");
-
 // generated ok (NO DATE)

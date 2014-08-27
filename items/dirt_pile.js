@@ -625,6 +625,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("dirt_pile.js LOADED");
-
 // generated ok 2012-10-03 18:55:52 by lizg

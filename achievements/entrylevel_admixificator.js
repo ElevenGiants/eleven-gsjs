@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("entrylevel_admixificator.js LOADED");
-
 // generated ok (NO DATE)

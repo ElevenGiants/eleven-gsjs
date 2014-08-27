@@ -55,6 +55,4 @@ var rewards = {
 	"energy"	: 100
 };
 
-//log.info("baqala_nostalgia.js LOADED");
-
 // generated ok (NO DATE)

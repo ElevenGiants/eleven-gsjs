@@ -201,6 +201,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("carrot_margarita.js LOADED");
-
 // generated ok 2012-09-14 19:46:28 by martlume

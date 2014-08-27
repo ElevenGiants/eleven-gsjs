@@ -638,6 +638,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("npc_cooking_vendor.js LOADED");
-
 // generated ok 2012-09-14 13:52:27 by lizg

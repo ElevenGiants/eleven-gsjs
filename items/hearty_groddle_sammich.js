@@ -284,6 +284,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("hearty_groddle_sammich.js LOADED");
-
 // generated ok 2012-12-03 20:09:05 by martlume

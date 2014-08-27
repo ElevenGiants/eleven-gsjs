@@ -452,6 +452,4 @@ itemDef.keys_in_pack = {
 	"e"	: "place"
 };
 
-log.info("magic_butterfly_stick.js LOADED");
-
 // generated ok 2012-09-19 19:06:34 by lizg

@@ -469,6 +469,4 @@ itemDef.keys_in_pack = {
 	"u"	: "munch"
 };
 
-log.info("silvertongue.js LOADED");
-
 // generated ok 2012-09-04 11:24:21 by mygrant

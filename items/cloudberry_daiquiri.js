@@ -201,6 +201,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("cloudberry_daiquiri.js LOADED");
-
 // generated ok 2012-12-03 20:14:37 by martlume

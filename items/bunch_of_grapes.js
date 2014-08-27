@@ -262,6 +262,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("bunch_of_grapes.js LOADED");
-
 // generated ok 2012-08-23 11:00:01 by martlume

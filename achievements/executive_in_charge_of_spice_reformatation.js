@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("executive_in_charge_of_spice_reformatation.js LOADED");
-
 // generated ok (NO DATE)

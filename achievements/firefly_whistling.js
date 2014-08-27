@@ -42,6 +42,4 @@ var rewards	= {
 	}
 };
 
-//log.info("firefly_whistling.js LOADED");
-
 // generated ok (NO DATE)

@@ -57,6 +57,4 @@ var rewards = {
 	}
 };
 
-//log.info("focusedmeditation_get_mood_or_energy.js LOADED");
-
 // generated ok (NO DATE)

@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("firstrate_rainmaker.js LOADED");
-
 // generated ok (NO DATE)

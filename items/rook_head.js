@@ -146,6 +146,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("rook_head.js LOADED");
-
 // generated ok 2012-05-25 10:00:14 by eric

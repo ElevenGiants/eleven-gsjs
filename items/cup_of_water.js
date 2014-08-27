@@ -265,6 +265,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("cup_of_water.js LOADED");
-
 // generated ok 2012-09-26 11:27:13 by mygrant

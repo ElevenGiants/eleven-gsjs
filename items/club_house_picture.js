@@ -135,6 +135,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("club_house_picture.js LOADED");
-
 // generated ok 2012-10-03 14:55:15 by ryan

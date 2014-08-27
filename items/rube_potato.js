@@ -259,6 +259,4 @@ itemDef.keys_in_pack = {
 	"n"	: "inspect"
 };
 
-log.info("rube_potato.js LOADED");
-
 // generated ok 2012-08-23 22:16:57 by martlume

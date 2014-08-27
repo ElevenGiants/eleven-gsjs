@@ -703,6 +703,4 @@ itemDef.keys_in_pack = {
 	"j"	: "upgrade"
 };
 
-log.info("furniture_walllamp.js LOADED");
-
 // generated ok 2012-08-24 10:13:39 by martlume

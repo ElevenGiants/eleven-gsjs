@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("trigger_happy_trap_duster.js LOADED");
-
 // generated ok (NO DATE)

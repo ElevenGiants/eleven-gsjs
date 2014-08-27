@@ -49,6 +49,4 @@ var rewards	= {
 	}
 };
 
-//log.info("kalavana_completist.js LOADED");
-
 // generated ok (NO DATE)

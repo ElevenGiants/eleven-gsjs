@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("pop_star.js LOADED");
-
 // generated ok (NO DATE)

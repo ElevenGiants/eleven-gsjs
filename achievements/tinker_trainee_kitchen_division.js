@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("tinker_trainee_kitchen_division.js LOADED");
-
 // generated ok (NO DATE)

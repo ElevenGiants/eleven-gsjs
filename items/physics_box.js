@@ -182,6 +182,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("physics_box.js LOADED");
-
 // generated ok 2012-05-03 11:26:12 by eric

@@ -152,6 +152,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("wood_post.js LOADED");
-
 // generated ok 2012-07-11 12:21:28 by martlume

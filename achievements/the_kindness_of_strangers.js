@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("the_kindness_of_strangers.js LOADED");
-
 // generated ok (NO DATE)

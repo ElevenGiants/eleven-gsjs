@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("sociable_susan.js LOADED");
-
 // generated ok (NO DATE)

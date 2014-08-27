@@ -420,6 +420,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("purple_apparition.js LOADED");
-
 // generated ok 2012-02-27 18:38:47 by cwhitman

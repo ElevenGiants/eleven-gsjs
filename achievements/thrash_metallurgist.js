@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("thrash_metallurgist.js LOADED");
-
 // generated ok (NO DATE)

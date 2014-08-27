@@ -37,6 +37,4 @@ var rewards	= {
 	"xp"	: 100
 };
 
-//log.info("big_spender.js LOADED");
-
 // generated ok (NO DATE)

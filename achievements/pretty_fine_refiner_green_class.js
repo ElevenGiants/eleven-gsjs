@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("pretty_fine_refiner_green_class.js LOADED");
-
 // generated ok (NO DATE)

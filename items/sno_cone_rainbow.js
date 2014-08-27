@@ -458,6 +458,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("sno_cone_rainbow.js LOADED");
-
 // generated ok 2012-10-31 15:20:56 by lizg

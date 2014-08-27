@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("firetongue_award.js LOADED");
-
 // generated ok (NO DATE)

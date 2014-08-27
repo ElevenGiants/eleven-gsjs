@@ -72,6 +72,4 @@ function onStarted(pc){
 	return { ok: 1 };
 }
 
-//log.info("animalkinship_milk_butterflies.js LOADED");
-
 // generated ok (NO DATE)

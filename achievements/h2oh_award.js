@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("h2oh_award.js LOADED");
-
 // generated ok (NO DATE)

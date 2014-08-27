@@ -199,6 +199,4 @@ itemDef.keys_in_pack = {
 	"u"	: "use"
 };
 
-log.info("wall_segment.js LOADED");
-
 // generated ok 2012-06-13 13:31:45 by cal

@@ -65,6 +65,4 @@ var rewards = {
 	}
 };
 
-//log.info("alchemy_make_compounds.js LOADED");
-
 // generated ok (NO DATE)

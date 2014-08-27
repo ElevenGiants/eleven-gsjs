@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("minor_tricksy_treater.js LOADED");
-
 // generated ok (NO DATE)

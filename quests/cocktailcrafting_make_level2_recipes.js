@@ -77,6 +77,4 @@ var rewards = {
 	}
 };
 
-//log.info("cocktailcrafting_make_level2_recipes.js LOADED");
-
 // generated ok (NO DATE)

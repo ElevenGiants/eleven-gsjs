@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("fruit_metamorphosizin_tycoon.js LOADED");
-
 // generated ok (NO DATE)

@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("potion_patron.js LOADED");
-
 // generated ok (NO DATE)

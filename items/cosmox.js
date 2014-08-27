@@ -156,6 +156,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("cosmox.js LOADED");
-
 // generated ok 2012-06-04 17:52:45 by kristi

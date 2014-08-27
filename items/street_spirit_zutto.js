@@ -1378,6 +1378,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("street_spirit_zutto.js LOADED");
-
 // generated ok 2012-11-02 11:54:00 by mygrant

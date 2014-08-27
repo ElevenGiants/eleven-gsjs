@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("twinkle_toed_trap_triggerer.js LOADED");
-
 // generated ok (NO DATE)

@@ -215,6 +215,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("hooch.js LOADED");
-
 // generated ok 2012-12-03 20:09:07 by martlume

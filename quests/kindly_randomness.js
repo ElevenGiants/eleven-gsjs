@@ -64,6 +64,4 @@ function onComplete_custom(pc){
 	delete pc.kindly_randomness;
 }
 
-//log.info("kindly_randomness.js LOADED");
-
 // generated ok (NO DATE)

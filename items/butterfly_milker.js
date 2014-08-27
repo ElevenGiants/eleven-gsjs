@@ -552,6 +552,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("butterfly_milker.js LOADED");
-
 // generated ok 2012-09-14 19:46:10 by martlume

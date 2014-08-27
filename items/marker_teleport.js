@@ -74,6 +74,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("marker_teleport.js LOADED");
-
 // generated ok 2010-12-02 14:47:17

@@ -236,6 +236,4 @@ itemDef.keys_in_pack = {
 	"r"	: "drop"
 };
 
-log.info("trophy_cubimal.js LOADED");
-
 // generated ok 2012-06-20 14:41:54 by lizg

@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("shiny_nugget_award.js LOADED");
-
 // generated ok (NO DATE)

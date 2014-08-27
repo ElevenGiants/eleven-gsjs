@@ -102,6 +102,4 @@ var performance_percent = 0;
 var performance_cutoff = 0;
 var performance_rewards = {};
 
-//log.info("job_cult_herb_garden_medium_2.js LOADED");
-
 // generated ok (NO DATE)

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("crucible_jockey.js LOADED");
-
 // generated ok (NO DATE)

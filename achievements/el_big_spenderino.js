@@ -37,6 +37,4 @@ var rewards	= {
 	"xp"	: 200
 };
 
-//log.info("el_big_spenderino.js LOADED");
-
 // generated ok (NO DATE)

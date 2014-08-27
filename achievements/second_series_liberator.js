@@ -114,6 +114,4 @@ var rewards	= {
 	}
 };
 
-//log.info("second_series_liberator.js LOADED");
-
 // generated ok (NO DATE)

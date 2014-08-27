@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("confident_petter.js LOADED");
-
 // generated ok (NO DATE)

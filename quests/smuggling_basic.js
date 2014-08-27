@@ -44,6 +44,4 @@ function doProvided(pc){ // generated from provided
 	pc.createItemFromFamiliar('contraband', 1);
 }
 
-//log.info("smuggling_basic.js LOADED");
-
 // generated ok (NO DATE)

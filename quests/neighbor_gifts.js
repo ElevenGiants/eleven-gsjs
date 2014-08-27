@@ -53,6 +53,4 @@ var rewards = {
 	"mood"		: 50
 };
 
-//log.info("neighbor_gifts.js LOADED");
-
 // generated ok (NO DATE)

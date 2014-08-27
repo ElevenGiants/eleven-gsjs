@@ -217,6 +217,4 @@ itemDef.keys_in_pack = {
 	"u"	: "upgrade"
 };
 
-log.info("furniture_walldecor.js LOADED");
-
 // generated ok 2012-02-27 12:15:25 by kristel

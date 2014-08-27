@@ -76,6 +76,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("rook_hall_focusing_orb.js LOADED");
-
 // generated ok 2011-08-08 17:04:47 by cwhitman

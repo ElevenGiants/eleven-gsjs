@@ -235,6 +235,4 @@ itemDef.keys_in_pack = {
 	"u"	: "uncork"
 };
 
-log.info("laughing_gas.js LOADED");
-
 // generated ok 2012-09-17 11:30:29 by martlume

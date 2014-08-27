@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("crackpot_infuser.js LOADED");
-
 // generated ok (NO DATE)

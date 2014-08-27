@@ -154,6 +154,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("artifact_disembodied_dentures.js LOADED");
-
 // generated ok 2012-12-07 18:56:41 by ali

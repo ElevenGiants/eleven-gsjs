@@ -67,6 +67,4 @@ var rewards = {
 	}
 };
 
-//log.info("animalkinship_name_animals.js LOADED");
-
 // generated ok (NO DATE)

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("giant_snail_lander.js LOADED");
-
 // generated ok (NO DATE)

@@ -56,6 +56,4 @@ var rewards	= {
 	}
 };
 
-//log.info("broil_king.js LOADED");
-
 // generated ok (NO DATE)

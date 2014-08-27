@@ -98,6 +98,4 @@ function onStarted(pc){
 	return { ok: 1 };
 }
 
-//log.info("fuelmaking_refuel_robot.js LOADED");
-
 // generated ok (NO DATE)

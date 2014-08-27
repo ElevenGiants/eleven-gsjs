@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("numismatizer_dragon_class.js LOADED");
-
 // generated ok (NO DATE)

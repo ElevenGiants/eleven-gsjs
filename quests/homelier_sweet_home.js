@@ -47,6 +47,4 @@ var rewards = {
 	"mood"	: 111
 };
 
-//log.info("homelier_sweet_home.js LOADED");
-
 // generated ok (NO DATE)

@@ -45,6 +45,4 @@ function onStarted(pc){
 	return { ok: 1 };
 }
 
-//log.info("de_embiggenify.js LOADED");
-
 // generated ok (NO DATE)

@@ -264,6 +264,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("gammas_pancakes.js LOADED");
-
 // generated ok 2012-12-03 17:54:41 by martlume

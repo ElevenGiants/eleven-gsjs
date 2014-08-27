@@ -315,6 +315,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("trant_egg_dead.js LOADED");
-
 // generated ok 2012-06-07 18:14:55 by lizg

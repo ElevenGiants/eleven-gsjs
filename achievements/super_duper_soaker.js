@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("super_duper_soaker.js LOADED");
-
 // generated ok (NO DATE)

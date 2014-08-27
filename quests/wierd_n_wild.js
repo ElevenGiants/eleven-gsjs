@@ -50,6 +50,4 @@ var rewards = {
 	}
 };
 
-//log.info("wierd_n_wild.js LOADED");
-
 // generated ok (NO DATE)

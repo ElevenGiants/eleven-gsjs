@@ -56,6 +56,4 @@ var rewards = {
 	}
 };
 
-//log.info("teleportation_teleport_between_zones.js LOADED");
-
 // generated ok (NO DATE)

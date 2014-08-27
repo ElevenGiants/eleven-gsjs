@@ -49,6 +49,4 @@ var rewards	= {
 	}
 };
 
-//log.info("chakra_phool_completist.js LOADED");
-
 // generated ok (NO DATE)

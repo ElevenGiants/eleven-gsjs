@@ -56,6 +56,4 @@ var rewards	= {
 	}
 };
 
-//log.info("master_whacker.js LOADED");
-
 // generated ok (NO DATE)

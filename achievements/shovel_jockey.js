@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("shovel_jockey.js LOADED");
-
 // generated ok (NO DATE)

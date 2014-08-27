@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("participant_award__bean_division.js LOADED");
-
 // generated ok (NO DATE)

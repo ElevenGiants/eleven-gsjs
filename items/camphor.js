@@ -362,6 +362,4 @@ itemDef.keys_in_pack = {
 	"u"	: "study"
 };
 
-log.info("camphor.js LOADED");
-
 // generated ok 2012-12-03 21:07:36 by martlume

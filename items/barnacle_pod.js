@@ -193,6 +193,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("barnacle_pod.js LOADED");
-
 // generated ok 2012-10-24 14:45:32 by martlume

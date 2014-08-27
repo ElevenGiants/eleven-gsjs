@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("ace_propagationist.js LOADED");
-
 // generated ok (NO DATE)

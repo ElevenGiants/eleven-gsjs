@@ -60,6 +60,4 @@ var rewards = {
 	}
 };
 
-//log.info("soilappreciation_dig_earth.js LOADED");
-
 // generated ok (NO DATE)

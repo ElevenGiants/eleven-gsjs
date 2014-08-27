@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("mixed_herbalist.js LOADED");
-
 // generated ok (NO DATE)

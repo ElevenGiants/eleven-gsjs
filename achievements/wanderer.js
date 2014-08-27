@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("wanderer.js LOADED");
-
 // generated ok (NO DATE)

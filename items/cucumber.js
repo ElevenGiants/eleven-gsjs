@@ -267,6 +267,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("cucumber.js LOADED");
-
 // generated ok 2012-12-03 21:20:09 by martlume

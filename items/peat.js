@@ -149,6 +149,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("peat.js LOADED");
-
 // generated ok 2012-07-12 12:26:06 by martlume

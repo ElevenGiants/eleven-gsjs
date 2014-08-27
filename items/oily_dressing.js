@@ -260,6 +260,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("oily_dressing.js LOADED");
-
 // generated ok 2012-12-03 19:47:42 by martlume

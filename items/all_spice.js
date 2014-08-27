@@ -374,6 +374,4 @@ itemDef.keys_in_pack = {
 	"n"	: "grind"
 };
 
-log.info("all_spice.js LOADED");
-
 // generated ok 2012-12-03 19:59:14 by martlume

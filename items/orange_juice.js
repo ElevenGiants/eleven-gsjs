@@ -187,6 +187,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("orange_juice.js LOADED");
-
 // generated ok 2012-12-03 18:01:09 by martlume

@@ -45,6 +45,4 @@ function onComplete(pc){ // generated from rewards
 }
 var rewards = {};
 
-//log.info("lava_leap.js LOADED");
-
 // generated ok (NO DATE)

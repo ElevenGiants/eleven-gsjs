@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("order_of_the_dragon_sejant.js LOADED");
-
 // generated ok (NO DATE)

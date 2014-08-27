@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("local_yolkel.js LOADED");
-
 // generated ok (NO DATE)

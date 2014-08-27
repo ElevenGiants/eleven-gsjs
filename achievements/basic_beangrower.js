@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("basic_beangrower.js LOADED");
-
 // generated ok (NO DATE)

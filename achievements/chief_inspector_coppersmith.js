@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("chief_inspector_coppersmith.js LOADED");
-
 // generated ok (NO DATE)

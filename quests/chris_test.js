@@ -70,6 +70,4 @@ function onNpcCollision(pc, npc_name){
 	}
 }
 
-//log.info("chris_test.js LOADED");
-
 // generated ok (NO DATE)

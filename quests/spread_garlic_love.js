@@ -58,6 +58,4 @@ function onComplete_custom(pc){
 	pc.counters_reset_group('players_garlic_kissed');
 }
 
-//log.info("spread_garlic_love.js LOADED");
-
 // generated ok (NO DATE)

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("spin_doctor.js LOADED");
-
 // generated ok (NO DATE)

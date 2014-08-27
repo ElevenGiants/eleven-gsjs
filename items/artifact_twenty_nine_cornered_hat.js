@@ -154,6 +154,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("artifact_twenty_nine_cornered_hat.js LOADED");
-
 // generated ok 2012-12-07 19:11:50 by ali

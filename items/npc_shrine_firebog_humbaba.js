@@ -1020,6 +1020,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("npc_shrine_firebog_humbaba.js LOADED");
-
 // generated ok 2012-10-29 11:52:11 by lizg

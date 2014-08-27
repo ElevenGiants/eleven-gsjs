@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("licenced_teleporter_pfft_class.js LOADED");
-
 // generated ok (NO DATE)

@@ -51,6 +51,4 @@ var rewards	= {
 	}
 };
 
-//log.info("giant_lover.js LOADED");
-
 // generated ok (NO DATE)

@@ -82,6 +82,4 @@ function onStarted(pc){
 	return {ok: 1};
 }
 
-//log.info("rube_spy.js LOADED");
-
 // generated ok (NO DATE)

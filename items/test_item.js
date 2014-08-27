@@ -199,6 +199,4 @@ itemDef.keys_in_pack = {
 	"t"	: "watch"
 };
 
-log.info("test_item.js LOADED");
-
 // generated ok 2012-05-25 10:00:13 by eric

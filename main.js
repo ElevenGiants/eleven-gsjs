@@ -1,5 +1,3 @@
-log.info("Starting main...");
-
 //
 // the main dispatch handler
 //
@@ -7497,7 +7495,6 @@ function doHousesStyleSwitch(pc, msg){
 }
 
 function doTowerSetFloorName(pc, msg){
-log.info(msg);
 	var ret = pc.houses_set_tower_floor_name(msg.connect_id, msg.custom_label);
 	return pc.replyToMsg(msg, ret);
 }

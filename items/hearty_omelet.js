@@ -284,6 +284,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("hearty_omelet.js LOADED");
-
 // generated ok 2012-09-18 15:41:23 by martlume

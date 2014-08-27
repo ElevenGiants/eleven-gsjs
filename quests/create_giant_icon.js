@@ -54,6 +54,4 @@ var rewards = {
 	"energy"	: 400
 };
 
-//log.info("create_giant_icon.js LOADED");
-
 // generated ok (NO DATE)

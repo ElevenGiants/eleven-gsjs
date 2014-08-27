@@ -65,6 +65,4 @@ function onComplete_custom(pc){
 	delete pc.stats.different_beans_seasoned;
 }
 
-//log.info("botany_make_tree_beans.js LOADED");
-
 // generated ok (NO DATE)

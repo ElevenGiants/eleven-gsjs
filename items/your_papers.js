@@ -194,6 +194,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("your_papers.js LOADED");
-
 // generated ok 2012-05-25 10:00:14 by eric

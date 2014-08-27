@@ -158,6 +158,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("herb_seed_gandlevery.js LOADED");
-
 // generated ok 2012-11-08 13:52:47 by martlume

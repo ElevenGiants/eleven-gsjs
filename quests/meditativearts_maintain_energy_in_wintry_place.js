@@ -58,6 +58,4 @@ var rewards = {
 	}
 };
 
-//log.info("meditativearts_maintain_energy_in_wintry_place.js LOADED");
-
 // generated ok (NO DATE)

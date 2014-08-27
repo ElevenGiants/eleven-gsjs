@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("sac_bagger.js LOADED");
-
 // generated ok (NO DATE)

@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("novice_precipitator.js LOADED");
-
 // generated ok (NO DATE)

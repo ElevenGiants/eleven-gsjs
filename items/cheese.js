@@ -435,6 +435,4 @@ itemDef.keys_in_pack = {
 	"n"	: "sniff"
 };
 
-log.info("cheese.js LOADED");
-
 // generated ok 2012-12-03 22:11:34 by martlume

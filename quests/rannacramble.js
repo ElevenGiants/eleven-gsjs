@@ -76,6 +76,4 @@ var rewards = {
 	}
 };
 
-//log.info("rannacramble.js LOADED");
-
 // generated ok (NO DATE)

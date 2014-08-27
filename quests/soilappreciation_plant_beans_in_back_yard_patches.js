@@ -60,6 +60,4 @@ var rewards = {
 	}
 };
 
-//log.info("soilappreciation_plant_beans_in_back_yard_patches.js LOADED");
-
 // generated ok (NO DATE)

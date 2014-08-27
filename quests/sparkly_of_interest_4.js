@@ -67,6 +67,4 @@ var rewards = {
 	}
 };
 
-//log.info("sparkly_of_interest_4.js LOADED");
-
 // generated ok (NO DATE)

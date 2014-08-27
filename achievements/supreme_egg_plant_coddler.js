@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("supreme_egg_plant_coddler.js LOADED");
-
 // generated ok (NO DATE)

@@ -156,6 +156,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("potoxin.js LOADED");
-
 // generated ok 2012-12-03 21:22:28 by martlume

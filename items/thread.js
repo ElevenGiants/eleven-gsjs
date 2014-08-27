@@ -149,6 +149,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("thread.js LOADED");
-
 // generated ok 2012-07-18 13:36:31 by martlume

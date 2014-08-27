@@ -181,6 +181,4 @@ itemDef.keys_in_pack = {
 	"u"	: "use"
 };
 
-log.info("homestreet_ticket.js LOADED");
-
 // generated ok 2012-07-31 14:04:02 by robeen

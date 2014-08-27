@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("inspirational_home_improver.js LOADED");
-
 // generated ok (NO DATE)

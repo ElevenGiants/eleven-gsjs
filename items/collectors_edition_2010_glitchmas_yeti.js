@@ -221,6 +221,4 @@ itemDef.keys_in_pack = {
 	"u"	: "pull_string"
 };
 
-log.info("collectors_edition_2010_glitchmas_yeti.js LOADED");
-
 // generated ok 2012-08-16 14:27:56 by mygrant

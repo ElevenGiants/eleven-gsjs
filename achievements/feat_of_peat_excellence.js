@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("feat_of_peat_excellence.js LOADED");
-
 // generated ok (NO DATE)

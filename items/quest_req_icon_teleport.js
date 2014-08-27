@@ -76,6 +76,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("quest_req_icon_teleport.js LOADED");
-
 // generated ok 2011-12-22 18:34:51 by martlume

@@ -108,6 +108,4 @@ function onStarted(pc){
 	return {ok: 1};
 }
 
-//log.info("join_club_reminisce.js LOADED");
-
 // generated ok (NO DATE)

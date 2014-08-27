@@ -60,6 +60,4 @@ var rewards = {
 	}
 };
 
-//log.info("help_mine.js LOADED");
-
 // generated ok (NO DATE)

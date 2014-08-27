@@ -265,6 +265,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("pottine.js LOADED");
-
 // generated ok 2012-12-04 11:28:49 by martlume

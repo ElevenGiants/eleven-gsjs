@@ -194,6 +194,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("jellisac_mound.js LOADED");
-
 // generated ok 2012-10-24 14:41:36 by martlume

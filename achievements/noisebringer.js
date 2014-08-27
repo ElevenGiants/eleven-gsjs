@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("noisebringer.js LOADED");
-
 // generated ok (NO DATE)

@@ -376,6 +376,4 @@ itemDef.keys_in_pack = {
 	"c"	: "season"
 };
 
-log.info("egg_plain.js LOADED");
-
 // generated ok 2012-12-03 21:07:22 by martlume

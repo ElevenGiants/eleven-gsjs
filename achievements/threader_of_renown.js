@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("threader_of_renown.js LOADED");
-
 // generated ok (NO DATE)

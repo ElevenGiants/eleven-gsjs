@@ -65,6 +65,4 @@ var rewards = {
 	}
 };
 
-//log.info("bubbletuning_transform_bubbles.js LOADED");
-
 // generated ok (NO DATE)

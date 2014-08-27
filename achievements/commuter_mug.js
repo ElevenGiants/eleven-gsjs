@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("commuter_mug.js LOADED");
-
 // generated ok (NO DATE)

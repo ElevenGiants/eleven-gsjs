@@ -219,6 +219,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("physics.js LOADED");
-
 // generated ok 2012-06-29 12:09:20 by jupro

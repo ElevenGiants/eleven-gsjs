@@ -741,6 +741,4 @@ itemDef.keys_in_pack = {
 	"e"	: "repair"
 };
 
-log.info("shovel.js LOADED");
-
 // generated ok 2012-12-09 12:50:56 by ali

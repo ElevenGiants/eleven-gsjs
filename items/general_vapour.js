@@ -259,6 +259,4 @@ itemDef.keys_in_pack = {
 	"h"	: "shake"
 };
 
-log.info("general_vapour.js LOADED");
-
 // generated ok 2012-06-06 12:35:42 by cal

@@ -59,6 +59,4 @@ var rewards = {
 	}
 };
 
-//log.info("teleportation_teleport_with_followers.js LOADED");
-
 // generated ok (NO DATE)

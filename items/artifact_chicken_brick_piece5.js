@@ -153,6 +153,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("artifact_chicken_brick_piece5.js LOADED");
-
 // generated ok 2012-10-12 17:11:38 by martlume

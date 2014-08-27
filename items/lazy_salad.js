@@ -263,6 +263,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("lazy_salad.js LOADED");
-
 // generated ok 2012-09-18 15:37:34 by martlume

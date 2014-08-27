@@ -90,6 +90,4 @@ function onStarted(pc){
 	return {ok: 1};
 }
 
-//log.info("help_juju_bandits_2.js LOADED");
-
 // generated ok (NO DATE)

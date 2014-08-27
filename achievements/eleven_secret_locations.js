@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("eleven_secret_locations.js LOADED");
-
 // generated ok (NO DATE)

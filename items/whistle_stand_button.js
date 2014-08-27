@@ -184,6 +184,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("whistle_stand_button.js LOADED");
-
 // generated ok 2012-09-17 10:00:42 by mygrant

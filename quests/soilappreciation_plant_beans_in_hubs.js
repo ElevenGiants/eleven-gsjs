@@ -69,6 +69,4 @@ function onComplete_custom(pc){
 	pc.hub_plant_beans_end();
 }
 
-//log.info("soilappreciation_plant_beans_in_hubs.js LOADED");
-
 // generated ok (NO DATE)

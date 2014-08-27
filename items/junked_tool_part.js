@@ -150,6 +150,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("junked_tool_part.js LOADED");
-
 // generated ok 2012-05-29 15:32:03 by martlume

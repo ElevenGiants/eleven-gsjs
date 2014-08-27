@@ -262,6 +262,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("tiny_bubble.js LOADED");
-
 // generated ok 2012-12-03 22:11:04 by martlume

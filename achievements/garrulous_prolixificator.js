@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("garrulous_prolixificator.js LOADED");
-
 // generated ok (NO DATE)

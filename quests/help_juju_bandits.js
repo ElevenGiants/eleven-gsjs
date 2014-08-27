@@ -413,6 +413,4 @@ function setUpHintText(){
 	delete this.hints[this.hint_hub];
 }
 
-//log.info("help_juju_bandits.js LOADED");
-
 // generated ok (NO DATE)

@@ -76,6 +76,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("quest_req_icon_letterblock.js LOADED");
-
 // generated ok 2012-03-20 15:53:24 by martlume

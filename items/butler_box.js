@@ -309,6 +309,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("butler_box.js LOADED");
-
 // generated ok 2012-11-15 21:47:18 by tim

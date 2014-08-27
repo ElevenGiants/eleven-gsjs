@@ -337,6 +337,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("petrified_rock_large.js LOADED");
-
 // generated ok 2012-10-12 20:25:15 by stewart

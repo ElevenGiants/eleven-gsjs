@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("string_practicioner.js LOADED");
-
 // generated ok (NO DATE)

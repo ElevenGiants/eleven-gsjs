@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("wet_william.js LOADED");
-
 // generated ok (NO DATE)

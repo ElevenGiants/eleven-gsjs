@@ -51,6 +51,4 @@ var rewards	= {
 	}
 };
 
-//log.info("first_mab_emblem.js LOADED");
-
 // generated ok (NO DATE)

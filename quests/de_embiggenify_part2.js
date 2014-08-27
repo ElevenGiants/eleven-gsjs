@@ -79,6 +79,4 @@ function onComplete_custom(pc){
 	pc.apiSetTimerX('quests_offer', 60*1000, 'high_jump');
 }
 
-//log.info("de_embiggenify_part2.js LOADED");
-
 // generated ok (NO DATE)

@@ -77,6 +77,4 @@ var rewards = {
 	}
 };
 
-//log.info("tinkering_craft_medium_tools.js LOADED");
-
 // generated ok (NO DATE)

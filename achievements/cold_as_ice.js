@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("cold_as_ice.js LOADED");
-
 // generated ok (NO DATE)

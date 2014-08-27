@@ -267,6 +267,4 @@ itemDef.keys_in_pack = {
 	"h"	: "share"
 };
 
-log.info("doll_ayn_rand.js LOADED");
-
 // generated ok 2012-11-30 11:33:50 by ali

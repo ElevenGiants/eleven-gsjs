@@ -43,6 +43,4 @@ var rewards	= {
 	"xp"	: 700
 };
 
-//log.info("dracula.js LOADED");
-
 // generated ok (NO DATE)

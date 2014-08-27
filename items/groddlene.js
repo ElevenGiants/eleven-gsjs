@@ -156,6 +156,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("groddlene.js LOADED");
-
 // generated ok 2012-06-04 18:38:31 by kristi

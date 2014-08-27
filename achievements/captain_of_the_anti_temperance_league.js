@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("captain_of_the_anti_temperance_league.js LOADED");
-
 // generated ok (NO DATE)

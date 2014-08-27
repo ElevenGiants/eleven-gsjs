@@ -65,6 +65,4 @@ function onComplete_custom(pc){
 	delete pc.tools_repaired;
 }
 
-//log.info("tinkering_repair_tools.js LOADED");
-
 // generated ok (NO DATE)

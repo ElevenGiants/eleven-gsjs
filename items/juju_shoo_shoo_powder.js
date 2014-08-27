@@ -533,6 +533,4 @@ itemDef.keys_in_pack = {
 	"k"	: "sprinkle"
 };
 
-log.info("juju_shoo_shoo_powder.js LOADED");
-
 // generated ok 2012-05-25 10:00:13 by eric

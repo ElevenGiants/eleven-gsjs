@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("the_hugginator.js LOADED");
-
 // generated ok (NO DATE)

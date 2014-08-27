@@ -154,6 +154,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("artifact_silver_spoon.js LOADED");
-
 // generated ok 2012-12-07 19:08:13 by ali

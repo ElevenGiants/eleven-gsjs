@@ -591,6 +591,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("npc_rare_item_vendor.js LOADED");
-
 // generated ok 2012-09-14 13:52:28 by lizg

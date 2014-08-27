@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("domestic_completist.js LOADED");
-
 // generated ok (NO DATE)

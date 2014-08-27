@@ -56,6 +56,4 @@ var rewards	= {
 	}
 };
 
-//log.info("high_speed_commingler.js LOADED");
-
 // generated ok (NO DATE)

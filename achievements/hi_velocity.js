@@ -42,6 +42,4 @@ var rewards	= {
 	}
 };
 
-//log.info("hi_velocity.js LOADED");
-
 // generated ok (NO DATE)

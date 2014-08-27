@@ -264,6 +264,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("greasy_frybread.js LOADED");
-
 // generated ok 2012-09-18 15:44:36 by martlume

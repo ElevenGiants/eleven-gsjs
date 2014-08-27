@@ -50,6 +50,4 @@ var rewards = {
 	}
 };
 
-//log.info("questswhere_the_heart_isjs.js LOADED");
-
 // generated ok (NO DATE)

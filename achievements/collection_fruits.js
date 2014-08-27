@@ -123,6 +123,4 @@ var rewards	= {
 	}
 };
 
-//log.info("collection_fruits.js LOADED");
-
 // generated ok (NO DATE)

@@ -604,6 +604,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("still.js LOADED");
-
 // generated ok 2012-10-23 15:26:26 by lizg

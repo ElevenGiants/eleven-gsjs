@@ -60,6 +60,4 @@ var rewards = {
 	}
 };
 
-//log.info("mining_break_fancy_pick.js LOADED");
-
 // generated ok (NO DATE)

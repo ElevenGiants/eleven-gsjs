@@ -51,6 +51,4 @@ var rewards = {
 	}
 };
 
-//log.info("butler_zombies.js LOADED");
-
 // generated ok (NO DATE)

@@ -145,6 +145,4 @@ var rewards = {
 	}
 };
 
-//log.info("grub_giver.js LOADED");
-
 // generated ok (NO DATE)

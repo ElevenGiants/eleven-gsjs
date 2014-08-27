@@ -77,6 +77,4 @@ var rewards = {
 	}
 };
 
-//log.info("fly_paradise.js LOADED");
-
 // generated ok (NO DATE)

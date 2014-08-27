@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("licenced_teleporter_whoa_class.js LOADED");
-
 // generated ok (NO DATE)

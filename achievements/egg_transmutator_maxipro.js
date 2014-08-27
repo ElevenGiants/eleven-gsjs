@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("egg_transmutator_maxipro.js LOADED");
-
 // generated ok (NO DATE)

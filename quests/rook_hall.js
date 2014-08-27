@@ -328,6 +328,4 @@ function repeatShrineAnimation(){
 	this.apiSetTimer('repeatShrineAnimation', 8000);
 }
 
-//log.info("rook_hall.js LOADED");
-
 // generated ok (NO DATE)

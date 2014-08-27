@@ -361,6 +361,4 @@ itemDef.keys_in_pack = {
 	"n"	: "sniff"
 };
 
-log.info("bacon.js LOADED");
-
 // generated ok 2012-12-05 11:12:17 by martlume

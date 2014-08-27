@@ -154,6 +154,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("water_cooler.js LOADED");
-
 // generated ok 2011-09-28 10:11:59 by mygrant

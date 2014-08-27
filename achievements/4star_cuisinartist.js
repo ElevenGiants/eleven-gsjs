@@ -56,6 +56,4 @@ var rewards	= {
 	}
 };
 
-//log.info("4star_cuisinartist.js LOADED");
-
 // generated ok (NO DATE)

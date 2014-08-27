@@ -87,6 +87,4 @@ function onEnterLocation(location){
 	}
 }
 
-//log.info("teleportation_rescue_pig.js LOADED");
-
 // generated ok (NO DATE)

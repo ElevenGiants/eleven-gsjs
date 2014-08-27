@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("rainbow_brite.js LOADED");
-
 // generated ok (NO DATE)

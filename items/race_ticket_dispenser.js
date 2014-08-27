@@ -94,6 +94,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("race_ticket_dispenser.js LOADED");
-
 // generated ok 2011-10-14 15:19:38 by cwhitman

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("confounder_of_logic.js LOADED");
-
 // generated ok (NO DATE)

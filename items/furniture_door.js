@@ -968,6 +968,4 @@ itemDef.keys_in_pack = {
 	"n"	: "upgrade"
 };
 
-log.info("furniture_door.js LOADED");
-
 // generated ok 2012-08-23 16:17:49 by eric

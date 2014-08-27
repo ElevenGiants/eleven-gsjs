@@ -42,6 +42,4 @@ var rewards	= {
 	"xp"	: 200
 };
 
-//log.info("novice_novitiate.js LOADED");
-
 // generated ok (NO DATE)

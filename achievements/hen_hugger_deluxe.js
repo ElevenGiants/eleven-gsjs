@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("hen_hugger_deluxe.js LOADED");
-
 // generated ok (NO DATE)

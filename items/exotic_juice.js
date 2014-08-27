@@ -198,6 +198,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("exotic_juice.js LOADED");
-
 // generated ok 2012-12-03 20:23:24 by martlume

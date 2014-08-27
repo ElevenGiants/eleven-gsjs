@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("bathed_in_sloth_slobber.js LOADED");
-
 // generated ok (NO DATE)

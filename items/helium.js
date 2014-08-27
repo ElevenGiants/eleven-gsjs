@@ -287,6 +287,4 @@ itemDef.keys_in_pack = {
 	"n"	: "inhale"
 };
 
-log.info("helium.js LOADED");
-
 // generated ok 2012-11-07 13:12:55 by martlume

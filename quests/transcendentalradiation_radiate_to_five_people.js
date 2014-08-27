@@ -57,6 +57,4 @@ var rewards = {
 	}
 };
 
-//log.info("transcendentalradiation_radiate_to_five_people.js LOADED");
-
 // generated ok (NO DATE)

@@ -56,6 +56,4 @@ var rewards	= {
 	}
 };
 
-//log.info("roux_guru.js LOADED");
-
 // generated ok (NO DATE)

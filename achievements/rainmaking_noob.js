@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("rainmaking_noob.js LOADED");
-
 // generated ok (NO DATE)

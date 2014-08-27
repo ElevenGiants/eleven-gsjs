@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("globetrotter_extraordinaire.js LOADED");
-
 // generated ok (NO DATE)

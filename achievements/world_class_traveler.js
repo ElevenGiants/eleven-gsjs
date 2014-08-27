@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("world_class_traveler.js LOADED");
-
 // generated ok (NO DATE)

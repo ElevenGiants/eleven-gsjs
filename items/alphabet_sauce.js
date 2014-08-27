@@ -226,6 +226,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("alphabet_sauce.js LOADED");
-
 // generated ok 2012-11-09 15:53:47 by mygrant

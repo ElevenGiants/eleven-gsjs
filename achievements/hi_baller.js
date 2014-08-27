@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("hi_baller.js LOADED");
-
 // generated ok (NO DATE)

@@ -202,6 +202,4 @@ itemDef.keys_in_pack = {
 	"n"	: "inspect"
 };
 
-log.info("boot.js LOADED");
-
 // generated ok 2012-10-23 15:20:31 by ryan

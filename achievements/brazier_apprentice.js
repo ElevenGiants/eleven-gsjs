@@ -56,6 +56,4 @@ var rewards	= {
 	}
 };
 
-//log.info("brazier_apprentice.js LOADED");
-
 // generated ok (NO DATE)

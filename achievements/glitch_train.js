@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("glitch_train.js LOADED");
-
 // generated ok (NO DATE)

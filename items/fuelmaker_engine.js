@@ -571,6 +571,4 @@ itemDef.keys_in_pack = {
 	"h"	: "place"
 };
 
-log.info("fuelmaker_engine.js LOADED");
-
 // generated ok 2011-06-27 22:00:50

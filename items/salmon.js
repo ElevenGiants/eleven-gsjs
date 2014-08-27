@@ -332,6 +332,4 @@ itemDef.keys_in_pack = {
 	"c"	: "release"
 };
 
-log.info("salmon.js LOADED");
-
 // generated ok 2012-12-03 18:09:46 by martlume

@@ -66,6 +66,4 @@ var rewards = {
 	}
 };
 
-//log.info("grilling_make_level2_recipes.js LOADED");
-
 // generated ok (NO DATE)

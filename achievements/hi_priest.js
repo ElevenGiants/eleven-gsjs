@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("hi_priest.js LOADED");
-
 // generated ok (NO DATE)

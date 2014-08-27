@@ -562,6 +562,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("npc_mail_dispatcher.js LOADED");
-
 // generated ok 2012-10-12 16:12:21 by lizg

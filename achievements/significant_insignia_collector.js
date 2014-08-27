@@ -42,6 +42,4 @@ var rewards	= {
 	"xp"	: 800
 };
 
-//log.info("significant_insignia_collector.js LOADED");
-
 // generated ok (NO DATE)

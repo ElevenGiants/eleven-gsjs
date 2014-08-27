@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("glop_grappler.js LOADED");
-
 // generated ok (NO DATE)

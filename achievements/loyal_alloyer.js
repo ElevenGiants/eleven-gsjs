@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("loyal_alloyer.js LOADED");
-
 // generated ok (NO DATE)

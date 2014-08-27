@@ -218,6 +218,4 @@ itemDef.keys_in_pack = {
 	"u"	: "upgrade"
 };
 
-log.info("furniture_lamp.js LOADED");
-
 // generated ok 2012-03-05 11:19:33 by mygrant

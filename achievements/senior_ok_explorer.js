@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("senior_ok_explorer.js LOADED");
-
 // generated ok (NO DATE)

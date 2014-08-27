@@ -1,7 +1,5 @@
 //#include quest_scripting.js
 
-log.info("loading quest.js");
-
 var is_job = false;
 var title = 'Quest title (please override!)';
 var desc = 'Quest description (please override!)';

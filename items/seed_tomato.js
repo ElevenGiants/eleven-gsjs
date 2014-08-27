@@ -158,6 +158,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("seed_tomato.js LOADED");
-
 // generated ok 2012-09-14 19:45:50 by martlume

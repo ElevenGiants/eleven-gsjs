@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("toolie_apprentice.js LOADED");
-
 // generated ok (NO DATE)

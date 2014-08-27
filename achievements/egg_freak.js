@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("egg_freak.js LOADED");
-
 // generated ok (NO DATE)

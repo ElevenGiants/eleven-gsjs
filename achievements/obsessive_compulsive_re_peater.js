@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("obsessive_compulsive_re_peater.js LOADED");
-
 // generated ok (NO DATE)

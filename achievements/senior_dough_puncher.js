@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("senior_dough_puncher.js LOADED");
-
 // generated ok (NO DATE)

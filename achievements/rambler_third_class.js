@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("rambler_third_class.js LOADED");
-
 // generated ok (NO DATE)

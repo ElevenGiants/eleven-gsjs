@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("uralia_completist.js LOADED");
-
 // generated ok (NO DATE)

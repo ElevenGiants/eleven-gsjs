@@ -95,6 +95,4 @@ var rewards = {
 	}
 };
 
-//log.info("tincturing_make_tinctures.js LOADED");
-
 // generated ok (NO DATE)

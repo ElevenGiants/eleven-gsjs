@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("elbow_grease_monkey.js LOADED");
-
 // generated ok (NO DATE)

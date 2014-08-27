@@ -153,6 +153,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("artifact_mysterious_cube_piece3.js LOADED");
-
 // generated ok 2012-10-12 17:12:56 by martlume

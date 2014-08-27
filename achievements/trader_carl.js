@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("trader_carl.js LOADED");
-
 // generated ok (NO DATE)

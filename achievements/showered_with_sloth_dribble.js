@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("showered_with_sloth_dribble.js LOADED");
-
 // generated ok (NO DATE)

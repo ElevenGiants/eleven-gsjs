@@ -84,6 +84,4 @@ function sendGrowl(pc){
 	}
 }
 
-//log.info("teleportation_teleport_in_time_period.js LOADED");
-
 // generated ok (NO DATE)

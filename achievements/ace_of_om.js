@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("ace_of_om.js LOADED");
-
 // generated ok (NO DATE)

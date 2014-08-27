@@ -156,6 +156,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("diabolic_acid.js LOADED");
-
 // generated ok 2012-09-17 11:49:37 by martlume

@@ -365,6 +365,4 @@ itemDef.keys_in_pack = {
 	"u"	: "pull_string"
 };
 
-log.info("stoot_barfield_pullstring_doll.js LOADED");
-
 // generated ok 2012-12-04 13:05:45 by stewart

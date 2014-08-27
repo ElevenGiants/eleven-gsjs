@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("captain_tchotchke.js LOADED");
-
 // generated ok (NO DATE)

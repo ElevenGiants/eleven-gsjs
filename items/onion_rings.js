@@ -294,6 +294,4 @@ itemDef.keys_in_pack = {
 	"c"	: "twirl"
 };
 
-log.info("onion_rings.js LOADED");
-
 // generated ok 2012-12-05 10:45:41 by ali

@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("project_enthusiast.js LOADED");
-
 // generated ok (NO DATE)

@@ -264,6 +264,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("fried_rice.js LOADED");
-
 // generated ok 2012-12-03 17:58:56 by martlume

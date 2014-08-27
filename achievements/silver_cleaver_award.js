@@ -56,6 +56,4 @@ var rewards	= {
 	}
 };
 
-//log.info("silver_cleaver_award.js LOADED");
-
 // generated ok (NO DATE)

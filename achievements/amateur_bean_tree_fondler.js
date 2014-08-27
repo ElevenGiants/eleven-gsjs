@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("amateur_bean_tree_fondler.js LOADED");
-
 // generated ok (NO DATE)

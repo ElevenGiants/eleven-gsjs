@@ -195,6 +195,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("beer.js LOADED");
-
 // generated ok 2012-12-04 11:13:24 by martlume

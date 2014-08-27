@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("certified_boozehound.js LOADED");
-
 // generated ok (NO DATE)

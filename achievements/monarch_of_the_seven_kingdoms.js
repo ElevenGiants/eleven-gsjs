@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("monarch_of_the_seven_kingdoms.js LOADED");
-
 // generated ok (NO DATE)

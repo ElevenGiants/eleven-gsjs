@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("glutton_for_nourishment.js LOADED");
-
 // generated ok (NO DATE)

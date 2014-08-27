@@ -265,6 +265,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("swing_batter.js LOADED");
-
 // generated ok 2012-12-04 17:47:21 by ali

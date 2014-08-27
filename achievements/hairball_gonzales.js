@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("hairball_gonzales.js LOADED");
-
 // generated ok (NO DATE)

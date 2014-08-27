@@ -59,6 +59,4 @@ var rewards = {
 	}
 };
 
-//log.info("block_party.js LOADED");
-
 // generated ok (NO DATE)

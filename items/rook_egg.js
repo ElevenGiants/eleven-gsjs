@@ -211,6 +211,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("rook_egg.js LOADED");
-
 // generated ok 2011-01-26 09:56:14

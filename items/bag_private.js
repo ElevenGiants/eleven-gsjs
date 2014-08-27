@@ -81,6 +81,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("bag_private.js LOADED");
-
 // generated ok 2011-07-01 18:08:29 by martlume

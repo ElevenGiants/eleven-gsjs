@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("philter_fiend.js LOADED");
-
 // generated ok (NO DATE)

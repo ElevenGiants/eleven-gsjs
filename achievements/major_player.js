@@ -42,6 +42,4 @@ var rewards	= {
 	"xp"	: 400
 };
 
-//log.info("major_player.js LOADED");
-
 // generated ok (NO DATE)

@@ -76,6 +76,4 @@ function onComplete_custom(pc){
 	pc.startQuest('tutorial_reinforcement', false, true);
 }
 
-//log.info("learn_first_skill.js LOADED");
-
 // generated ok (NO DATE)

@@ -47,6 +47,4 @@ var rewards = {
 	"energy"	: 500
 };
 
-//log.info("animal_friend.js LOADED");
-
 // generated ok (NO DATE)

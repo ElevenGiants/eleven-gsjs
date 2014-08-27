@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("qualified_artifactologist.js LOADED");
-
 // generated ok (NO DATE)

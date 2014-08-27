@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("dirtomancer.js LOADED");
-
 // generated ok (NO DATE)

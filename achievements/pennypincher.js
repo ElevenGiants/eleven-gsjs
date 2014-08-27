@@ -41,6 +41,4 @@ var rewards	= {
 	"xp"	: 100
 };
 
-//log.info("pennypincher.js LOADED");
-
 // generated ok (NO DATE)

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("walking_frozed.js LOADED");
-
 // generated ok (NO DATE)

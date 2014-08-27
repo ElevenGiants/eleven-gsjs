@@ -152,6 +152,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("beam.js LOADED");
-
 // generated ok 2012-06-06 08:34:17 by justinklemsz

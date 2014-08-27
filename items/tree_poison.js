@@ -596,6 +596,4 @@ itemDef.keys_in_pack = {
 	"k"	: "sprinkle"
 };
 
-log.info("tree_poison.js LOADED");
-
 // generated ok 2012-06-15 09:55:13 by ptp

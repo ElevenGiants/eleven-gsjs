@@ -37,6 +37,4 @@ var rewards	= {
 	"xp"	: 400
 };
 
-//log.info("homesteader.js LOADED");
-
 // generated ok (NO DATE)

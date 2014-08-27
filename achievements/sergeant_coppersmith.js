@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("sergeant_coppersmith.js LOADED");
-
 // generated ok (NO DATE)

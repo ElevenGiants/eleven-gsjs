@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("really_unconfounded_compounder.js LOADED");
-
 // generated ok (NO DATE)

@@ -160,6 +160,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("mental_musing.js LOADED");
-
 // generated ok 2012-05-25 10:00:15 by eric

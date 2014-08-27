@@ -156,6 +156,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("grendalinunin.js LOADED");
-
 // generated ok 2012-06-04 18:38:17 by kristi

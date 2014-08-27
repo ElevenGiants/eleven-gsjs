@@ -76,6 +76,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("sign_stake.js LOADED");
-
 // generated ok 2011-06-22 15:38:57

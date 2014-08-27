@@ -217,6 +217,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("play_cube.js LOADED");
-
 // generated ok 2012-10-30 11:10:48 by mygrant

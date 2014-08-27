@@ -200,6 +200,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("face_smelter.js LOADED");
-
 // generated ok 2012-09-14 19:46:34 by martlume

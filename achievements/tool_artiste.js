@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("tool_artiste.js LOADED");
-
 // generated ok (NO DATE)

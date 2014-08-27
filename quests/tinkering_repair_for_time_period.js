@@ -59,6 +59,4 @@ var rewards = {
 	}
 };
 
-//log.info("tinkering_repair_for_time_period.js LOADED");
-
 // generated ok (NO DATE)

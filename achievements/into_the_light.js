@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("into_the_light.js LOADED");
-
 // generated ok (NO DATE)

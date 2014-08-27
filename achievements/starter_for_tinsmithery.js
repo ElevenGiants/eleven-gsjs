@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("starter_for_tinsmithery.js LOADED");
-
 // generated ok (NO DATE)

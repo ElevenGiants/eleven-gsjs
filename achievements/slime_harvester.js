@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("slime_harvester.js LOADED");
-
 // generated ok (NO DATE)

@@ -236,6 +236,4 @@ itemDef.keys_in_pack = {
 	"r"	: "drop"
 };
 
-log.info("trophy_music_b_brown.js LOADED");
-
 // generated ok 2012-08-21 17:02:35

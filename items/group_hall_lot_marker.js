@@ -154,6 +154,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("group_hall_lot_marker.js LOADED");
-
 // generated ok 2012-10-02 16:20:32 by jupro

@@ -65,6 +65,4 @@ var rewards = {
 	}
 };
 
-//log.info("teleportation_teleport_to_region.js LOADED");
-
 // generated ok (NO DATE)

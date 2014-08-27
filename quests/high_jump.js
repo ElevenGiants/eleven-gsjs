@@ -76,6 +76,4 @@ function onStarted(pc){
 	return { ok: 1 };
 }
 
-//log.info("high_jump.js LOADED");
-
 // generated ok (NO DATE)

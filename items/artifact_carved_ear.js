@@ -154,6 +154,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("artifact_carved_ear.js LOADED");
-
 // generated ok 2012-12-07 18:54:59 by ali

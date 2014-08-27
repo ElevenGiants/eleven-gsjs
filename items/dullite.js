@@ -203,6 +203,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("dullite.js LOADED");
-
 // generated ok 2012-11-16 16:09:23 by martlume

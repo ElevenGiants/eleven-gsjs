@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("icebreaker.js LOADED");
-
 // generated ok (NO DATE)

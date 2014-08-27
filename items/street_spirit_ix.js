@@ -1101,6 +1101,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("street_spirit_ix.js LOADED");
-
 // generated ok 2012-11-01 17:29:18 by lizg

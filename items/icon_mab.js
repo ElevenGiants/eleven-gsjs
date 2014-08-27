@@ -481,6 +481,4 @@ itemDef.keys_in_pack = {
 	"h"	: "tithe"
 };
 
-log.info("icon_mab.js LOADED");
-
 // generated ok 2012-12-06 17:07:08 by martlume

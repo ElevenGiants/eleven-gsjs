@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("about_average_irrigationist.js LOADED");
-
 // generated ok (NO DATE)

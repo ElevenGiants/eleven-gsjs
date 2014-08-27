@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("mighty_fine_mulcher.js LOADED");
-
 // generated ok (NO DATE)

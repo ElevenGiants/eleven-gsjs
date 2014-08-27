@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("secondbest_bubble_farmer.js LOADED");
-
 // generated ok (NO DATE)

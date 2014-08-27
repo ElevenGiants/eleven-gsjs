@@ -56,6 +56,4 @@ var rewards	= {
 	}
 };
 
-//log.info("pulse_frappe_mix_blend.js LOADED");
-
 // generated ok (NO DATE)

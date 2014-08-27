@@ -137,6 +137,4 @@ var rewards = {
 	}
 };
 
-//log.info("croppery_harvest_all_crops.js LOADED");
-
 // generated ok (NO DATE)

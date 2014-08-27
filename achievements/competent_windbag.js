@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("competent_windbag.js LOADED");
-
 // generated ok (NO DATE)

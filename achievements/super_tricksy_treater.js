@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("super_tricksy_treater.js LOADED");
-
 // generated ok (NO DATE)

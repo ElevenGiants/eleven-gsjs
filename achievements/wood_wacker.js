@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("wood_wacker.js LOADED");
-
 // generated ok (NO DATE)

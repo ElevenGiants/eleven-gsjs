@@ -210,6 +210,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("pareidolic_cosma_toast.js LOADED");
-
 // generated ok 2012-08-16 17:58:23 by mygrant

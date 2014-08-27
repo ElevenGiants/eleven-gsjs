@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("student_of_artifactology.js LOADED");
-
 // generated ok (NO DATE)

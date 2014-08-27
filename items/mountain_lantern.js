@@ -189,6 +189,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("mountain_lantern.js LOADED");
-
 // generated ok 2012-02-07 16:53:45 by tim

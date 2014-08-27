@@ -76,6 +76,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("quest_req_icon_hellhole.js LOADED");
-
 // generated ok 2012-04-05 16:44:30

@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("hanky_splanky.js LOADED");
-
 // generated ok (NO DATE)

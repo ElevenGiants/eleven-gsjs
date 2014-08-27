@@ -42,6 +42,4 @@ var rewards	= {
 	}
 };
 
-//log.info("fleet_foxer.js LOADED");
-
 // generated ok (NO DATE)

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("common_snail_collector.js LOADED");
-
 // generated ok (NO DATE)

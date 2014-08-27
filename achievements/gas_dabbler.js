@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("gas_dabbler.js LOADED");
-
 // generated ok (NO DATE)

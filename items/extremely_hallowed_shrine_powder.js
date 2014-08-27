@@ -531,6 +531,4 @@ itemDef.keys_in_pack = {
 	"k"	: "sprinkle"
 };
 
-log.info("extremely_hallowed_shrine_powder.js LOADED");
-
 // generated ok 2012-09-05 18:16:57 by martlume

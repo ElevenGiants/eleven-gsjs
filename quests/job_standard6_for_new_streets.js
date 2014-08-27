@@ -230,6 +230,4 @@ var performance_rewards = {
 	}
 };
 
-//log.info("job_standard6_for_new_streets.js LOADED");
-
 // generated ok (NO DATE)

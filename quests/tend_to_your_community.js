@@ -125,6 +125,4 @@ function onCreate(pc){
 	this.destination = choose_one(choices);
 }
 
-//log.info("tend_to_your_community.js LOADED");
-
 // generated ok (NO DATE)

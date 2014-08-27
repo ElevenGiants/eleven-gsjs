@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("bubble_tea_aficionado.js LOADED");
-
 // generated ok (NO DATE)

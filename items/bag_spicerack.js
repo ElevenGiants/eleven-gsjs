@@ -702,6 +702,4 @@ itemDef.keys_in_pack = {
 	"z"	: "sort_musicblocks"
 };
 
-log.info("bag_spicerack.js LOADED");
-
 // generated ok 2012-11-05 09:31:23 by mygrant

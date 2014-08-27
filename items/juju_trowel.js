@@ -209,6 +209,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("juju_trowel.js LOADED");
-
 // generated ok 2012-06-08 16:48:51 by martlume

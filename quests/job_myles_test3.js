@@ -117,6 +117,4 @@ var performance_rewards = {
 	}
 };
 
-//log.info("job_myles_test3.js LOADED");
-
 // generated ok (NO DATE)

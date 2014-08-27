@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("metal_masseuse.js LOADED");
-
 // generated ok (NO DATE)

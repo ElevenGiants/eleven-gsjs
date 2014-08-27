@@ -333,6 +333,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("caterpillar.js LOADED");
-
 // generated ok 2012-12-02 22:44:26 by ali

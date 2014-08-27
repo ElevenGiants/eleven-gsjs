@@ -187,6 +187,4 @@ itemDef.keys_in_pack = {
 	"e"	: "imbibe"
 };
 
-log.info("essence_of_silvertongue.js LOADED");
-
 // generated ok 2012-11-07 13:12:50 by martlume

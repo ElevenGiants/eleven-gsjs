@@ -462,6 +462,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("sno_cone_orange.js LOADED");
-
 // generated ok 2012-12-03 18:34:01 by martlume

@@ -28,6 +28,4 @@ function onComplete(pc){ // generated from rewards
 }
 var rewards = {};
 
-//log.info("impossible_achievement.js LOADED");
-
 // generated ok (NO DATE)

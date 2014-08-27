@@ -203,6 +203,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("beryl.js LOADED");
-
 // generated ok 2012-07-25 19:57:54 by cal

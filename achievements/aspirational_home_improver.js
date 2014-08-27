@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("aspirational_home_improver.js LOADED");
-
 // generated ok (NO DATE)

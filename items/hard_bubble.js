@@ -386,6 +386,4 @@ itemDef.keys_in_pack = {
 	"o"	: "pop"
 };
 
-log.info("hard_bubble.js LOADED");
-
 // generated ok 2012-12-03 20:17:43 by martlume

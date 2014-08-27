@@ -140,6 +140,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("esquibeth_note_5.js LOADED");
-
 // generated ok 2012-09-13 11:32:01 by ryan

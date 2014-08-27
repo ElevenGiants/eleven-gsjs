@@ -66,6 +66,4 @@ function onAccepted(pc){
 	return { ok: 1 };
 }
 
-//log.info("tower_quest_part3.js LOADED");
-
 // generated ok (NO DATE)

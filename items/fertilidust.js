@@ -608,6 +608,4 @@ itemDef.keys_in_pack = {
 	"k"	: "sprinkle"
 };
 
-log.info("fertilidust.js LOADED");
-
 // generated ok 2012-10-28 18:11:51 by mygrant

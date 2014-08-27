@@ -92,6 +92,4 @@ var rewards = {
 	}
 };
 
-//log.info("intermediateadmixing_make_more_powders.js LOADED");
-
 // generated ok (NO DATE)

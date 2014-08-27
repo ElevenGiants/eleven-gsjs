@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("libatious_borage_award.js LOADED");
-
 // generated ok (NO DATE)

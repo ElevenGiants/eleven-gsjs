@@ -188,6 +188,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("proto_shrine_grendaline.js LOADED");
-
 // generated ok 2011-12-16 17:20:30

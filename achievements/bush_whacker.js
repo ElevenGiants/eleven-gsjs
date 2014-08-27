@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("bush_whacker.js LOADED");
-
 // generated ok (NO DATE)

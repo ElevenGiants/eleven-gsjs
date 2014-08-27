@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("trader_vic.js LOADED");
-
 // generated ok (NO DATE)

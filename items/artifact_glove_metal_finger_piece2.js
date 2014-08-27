@@ -153,6 +153,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("artifact_glove_metal_finger_piece2.js LOADED");
-
 // generated ok 2012-10-12 17:11:47 by martlume

@@ -139,6 +139,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("greeter_stone.js LOADED");
-
 // generated ok 2012-07-24 17:23:40 by kukubee

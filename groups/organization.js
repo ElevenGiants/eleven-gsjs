@@ -5,8 +5,6 @@
 // Only organization-specific code is here. For the most part, we just branch elsewhere based on class_tsid
 //
 
-log.info("loading organization.js");
-
 // Called by doCreate in group.js
 function organization_create(){
 	this.level = 1;

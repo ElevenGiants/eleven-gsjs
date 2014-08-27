@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("hand_of_the_king.js LOADED");
-
 // generated ok (NO DATE)

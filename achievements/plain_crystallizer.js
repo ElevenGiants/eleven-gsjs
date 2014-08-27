@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("plain_crystallizer.js LOADED");
-
 // generated ok (NO DATE)

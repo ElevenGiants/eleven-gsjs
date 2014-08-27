@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("dedicated_snail_getter.js LOADED");
-
 // generated ok (NO DATE)

@@ -589,6 +589,4 @@ itemDef.keys_in_pack = {
 	"t"	: "teach"
 };
 
-log.info("pumpkin_lit_2.js LOADED");
-
 // generated ok 2012-10-31 09:48:24

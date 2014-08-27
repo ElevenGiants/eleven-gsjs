@@ -42,6 +42,4 @@ var rewards	= {
 	}
 };
 
-//log.info("circle_crunch.js LOADED");
-
 // generated ok (NO DATE)

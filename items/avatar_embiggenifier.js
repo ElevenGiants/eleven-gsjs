@@ -243,6 +243,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("avatar_embiggenifier.js LOADED");
-
 // generated ok 2012-08-30 11:50:41 by lizg

@@ -126,6 +126,4 @@ function onStarted(pc){
 	return {ok: 1};
 }
 
-//log.info("radiant_glare_rem.js LOADED");
-
 // generated ok (NO DATE)

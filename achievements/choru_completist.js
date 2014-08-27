@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("choru_completist.js LOADED");
-
 // generated ok (NO DATE)

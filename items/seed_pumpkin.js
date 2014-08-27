@@ -191,6 +191,4 @@ itemDef.keys_in_pack = {
 	"e"	: "lament"
 };
 
-log.info("seed_pumpkin.js LOADED");
-
 // generated ok 2012-11-12 16:50:14 by martlume

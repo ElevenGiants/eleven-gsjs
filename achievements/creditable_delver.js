@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("creditable_delver.js LOADED");
-
 // generated ok (NO DATE)

@@ -188,6 +188,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("proto_shrine_humbaba.js LOADED");
-
 // generated ok 2011-12-16 17:27:26

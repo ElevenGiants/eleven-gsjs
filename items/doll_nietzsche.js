@@ -272,6 +272,4 @@ itemDef.keys_in_pack = {
 	"u"	: "pull_string"
 };
 
-log.info("doll_nietzsche.js LOADED");
-
 // generated ok 2012-11-30 11:35:11 by ali

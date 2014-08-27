@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("gourmand_supreme.js LOADED");
-
 // generated ok (NO DATE)

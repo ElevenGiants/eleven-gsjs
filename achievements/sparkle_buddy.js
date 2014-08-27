@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("sparkle_buddy.js LOADED");
-
 // generated ok (NO DATE)

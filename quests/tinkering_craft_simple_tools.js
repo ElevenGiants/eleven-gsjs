@@ -89,6 +89,4 @@ var rewards = {
 	}
 };
 
-//log.info("tinkering_craft_simple_tools.js LOADED");
-
 // generated ok (NO DATE)

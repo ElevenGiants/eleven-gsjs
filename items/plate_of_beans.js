@@ -211,6 +211,4 @@ itemDef.keys_in_pack = {
 	"o"	: "overthink"
 };
 
-log.info("plate_of_beans.js LOADED");
-
 // generated ok 2012-05-25 10:00:15 by eric

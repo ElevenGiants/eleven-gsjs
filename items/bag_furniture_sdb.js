@@ -1612,6 +1612,4 @@ itemDef.keys_in_pack = {
 	"z"	: "upgrade"
 };
 
-log.info("bag_furniture_sdb.js LOADED");
-
 // generated ok 2012-11-02 16:23:28 by tim

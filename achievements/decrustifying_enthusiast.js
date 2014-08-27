@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("decrustifying_enthusiast.js LOADED");
-
 // generated ok (NO DATE)

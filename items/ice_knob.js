@@ -483,6 +483,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("ice_knob.js LOADED");
-
 // generated ok 2012-11-08 15:15:40 by lizg

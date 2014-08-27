@@ -71,6 +71,4 @@ var rewards = {
 	}
 };
 
-//log.info("alchemy_make_metal_ingots.js LOADED");
-
 // generated ok (NO DATE)

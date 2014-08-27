@@ -146,6 +146,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("snail.js LOADED");
-
 // generated ok 2012-06-08 12:43:07 by martlume

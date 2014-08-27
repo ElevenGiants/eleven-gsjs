@@ -74,6 +74,4 @@ function onExitLocation(location){
 	}
 }
 
-//log.info("le_miserable_part_2.js LOADED");
-
 // generated ok (NO DATE)

@@ -79,6 +79,4 @@ function onComplete_custom(pc){
 	pc.quests_offer('help_mine', true);
 }
 
-//log.info("mining_mine_rocks.js LOADED");
-
 // generated ok (NO DATE)

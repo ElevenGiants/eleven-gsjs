@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("subwayfarer.js LOADED");
-
 // generated ok (NO DATE)

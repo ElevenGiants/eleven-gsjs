@@ -50,6 +50,4 @@ var rewards	= {
 	}
 };
 
-//log.info("samudra_completist.js LOADED");
-
 // generated ok (NO DATE)

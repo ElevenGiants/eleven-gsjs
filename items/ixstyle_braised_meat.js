@@ -264,6 +264,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("ixstyle_braised_meat.js LOADED");
-
 // generated ok 2012-12-03 20:15:09 by martlume

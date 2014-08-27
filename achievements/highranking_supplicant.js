@@ -42,6 +42,4 @@ var rewards	= {
 	"xp"	: 600
 };
 
-//log.info("highranking_supplicant.js LOADED");
-
 // generated ok (NO DATE)

@@ -397,6 +397,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("ctgc.js LOADED");
-
 // generated ok 2012-06-29 12:31:26 by jupro

@@ -59,6 +59,4 @@ var rewards = {
 	}
 };
 
-//log.info("betterlearning_get_giant_emblem.js LOADED");
-
 // generated ok (NO DATE)

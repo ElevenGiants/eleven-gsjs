@@ -92,6 +92,4 @@ function testBog(){
 	}
 }
 
-//log.info("bogspecialization_harvest_full_peat_bog_in_time_period.js LOADED");
-
 // generated ok (NO DATE)

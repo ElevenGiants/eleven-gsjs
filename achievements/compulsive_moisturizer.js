@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("compulsive_moisturizer.js LOADED");
-
 // generated ok (NO DATE)

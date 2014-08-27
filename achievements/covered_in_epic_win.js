@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("covered_in_epic_win.js LOADED");
-
 // generated ok (NO DATE)

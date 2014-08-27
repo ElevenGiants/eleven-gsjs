@@ -221,6 +221,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("element_shiny.js LOADED");
-
 // generated ok 2012-10-31 15:40:24 by martlume

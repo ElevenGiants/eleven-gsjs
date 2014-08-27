@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("grand_poobah_tinkering_ops.js LOADED");
-
 // generated ok (NO DATE)

@@ -127,6 +127,4 @@ function onStarted(pc){
 	return {ok: 1};
 }
 
-//log.info("eyeballery_identify_object.js LOADED");
-
 // generated ok (NO DATE)

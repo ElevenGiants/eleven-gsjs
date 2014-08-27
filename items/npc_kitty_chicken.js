@@ -3131,6 +3131,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("npc_kitty_chicken.js LOADED");
-
 // generated ok 2012-12-09 13:57:26 by ali

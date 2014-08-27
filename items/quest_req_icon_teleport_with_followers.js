@@ -76,6 +76,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("quest_req_icon_teleport_with_followers.js LOADED");
-
 // generated ok 2012-03-22 20:22:02 by martlume

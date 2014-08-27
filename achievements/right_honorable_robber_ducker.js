@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("right_honorable_robber_ducker.js LOADED");
-
 // generated ok (NO DATE)

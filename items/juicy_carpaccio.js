@@ -264,6 +264,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("juicy_carpaccio.js LOADED");
-
 // generated ok 2012-12-03 16:56:19 by martlume

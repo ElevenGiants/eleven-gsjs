@@ -197,6 +197,4 @@ itemDef.keys_in_pack = {
 	"n"	: "invoke"
 };
 
-log.info("invoking_patch.js LOADED");
-
 // generated ok 2012-01-23 15:38:18 by lizg

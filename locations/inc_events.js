@@ -588,8 +588,6 @@ function events_VOGPlayer(pc, args_in){
 		background_alpha: args_in.fade_alpha ? args_in.fade_alpha : 0.3,
 		at_bottom: true
 	};
-log.info('ARGS', args);
-
 	if (args_in.next_event){
 		args.done_payload = {
 			event_location: this.tsid,

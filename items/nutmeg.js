@@ -348,6 +348,4 @@ itemDef.keys_in_pack = {
 	"u"	: "rub"
 };
 
-log.info("nutmeg.js LOADED");
-
 // generated ok 2012-12-03 18:05:43 by martlume

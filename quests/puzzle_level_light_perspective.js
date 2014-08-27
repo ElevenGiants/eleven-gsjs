@@ -95,6 +95,4 @@ function onStarted(pc){
 	return {ok: 1};
 }
 
-//log.info("puzzle_level_light_perspective.js LOADED");
-
 // generated ok (NO DATE)

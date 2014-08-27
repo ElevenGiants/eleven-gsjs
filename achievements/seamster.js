@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("seamster.js LOADED");
-
 // generated ok (NO DATE)

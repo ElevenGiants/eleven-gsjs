@@ -39,6 +39,4 @@ function onComplete(pc){ // generated from rewards
 }
 var rewards = {};
 
-//log.info("multiplayer_races.js LOADED");
-
 // generated ok (NO DATE)

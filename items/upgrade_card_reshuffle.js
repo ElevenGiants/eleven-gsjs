@@ -197,6 +197,4 @@ itemDef.keys_in_pack = {
 	"e"	: "reshuffle"
 };
 
-log.info("upgrade_card_reshuffle.js LOADED");
-
 // generated ok 2012-08-22 10:55:31 by martlume

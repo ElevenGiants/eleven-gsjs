@@ -500,6 +500,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("mortar_barnacle.js LOADED");
-
 // generated ok 2012-10-24 15:50:10 by lizg

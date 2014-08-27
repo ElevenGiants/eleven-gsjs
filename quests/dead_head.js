@@ -50,6 +50,4 @@ var rewards = {
 	}
 };
 
-//log.info("dead_head.js LOADED");
-
 // generated ok (NO DATE)

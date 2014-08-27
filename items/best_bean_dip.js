@@ -264,6 +264,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("best_bean_dip.js LOADED");
-
 // generated ok 2012-09-18 15:38:42 by martlume

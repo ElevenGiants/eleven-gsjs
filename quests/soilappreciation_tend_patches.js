@@ -60,6 +60,4 @@ var rewards = {
 	}
 };
 
-//log.info("soilappreciation_tend_patches.js LOADED");
-
 // generated ok (NO DATE)

@@ -329,6 +329,4 @@ itemDef.keys_in_pack = {
 	"c"	: "lick"
 };
 
-log.info("cumin.js LOADED");
-
 // generated ok 2012-12-03 19:46:16 by martlume

@@ -264,6 +264,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("onion_sauce.js LOADED");
-
 // generated ok 2012-09-18 15:43:17 by martlume

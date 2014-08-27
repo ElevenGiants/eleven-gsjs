@@ -1031,6 +1031,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("npc_fox.js LOADED");
-
 // generated ok 2012-12-02 22:58:00 by ali

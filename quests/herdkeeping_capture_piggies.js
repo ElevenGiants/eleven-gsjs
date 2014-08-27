@@ -58,6 +58,4 @@ var rewards = {
 	}
 };
 
-//log.info("herdkeeping_capture_piggies.js LOADED");
-
 // generated ok (NO DATE)

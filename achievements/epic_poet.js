@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("epic_poet.js LOADED");
-
 // generated ok (NO DATE)

@@ -42,6 +42,4 @@ var rewards	= {
 	}
 };
 
-//log.info("hi_speed_chase.js LOADED");
-
 // generated ok (NO DATE)

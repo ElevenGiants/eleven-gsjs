@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("epic_blowout.js LOADED");
-
 // generated ok (NO DATE)

@@ -409,6 +409,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("licorice.js LOADED");
-
 // generated ok 2012-12-03 18:48:56 by martlume

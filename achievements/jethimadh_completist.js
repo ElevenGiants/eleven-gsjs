@@ -49,6 +49,4 @@ var rewards	= {
 	}
 };
 
-//log.info("jethimadh_completist.js LOADED");
-
 // generated ok (NO DATE)

@@ -264,6 +264,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("bubble_and_squeak.js LOADED");
-
 // generated ok 2012-07-16 17:03:19 by lizg

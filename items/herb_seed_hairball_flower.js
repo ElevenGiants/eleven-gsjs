@@ -158,6 +158,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("herb_seed_hairball_flower.js LOADED");
-
 // generated ok 2012-11-08 13:26:54 by martlume

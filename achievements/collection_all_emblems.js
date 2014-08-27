@@ -116,6 +116,4 @@ var rewards	= {
 	}
 };
 
-//log.info("collection_all_emblems.js LOADED");
-
 // generated ok (NO DATE)

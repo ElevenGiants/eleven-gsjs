@@ -152,6 +152,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("metal_post.js LOADED");
-
 // generated ok 2012-09-17 11:28:01 by martlume

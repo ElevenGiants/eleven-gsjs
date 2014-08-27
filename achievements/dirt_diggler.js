@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("dirt_diggler.js LOADED");
-
 // generated ok (NO DATE)

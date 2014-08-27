@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("endurance_hi_skipper.js LOADED");
-
 // generated ok (NO DATE)

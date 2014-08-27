@@ -218,6 +218,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("treasure_map_1.js LOADED");
-
 // generated ok 2012-08-11 12:58:00

@@ -195,6 +195,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("metal_rod.js LOADED");
-
 // generated ok 2012-06-08 12:43:00 by martlume

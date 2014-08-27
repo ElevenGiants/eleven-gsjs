@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("bean_counter_pro.js LOADED");
-
 // generated ok (NO DATE)

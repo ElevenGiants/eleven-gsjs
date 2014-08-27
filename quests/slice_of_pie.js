@@ -46,6 +46,4 @@ var rewards = {
 	}
 };
 
-//log.info("slice_of_pie.js LOADED");
-
 // generated ok (NO DATE)

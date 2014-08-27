@@ -56,6 +56,4 @@ var rewards = {
 	"energy"	: 20
 };
 
-//log.info("buy_bag.js LOADED");
-
 // generated ok (NO DATE)

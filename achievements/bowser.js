@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("bowser.js LOADED");
-
 // generated ok (NO DATE)

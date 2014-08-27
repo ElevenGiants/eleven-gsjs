@@ -191,6 +191,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("clickable_broadcaster.js LOADED");
-
 // generated ok 2012-09-17 09:25:32 by eric

@@ -74,6 +74,4 @@ function onComplete_custom(pc){
 	}
 }
 
-//log.info("leave_gentle_island.js LOADED");
-
 // generated ok (NO DATE)

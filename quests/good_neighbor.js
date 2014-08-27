@@ -52,6 +52,4 @@ var rewards = {
 	"mood"	: 500
 };
 
-//log.info("good_neighbor.js LOADED");
-
 // generated ok (NO DATE)

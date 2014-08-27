@@ -59,6 +59,4 @@ var rewards = {
 	}
 };
 
-//log.info("smelting_smelt_metal_rock_to_plain_metal.js LOADED");
-
 // generated ok (NO DATE)

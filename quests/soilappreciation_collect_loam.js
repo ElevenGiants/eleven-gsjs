@@ -71,6 +71,4 @@ function onStarted(pc){
 	return {ok: 1};
 }
 
-//log.info("soilappreciation_collect_loam.js LOADED");
-
 // generated ok (NO DATE)

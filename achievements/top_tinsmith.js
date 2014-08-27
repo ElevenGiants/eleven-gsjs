@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("top_tinsmith.js LOADED");
-
 // generated ok (NO DATE)

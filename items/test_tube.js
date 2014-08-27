@@ -677,6 +677,4 @@ itemDef.keys_in_pack = {
 	"c"	: "repair"
 };
 
-log.info("test_tube.js LOADED");
-
 // generated ok 2012-12-09 12:50:56 by ali

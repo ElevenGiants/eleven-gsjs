@@ -121,6 +121,4 @@ function onAccepted(pc){
 	pc.apiSendMsg(rsp);
 }
 
-//log.info("hell_quest.js LOADED");
-
 // generated ok (NO DATE)

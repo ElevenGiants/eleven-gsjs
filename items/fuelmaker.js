@@ -1656,6 +1656,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("fuelmaker.js LOADED");
-
 // generated ok 2012-09-26 14:38:16 by lizg

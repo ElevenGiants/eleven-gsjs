@@ -807,6 +807,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("paper_tree.js LOADED");
-
 // generated ok 2012-12-05 14:37:19 by ali

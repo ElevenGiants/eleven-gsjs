@@ -281,6 +281,4 @@ itemDef.keys_in_pack = {
 	"e"	: "remove"
 };
 
-log.info("greeter_twig.js LOADED");
-
 // generated ok 2012-09-05 10:36:14 by mygrant

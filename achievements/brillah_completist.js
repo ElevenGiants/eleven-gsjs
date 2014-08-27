@@ -42,6 +42,4 @@ var rewards	= {
 	}
 };
 
-//log.info("brillah_completist.js LOADED");
-
 // generated ok (NO DATE)

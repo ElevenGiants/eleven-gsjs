@@ -836,6 +836,4 @@ itemDef.keys_in_pack = {
 	"j"	: "upgrade"
 };
 
-log.info("bag_furniture_smallcabinet.js LOADED");
-
 // generated ok 2012-11-02 15:57:48 by tim

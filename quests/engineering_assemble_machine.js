@@ -101,6 +101,4 @@ function onStarted(pc){
 	return {ok: 1};
 }
 
-//log.info("engineering_assemble_machine.js LOADED");
-
 // generated ok (NO DATE)

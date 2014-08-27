@@ -32,6 +32,4 @@ function onComplete(pc){ // generated from rewards
 }
 var rewards = {};
 
-//log.info("potionmaking_make_and_use_essence_of_hole_potion.js LOADED");
-
 // generated ok (NO DATE)

@@ -150,6 +150,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("bag_cabinet_barrel.js LOADED");
-
 // generated ok 2012-02-14 14:31:32 by mygrant

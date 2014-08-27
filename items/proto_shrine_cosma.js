@@ -188,6 +188,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("proto_shrine_cosma.js LOADED");
-
 // generated ok 2011-12-16 16:33:38

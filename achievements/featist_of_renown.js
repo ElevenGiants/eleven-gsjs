@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("featist_of_renown.js LOADED");
-
 // generated ok (NO DATE)

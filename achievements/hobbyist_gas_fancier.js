@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("hobbyist_gas_fancier.js LOADED");
-
 // generated ok (NO DATE)

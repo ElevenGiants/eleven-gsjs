@@ -90,6 +90,4 @@ function onStarted(pc){
 	return { ok: 1 };
 }
 
-//log.info("card_carrying_qualification.js LOADED");
-
 // generated ok (NO DATE)

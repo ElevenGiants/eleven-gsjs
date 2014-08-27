@@ -1,8 +1,6 @@
 
 function adminSetLocation(loc){
 
-log.info('arg', loc);
-
 	var location = apiFindObject(loc.tsid);
 
 	if (!location){

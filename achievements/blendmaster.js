@@ -56,6 +56,4 @@ var rewards	= {
 	}
 };
 
-//log.info("blendmaster.js LOADED");
-
 // generated ok (NO DATE)

@@ -71,6 +71,4 @@ function onStarted(pc){
 	return { ok: 1 };
 }
 
-//log.info("animalkinship_nibble_meat.js LOADED");
-
 // generated ok (NO DATE)

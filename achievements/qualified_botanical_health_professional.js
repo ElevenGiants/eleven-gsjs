@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("qualified_botanical_health_professional.js LOADED");
-
 // generated ok (NO DATE)

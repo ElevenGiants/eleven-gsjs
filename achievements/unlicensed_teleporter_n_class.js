@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("unlicensed_teleporter_n_class.js LOADED");
-
 // generated ok (NO DATE)

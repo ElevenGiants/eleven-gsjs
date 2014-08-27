@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("happy_foxbrusher.js LOADED");
-
 // generated ok (NO DATE)

@@ -42,6 +42,4 @@ var rewards	= {
 	"xp"	: 400
 };
 
-//log.info("all_giant_emblems.js LOADED");
-
 // generated ok (NO DATE)

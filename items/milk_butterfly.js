@@ -376,6 +376,4 @@ itemDef.keys_in_pack = {
 	"c"	: "sniff"
 };
 
-log.info("milk_butterfly.js LOADED");
-
 // generated ok 2012-12-03 21:14:15 by martlume

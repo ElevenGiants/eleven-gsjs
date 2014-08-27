@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("multi_cultivator.js LOADED");
-
 // generated ok (NO DATE)

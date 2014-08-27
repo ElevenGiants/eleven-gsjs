@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("awesome_apothecary.js LOADED");
-
 // generated ok (NO DATE)

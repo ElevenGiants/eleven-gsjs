@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("quiet_tragedy.js LOADED");
-
 // generated ok (NO DATE)

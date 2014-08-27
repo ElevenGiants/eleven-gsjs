@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("knight_of_the_kingsguard.js LOADED");
-
 // generated ok (NO DATE)

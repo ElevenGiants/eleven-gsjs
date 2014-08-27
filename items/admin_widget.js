@@ -251,6 +251,4 @@ itemDef.keys_in_pack = {
 	"u"	: "upgrade"
 };
 
-log.info("admin_widget.js LOADED");
-
 // generated ok 2012-08-10 10:14:00 by mygrant

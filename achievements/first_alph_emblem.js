@@ -51,6 +51,4 @@ var rewards	= {
 	}
 };
 
-//log.info("first_alph_emblem.js LOADED");
-
 // generated ok (NO DATE)

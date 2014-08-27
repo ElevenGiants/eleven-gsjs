@@ -53,6 +53,4 @@ var rewards	= {
 	}
 };
 
-//log.info("lanternerer.js LOADED");
-
 // generated ok (NO DATE)

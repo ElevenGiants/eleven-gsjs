@@ -200,6 +200,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("earthshaker.js LOADED");
-
 // generated ok 2012-12-03 20:23:26 by martlume

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("girder_herder.js LOADED");
-
 // generated ok (NO DATE)

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("generalissimo_beanorator.js LOADED");
-
 // generated ok (NO DATE)

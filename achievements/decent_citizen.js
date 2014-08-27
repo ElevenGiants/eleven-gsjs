@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("decent_citizen.js LOADED");
-
 // generated ok (NO DATE)

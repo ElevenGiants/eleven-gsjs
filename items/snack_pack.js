@@ -264,6 +264,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("snack_pack.js LOADED");
-
 // generated ok 2012-09-18 15:37:48 by martlume

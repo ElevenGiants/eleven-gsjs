@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("basic_larva_lover.js LOADED");
-
 // generated ok (NO DATE)

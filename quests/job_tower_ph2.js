@@ -229,6 +229,4 @@ var performance_rewards = {
 	}
 };
 
-//log.info("job_tower_ph2.js LOADED");
-
 // generated ok (NO DATE)

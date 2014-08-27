@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("haughty_culturist.js LOADED");
-
 // generated ok (NO DATE)

@@ -266,6 +266,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("potians_feast.js LOADED");
-
 // generated ok 2012-12-04 11:28:41 by martlume

@@ -65,6 +65,4 @@ var rewards = {
 	}
 };
 
-//log.info("remoteherdkeeping_fill_up_meat_collector_and_milker.js LOADED");
-
 // generated ok (NO DATE)

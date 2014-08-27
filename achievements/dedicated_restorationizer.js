@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("dedicated_restorationizer.js LOADED");
-
 // generated ok (NO DATE)

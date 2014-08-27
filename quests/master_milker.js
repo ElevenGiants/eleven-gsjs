@@ -58,6 +58,4 @@ function onComplete_custom(pc){
 	delete pc.butterflies_milked;
 }
 
-//log.info("master_milker.js LOADED");
-
 // generated ok (NO DATE)

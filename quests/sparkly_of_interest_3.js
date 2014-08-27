@@ -54,6 +54,4 @@ var rewards = {
 	"energy"	: 20
 };
 
-//log.info("sparkly_of_interest_3.js LOADED");
-
 // generated ok (NO DATE)

@@ -170,6 +170,4 @@ function onStarted(pc){
 	return {ok: 1};
 }
 
-//log.info("greedy_street_spirit.js LOADED");
-
 // generated ok (NO DATE)

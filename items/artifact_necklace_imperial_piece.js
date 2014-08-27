@@ -153,6 +153,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("artifact_necklace_imperial_piece.js LOADED");
-
 // generated ok 2012-10-16 16:13:55 by martlume

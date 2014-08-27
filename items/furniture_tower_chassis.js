@@ -866,6 +866,4 @@ itemDef.keys_in_pack = {
 	"k"	: "upgrade"
 };
 
-log.info("furniture_tower_chassis.js LOADED");
-
 // generated ok 2012-08-27 13:17:53

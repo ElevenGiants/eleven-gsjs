@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("up_n_comer.js LOADED");
-
 // generated ok (NO DATE)

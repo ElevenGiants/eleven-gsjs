@@ -60,6 +60,4 @@ var rewards = {
 	}
 };
 
-//log.info("animalkinship_pet_piggies.js LOADED");
-
 // generated ok (NO DATE)

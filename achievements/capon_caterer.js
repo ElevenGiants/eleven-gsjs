@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("capon_caterer.js LOADED");
-
 // generated ok (NO DATE)

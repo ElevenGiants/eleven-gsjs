@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("moste_potente_potioning_medal.js LOADED");
-
 // generated ok (NO DATE)

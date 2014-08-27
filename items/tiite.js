@@ -156,6 +156,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("tiite.js LOADED");
-
 // generated ok 2012-09-18 15:51:09 by martlume

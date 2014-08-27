@@ -465,6 +465,4 @@ itemDef.keys_in_pack = {
 	"o"	: "play_for"
 };
 
-log.info("musicblock_d_red_03.js LOADED");
-
 // generated ok 2012-09-12 16:23:44 by lizg

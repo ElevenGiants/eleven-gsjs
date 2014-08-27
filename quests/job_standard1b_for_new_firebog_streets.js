@@ -238,6 +238,4 @@ var performance_rewards = {
 	}
 };
 
-//log.info("job_standard1b_for_new_firebog_streets.js LOADED");
-
 // generated ok (NO DATE)

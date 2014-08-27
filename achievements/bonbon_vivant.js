@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("bonbon_vivant.js LOADED");
-
 // generated ok (NO DATE)

@@ -238,6 +238,4 @@ var performance_rewards = {
 	}
 };
 
-//log.info("job_standard1_for_new_groddle_meadow_streets.js LOADED");
-
 // generated ok (NO DATE)

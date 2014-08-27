@@ -262,6 +262,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("lemon.js LOADED");
-
 // generated ok 2012-12-03 18:48:58 by martlume

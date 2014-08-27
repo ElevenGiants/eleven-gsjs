@@ -261,6 +261,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("bun.js LOADED");
-
 // generated ok 2012-12-03 21:21:13 by martlume

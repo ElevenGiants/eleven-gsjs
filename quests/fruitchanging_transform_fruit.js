@@ -71,6 +71,4 @@ var rewards = {
 	}
 };
 
-//log.info("fruitchanging_transform_fruit.js LOADED");
-
 // generated ok (NO DATE)

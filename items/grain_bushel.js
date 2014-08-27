@@ -215,6 +215,4 @@ itemDef.keys_in_pack = {
 	"u"	: "unbundle"
 };
 
-log.info("grain_bushel.js LOADED");
-
 // generated ok 2012-12-03 17:52:02 by martlume

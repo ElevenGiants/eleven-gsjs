@@ -41,6 +41,4 @@ var rewards	= {
 	"xp"	: 200
 };
 
-//log.info("moneybags.js LOADED");
-
 // generated ok (NO DATE)

@@ -78,6 +78,4 @@ function onStarted(pc){
 	return {ok: 1};
 }
 
-//log.info("zero_mood.js LOADED");
-
 // generated ok (NO DATE)

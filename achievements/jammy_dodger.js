@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("jammy_dodger.js LOADED");
-
 // generated ok (NO DATE)

@@ -55,6 +55,4 @@ function onStarted(pc){
 	};
 }
 
-//log.info("tower_defense.js LOADED");
-
 // generated ok (NO DATE)

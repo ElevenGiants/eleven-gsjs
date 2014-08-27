@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("cubimal_emancipationist.js LOADED");
-
 // generated ok (NO DATE)

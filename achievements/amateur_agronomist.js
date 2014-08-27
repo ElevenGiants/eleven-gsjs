@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("amateur_agronomist.js LOADED");
-
 // generated ok (NO DATE)

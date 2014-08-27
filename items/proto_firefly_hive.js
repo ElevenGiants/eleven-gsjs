@@ -286,6 +286,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("proto_firefly_hive.js LOADED");
-
 // generated ok 2012-09-17 11:45:56 by martlume

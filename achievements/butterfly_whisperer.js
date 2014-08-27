@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("butterfly_whisperer.js LOADED");
-
 // generated ok (NO DATE)

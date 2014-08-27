@@ -286,6 +286,4 @@ itemDef.keys_in_pack = {
 	"u"	: "upgrade"
 };
 
-log.info("bag_furniture_largecabinet.js LOADED");
-
 // generated ok 2012-02-23 19:33:29 by martlume

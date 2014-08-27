@@ -152,6 +152,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("artifact_necklace_onyx.js LOADED");
-
 // generated ok 2012-10-16 19:30:02

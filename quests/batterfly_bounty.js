@@ -85,6 +85,4 @@ var rewards = {
 	}
 };
 
-//log.info("batterfly_bounty.js LOADED");
-
 // generated ok (NO DATE)

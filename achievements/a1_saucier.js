@@ -56,6 +56,4 @@ var rewards	= {
 	}
 };
 
-//log.info("a1_saucier.js LOADED");
-
 // generated ok (NO DATE)

@@ -549,6 +549,4 @@ itemDef.keys_in_pack = {
 	"h"	: "tithe"
 };
 
-log.info("icon_humbaba.js LOADED");
-
 // generated ok 2012-12-06 16:43:37 by martlume

@@ -58,6 +58,4 @@ function onComplete_custom(pc){
 	pc.counters_reset_group('players_mooned');
 }
 
-//log.info("rising_moon.js LOADED");
-
 // generated ok (NO DATE)

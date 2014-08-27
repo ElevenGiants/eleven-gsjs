@@ -239,6 +239,4 @@ itemDef.keys_in_pack = {
 	"n"	: "insta_hatch"
 };
 
-log.info("piggy_egg.js LOADED");
-
 // generated ok 2012-07-02 17:15:11 by martlume

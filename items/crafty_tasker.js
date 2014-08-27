@@ -780,6 +780,4 @@ itemDef.keys_in_pack = {
 	"c"	: "craft"
 };
 
-log.info("crafty_tasker.js LOADED");
-
 // generated ok 2012-08-14 15:10:33 by simon

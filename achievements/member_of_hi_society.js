@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("member_of_hi_society.js LOADED");
-
 // generated ok (NO DATE)

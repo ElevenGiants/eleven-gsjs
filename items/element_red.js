@@ -221,6 +221,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("element_red.js LOADED");
-
 // generated ok 2012-10-31 16:08:43 by martlume

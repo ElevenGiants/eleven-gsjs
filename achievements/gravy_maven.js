@@ -56,6 +56,4 @@ var rewards	= {
 	}
 };
 
-//log.info("gravy_maven.js LOADED");
-
 // generated ok (NO DATE)

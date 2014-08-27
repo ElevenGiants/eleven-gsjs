@@ -56,6 +56,4 @@ var rewards	= {
 	}
 };
 
-//log.info("rolling_boiler.js LOADED");
-
 // generated ok (NO DATE)

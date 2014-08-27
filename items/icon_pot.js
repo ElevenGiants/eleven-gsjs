@@ -488,6 +488,4 @@ itemDef.keys_in_pack = {
 	"h"	: "tithe"
 };
 
-log.info("icon_pot.js LOADED");
-
 // generated ok 2012-12-06 17:08:06 by martlume

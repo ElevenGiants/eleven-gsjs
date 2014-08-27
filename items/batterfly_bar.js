@@ -257,6 +257,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("batterfly_bar.js LOADED");
-
 // generated ok 2012-08-12 17:28:37

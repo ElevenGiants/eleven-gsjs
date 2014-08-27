@@ -470,6 +470,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("pumpkin.js LOADED");
-
 // generated ok 2012-11-12 17:32:38 by mygrant

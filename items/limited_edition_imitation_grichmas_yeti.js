@@ -267,6 +267,4 @@ itemDef.keys_in_pack = {
 	"u"	: "pull_string"
 };
 
-log.info("limited_edition_imitation_grichmas_yeti.js LOADED");
-
 // generated ok 2012-11-23 17:36:39 by pobrien

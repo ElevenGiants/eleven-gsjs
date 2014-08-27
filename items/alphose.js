@@ -166,6 +166,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("alphose.js LOADED");
-
 // generated ok 2012-06-04 17:52:14 by kristi

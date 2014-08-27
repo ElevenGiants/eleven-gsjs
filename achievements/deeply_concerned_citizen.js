@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("deeply_concerned_citizen.js LOADED");
-
 // generated ok (NO DATE)

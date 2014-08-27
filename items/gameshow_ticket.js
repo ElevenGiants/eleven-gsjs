@@ -198,6 +198,4 @@ itemDef.keys_in_pack = {
 	"u"	: "use"
 };
 
-log.info("gameshow_ticket.js LOADED");
-
 // generated ok 2012-08-13 10:02:04 by mygrant

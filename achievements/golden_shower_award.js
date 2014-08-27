@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("golden_shower_award.js LOADED");
-
 // generated ok (NO DATE)

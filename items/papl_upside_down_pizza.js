@@ -264,6 +264,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("papl_upside_down_pizza.js LOADED");
-
 // generated ok 2012-12-03 20:00:00 by martlume

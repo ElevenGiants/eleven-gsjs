@@ -635,6 +635,4 @@ itemDef.keys_in_pack = {
 	"e"	: "reminisce"
 };
 
-log.info("conch.js LOADED");
-
 // generated ok 2012-10-17 11:08:31 by martlume

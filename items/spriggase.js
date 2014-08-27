@@ -156,6 +156,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("spriggase.js LOADED");
-
 // generated ok 2012-09-17 11:46:17 by martlume

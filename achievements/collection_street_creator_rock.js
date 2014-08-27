@@ -80,6 +80,4 @@ var rewards	= {
 	}
 };
 
-//log.info("collection_street_creator_rock.js LOADED");
-
 // generated ok (NO DATE)

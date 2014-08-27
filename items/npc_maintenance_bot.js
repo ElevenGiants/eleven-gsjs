@@ -768,6 +768,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("npc_maintenance_bot.js LOADED");
-
 // generated ok 2012-10-22 11:00:11 by mygrant

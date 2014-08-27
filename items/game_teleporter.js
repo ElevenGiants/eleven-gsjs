@@ -473,6 +473,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("game_teleporter.js LOADED");
-
 // generated ok 2012-08-28 10:38:48

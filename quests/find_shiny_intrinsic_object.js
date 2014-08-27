@@ -61,6 +61,4 @@ var rewards = {
 	"energy"	: 200
 };
 
-//log.info("find_shiny_intrinsic_object.js LOADED");
-
 // generated ok (NO DATE)

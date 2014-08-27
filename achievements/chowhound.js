@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("chowhound.js LOADED");
-
 // generated ok (NO DATE)

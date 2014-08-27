@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("ilmenskie_caverns_completist.js LOADED");
-
 // generated ok (NO DATE)

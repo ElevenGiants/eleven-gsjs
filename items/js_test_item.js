@@ -775,6 +775,4 @@ itemDef.keys_in_pack = {
 	"e"	: "create"
 };
 
-log.info("js_test_item.js LOADED");
-
 // generated ok 2012-09-17 11:29:13 by martlume

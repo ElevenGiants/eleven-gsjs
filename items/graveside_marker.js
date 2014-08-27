@@ -298,6 +298,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("graveside_marker.js LOADED");
-
 // generated ok 2012-10-28 19:14:31 by mygrant

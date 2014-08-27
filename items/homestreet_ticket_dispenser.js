@@ -223,6 +223,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("homestreet_ticket_dispenser.js LOADED");
-
 // generated ok 2012-07-27 16:21:39 by stewart

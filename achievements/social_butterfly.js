@@ -42,6 +42,4 @@ var rewards	= {
 	}
 };
 
-//log.info("social_butterfly.js LOADED");
-
 // generated ok (NO DATE)

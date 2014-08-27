@@ -156,6 +156,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("zillene.js LOADED");
-
 // generated ok 2012-06-04 18:54:40 by kristi

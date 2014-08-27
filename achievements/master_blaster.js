@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("master_blaster.js LOADED");
-
 // generated ok (NO DATE)

@@ -434,6 +434,4 @@ itemDef.keys_in_pack = {
 	"n"	: "sniff"
 };
 
-log.info("cheese_very_very_stinky.js LOADED");
-
 // generated ok 2012-12-03 21:23:09 by martlume

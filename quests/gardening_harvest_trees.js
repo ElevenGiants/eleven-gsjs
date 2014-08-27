@@ -74,6 +74,4 @@ var rewards = {
 	}
 };
 
-//log.info("gardening_harvest_trees.js LOADED");
-
 // generated ok (NO DATE)

@@ -65,6 +65,4 @@ function onComplete_custom(pc){
 	delete pc.giants_donated;
 }
 
-//log.info("betterlearning_donate_to_shrines.js LOADED");
-
 // generated ok (NO DATE)

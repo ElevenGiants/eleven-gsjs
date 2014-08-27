@@ -495,6 +495,4 @@ itemDef.keys_in_pack = {
 	"u"	: "munch"
 };
 
-log.info("yellow_crumb_flower.js LOADED");
-
 // generated ok 2012-09-04 11:24:21 by mygrant

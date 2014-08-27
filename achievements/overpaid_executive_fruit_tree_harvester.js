@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("overpaid_executive_fruit_tree_harvester.js LOADED");
-
 // generated ok (NO DATE)

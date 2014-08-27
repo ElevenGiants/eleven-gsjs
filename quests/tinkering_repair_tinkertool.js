@@ -60,6 +60,4 @@ var rewards = {
 	}
 };
 
-//log.info("tinkering_repair_tinkertool.js LOADED");
-
 // generated ok (NO DATE)

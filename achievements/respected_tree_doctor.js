@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("respected_tree_doctor.js LOADED");
-
 // generated ok (NO DATE)

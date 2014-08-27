@@ -42,6 +42,4 @@ var rewards	= {
 	"xp"	: 3000
 };
 
-//log.info("crest_connoisseur.js LOADED");
-
 // generated ok (NO DATE)

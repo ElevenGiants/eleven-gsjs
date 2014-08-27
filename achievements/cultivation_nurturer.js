@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("cultivation_nurturer.js LOADED");
-
 // generated ok (NO DATE)

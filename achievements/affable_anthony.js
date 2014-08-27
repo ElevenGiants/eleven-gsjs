@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("affable_anthony.js LOADED");
-
 // generated ok (NO DATE)

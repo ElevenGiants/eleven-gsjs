@@ -78,6 +78,4 @@ var rewards	= {
 	}
 };
 
-//log.info("honourable_chairperson.js LOADED");
-
 // generated ok (NO DATE)

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("metalhead.js LOADED");
-
 // generated ok (NO DATE)

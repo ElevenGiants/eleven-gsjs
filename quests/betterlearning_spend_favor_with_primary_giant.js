@@ -52,6 +52,4 @@ var rewards = {
 	"mood"		: 50
 };
 
-//log.info("betterlearning_spend_favor_with_primary_giant.js LOADED");
-
 // generated ok (NO DATE)

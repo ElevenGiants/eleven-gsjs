@@ -250,6 +250,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("party_pack_mazzala_gala.js LOADED");
-
 // generated ok 2012-11-15 13:42:27 by martlume

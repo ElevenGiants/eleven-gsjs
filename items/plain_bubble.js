@@ -290,6 +290,4 @@ itemDef.keys_in_pack = {
 	"u"	: "tune"
 };
 
-log.info("plain_bubble.js LOADED");
-
 // generated ok 2012-12-03 18:32:11 by martlume

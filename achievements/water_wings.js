@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("water_wings.js LOADED");
-
 // generated ok (NO DATE)

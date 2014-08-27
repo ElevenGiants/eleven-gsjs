@@ -71,6 +71,4 @@ var rewards = {
 	}
 };
 
-//log.info("gasmogrification_transform_gasses.js LOADED");
-
 // generated ok (NO DATE)

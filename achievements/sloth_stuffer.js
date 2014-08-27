@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("sloth_stuffer.js LOADED");
-
 // generated ok (NO DATE)

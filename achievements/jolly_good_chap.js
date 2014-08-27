@@ -46,6 +46,4 @@ var rewards	= {
 	}
 };
 
-//log.info("jolly_good_chap.js LOADED");
-
 // generated ok (NO DATE)

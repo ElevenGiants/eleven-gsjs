@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("raking_in_the_img.js LOADED");
-
 // generated ok (NO DATE)

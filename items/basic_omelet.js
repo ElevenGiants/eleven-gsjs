@@ -263,6 +263,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("basic_omelet.js LOADED");
-
 // generated ok 2012-09-18 16:09:38 by martlume

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("master_bean_counter.js LOADED");
-
 // generated ok (NO DATE)

@@ -201,6 +201,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("pumpkin_ale.js LOADED");
-
 // generated ok 2012-06-06 16:40:56 by kevin

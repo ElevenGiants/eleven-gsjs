@@ -45,6 +45,4 @@ function onComplete(pc){ // generated from rewards
 }
 var rewards = {};
 
-//log.info("canyon_run.js LOADED");
-
 // generated ok (NO DATE)

@@ -188,6 +188,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("proto_shrine_pot.js LOADED");
-
 // generated ok 2011-12-19 09:54:51

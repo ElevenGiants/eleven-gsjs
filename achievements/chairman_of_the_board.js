@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("chairman_of_the_board.js LOADED");
-
 // generated ok (NO DATE)

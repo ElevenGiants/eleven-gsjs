@@ -46,6 +46,4 @@ var rewards	= {
 	}
 };
 
-//log.info("a1_comrade.js LOADED");
-
 // generated ok (NO DATE)

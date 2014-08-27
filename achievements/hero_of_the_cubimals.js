@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("hero_of_the_cubimals.js LOADED");
-
 // generated ok (NO DATE)

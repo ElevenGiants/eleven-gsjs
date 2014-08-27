@@ -198,6 +198,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("barnacle.js LOADED");
-
 // generated ok 2012-10-24 15:03:44 by martlume

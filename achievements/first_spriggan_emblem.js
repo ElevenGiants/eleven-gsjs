@@ -51,6 +51,4 @@ var rewards	= {
 	}
 };
 
-//log.info("first_spriggan_emblem.js LOADED");
-
 // generated ok (NO DATE)

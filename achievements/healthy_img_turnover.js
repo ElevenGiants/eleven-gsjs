@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("healthy_img_turnover.js LOADED");
-
 // generated ok (NO DATE)

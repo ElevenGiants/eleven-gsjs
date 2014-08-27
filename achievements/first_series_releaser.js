@@ -114,6 +114,4 @@ var rewards	= {
 	}
 };
 
-//log.info("first_series_releaser.js LOADED");
-
 // generated ok (NO DATE)

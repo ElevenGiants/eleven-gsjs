@@ -267,6 +267,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("tomato.js LOADED");
-
 // generated ok 2012-12-03 21:11:37 by martlume

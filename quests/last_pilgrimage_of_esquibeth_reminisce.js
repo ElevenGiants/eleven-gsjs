@@ -141,6 +141,4 @@ function onStarted(pc){
 	return { ok: 1 };
 }
 
-//log.info("last_pilgrimage_of_esquibeth_reminisce.js LOADED");
-
 // generated ok (NO DATE)

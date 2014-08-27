@@ -85,6 +85,4 @@ var rewards = {
 	}
 };
 
-//log.info("cal_test_1.js LOADED");
-
 // generated ok (NO DATE)

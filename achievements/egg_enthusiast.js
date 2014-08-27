@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("egg_enthusiast.js LOADED");
-
 // generated ok (NO DATE)

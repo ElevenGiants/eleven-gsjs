@@ -143,6 +143,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("bag_trophycase_bottletree.js LOADED");
-
 // generated ok 2011-12-07 15:32:48 by lizg

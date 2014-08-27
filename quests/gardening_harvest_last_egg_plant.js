@@ -59,6 +59,4 @@ var rewards = {
 	}
 };
 
-//log.info("gardening_harvest_last_egg_plant.js LOADED");
-
 // generated ok (NO DATE)

@@ -49,6 +49,4 @@ var rewards = {
 	"xp"	: 10
 };
 
-//log.info("treasure_map_1.js LOADED");
-
 // generated ok (NO DATE)

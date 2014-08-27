@@ -154,6 +154,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("artifact_stainless_precious_metal_fork.js LOADED");
-
 // generated ok 2012-12-07 20:50:40

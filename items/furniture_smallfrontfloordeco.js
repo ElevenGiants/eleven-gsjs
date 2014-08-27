@@ -217,6 +217,4 @@ itemDef.keys_in_pack = {
 	"u"	: "upgrade"
 };
 
-log.info("furniture_smallfrontfloordeco.js LOADED");
-
 // generated ok 2012-02-25 13:09:52 by kristel

@@ -221,6 +221,4 @@ function onStarted(pc){
 	return {ok: 1};
 }
 
-//log.info("get_first_tool.js LOADED");
-
 // generated ok (NO DATE)

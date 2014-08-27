@@ -348,6 +348,4 @@ itemDef.keys_in_pack = {
 	"o"	: "love"
 };
 
-log.info("saffron.js LOADED");
-
 // generated ok 2012-12-03 21:05:29 by martlume

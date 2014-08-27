@@ -83,6 +83,4 @@ var rewards = {
 	"energy"	: 100
 };
 
-//log.info("brain_freezer.js LOADED");
-
 // generated ok (NO DATE)

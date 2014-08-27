@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("dust_busting_trigger_trappist.js LOADED");
-
 // generated ok (NO DATE)

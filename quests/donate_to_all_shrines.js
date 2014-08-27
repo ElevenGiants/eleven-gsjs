@@ -136,6 +136,4 @@ function onAccepted(pc){
 	}
 }
 
-//log.info("donate_to_all_shrines.js LOADED");
-
 // generated ok (NO DATE)

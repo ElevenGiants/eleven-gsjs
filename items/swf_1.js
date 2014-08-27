@@ -210,6 +210,4 @@ itemDef.keys_in_pack = {
 	"n"	: "wrangle"
 };
 
-log.info("swf_1.js LOADED");
-
 // generated ok 2012-06-01 18:51:16 by martlume

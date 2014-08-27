@@ -54,6 +54,4 @@ function onComplete_custom(pc){
 	delete pc.repeatingTower;
 }
 
-//log.info("tower_quest_part3repeat.js LOADED");
-
 // generated ok (NO DATE)

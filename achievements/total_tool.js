@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("total_tool.js LOADED");
-
 // generated ok (NO DATE)

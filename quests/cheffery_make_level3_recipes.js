@@ -65,6 +65,4 @@ var rewards = {
 	}
 };
 
-//log.info("cheffery_make_level3_recipes.js LOADED");
-
 // generated ok (NO DATE)

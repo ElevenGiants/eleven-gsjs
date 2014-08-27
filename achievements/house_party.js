@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("house_party.js LOADED");
-
 // generated ok (NO DATE)

@@ -74,6 +74,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("broken_sign.js LOADED");
-
 // generated ok 2010-12-11 21:34:28

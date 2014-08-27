@@ -475,6 +475,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("party_atm.js LOADED");
-
 // generated ok 2012-09-21 14:20:07 by mygrant

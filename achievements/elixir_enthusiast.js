@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("elixir_enthusiast.js LOADED");
-
 // generated ok (NO DATE)

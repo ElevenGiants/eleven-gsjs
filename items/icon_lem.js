@@ -467,6 +467,4 @@ itemDef.keys_in_pack = {
 	"h"	: "tithe"
 };
 
-log.info("icon_lem.js LOADED");
-
 // generated ok 2012-12-06 17:08:46 by martlume

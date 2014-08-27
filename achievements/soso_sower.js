@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("soso_sower.js LOADED");
-
 // generated ok (NO DATE)

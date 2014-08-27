@@ -43,6 +43,4 @@ var rewards	= {
 	"xp"	: 500
 };
 
-//log.info("zombie.js LOADED");
-
 // generated ok (NO DATE)

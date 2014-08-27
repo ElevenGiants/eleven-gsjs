@@ -60,6 +60,4 @@ var rewards = {
 	}
 };
 
-//log.info("betterlearning_collect_favor_points.js LOADED");
-
 // generated ok (NO DATE)

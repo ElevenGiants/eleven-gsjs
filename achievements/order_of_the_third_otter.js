@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("order_of_the_third_otter.js LOADED");
-
 // generated ok (NO DATE)

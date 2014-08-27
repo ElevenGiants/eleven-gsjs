@@ -64,6 +64,4 @@ function onJustCompleted(pc){
 	pc.apiSendMsg({type: 'store_end'});
 }
 
-//log.info("buy_two_bags.js LOADED");
-
 // generated ok (NO DATE)

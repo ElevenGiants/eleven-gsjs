@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("restorer_of_stuff.js LOADED");
-
 // generated ok (NO DATE)

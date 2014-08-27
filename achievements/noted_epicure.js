@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("noted_epicure.js LOADED");
-
 // generated ok (NO DATE)

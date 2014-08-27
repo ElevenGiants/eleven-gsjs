@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("executive_flunky_tinkering_ops.js LOADED");
-
 // generated ok (NO DATE)

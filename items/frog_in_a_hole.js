@@ -264,6 +264,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("frog_in_a_hole.js LOADED");
-
 // generated ok 2012-09-18 15:43:58 by martlume

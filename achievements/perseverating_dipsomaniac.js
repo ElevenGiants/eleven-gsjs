@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("perseverating_dipsomaniac.js LOADED");
-
 // generated ok (NO DATE)

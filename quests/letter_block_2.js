@@ -193,6 +193,4 @@ function onStarted(pc){
 	return {ok: 1};
 }
 
-//log.info("letter_block_2.js LOADED");
-
 // generated ok (NO DATE)

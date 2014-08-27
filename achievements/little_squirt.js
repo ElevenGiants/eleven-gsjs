@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("little_squirt.js LOADED");
-
 // generated ok (NO DATE)

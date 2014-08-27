@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("master_of_internal_emptiness.js LOADED");
-
 // generated ok (NO DATE)

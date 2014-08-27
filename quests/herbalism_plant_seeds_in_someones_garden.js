@@ -62,6 +62,4 @@ var rewards = {
 	}
 };
 
-//log.info("herbalism_plant_seeds_in_someones_garden.js LOADED");
-
 // generated ok (NO DATE)

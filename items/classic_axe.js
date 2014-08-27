@@ -727,6 +727,4 @@ itemDef.keys_in_pack = {
 	"e"	: "repair"
 };
 
-log.info("classic_axe.js LOADED");
-
 // generated ok 2012-05-23 13:48:48

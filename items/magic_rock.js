@@ -1487,6 +1487,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("magic_rock.js LOADED");
-
 // generated ok 2012-11-05 15:26:47 by mygrant

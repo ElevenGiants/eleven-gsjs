@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("the_saturator.js LOADED");
-
 // generated ok (NO DATE)

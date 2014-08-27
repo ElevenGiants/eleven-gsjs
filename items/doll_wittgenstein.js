@@ -210,6 +210,4 @@ itemDef.keys_in_pack = {
 	"u"	: "pull_string"
 };
 
-log.info("doll_wittgenstein.js LOADED");
-
 // generated ok 2012-11-30 11:34:44 by ali

@@ -244,6 +244,4 @@ itemDef.keys_in_pack = {
 	"h"	: "smash"
 };
 
-log.info("trophy_street_creator_rock_piece1.js LOADED");
-
 // generated ok 2012-05-25 10:00:14 by eric

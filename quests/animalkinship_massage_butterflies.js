@@ -65,6 +65,4 @@ function onComplete_custom(pc){
 	delete pc.butterflies_massaged;
 }
 
-//log.info("animalkinship_massage_butterflies.js LOADED");
-
 // generated ok (NO DATE)

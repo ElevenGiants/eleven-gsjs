@@ -148,6 +148,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("token_of_appreciation.js LOADED");
-
 // generated ok 2012-08-17 18:54:19 by martlume

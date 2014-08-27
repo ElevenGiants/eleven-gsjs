@@ -154,6 +154,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("artifact_toenail_clippers.js LOADED");
-
 // generated ok 2012-12-07 19:10:26 by ali

@@ -57,6 +57,4 @@ var rewards = {
 	}
 };
 
-//log.info("meditativearts_get_max_relax.js LOADED");
-
 // generated ok (NO DATE)

@@ -42,6 +42,4 @@ var rewards	= {
 	"xp"	: 400
 };
 
-//log.info("soso_supplicator.js LOADED");
-
 // generated ok (NO DATE)

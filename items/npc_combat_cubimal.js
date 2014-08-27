@@ -1748,6 +1748,4 @@ itemDef.keys_in_pack = {
 	"k"	: "set_free_with_love"
 };
 
-log.info("npc_combat_cubimal.js LOADED");
-
 // generated ok 2012-11-23 17:15:13 by lizg

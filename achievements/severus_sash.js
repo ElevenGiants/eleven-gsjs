@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("severus_sash.js LOADED");
-
 // generated ok (NO DATE)

@@ -149,6 +149,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("loam.js LOADED");
-
 // generated ok 2012-08-23 20:42:39 by martlume

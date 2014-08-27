@@ -247,6 +247,4 @@ var performance_rewards = {
 	}
 };
 
-//log.info("job_group_ph3_05.js LOADED");
-
 // generated ok (NO DATE)

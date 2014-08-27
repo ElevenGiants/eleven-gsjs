@@ -262,6 +262,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("pineapple.js LOADED");
-
 // generated ok 2012-12-03 18:32:06 by martlume

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("trainee_tree_medic.js LOADED");
-
 // generated ok (NO DATE)

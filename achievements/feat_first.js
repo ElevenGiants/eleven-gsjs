@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("feat_first.js LOADED");
-
 // generated ok (NO DATE)

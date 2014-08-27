@@ -54,6 +54,4 @@ function onComplete_custom(pc){
 	pc.instances_exit_familiar('penalty', "You're free! And as a reward, your friend left something for you somewhere. You remember the name of the town don't you? Nevermind, just take it.");
 }
 
-//log.info("smuggle_the_smuggler_part3.js LOADED");
-
 // generated ok (NO DATE)

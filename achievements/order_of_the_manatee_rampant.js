@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("order_of_the_manatee_rampant.js LOADED");
-
 // generated ok (NO DATE)

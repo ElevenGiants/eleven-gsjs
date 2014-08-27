@@ -212,6 +212,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("juju_paperweight.js LOADED");
-
 // generated ok 2012-06-08 16:47:16 by martlume

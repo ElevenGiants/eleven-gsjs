@@ -250,6 +250,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("party_pack_taster_pitchen_lilliputt.js LOADED");
-
 // generated ok 2012-11-15 13:43:39 by martlume

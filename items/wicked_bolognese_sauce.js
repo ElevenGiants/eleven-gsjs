@@ -264,6 +264,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("wicked_bolognese_sauce.js LOADED");
-
 // generated ok 2012-12-03 18:15:51 by martlume

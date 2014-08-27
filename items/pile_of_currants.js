@@ -176,6 +176,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("pile_of_currants.js LOADED");
-
 // generated ok 2012-07-27 15:57:36

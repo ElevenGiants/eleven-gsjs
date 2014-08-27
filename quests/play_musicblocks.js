@@ -226,6 +226,4 @@ function onStarted(pc){
 	return {ok: 1};
 }
 
-//log.info("play_musicblocks.js LOADED");
-
 // generated ok (NO DATE)

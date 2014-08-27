@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("feater_of_glory.js LOADED");
-
 // generated ok (NO DATE)

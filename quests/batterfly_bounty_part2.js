@@ -64,6 +64,4 @@ var rewards = {
 	"energy"	: 100
 };
 
-//log.info("batterfly_bounty_part2.js LOADED");
-
 // generated ok (NO DATE)

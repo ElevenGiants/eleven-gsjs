@@ -52,6 +52,4 @@ var rewards = {
 	"mood"		: 100
 };
 
-//log.info("betterlearning_spend_huge_favor.js LOADED");
-
 // generated ok (NO DATE)

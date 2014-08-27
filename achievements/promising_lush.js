@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("promising_lush.js LOADED");
-
 // generated ok (NO DATE)

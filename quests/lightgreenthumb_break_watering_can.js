@@ -60,6 +60,4 @@ var rewards = {
 	}
 };
 
-//log.info("lightgreenthumb_break_watering_can.js LOADED");
-
 // generated ok (NO DATE)

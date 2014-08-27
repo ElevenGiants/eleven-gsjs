@@ -337,6 +337,4 @@ itemDef.keys_in_pack = {
 	"o"	: "pour"
 };
 
-log.info("wine_of_the_dead.js LOADED");
-
 // generated ok 2012-07-11 17:02:43 by mygrant

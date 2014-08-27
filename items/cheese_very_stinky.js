@@ -465,6 +465,4 @@ itemDef.keys_in_pack = {
 	"o"	: "poke"
 };
 
-log.info("cheese_very_stinky.js LOADED");
-
 // generated ok 2012-12-03 21:21:13 by martlume

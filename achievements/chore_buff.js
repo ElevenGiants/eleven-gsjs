@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("chore_buff.js LOADED");
-
 // generated ok (NO DATE)

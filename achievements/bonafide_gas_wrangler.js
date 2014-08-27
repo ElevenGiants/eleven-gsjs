@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("bonafide_gas_wrangler.js LOADED");
-
 // generated ok (NO DATE)

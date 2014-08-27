@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("licensed_super_gragarious_glitch_beamer.js LOADED");
-
 // generated ok (NO DATE)

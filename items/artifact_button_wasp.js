@@ -154,6 +154,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("artifact_button_wasp.js LOADED");
-
 // generated ok 2012-12-07 18:53:22 by ali

@@ -54,6 +54,4 @@ function onStarted(pc){
 	return { ok: 1 };
 }
 
-//log.info("smuggle_the_smuggler_part1.js LOADED");
-
 // generated ok (NO DATE)

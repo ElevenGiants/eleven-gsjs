@@ -76,6 +76,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("game_crown.js LOADED");
-
 // generated ok 2011-08-10 18:29:41 by mygrant

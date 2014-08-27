@@ -264,6 +264,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("big_salad.js LOADED");
-
 // generated ok 2012-07-16 17:03:18 by lizg

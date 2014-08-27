@@ -605,6 +605,4 @@ itemDef.keys_in_pack = {
 	"k"	: "sprinkle"
 };
 
-log.info("powder_of_startling_fecundity.js LOADED");
-
 // generated ok 2012-10-28 18:09:35 by mygrant

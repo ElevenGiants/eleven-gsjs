@@ -91,6 +91,4 @@ var performance_percent = 0;
 var performance_cutoff = 0;
 var performance_rewards = {};
 
-//log.info("job_myles_group_hall_construction.js LOADED");
-
 // generated ok (NO DATE)

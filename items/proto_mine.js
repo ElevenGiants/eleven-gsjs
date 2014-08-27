@@ -188,6 +188,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("proto_mine.js LOADED");
-
 // generated ok 2011-12-07 15:45:50 by lizg

@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("potionographer.js LOADED");
-
 // generated ok (NO DATE)

@@ -153,6 +153,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("artifact_torn_manuscript_piece3.js LOADED");
-
 // generated ok 2012-10-12 17:13:48 by martlume

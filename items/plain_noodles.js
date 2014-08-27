@@ -261,6 +261,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("plain_noodles.js LOADED");
-
 // generated ok 2012-12-03 21:23:09 by martlume

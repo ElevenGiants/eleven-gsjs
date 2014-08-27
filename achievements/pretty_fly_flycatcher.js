@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("pretty_fly_flycatcher.js LOADED");
-
 // generated ok (NO DATE)

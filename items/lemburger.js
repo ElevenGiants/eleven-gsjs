@@ -264,6 +264,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("lemburger.js LOADED");
-
 // generated ok 2012-12-03 18:45:36 by martlume

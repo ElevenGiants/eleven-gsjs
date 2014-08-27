@@ -16,8 +16,6 @@
 //#include inc_butler.js, inc_newxp.js, inc_towers.js, inc_feats.js
 //#include inc_visiting.js, inc_emotes.js
 
-log.info("player.js EXECUTED");
-
 var is_player = 1;
 
 function init(){

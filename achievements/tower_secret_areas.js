@@ -49,6 +49,4 @@ var rewards	= {
 	}
 };
 
-//log.info("tower_secret_areas.js LOADED");
-
 // generated ok (NO DATE)

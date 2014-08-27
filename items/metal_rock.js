@@ -190,6 +190,4 @@ itemDef.keys_in_pack = {
 	"e"	: "smelt"
 };
 
-log.info("metal_rock.js LOADED");
-
 // generated ok 2012-08-23 12:03:57 by mygrant

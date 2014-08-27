@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("loneliness_of_the_long_distance_cubimal.js LOADED");
-
 // generated ok (NO DATE)

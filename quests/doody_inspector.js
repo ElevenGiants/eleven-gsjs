@@ -53,6 +53,4 @@ var rewards = {
 	"mood"		: 100
 };
 
-//log.info("doody_inspector.js LOADED");
-
 // generated ok (NO DATE)

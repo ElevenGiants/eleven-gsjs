@@ -75,6 +75,4 @@ var rewards	= {
 	}
 };
 
-//log.info("collection_bubbles.js LOADED");
-
 // generated ok (NO DATE)

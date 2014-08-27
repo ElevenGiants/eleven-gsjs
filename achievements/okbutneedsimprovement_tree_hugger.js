@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("okbutneedsimprovement_tree_hugger.js LOADED");
-
 // generated ok (NO DATE)

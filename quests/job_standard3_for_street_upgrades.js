@@ -188,6 +188,4 @@ var performance_rewards = {
 	}
 };
 
-//log.info("job_standard3_for_street_upgrades.js LOADED");
-
 // generated ok (NO DATE)

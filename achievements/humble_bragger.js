@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("humble_bragger.js LOADED");
-
 // generated ok (NO DATE)

@@ -65,6 +65,4 @@ function onAccepted(pc){
 	}
 }
 
-//log.info("jump_in_hole.js LOADED");
-
 // generated ok (NO DATE)

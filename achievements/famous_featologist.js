@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("famous_featologist.js LOADED");
-
 // generated ok (NO DATE)

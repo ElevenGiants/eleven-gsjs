@@ -68,6 +68,4 @@ function doProvided(pc){ // generated from provided
 	pc.createItemFromFamiliar('meat', 5);
 }
 
-//log.info("jason_test_quest.js LOADED");
-
 // generated ok (NO DATE)

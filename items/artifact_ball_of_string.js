@@ -154,6 +154,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("artifact_ball_of_string.js LOADED");
-
 // generated ok 2012-12-07 18:51:07 by ali

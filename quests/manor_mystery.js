@@ -75,6 +75,4 @@ function onComplete_custom(pc){
 	delete pc.quest_manor_mystery_done;
 }
 
-//log.info("manor_mystery.js LOADED");
-
 // generated ok (NO DATE)

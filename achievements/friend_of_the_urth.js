@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("friend_of_the_urth.js LOADED");
-
 // generated ok (NO DATE)

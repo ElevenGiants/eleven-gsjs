@@ -37,6 +37,4 @@ var rewards	= {
 	"xp"	: 400
 };
 
-//log.info("moneybags_magoo.js LOADED");
-
 // generated ok (NO DATE)

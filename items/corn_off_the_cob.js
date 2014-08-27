@@ -264,6 +264,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("corn_off_the_cob.js LOADED");
-
 // generated ok 2012-09-18 15:38:57 by martlume

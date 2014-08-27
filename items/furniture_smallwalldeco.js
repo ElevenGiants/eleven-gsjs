@@ -217,6 +217,4 @@ itemDef.keys_in_pack = {
 	"u"	: "upgrade"
 };
 
-log.info("furniture_smallwalldeco.js LOADED");
-
 // generated ok 2012-02-21 10:32:45 by mygrant

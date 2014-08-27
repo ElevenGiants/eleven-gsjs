@@ -463,6 +463,4 @@ itemDef.keys_in_pack = {
 	"u"	: "munch"
 };
 
-log.info("rubeweed.js LOADED");
-
 // generated ok 2012-12-09 14:04:22 by ali

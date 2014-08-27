@@ -64,6 +64,4 @@ var rewards = {
 	}
 };
 
-//log.info("purple_journey_north.js LOADED");
-
 // generated ok (NO DATE)

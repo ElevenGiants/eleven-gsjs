@@ -125,6 +125,4 @@ function onEnterLocation(location){
 	}
 }
 
-//log.info("hell_hole.js LOADED");
-
 // generated ok (NO DATE)

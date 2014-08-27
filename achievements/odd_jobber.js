@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("odd_jobber.js LOADED");
-
 // generated ok (NO DATE)

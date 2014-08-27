@@ -154,6 +154,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("grade_aa_earth_block.js LOADED");
-
 // generated ok 2012-07-18 12:53:38 by martlume

@@ -208,6 +208,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("pungent_sunrise.js LOADED");
-
 // generated ok 2012-12-03 18:14:25 by martlume

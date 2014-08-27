@@ -474,6 +474,4 @@ function spawnPhantom(){
 	this.sendNPCMessageDelayed(this.getPhantomName(), 'move_to_player', {pc: this.owner, stop_distance: 75.0}, 2);
 }
 
-//log.info("phantom_glitch.js LOADED");
-
 // generated ok (NO DATE)

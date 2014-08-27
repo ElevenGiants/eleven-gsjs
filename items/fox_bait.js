@@ -263,6 +263,4 @@ itemDef.keys_in_pack = {
 	"n"	: "ignite"
 };
 
-log.info("fox_bait.js LOADED");
-
 // generated ok 2012-05-25 10:00:15 by eric

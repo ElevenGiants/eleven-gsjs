@@ -348,6 +348,4 @@ itemDef.keys_in_pack = {
 	"c"	: "scrutinize"
 };
 
-log.info("curry.js LOADED");
-
 // generated ok 2012-12-03 21:05:29 by martlume

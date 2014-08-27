@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("bounder_tenured.js LOADED");
-
 // generated ok (NO DATE)

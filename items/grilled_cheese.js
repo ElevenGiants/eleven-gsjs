@@ -263,6 +263,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("grilled_cheese.js LOADED");
-
 // generated ok 2012-12-03 20:17:44 by martlume

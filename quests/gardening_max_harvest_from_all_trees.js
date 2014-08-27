@@ -102,6 +102,4 @@ var rewards = {
 	}
 };
 
-//log.info("gardening_max_harvest_from_all_trees.js LOADED");
-
 // generated ok (NO DATE)

@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("assistant_to_the_mending_manager_kitchen_division.js LOADED");
-
 // generated ok (NO DATE)

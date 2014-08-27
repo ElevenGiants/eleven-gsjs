@@ -263,6 +263,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("proper_rice.js LOADED");
-
 // generated ok 2012-12-03 18:14:23 by martlume

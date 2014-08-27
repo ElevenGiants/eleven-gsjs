@@ -323,6 +323,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("petrified_rock_small.js LOADED");
-
 // generated ok 2012-10-16 15:31:06 by mygrant

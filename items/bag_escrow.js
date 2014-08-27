@@ -82,6 +82,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("bag_escrow.js LOADED");
-
 // generated ok 2011-07-01 18:07:56 by martlume

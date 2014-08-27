@@ -81,6 +81,4 @@ function onComplete_custom(pc){
 	pc.quests_offer('intermediateadmixing_make_more_powders');
 }
 
-//log.info("intermediateadmixing_make_powder.js LOADED");
-
 // generated ok (NO DATE)

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("highest_of_the_hi_skippers.js LOADED");
-
 // generated ok (NO DATE)

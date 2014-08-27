@@ -403,6 +403,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("carobish_treats.js LOADED");
-
 // generated ok 2012-11-05 16:39:58 by lizg

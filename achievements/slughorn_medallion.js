@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("slughorn_medallion.js LOADED");
-
 // generated ok (NO DATE)

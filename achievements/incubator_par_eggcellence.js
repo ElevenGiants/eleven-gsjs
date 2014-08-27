@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("incubator_par_eggcellence.js LOADED");
-
 // generated ok (NO DATE)

@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("betterthanaverage_mulcher.js LOADED");
-
 // generated ok (NO DATE)

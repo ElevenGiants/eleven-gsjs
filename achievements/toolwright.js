@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("toolwright.js LOADED");
-
 // generated ok (NO DATE)

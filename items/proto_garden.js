@@ -195,6 +195,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("proto_garden.js LOADED");
-
 // generated ok 2012-01-03 14:21:25 by mygrant

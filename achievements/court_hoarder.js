@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("court_hoarder.js LOADED");
-
 // generated ok (NO DATE)

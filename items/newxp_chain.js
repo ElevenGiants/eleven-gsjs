@@ -160,6 +160,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("newxp_chain.js LOADED");
-
 // generated ok 2012-07-03 10:36:42 by tim

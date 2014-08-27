@@ -748,6 +748,4 @@ itemDef.keys_in_pack = {
 	"t"	: "water"
 };
 
-log.info("watering_can.js LOADED");
-
 // generated ok 2012-12-09 12:50:56 by ali

@@ -43,6 +43,4 @@ var rewards	= {
 	"xp"	: 500
 };
 
-//log.info("barman_of_death.js LOADED");
-
 // generated ok (NO DATE)

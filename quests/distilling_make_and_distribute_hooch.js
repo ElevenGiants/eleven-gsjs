@@ -69,6 +69,4 @@ var rewards = {
 	}
 };
 
-//log.info("distilling_make_and_distribute_hooch.js LOADED");
-
 // generated ok (NO DATE)

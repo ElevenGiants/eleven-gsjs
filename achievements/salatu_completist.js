@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("salatu_completist.js LOADED");
-
 // generated ok (NO DATE)

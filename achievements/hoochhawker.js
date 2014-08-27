@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("hoochhawker.js LOADED");
-
 // generated ok (NO DATE)

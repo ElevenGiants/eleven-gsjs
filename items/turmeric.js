@@ -359,6 +359,4 @@ itemDef.keys_in_pack = {
 	"c"	: "palpitate"
 };
 
-log.info("turmeric.js LOADED");
-
 // generated ok 2012-12-03 21:05:29 by martlume

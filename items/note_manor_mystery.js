@@ -427,6 +427,4 @@ itemDef.keys_in_pack = {
 	"t"	: "write_on"
 };
 
-log.info("note_manor_mystery.js LOADED");
-
 // generated ok 2012-09-04 10:14:16 by tim

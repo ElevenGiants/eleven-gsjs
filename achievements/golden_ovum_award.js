@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("golden_ovum_award.js LOADED");
-
 // generated ok (NO DATE)

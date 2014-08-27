@@ -681,6 +681,4 @@ itemDef.keys_in_pack = {
 	"e"	: "repair"
 };
 
-log.info("fruit_changing_machine.js LOADED");
-
 // generated ok 2012-12-09 12:50:56 by ali

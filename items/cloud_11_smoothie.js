@@ -199,6 +199,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("cloud_11_smoothie.js LOADED");
-
 // generated ok 2012-12-03 20:02:09 by martlume

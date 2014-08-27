@@ -175,6 +175,4 @@ itemDef.keys_in_pack = {
 	"n"	: "invoke"
 };
 
-log.info("invoking_rock.js LOADED");
-
 // generated ok 2011-11-04 19:39:05 by eric

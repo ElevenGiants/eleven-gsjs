@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("bar_fly.js LOADED");
-
 // generated ok (NO DATE)

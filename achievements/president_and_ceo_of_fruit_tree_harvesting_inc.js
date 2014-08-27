@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("president_and_ceo_of_fruit_tree_harvesting_inc.js LOADED");
-
 // generated ok (NO DATE)

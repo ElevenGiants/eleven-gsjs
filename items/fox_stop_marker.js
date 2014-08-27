@@ -76,6 +76,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("fox_stop_marker.js LOADED");
-
 // generated ok 2012-03-22 20:09:55 by martlume

@@ -146,6 +146,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("test_game_starter.js LOADED");
-
 // generated ok 2011-08-29 22:13:48 by mygrant

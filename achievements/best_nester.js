@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("best_nester.js LOADED");
-
 // generated ok (NO DATE)

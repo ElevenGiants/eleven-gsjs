@@ -554,6 +554,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("npc_mailbox.js LOADED");
-
 // generated ok 2012-10-12 16:10:56 by lizg

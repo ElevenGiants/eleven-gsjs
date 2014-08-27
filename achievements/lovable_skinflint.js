@@ -41,6 +41,4 @@ var rewards	= {
 	"xp"	: 400
 };
 
-//log.info("lovable_skinflint.js LOADED");
-
 // generated ok (NO DATE)

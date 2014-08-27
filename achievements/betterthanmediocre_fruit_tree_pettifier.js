@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("betterthanmediocre_fruit_tree_pettifier.js LOADED");
-
 // generated ok (NO DATE)

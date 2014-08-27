@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("protein_time.js LOADED");
-
 // generated ok (NO DATE)

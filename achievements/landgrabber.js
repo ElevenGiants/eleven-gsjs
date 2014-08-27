@@ -54,6 +54,4 @@ var rewards	= {
 	}
 };
 
-//log.info("landgrabber.js LOADED");
-
 // generated ok (NO DATE)

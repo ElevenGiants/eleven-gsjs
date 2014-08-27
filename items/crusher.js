@@ -307,6 +307,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("crusher.js LOADED");
-
 // generated ok 2011-08-25 10:09:14 by eric

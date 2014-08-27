@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("epic_urian.js LOADED");
-
 // generated ok (NO DATE)

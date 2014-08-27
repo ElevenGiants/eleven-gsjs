@@ -377,6 +377,4 @@ itemDef.keys_in_pack = {
 	"t"	: "smile_at"
 };
 
-log.info("chick.js LOADED");
-
 // generated ok 2012-12-02 22:59:38 by ali

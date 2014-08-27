@@ -53,6 +53,4 @@ var rewards = {
 	"mood"		: 100
 };
 
-//log.info("beer_guzzle.js LOADED");
-
 // generated ok (NO DATE)

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("beginner_drizzler.js LOADED");
-
 // generated ok (NO DATE)

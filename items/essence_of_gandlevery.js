@@ -187,6 +187,4 @@ itemDef.keys_in_pack = {
 	"e"	: "imbibe"
 };
 
-log.info("essence_of_gandlevery.js LOADED");
-
 // generated ok 2012-09-18 14:08:50 by tim

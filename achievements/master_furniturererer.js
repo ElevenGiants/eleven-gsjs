@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("master_furniturererer.js LOADED");
-
 // generated ok (NO DATE)

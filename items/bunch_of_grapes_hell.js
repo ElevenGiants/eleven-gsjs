@@ -133,6 +133,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("bunch_of_grapes_hell.js LOADED");
-
 // generated ok 2012-04-13 11:15:06 by martlume

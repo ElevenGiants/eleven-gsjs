@@ -350,6 +350,4 @@ itemDef.keys_in_pack = {
 	"c"	: "plaster"
 };
 
-log.info("mustard.js LOADED");
-
 // generated ok 2012-12-03 21:07:30 by martlume

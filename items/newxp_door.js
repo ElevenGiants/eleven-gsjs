@@ -143,6 +143,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("newxp_door.js LOADED");
-
 // generated ok 2012-07-30 11:02:29 by mygrant

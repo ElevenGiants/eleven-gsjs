@@ -264,6 +264,4 @@ itemDef.keys_in_pack = {
 	"y"	: "play"
 };
 
-log.info("game_box.js LOADED");
-
 // generated ok 2012-11-13 16:18:51 by martlume

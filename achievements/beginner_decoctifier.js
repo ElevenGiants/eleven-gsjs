@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("beginner_decoctifier.js LOADED");
-
 // generated ok (NO DATE)

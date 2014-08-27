@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("paul_bunions.js LOADED");
-
 // generated ok (NO DATE)

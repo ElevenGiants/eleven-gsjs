@@ -125,6 +125,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("home_sign.js LOADED");
-
 // generated ok 2012-05-16 14:50:08 by eric

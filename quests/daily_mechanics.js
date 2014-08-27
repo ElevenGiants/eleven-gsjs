@@ -51,6 +51,4 @@ var rewards = {
 	"energy"	: 50
 };
 
-//log.info("daily_mechanics.js LOADED");
-
 // generated ok (NO DATE)

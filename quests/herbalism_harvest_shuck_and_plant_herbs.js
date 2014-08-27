@@ -86,6 +86,4 @@ function doProvided(pc){ // generated from provided
 	pc.createItemFromFamiliar('silvertongue', 1);
 }
 
-//log.info("herbalism_harvest_shuck_and_plant_herbs.js LOADED");
-
 // generated ok (NO DATE)

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("participant.js LOADED");
-
 // generated ok (NO DATE)

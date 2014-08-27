@@ -421,6 +421,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("piggy_feeder.js LOADED");
-
 // generated ok 2012-12-04 11:13:22 by martlume

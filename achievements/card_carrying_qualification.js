@@ -28,6 +28,4 @@ function onComplete(pc){ // generated from rewards
 }
 var rewards = {};
 
-//log.info("card_carrying_qualification.js LOADED");
-
 // generated ok (NO DATE)

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("amateur_decrustifier.js LOADED");
-
 // generated ok (NO DATE)

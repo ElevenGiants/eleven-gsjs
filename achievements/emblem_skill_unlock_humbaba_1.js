@@ -28,6 +28,4 @@ function onComplete(pc){ // generated from rewards
 }
 var rewards = {};
 
-//log.info("emblem_skill_unlock_humbaba_1.js LOADED");
-
 // generated ok (NO DATE)

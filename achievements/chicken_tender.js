@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("chicken_tender.js LOADED");
-
 // generated ok (NO DATE)

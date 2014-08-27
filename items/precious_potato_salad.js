@@ -266,6 +266,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("precious_potato_salad.js LOADED");
-
 // generated ok 2012-12-04 11:28:55 by martlume

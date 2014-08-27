@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("hardcore_carnivore.js LOADED");
-
 // generated ok (NO DATE)

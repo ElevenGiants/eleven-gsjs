@@ -1849,6 +1849,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("npc_kitty.js LOADED");
-
 // generated ok 2012-12-02 21:35:40 by ali

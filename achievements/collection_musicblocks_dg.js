@@ -79,6 +79,4 @@ var rewards	= {
 	}
 };
 
-//log.info("collection_musicblocks_dg.js LOADED");
-
 // generated ok (NO DATE)

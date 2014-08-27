@@ -580,6 +580,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("npc_newxp_dustbunny.js LOADED");
-
 // generated ok 2012-08-30 11:51:43 by mygrant

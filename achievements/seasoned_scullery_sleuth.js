@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("seasoned_scullery_sleuth.js LOADED");
-
 // generated ok (NO DATE)

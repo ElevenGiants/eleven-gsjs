@@ -51,6 +51,4 @@ var rewards	= {
 	}
 };
 
-//log.info("first_zille_emblem.js LOADED");
-
 // generated ok (NO DATE)

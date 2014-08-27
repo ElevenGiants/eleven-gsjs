@@ -292,6 +292,4 @@ itemDef.keys_in_pack = {
 	"t"	: "write_on"
 };
 
-log.info("paper.js LOADED");
-
 // generated ok 2012-12-03 21:22:28 by martlume

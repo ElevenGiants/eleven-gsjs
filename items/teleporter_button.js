@@ -236,6 +236,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("teleporter_button.js LOADED");
-
 // generated ok 2012-09-17 10:01:14 by mygrant

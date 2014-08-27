@@ -260,6 +260,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("oats.js LOADED");
-
 // generated ok 2012-12-03 22:11:39 by martlume

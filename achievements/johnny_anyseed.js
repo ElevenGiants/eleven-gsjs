@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("johnny_anyseed.js LOADED");
-
 // generated ok (NO DATE)

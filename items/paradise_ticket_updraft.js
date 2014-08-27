@@ -405,6 +405,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("paradise_ticket_updraft.js LOADED");
-
 // generated ok 2012-09-12 17:21:23 by lizg

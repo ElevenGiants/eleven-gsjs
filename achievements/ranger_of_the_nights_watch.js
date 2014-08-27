@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("ranger_of_the_nights_watch.js LOADED");
-
 // generated ok (NO DATE)

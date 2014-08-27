@@ -567,6 +567,4 @@ itemDef.keys_in_pack = {
 	"k"	: "sprinkle"
 };
 
-log.info("sparkle_powder.js LOADED");
-
 // generated ok 2012-06-04 18:57:13 by kristi

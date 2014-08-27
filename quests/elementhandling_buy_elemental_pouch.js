@@ -80,6 +80,4 @@ var rewards = {
 	}
 };
 
-//log.info("elementhandling_buy_elemental_pouch.js LOADED");
-
 // generated ok (NO DATE)

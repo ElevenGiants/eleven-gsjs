@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("semi_pro_decrustifier.js LOADED");
-
 // generated ok (NO DATE)

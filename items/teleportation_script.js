@@ -560,6 +560,4 @@ itemDef.keys_in_pack = {
 	"t"	: "write_on"
 };
 
-log.info("teleportation_script.js LOADED");
-
 // generated ok 2012-11-05 16:45:18 by lizg

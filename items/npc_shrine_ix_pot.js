@@ -961,6 +961,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("npc_shrine_ix_pot.js LOADED");
-
 // generated ok 2012-12-03 20:05:37 by martlume

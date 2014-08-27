@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("chatterbox.js LOADED");
-
 // generated ok (NO DATE)

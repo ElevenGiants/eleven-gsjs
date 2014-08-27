@@ -460,6 +460,4 @@ itemDef.keys_in_pack = {
 	"o"	: "play_for"
 };
 
-log.info("musicblock_sb_secret_01.js LOADED");
-
 // generated ok 2012-12-01 21:47:42 by ali

@@ -265,6 +265,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("kings_of_condiments.js LOADED");
-
 // generated ok 2012-12-04 11:27:51 by martlume

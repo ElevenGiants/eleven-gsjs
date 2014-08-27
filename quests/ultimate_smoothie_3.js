@@ -59,6 +59,4 @@ var rewards = {
 	"currants"	: 10
 };
 
-//log.info("ultimate_smoothie_3.js LOADED");
-
 // generated ok (NO DATE)

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("nervous_belch_award.js LOADED");
-
 // generated ok (NO DATE)

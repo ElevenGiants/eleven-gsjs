@@ -262,6 +262,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("whortleberry.js LOADED");
-
 // generated ok 2012-08-23 11:03:02 by martlume

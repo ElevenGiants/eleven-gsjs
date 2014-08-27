@@ -152,6 +152,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("girder.js LOADED");
-
 // generated ok 2012-06-06 08:59:02 by justinklemsz

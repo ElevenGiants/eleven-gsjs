@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("special_agent_tinkering_ops.js LOADED");
-
 // generated ok (NO DATE)

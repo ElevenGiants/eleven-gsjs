@@ -71,6 +71,4 @@ var rewards = {
 	}
 };
 
-//log.info("gardening_plant_5_seed_types.js LOADED");
-
 // generated ok (NO DATE)

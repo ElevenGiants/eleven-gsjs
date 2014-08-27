@@ -305,6 +305,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("bag_moving_box.js LOADED");
-
 // generated ok 2012-08-15 09:39:09 by mygrant

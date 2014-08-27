@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("pork_petter_extraordinaire.js LOADED");
-
 // generated ok (NO DATE)

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("pad_pincher.js LOADED");
-
 // generated ok (NO DATE)

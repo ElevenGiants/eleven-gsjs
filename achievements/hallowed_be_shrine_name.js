@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("hallowed_be_shrine_name.js LOADED");
-
 // generated ok (NO DATE)

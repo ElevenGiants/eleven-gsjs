@@ -106,6 +106,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("subway_map.js LOADED");
-
 // generated ok 2011-08-17 14:42:05

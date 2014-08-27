@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("re_peater.js LOADED");
-
 // generated ok (NO DATE)

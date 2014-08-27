@@ -381,6 +381,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("contraband.js LOADED");
-
 // generated ok 2012-06-22 15:08:19 by martlume

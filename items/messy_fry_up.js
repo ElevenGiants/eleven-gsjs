@@ -264,6 +264,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("messy_fry_up.js LOADED");
-
 // generated ok 2012-09-18 15:41:36 by martlume

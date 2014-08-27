@@ -156,6 +156,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("rubemycin.js LOADED");
-
 // generated ok 2012-11-07 13:17:43 by martlume

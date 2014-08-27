@@ -266,6 +266,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("pad_tii.js LOADED");
-
 // generated ok 2012-12-04 11:28:28 by martlume

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("assistant_spice_manager.js LOADED");
-
 // generated ok (NO DATE)

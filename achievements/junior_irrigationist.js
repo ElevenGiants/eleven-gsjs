@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("junior_irrigationist.js LOADED");
-
 // generated ok (NO DATE)

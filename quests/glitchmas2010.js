@@ -55,6 +55,4 @@ var rewards = {
 	}
 };
 
-//log.info("glitchmas2010.js LOADED");
-
 // generated ok (NO DATE)

@@ -187,6 +187,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("fruity_juice.js LOADED");
-
 // generated ok 2012-05-25 10:00:13 by eric

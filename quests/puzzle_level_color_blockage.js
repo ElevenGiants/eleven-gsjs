@@ -113,6 +113,4 @@ function onStarted(pc){
 	return {ok: 1};
 }
 
-//log.info("puzzle_level_color_blockage.js LOADED");
-
 // generated ok (NO DATE)

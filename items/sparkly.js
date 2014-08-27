@@ -203,6 +203,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("sparkly.js LOADED");
-
 // generated ok 2012-07-25 19:58:43 by cal

@@ -67,6 +67,4 @@ var rewards = {
 	}
 };
 
-//log.info("teleportation_make_and_hand_out_tp_scripts.js LOADED");
-
 // generated ok (NO DATE)

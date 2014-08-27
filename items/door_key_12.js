@@ -161,6 +161,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("door_key_12.js LOADED");
-
 // generated ok 2012-05-25 10:00:13 by eric

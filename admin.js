@@ -1,5 +1,3 @@
-log.info("admin.js loaded");
-
 function isPlayerOnline(args){
 
 	return apiIsPlayerOnline(args.tsid);

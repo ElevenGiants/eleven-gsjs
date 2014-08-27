@@ -74,6 +74,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("race_end_position.js LOADED");
-
 // generated ok 2011-08-16 12:27:23 by cwhitman

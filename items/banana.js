@@ -314,6 +314,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("banana.js LOADED");
-
 // generated ok 2012-08-23 10:59:48 by martlume

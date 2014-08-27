@@ -172,6 +172,4 @@ var performance_rewards = {
 	}
 };
 
-//log.info("job_street_mine_9.js LOADED");
-
 // generated ok (NO DATE)

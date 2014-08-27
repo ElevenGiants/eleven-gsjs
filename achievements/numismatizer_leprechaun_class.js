@@ -56,6 +56,4 @@ var rewards	= {
 	}
 };
 
-//log.info("numismatizer_leprechaun_class.js LOADED");
-
 // generated ok (NO DATE)

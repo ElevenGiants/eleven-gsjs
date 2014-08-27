@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("aggressive_agrarian.js LOADED");
-
 // generated ok (NO DATE)

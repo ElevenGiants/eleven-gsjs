@@ -200,6 +200,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("gurly_drink.js LOADED");
-
 // generated ok 2012-12-03 20:17:43 by martlume

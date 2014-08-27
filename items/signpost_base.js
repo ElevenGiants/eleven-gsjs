@@ -76,6 +76,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("signpost_base.js LOADED");
-
 // generated ok 2012-02-28 17:49:37 by martlume

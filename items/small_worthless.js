@@ -150,6 +150,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("small_worthless.js LOADED");
-
 // generated ok 2012-06-22 15:08:30 by martlume

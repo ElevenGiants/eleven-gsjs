@@ -87,6 +87,4 @@ var rewards = {
 	}
 };
 
-//log.info("orld_ugs_esara.js LOADED");
-
 // generated ok (NO DATE)

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("five_feat_under.js LOADED");
-
 // generated ok (NO DATE)

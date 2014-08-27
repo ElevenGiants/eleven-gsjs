@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("sneezeorama.js LOADED");
-
 // generated ok (NO DATE)

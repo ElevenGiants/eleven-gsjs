@@ -153,6 +153,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("artifact_butterfly_hair_clip_piece2.js LOADED");
-
 // generated ok 2012-10-12 17:10:59 by martlume

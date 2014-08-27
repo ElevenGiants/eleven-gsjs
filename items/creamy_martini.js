@@ -190,6 +190,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("creamy_martini.js LOADED");
-
 // generated ok 2012-09-14 19:46:28 by martlume

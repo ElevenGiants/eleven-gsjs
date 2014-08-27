@@ -342,6 +342,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("grain.js LOADED");
-
 // generated ok 2012-08-23 11:08:40 by martlume

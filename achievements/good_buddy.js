@@ -46,6 +46,4 @@ var rewards	= {
 	}
 };
 
-//log.info("good_buddy.js LOADED");
-
 // generated ok (NO DATE)

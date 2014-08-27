@@ -154,6 +154,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("artifact_nose_of_plaster.js LOADED");
-
 // generated ok 2012-12-07 19:02:42 by ali

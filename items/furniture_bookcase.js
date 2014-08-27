@@ -266,6 +266,4 @@ itemDef.keys_in_pack = {
 	"u"	: "upgrade"
 };
 
-log.info("furniture_bookcase.js LOADED");
-
 // generated ok 2012-05-07 14:56:37 by kristel

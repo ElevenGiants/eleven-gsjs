@@ -60,6 +60,4 @@ var rewards = {
 	}
 };
 
-//log.info("croppery_plant_and_harvest.js LOADED");
-
 // generated ok (NO DATE)

@@ -152,6 +152,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("artifact_magical_pendant.js LOADED");
-
 // generated ok 2012-10-24 18:58:20 by martlume

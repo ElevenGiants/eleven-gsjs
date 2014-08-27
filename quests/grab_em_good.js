@@ -45,6 +45,4 @@ function onComplete(pc){ // generated from rewards
 }
 var rewards = {};
 
-//log.info("grab_em_good.js LOADED");
-
 // generated ok (NO DATE)

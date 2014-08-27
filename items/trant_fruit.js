@@ -1384,6 +1384,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("trant_fruit.js LOADED");
-
 // generated ok 2012-12-03 17:58:05 by martlume

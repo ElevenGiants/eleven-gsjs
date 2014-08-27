@@ -336,6 +336,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("older_spice.js LOADED");
-
 // generated ok 2012-12-03 18:19:17 by martlume

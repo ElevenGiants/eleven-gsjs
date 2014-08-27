@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("extremely_promising_tree_hugger.js LOADED");
-
 // generated ok (NO DATE)

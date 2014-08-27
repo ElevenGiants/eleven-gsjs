@@ -80,6 +80,4 @@ var rewards	= {
 	}
 };
 
-//log.info("collection_street_creator_dirt.js LOADED");
-
 // generated ok (NO DATE)

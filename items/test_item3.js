@@ -503,6 +503,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("test_item3.js LOADED");
-
 // generated ok 2012-10-26 12:42:08 by kukubee

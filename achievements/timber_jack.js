@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("timber_jack.js LOADED");
-
 // generated ok (NO DATE)

@@ -639,6 +639,4 @@ itemDef.keys_in_pack = {
 	"h"	: "place"
 };
 
-log.info("blockmaker_chassis.js LOADED");
-
 // generated ok 2012-09-14 19:45:45 by martlume

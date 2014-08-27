@@ -264,6 +264,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("scrumptious_frittata.js LOADED");
-
 // generated ok 2012-12-03 17:52:38 by martlume

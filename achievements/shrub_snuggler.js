@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("shrub_snuggler.js LOADED");
-
 // generated ok (NO DATE)

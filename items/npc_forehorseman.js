@@ -411,6 +411,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("npc_forehorseman.js LOADED");
-
 // generated ok 2012-12-07 14:19:58 by cal

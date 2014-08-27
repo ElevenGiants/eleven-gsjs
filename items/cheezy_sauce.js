@@ -263,6 +263,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("cheezy_sauce.js LOADED");
-
 // generated ok 2012-12-03 18:06:18 by martlume

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("on_thin_ice.js LOADED");
-
 // generated ok (NO DATE)

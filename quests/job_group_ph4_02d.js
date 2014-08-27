@@ -247,6 +247,4 @@ var performance_rewards = {
 	}
 };
 
-//log.info("job_group_ph4_02d.js LOADED");
-
 // generated ok (NO DATE)

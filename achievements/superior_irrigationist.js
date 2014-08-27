@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("superior_irrigationist.js LOADED");
-
 // generated ok (NO DATE)

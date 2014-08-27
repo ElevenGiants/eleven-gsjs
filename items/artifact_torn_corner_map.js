@@ -82,6 +82,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("artifact_torn_corner_map.js LOADED");
-
 // generated ok 2012-12-07 19:11:20 by ali

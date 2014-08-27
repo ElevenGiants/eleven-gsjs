@@ -78,6 +78,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("hi_overlay.js LOADED");
-
 // generated ok 2012-12-08 13:20:50

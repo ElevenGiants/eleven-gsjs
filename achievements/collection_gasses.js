@@ -87,6 +87,4 @@ var rewards	= {
 	}
 };
 
-//log.info("collection_gasses.js LOADED");
-
 // generated ok (NO DATE)

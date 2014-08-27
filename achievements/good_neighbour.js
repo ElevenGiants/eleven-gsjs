@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("good_neighbour.js LOADED");
-
 // generated ok (NO DATE)

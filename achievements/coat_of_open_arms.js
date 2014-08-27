@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("coat_of_open_arms.js LOADED");
-
 // generated ok (NO DATE)

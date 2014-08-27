@@ -58,6 +58,4 @@ var rewards = {
 	}
 };
 
-//log.info("meditativearts_meditate_for_time_period.js LOADED");
-
 // generated ok (NO DATE)

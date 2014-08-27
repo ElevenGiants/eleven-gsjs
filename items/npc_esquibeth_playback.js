@@ -384,6 +384,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("npc_esquibeth_playback.js LOADED");
-
 // generated ok 2012-09-17 12:27:24 by martlume

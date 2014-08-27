@@ -45,6 +45,4 @@ function onComplete(pc){ // generated from rewards
 }
 var rewards = {};
 
-//log.info("crystal_climb.js LOADED");
-
 // generated ok (NO DATE)

@@ -276,6 +276,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("pepitas.js LOADED");
-
 // generated ok 2012-08-23 11:01:57 by martlume

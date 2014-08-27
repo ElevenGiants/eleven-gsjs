@@ -192,6 +192,4 @@ var performance_rewards = {
 	}
 };
 
-//log.info("job_street_upgrade_2.js LOADED");
-
 // generated ok (NO DATE)

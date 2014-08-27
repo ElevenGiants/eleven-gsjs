@@ -42,6 +42,4 @@ var rewards	= {
 	}
 };
 
-//log.info("down_to_the_wire.js LOADED");
-
 // generated ok (NO DATE)

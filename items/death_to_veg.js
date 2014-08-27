@@ -265,6 +265,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("death_to_veg.js LOADED");
-
 // generated ok 2012-12-04 11:26:45 by martlume

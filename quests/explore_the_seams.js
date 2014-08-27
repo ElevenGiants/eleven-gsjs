@@ -75,6 +75,4 @@ function onAccepted(pc){
 	this.seams_visited = {};
 }
 
-//log.info("explore_the_seams.js LOADED");
-
 // generated ok (NO DATE)

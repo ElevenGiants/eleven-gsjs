@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("newbie_fruit_tree_pettifier.js LOADED");
-
 // generated ok (NO DATE)

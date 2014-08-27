@@ -168,6 +168,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("bag_cabinet_treehouse_3_3.js LOADED");
-
 // generated ok 2012-11-02 15:57:32 by tim

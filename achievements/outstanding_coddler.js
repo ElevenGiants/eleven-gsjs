@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("outstanding_coddler.js LOADED");
-
 // generated ok (NO DATE)

@@ -49,6 +49,4 @@ var rewards	= {
 	}
 };
 
-//log.info("shimla_mirch_completist.js LOADED");
-
 // generated ok (NO DATE)

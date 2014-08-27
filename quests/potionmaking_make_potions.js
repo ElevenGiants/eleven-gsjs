@@ -60,6 +60,4 @@ var rewards = {
 	}
 };
 
-//log.info("potionmaking_make_potions.js LOADED");
-
 // generated ok (NO DATE)

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("ice_baby.js LOADED");
-
 // generated ok (NO DATE)

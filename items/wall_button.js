@@ -230,6 +230,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("wall_button.js LOADED");
-
 // generated ok 2012-09-13 15:51:31 by lizg

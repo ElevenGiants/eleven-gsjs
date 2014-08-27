@@ -154,6 +154,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("artifact_metal_tap.js LOADED");
-
 // generated ok 2012-12-07 19:02:00 by ali

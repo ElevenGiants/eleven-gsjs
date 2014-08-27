@@ -46,6 +46,4 @@ var rewards	= {
 	}
 };
 
-//log.info("first_eleven_skills.js LOADED");
-
 // generated ok (NO DATE)

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("groddle_meadows_completist.js LOADED");
-
 // generated ok (NO DATE)

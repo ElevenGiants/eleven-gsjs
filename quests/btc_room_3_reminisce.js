@@ -94,6 +94,4 @@ function onStarted(pc){
 	return {ok: 1};
 }
 
-//log.info("btc_room_3_reminisce.js LOADED");
-
 // generated ok (NO DATE)

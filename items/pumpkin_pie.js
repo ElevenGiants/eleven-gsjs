@@ -335,6 +335,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("pumpkin_pie.js LOADED");
-
 // generated ok 2012-09-18 15:42:17 by martlume

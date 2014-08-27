@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("master_of_the_hi_coup.js LOADED");
-
 // generated ok (NO DATE)

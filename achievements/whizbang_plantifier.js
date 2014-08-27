@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("whizbang_plantifier.js LOADED");
-
 // generated ok (NO DATE)

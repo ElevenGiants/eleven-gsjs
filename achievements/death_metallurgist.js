@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("death_metallurgist.js LOADED");
-
 // generated ok (NO DATE)

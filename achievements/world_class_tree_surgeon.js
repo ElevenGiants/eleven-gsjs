@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("world_class_tree_surgeon.js LOADED");
-
 // generated ok (NO DATE)

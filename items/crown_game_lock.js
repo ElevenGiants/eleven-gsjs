@@ -115,6 +115,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("crown_game_lock.js LOADED");
-
 // generated ok 2011-08-11 11:24:39 by mygrant

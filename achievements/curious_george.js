@@ -52,6 +52,4 @@ var rewards	= {
 	}
 };
 
-//log.info("curious_george.js LOADED");
-
 // generated ok (NO DATE)

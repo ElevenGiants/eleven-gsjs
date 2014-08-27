@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("uberculturalist.js LOADED");
-
 // generated ok (NO DATE)

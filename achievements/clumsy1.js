@@ -43,6 +43,4 @@ var rewards	= {
 	"xp"	: 75
 };
 
-//log.info("clumsy1.js LOADED");
-
 // generated ok (NO DATE)

@@ -1083,6 +1083,4 @@ itemDef.keys_in_pack = {
 	"e"	: "repair"
 };
 
-log.info("potion_trantsformation_fluid.js LOADED");
-
 // generated ok 2012-12-09 12:50:56 by ali

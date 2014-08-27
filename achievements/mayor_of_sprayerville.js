@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("mayor_of_sprayerville.js LOADED");
-
 // generated ok (NO DATE)

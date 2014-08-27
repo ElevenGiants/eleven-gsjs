@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("jiggers_ribbon.js LOADED");
-
 // generated ok (NO DATE)

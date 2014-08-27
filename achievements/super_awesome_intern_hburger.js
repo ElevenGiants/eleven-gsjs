@@ -37,6 +37,4 @@ var rewards	= {
 	"xp"	: 1000
 };
 
-//log.info("super_awesome_intern_hburger.js LOADED");
-
 // generated ok (NO DATE)

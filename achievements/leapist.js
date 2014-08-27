@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("leapist.js LOADED");
-
 // generated ok (NO DATE)

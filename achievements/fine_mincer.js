@@ -56,6 +56,4 @@ var rewards	= {
 	}
 };
 
-//log.info("fine_mincer.js LOADED");
-
 // generated ok (NO DATE)

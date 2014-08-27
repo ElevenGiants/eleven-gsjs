@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("middling_tinsmitherer.js LOADED");
-
 // generated ok (NO DATE)

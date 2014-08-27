@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("betterthanlousy_douser.js LOADED");
-
 // generated ok (NO DATE)

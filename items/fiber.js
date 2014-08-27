@@ -150,6 +150,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("fiber.js LOADED");
-
 // generated ok 2012-07-24 11:45:18 by cal

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("chief_bubble_tree_cuddler.js LOADED");
-
 // generated ok (NO DATE)

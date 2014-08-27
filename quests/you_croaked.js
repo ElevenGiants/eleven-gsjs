@@ -51,6 +51,4 @@ var rewards = {
 	"energy"	: 25
 };
 
-//log.info("you_croaked.js LOADED");
-
 // generated ok (NO DATE)

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("aftershock_award.js LOADED");
-
 // generated ok (NO DATE)

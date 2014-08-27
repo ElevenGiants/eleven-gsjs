@@ -868,6 +868,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("rock_sparkly_3.js LOADED");
-
 // generated ok 2012-09-10 13:07:38 by martlume

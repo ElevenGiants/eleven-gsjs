@@ -50,6 +50,4 @@ var rewards = {
 	}
 };
 
-//log.info("snappy_explorer.js LOADED");
-
 // generated ok (NO DATE)

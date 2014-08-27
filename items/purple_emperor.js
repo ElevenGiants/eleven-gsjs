@@ -169,6 +169,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("purple_emperor.js LOADED");
-
 // generated ok 2011-12-05 14:06:44 by mygrant

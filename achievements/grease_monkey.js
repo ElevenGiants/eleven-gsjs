@@ -56,6 +56,4 @@ var rewards	= {
 	}
 };
 
-//log.info("grease_monkey.js LOADED");
-
 // generated ok (NO DATE)

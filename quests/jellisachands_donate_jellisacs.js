@@ -67,6 +67,4 @@ var rewards = {
 	}
 };
 
-//log.info("jellisachands_donate_jellisacs.js LOADED");
-
 // generated ok (NO DATE)

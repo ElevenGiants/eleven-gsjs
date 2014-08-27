@@ -246,6 +246,4 @@ var performance_rewards = {
 	"mood"		: 10
 };
 
-//log.info("job_justin_all_work_test.js LOADED");
-
 // generated ok (NO DATE)

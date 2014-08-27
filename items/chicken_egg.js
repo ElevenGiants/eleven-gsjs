@@ -239,6 +239,4 @@ itemDef.keys_in_pack = {
 	"n"	: "insta_hatch"
 };
 
-log.info("chicken_egg.js LOADED");
-
 // generated ok 2012-07-02 17:15:05 by martlume

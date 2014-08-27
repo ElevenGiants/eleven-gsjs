@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("fecundationist.js LOADED");
-
 // generated ok (NO DATE)

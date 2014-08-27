@@ -249,6 +249,4 @@ itemDef.keys_in_pack = {
 	"h"	: "smash"
 };
 
-log.info("white_gas.js LOADED");
-
 // generated ok 2012-11-07 13:15:10 by martlume

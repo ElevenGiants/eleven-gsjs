@@ -217,6 +217,4 @@ itemDef.keys_in_pack = {
 	"u"	: "upgrade"
 };
 
-log.info("furniture_smalltabledeco.js LOADED");
-
 // generated ok 2012-02-24 13:26:10 by kristel

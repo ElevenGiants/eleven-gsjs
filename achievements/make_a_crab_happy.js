@@ -37,6 +37,4 @@ var rewards	= {
 	"xp"	: 800
 };
 
-//log.info("make_a_crab_happy.js LOADED");
-
 // generated ok (NO DATE)

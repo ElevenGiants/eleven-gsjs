@@ -43,6 +43,4 @@ var rewards	= {
 	"xp"	: 300
 };
 
-//log.info("necromonger.js LOADED");
-
 // generated ok (NO DATE)

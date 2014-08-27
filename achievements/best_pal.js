@@ -46,6 +46,4 @@ var rewards	= {
 	}
 };
 
-//log.info("best_pal.js LOADED");
-
 // generated ok (NO DATE)

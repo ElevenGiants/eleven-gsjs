@@ -120,6 +120,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("switch_simple.js LOADED");
-
 // generated ok 2012-04-18 15:15:41 by cal

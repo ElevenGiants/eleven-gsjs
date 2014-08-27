@@ -447,6 +447,4 @@ itemDef.keys_in_pack = {
 	"q"	: "square"
 };
 
-log.info("pi.js LOADED");
-
 // generated ok 2012-07-16 17:03:19 by lizg

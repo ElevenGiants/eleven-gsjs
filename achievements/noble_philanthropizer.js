@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("noble_philanthropizer.js LOADED");
-
 // generated ok (NO DATE)

@@ -264,6 +264,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("rich_tagine.js LOADED");
-
 // generated ok 2012-12-03 22:00:20 by martlume

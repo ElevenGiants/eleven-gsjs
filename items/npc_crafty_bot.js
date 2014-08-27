@@ -3585,6 +3585,4 @@ itemDef.keys_in_pack = {
 	"u"	: "refuel"
 };
 
-log.info("npc_crafty_bot.js LOADED");
-
 // generated ok 2012-11-16 17:18:32 by tim

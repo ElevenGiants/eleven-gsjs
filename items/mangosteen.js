@@ -262,6 +262,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("mangosteen.js LOADED");
-
 // generated ok 2012-08-23 11:01:09 by martlume

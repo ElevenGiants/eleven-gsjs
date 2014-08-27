@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("better_homes_and_gardens.js LOADED");
-
 // generated ok (NO DATE)

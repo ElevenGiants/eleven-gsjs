@@ -200,6 +200,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("cosmapolitan.js LOADED");
-
 // generated ok 2012-12-03 22:13:09 by martlume

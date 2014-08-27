@@ -751,6 +751,4 @@ itemDef.keys_in_pack = {
 	"j"	: "upgrade_moon"
 };
 
-log.info("emotional_bear.js LOADED");
-
 // generated ok 2012-11-20 12:44:40 by mygrant

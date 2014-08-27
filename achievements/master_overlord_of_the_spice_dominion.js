@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("master_overlord_of_the_spice_dominion.js LOADED");
-
 // generated ok (NO DATE)

@@ -42,6 +42,4 @@ var rewards	= {
 	}
 };
 
-//log.info("the_cigar.js LOADED");
-
 // generated ok (NO DATE)

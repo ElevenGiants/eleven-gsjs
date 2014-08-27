@@ -69,6 +69,4 @@ var rewards = {
 	}
 };
 
-//log.info("pied_pepper.js LOADED");
-
 // generated ok (NO DATE)

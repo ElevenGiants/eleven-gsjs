@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("wood_abettor.js LOADED");
-
 // generated ok (NO DATE)

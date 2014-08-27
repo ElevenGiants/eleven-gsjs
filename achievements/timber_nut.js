@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("timber_nut.js LOADED");
-
 // generated ok (NO DATE)

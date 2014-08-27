@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("fine_refiner_shiny_class.js LOADED");
-
 // generated ok (NO DATE)

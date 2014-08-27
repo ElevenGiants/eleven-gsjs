@@ -66,6 +66,4 @@ var rewards = {
 	}
 };
 
-//log.info("send_mail.js LOADED");
-
 // generated ok (NO DATE)

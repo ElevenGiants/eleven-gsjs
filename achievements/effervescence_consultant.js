@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("effervescence_consultant.js LOADED");
-
 // generated ok (NO DATE)

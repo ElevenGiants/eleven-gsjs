@@ -78,6 +78,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("money_bag.js LOADED");
-
 // generated ok 2011-07-01 18:09:08 by martlume

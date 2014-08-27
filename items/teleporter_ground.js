@@ -170,6 +170,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("teleporter_ground.js LOADED");
-
 // generated ok 2012-10-01 10:53:39 by mygrant

@@ -60,6 +60,4 @@ var rewards = {
 	}
 };
 
-//log.info("lightgreenthumb_water_trees.js LOADED");
-
 // generated ok (NO DATE)

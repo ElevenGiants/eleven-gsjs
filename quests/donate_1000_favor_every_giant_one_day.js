@@ -134,6 +134,4 @@ function onStarted(pc){
 	return {ok: 1};
 }
 
-//log.info("donate_1000_favor_every_giant_one_day.js LOADED");
-
 // generated ok (NO DATE)

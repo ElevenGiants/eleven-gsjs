@@ -147,6 +147,4 @@ var rewards	= {
 	}
 };
 
-//log.info("collection_spices.js LOADED");
-
 // generated ok (NO DATE)

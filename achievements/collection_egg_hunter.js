@@ -81,6 +81,4 @@ var rewards	= {
 	}
 };
 
-//log.info("collection_egg_hunter.js LOADED");
-
 // generated ok (NO DATE)

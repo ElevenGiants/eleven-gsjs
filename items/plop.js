@@ -335,6 +335,4 @@ itemDef.keys_in_pack = {
 	"t"	: "taste"
 };
 
-log.info("plop.js LOADED");
-
 // generated ok 2012-06-12 09:32:35 by mygrant

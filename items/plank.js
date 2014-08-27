@@ -331,6 +331,4 @@ itemDef.keys_in_pack = {
 	"n"	: "splank"
 };
 
-log.info("plank.js LOADED");
-
 // generated ok 2012-11-09 15:57:56 by lizg

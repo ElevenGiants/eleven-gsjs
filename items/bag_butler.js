@@ -6594,6 +6594,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("bag_butler.js LOADED");
-
 // generated ok 2012-11-09 11:11:02 by pobrien

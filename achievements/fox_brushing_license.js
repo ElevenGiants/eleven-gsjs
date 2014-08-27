@@ -28,6 +28,4 @@ function onComplete(pc){ // generated from rewards
 }
 var rewards = {};
 
-//log.info("fox_brushing_license.js LOADED");
-
 // generated ok (NO DATE)

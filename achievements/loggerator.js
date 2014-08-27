@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("loggerator.js LOADED");
-
 // generated ok (NO DATE)

@@ -152,6 +152,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("board.js LOADED");
-
 // generated ok 2012-11-15 14:22:45 by martlume

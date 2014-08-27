@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("piggy_hash_slinger_1st_class.js LOADED");
-
 // generated ok (NO DATE)

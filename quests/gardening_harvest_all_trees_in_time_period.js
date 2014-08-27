@@ -120,6 +120,4 @@ function onStarted(pc){
 	return { ok: 1 };
 }
 
-//log.info("gardening_harvest_all_trees_in_time_period.js LOADED");
-
 // generated ok (NO DATE)

@@ -56,6 +56,4 @@ function onComplete_custom(pc){
 	pc.counters_reset_group('npcs_given_cubimals');
 }
 
-//log.info("mini_me_mini_you.js LOADED");
-
 // generated ok (NO DATE)

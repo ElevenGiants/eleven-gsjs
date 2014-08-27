@@ -154,6 +154,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("artifact_heart_shaped_lump.js LOADED");
-
 // generated ok 2012-12-07 19:00:21 by ali

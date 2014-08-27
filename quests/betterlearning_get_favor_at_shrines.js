@@ -62,6 +62,4 @@ function onComplete_custom(pc){
 	pc.betterlearning_favor_end();
 }
 
-//log.info("betterlearning_get_favor_at_shrines.js LOADED");
-
 // generated ok (NO DATE)

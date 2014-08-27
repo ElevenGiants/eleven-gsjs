@@ -153,6 +153,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("artifact_necklace_rhyolite_piece.js LOADED");
-
 // generated ok 2012-10-16 16:32:11 by martlume

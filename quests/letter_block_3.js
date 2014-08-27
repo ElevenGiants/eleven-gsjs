@@ -342,6 +342,4 @@ function updateTimeOverlay(){
 	}
 }
 
-//log.info("letter_block_3.js LOADED");
-
 // generated ok (NO DATE)

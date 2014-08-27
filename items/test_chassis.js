@@ -81,6 +81,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("test_chassis.js LOADED");
-
 // generated ok 2012-03-15 07:03:58

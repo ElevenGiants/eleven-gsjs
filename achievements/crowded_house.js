@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("crowded_house.js LOADED");
-
 // generated ok (NO DATE)

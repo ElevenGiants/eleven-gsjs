@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("gastro_gnome.js LOADED");
-
 // generated ok (NO DATE)

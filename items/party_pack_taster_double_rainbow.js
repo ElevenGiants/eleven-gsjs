@@ -250,6 +250,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("party_pack_taster_double_rainbow.js LOADED");
-
 // generated ok 2012-11-15 13:43:27 by martlume

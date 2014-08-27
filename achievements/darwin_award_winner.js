@@ -43,6 +43,4 @@ var rewards	= {
 	"xp"	: 150
 };
 
-//log.info("darwin_award_winner.js LOADED");
-
 // generated ok (NO DATE)

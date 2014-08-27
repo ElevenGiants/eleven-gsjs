@@ -66,6 +66,4 @@ var rewards = {
 	"energy"	: 20
 };
 
-//log.info("tutorial_reinforcement.js LOADED");
-
 // generated ok (NO DATE)

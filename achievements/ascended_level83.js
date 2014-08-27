@@ -28,6 +28,4 @@ function onComplete(pc){ // generated from rewards
 }
 var rewards = {};
 
-//log.info("ascended_level83.js LOADED");
-
 // generated ok (NO DATE)

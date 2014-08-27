@@ -220,6 +220,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("furniture_window.js LOADED");
-
 // generated ok 2012-01-31 10:06:04 by mygrant

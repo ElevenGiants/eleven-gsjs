@@ -287,6 +287,4 @@ itemDef.keys_in_pack = {
 	"u"	: "run"
 };
 
-log.info("dcpu16.js LOADED");
-
 // generated ok 2012-04-13 11:15:59 by martlume

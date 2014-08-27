@@ -296,6 +296,4 @@ itemDef.keys_in_pack = {
 	"k"	: "rook_attack"
 };
 
-log.info("dice_12sided.js LOADED");
-
 // generated ok 2012-11-20 12:36:29 by mygrant

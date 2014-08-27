@@ -154,6 +154,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("artifact_bag_of_tent_pegs.js LOADED");
-
 // generated ok 2012-12-07 18:51:53 by ali

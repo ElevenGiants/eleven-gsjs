@@ -154,6 +154,4 @@ var performance_rewards = {
 	}
 };
 
-//log.info("job_street_mine_01.js LOADED");
-
 // generated ok (NO DATE)

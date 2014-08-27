@@ -56,6 +56,4 @@ var rewards	= {
 	}
 };
 
-//log.info("able_chopper.js LOADED");
-
 // generated ok (NO DATE)

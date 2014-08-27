@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("pullet_provenderizer.js LOADED");
-
 // generated ok (NO DATE)

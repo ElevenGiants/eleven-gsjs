@@ -263,6 +263,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("sammich.js LOADED");
-
 // generated ok 2012-07-28 10:46:06 by mygrant

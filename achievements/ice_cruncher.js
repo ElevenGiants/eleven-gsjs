@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("ice_cruncher.js LOADED");
-
 // generated ok (NO DATE)

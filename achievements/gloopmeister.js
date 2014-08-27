@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("gloopmeister.js LOADED");
-
 // generated ok (NO DATE)

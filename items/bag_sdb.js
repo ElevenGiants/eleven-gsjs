@@ -429,6 +429,4 @@ itemDef.keys_in_pack = {
 	"u"	: "upgrade"
 };
 
-log.info("bag_sdb.js LOADED");
-
 // generated ok 2012-03-16 11:33:55 by eric

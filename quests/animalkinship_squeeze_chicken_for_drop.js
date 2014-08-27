@@ -60,6 +60,4 @@ var rewards = {
 	}
 };
 
-//log.info("animalkinship_squeeze_chicken_for_drop.js LOADED");
-
 // generated ok (NO DATE)

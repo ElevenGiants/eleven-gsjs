@@ -248,6 +248,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("party_pack_aquarius.js LOADED");
-
 // generated ok 2012-11-15 13:42:17 by martlume

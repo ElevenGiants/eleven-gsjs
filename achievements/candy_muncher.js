@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("candy_muncher.js LOADED");
-
 // generated ok (NO DATE)

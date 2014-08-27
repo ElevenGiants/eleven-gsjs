@@ -56,6 +56,4 @@ var rewards	= {
 	}
 };
 
-//log.info("sizzler_supreme.js LOADED");
-
 // generated ok (NO DATE)

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("big_splasher.js LOADED");
-
 // generated ok (NO DATE)

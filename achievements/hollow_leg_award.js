@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("hollow_leg_award.js LOADED");
-
 // generated ok (NO DATE)

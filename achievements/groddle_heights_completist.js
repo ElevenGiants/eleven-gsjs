@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("groddle_heights_completist.js LOADED");
-
 // generated ok (NO DATE)

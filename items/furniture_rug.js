@@ -751,6 +751,4 @@ itemDef.keys_in_pack = {
 	"j"	: "upgrade"
 };
 
-log.info("furniture_rug.js LOADED");
-
 // generated ok 2012-09-27 12:08:43 by martlume

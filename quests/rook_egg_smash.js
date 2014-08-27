@@ -81,6 +81,4 @@ function onStarted(pc){
 	return { ok: 1 };
 }
 
-//log.info("rook_egg_smash.js LOADED");
-
 // generated ok (NO DATE)

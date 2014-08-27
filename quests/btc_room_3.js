@@ -81,6 +81,4 @@ function onStarted(pc){
 	return {ok: 1};
 }
 
-//log.info("btc_room_3.js LOADED");
-
 // generated ok (NO DATE)

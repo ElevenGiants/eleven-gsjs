@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("framer_ranger.js LOADED");
-
 // generated ok (NO DATE)

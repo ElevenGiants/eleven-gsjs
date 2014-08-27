@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("pretty_fine_mulcher.js LOADED");
-
 // generated ok (NO DATE)

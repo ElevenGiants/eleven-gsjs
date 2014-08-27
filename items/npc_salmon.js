@@ -511,6 +511,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("npc_salmon.js LOADED");
-
 // generated ok 2012-12-02 21:49:35 by ali

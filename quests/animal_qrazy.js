@@ -50,6 +50,4 @@ var rewards = {
 	}
 };
 
-//log.info("animal_qrazy.js LOADED");
-
 // generated ok (NO DATE)

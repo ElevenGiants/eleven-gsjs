@@ -42,6 +42,4 @@ var rewards	= {
 	}
 };
 
-//log.info("quick_on_your_feat.js LOADED");
-
 // generated ok (NO DATE)

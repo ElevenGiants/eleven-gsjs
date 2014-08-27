@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("the_dampinator.js LOADED");
-
 // generated ok (NO DATE)

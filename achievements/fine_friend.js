@@ -46,6 +46,4 @@ var rewards	= {
 	}
 };
 
-//log.info("fine_friend.js LOADED");
-
 // generated ok (NO DATE)

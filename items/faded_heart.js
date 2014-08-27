@@ -173,6 +173,4 @@ itemDef.keys_in_pack = {
 	"e"	: "remember"
 };
 
-log.info("faded_heart.js LOADED");
-
 // generated ok 2012-08-18 10:19:58 by mygrant

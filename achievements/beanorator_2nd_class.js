@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("beanorator_2nd_class.js LOADED");
-
 // generated ok (NO DATE)

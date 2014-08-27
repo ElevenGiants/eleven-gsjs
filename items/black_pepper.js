@@ -346,6 +346,4 @@ itemDef.keys_in_pack = {
 	"n"	: "sniff"
 };
 
-log.info("black_pepper.js LOADED");
-
 // generated ok 2012-12-03 21:04:57 by martlume

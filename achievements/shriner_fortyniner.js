@@ -42,6 +42,4 @@ var rewards	= {
 	"xp"	: 700
 };
 
-//log.info("shriner_fortyniner.js LOADED");
-
 // generated ok (NO DATE)

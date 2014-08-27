@@ -463,6 +463,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("sno_cone_red.js LOADED");
-
 // generated ok 2012-12-03 19:59:16 by martlume

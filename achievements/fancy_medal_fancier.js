@@ -42,6 +42,4 @@ var rewards	= {
 	"xp"	: 2000
 };
 
-//log.info("fancy_medal_fancier.js LOADED");
-
 // generated ok (NO DATE)

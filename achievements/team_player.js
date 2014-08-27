@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("team_player.js LOADED");
-
 // generated ok (NO DATE)

@@ -59,6 +59,4 @@ var rewards = {
 	}
 };
 
-//log.info("soilappreciation_pet_seedlings_to_trees.js LOADED");
-
 // generated ok (NO DATE)

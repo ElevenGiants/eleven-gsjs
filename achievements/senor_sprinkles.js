@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("senor_sprinkles.js LOADED");
-
 // generated ok (NO DATE)

@@ -83,6 +83,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("bag_furniture.js LOADED");
-
 // generated ok 2012-05-07 11:15:55 by mygrant

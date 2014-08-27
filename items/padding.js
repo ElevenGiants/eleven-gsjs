@@ -136,6 +136,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("padding.js LOADED");
-
 // generated ok 2012-03-19 19:32:31 by martlume

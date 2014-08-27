@@ -264,6 +264,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("flummery.js LOADED");
-
 // generated ok 2012-12-03 20:05:52 by martlume

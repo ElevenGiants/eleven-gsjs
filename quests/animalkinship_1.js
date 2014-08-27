@@ -73,6 +73,4 @@ function onStarted(pc){
 	return {ok: 1};
 }
 
-//log.info("animalkinship_1.js LOADED");
-
 // generated ok (NO DATE)

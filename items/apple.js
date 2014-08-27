@@ -344,6 +344,4 @@ itemDef.keys_in_pack = {
 	"c"	: "lick"
 };
 
-log.info("apple.js LOADED");
-
 // generated ok 2012-08-23 10:59:43 by martlume

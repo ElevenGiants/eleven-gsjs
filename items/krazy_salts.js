@@ -550,6 +550,4 @@ itemDef.keys_in_pack = {
 	"k"	: "sprinkle"
 };
 
-log.info("krazy_salts.js LOADED");
-
 // generated ok 2012-11-07 13:13:00 by martlume

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("maniacal_foxbrusher.js LOADED");
-
 // generated ok (NO DATE)

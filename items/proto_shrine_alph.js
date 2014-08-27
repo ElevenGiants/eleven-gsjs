@@ -188,6 +188,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("proto_shrine_alph.js LOADED");
-
 // generated ok 2011-12-16 12:16:56 by martlume

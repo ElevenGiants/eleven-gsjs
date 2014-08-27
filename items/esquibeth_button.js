@@ -230,6 +230,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("esquibeth_button.js LOADED");
-
 // generated ok 2012-09-14 12:22:19

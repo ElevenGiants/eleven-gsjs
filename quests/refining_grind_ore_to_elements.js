@@ -81,6 +81,4 @@ var rewards = {
 	}
 };
 
-//log.info("refining_grind_ore_to_elements.js LOADED");
-
 // generated ok (NO DATE)

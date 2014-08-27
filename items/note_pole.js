@@ -525,6 +525,4 @@ itemDef.keys_in_pack = {
 	"h"	: "place"
 };
 
-log.info("note_pole.js LOADED");
-
 // generated ok 2012-11-08 12:04:34 by eric

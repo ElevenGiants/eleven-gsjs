@@ -263,6 +263,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("tangy_noodles.js LOADED");
-
 // generated ok 2012-09-18 15:48:35 by martlume

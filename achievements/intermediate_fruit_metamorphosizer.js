@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("intermediate_fruit_metamorphosizer.js LOADED");
-
 // generated ok (NO DATE)

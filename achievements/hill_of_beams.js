@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("hill_of_beams.js LOADED");
-
 // generated ok (NO DATE)

@@ -40,6 +40,4 @@ function onComplete(pc){ // generated from rewards
 }
 var rewards = {};
 
-//log.info("smuggle_the_smuggler_part2.js LOADED");
-
 // generated ok (NO DATE)

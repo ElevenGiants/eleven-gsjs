@@ -79,6 +79,4 @@ var rewards	= {
 	}
 };
 
-//log.info("collection_gems.js LOADED");
-
 // generated ok (NO DATE)

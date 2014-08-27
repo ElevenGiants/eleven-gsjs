@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("novice_furniturer.js LOADED");
-
 // generated ok (NO DATE)

@@ -143,6 +143,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("random_hole.js LOADED");
-
 // generated ok 2012-08-08 13:06:07 by eric

@@ -118,6 +118,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("sloth_knocker.js LOADED");
-
 // generated ok 2012-04-23 18:06:24 by tim

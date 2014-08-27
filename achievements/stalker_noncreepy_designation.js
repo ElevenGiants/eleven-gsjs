@@ -42,6 +42,4 @@ var rewards	= {
 	}
 };
 
-//log.info("stalker_noncreepy_designation.js LOADED");
-
 // generated ok (NO DATE)

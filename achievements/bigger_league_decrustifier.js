@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("bigger_league_decrustifier.js LOADED");
-
 // generated ok (NO DATE)

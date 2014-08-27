@@ -88,6 +88,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("garden.js LOADED");
-
 // generated ok 2011-12-21 12:54:40 by mygrant

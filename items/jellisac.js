@@ -320,6 +320,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("jellisac.js LOADED");
-
 // generated ok 2012-10-26 18:44:27 by lizg

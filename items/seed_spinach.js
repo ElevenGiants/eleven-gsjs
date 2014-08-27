@@ -159,6 +159,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("seed_spinach.js LOADED");
-
 // generated ok 2012-09-14 19:45:51 by martlume

@@ -55,6 +55,4 @@ var rewards = {
 	"energy"	: 71
 };
 
-//log.info("vendor_ping_pong_part3.js LOADED");
-
 // generated ok (NO DATE)

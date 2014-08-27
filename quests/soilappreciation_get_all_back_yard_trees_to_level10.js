@@ -64,6 +64,4 @@ function onComplete_custom(pc){
 	delete pc.fully_grown_trants;
 }
 
-//log.info("soilappreciation_get_all_back_yard_trees_to_level10.js LOADED");
-
 // generated ok (NO DATE)

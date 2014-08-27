@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("make_do_and_mender.js LOADED");
-
 // generated ok (NO DATE)

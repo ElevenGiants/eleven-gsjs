@@ -152,6 +152,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("artifact_platinumium_spork.js LOADED");
-
 // generated ok 2012-10-14 22:04:38 by mackenzie

@@ -278,6 +278,4 @@ itemDef.keys_in_pack = {
 	"c"	: "race"
 };
 
-log.info("npc_cubimal_factorydefect_chick.js LOADED");
-
 // generated ok 2012-08-23 22:16:30 by martlume

@@ -192,6 +192,4 @@ var rewards	= {
 	}
 };
 
-//log.info("collection_cubimals.js LOADED");
-
 // generated ok (NO DATE)

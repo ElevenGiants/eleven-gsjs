@@ -111,6 +111,4 @@ function onStarted(pc){
 	return {ok: 1};
 }
 
-//log.info("mental_block.js LOADED");
-
 // generated ok (NO DATE)

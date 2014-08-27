@@ -676,6 +676,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("peat_2.js LOADED");
-
 // generated ok 2012-09-04 14:48:08 by mygrant

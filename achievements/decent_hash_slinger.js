@@ -56,6 +56,4 @@ var rewards	= {
 	}
 };
 
-//log.info("decent_hash_slinger.js LOADED");
-
 // generated ok (NO DATE)

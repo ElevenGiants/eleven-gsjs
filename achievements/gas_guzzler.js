@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("gas_guzzler.js LOADED");
-
 // generated ok (NO DATE)

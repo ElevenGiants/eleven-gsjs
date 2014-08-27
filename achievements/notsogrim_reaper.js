@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("notsogrim_reaper.js LOADED");
-
 // generated ok (NO DATE)

@@ -293,6 +293,4 @@ itemDef.keys_in_pack = {
 	"u"	: "use"
 };
 
-log.info("lips.js LOADED");
-
 // generated ok 2012-09-14 19:45:45 by martlume

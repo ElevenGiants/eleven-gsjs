@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("bubble_transubstantiator.js LOADED");
-
 // generated ok (NO DATE)

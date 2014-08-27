@@ -63,6 +63,4 @@ function onStarted(pc){
 	return { ok: 1 };
 }
 
-//log.info("numismatic_hustle.js LOADED");
-
 // generated ok (NO DATE)

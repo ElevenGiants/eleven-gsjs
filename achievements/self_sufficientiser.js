@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("self_sufficientiser.js LOADED");
-
 // generated ok (NO DATE)

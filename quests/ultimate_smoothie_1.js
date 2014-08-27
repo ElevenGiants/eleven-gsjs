@@ -69,6 +69,4 @@ function onComplete_custom(pc){
 	pc.quests_offer('ultimate_smoothie_2', true);
 }
 
-//log.info("ultimate_smoothie_1.js LOADED");
-
 // generated ok (NO DATE)

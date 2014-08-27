@@ -353,6 +353,4 @@ itemDef.keys_in_pack = {
 	"c"	: "smash"
 };
 
-log.info("pumpkin_carved_4.js LOADED");
-
 // generated ok 2012-09-19 17:49:34 by lizg

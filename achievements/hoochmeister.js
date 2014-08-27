@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("hoochmeister.js LOADED");
-
 // generated ok (NO DATE)

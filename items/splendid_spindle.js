@@ -825,6 +825,4 @@ itemDef.keys_in_pack = {
 	"n"	: "spin"
 };
 
-log.info("splendid_spindle.js LOADED");
-
 // generated ok 2012-12-09 13:16:41 by ali

@@ -56,6 +56,4 @@ var rewards	= {
 	}
 };
 
-//log.info("pretty_good_griddler.js LOADED");
-
 // generated ok (NO DATE)

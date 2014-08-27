@@ -238,6 +238,4 @@ var performance_rewards = {
 	}
 };
 
-//log.info("job_street_ph3_03.js LOADED");
-
 // generated ok (NO DATE)

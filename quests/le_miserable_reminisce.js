@@ -99,6 +99,4 @@ function onStarted(pc){
 	return {ok: 1};
 }
 
-//log.info("le_miserable_reminisce.js LOADED");
-
 // generated ok (NO DATE)

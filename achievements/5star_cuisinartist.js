@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("5star_cuisinartist.js LOADED");
-
 // generated ok (NO DATE)

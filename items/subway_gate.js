@@ -231,6 +231,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("subway_gate.js LOADED");
-
 // generated ok 2012-08-27 16:10:20 by mygrant

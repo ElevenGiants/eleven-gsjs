@@ -199,6 +199,4 @@ itemDef.keys_in_pack = {
 	"n"	: "inspect"
 };
 
-log.info("tin.js LOADED");
-
 // generated ok 2012-08-23 20:56:34 by martlume

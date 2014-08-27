@@ -1764,6 +1764,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("metalmaker.js LOADED");
-
 // generated ok 2012-10-03 11:18:23 by martlume

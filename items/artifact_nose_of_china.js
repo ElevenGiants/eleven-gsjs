@@ -152,6 +152,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("artifact_nose_of_china.js LOADED");
-
 // generated ok 2012-09-21 13:39:14 by martlume

@@ -67,6 +67,4 @@ var rewards = {
 	}
 };
 
-//log.info("gardening_plant_beans_make_sure_become_trees.js LOADED");
-
 // generated ok (NO DATE)

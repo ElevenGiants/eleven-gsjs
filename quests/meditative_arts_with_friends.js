@@ -65,6 +65,4 @@ var rewards = {
 	}
 };
 
-//log.info("meditative_arts_with_friends.js LOADED");
-
 // generated ok (NO DATE)

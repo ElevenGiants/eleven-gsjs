@@ -42,6 +42,4 @@ var rewards	= {
 	}
 };
 
-//log.info("hi_as_a_kite.js LOADED");
-
 // generated ok (NO DATE)

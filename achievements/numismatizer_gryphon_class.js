@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("numismatizer_gryphon_class.js LOADED");
-
 // generated ok (NO DATE)

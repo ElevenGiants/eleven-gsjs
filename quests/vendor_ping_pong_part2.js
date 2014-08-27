@@ -90,6 +90,4 @@ var rewards = {
 	}
 };
 
-//log.info("vendor_ping_pong_part2.js LOADED");
-
 // generated ok (NO DATE)

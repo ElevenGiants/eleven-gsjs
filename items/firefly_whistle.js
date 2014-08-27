@@ -132,6 +132,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("firefly_whistle.js LOADED");
-
 // generated ok 2012-04-13 11:19:35 by martlume

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("cunning_like_a_foxbrusher.js LOADED");
-
 // generated ok (NO DATE)

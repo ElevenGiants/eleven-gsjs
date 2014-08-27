@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("supafly_flycatcher.js LOADED");
-
 // generated ok (NO DATE)

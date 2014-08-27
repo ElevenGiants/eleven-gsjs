@@ -146,6 +146,4 @@ var rewards	= {
 	}
 };
 
-//log.info("spice_examiner.js LOADED");
-
 // generated ok (NO DATE)

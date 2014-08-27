@@ -439,6 +439,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("spawner_moving_quoin.js LOADED");
-
 // generated ok 2012-12-03 17:52:05 by martlume

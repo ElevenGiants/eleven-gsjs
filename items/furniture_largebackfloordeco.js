@@ -217,6 +217,4 @@ itemDef.keys_in_pack = {
 	"u"	: "upgrade"
 };
 
-log.info("furniture_largebackfloordeco.js LOADED");
-
 // generated ok 2012-02-25 12:59:59 by kristel

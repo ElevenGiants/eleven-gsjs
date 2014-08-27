@@ -57,6 +57,4 @@ var performance_rewards = {
 	}
 };
 
-//log.info("job_multi_phase_test_3.js LOADED");
-
 // generated ok (NO DATE)

@@ -42,6 +42,4 @@ var rewards	= {
 	}
 };
 
-//log.info("philanthropic_member_of_the_social_construct.js LOADED");
-
 // generated ok (NO DATE)

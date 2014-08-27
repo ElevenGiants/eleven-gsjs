@@ -430,6 +430,4 @@ itemDef.keys_in_pack = {
 	"n"	: "spin"
 };
 
-log.info("antique_spigot.js LOADED");
-
 // generated ok 2012-09-10 10:38:23 by mygrant

@@ -119,6 +119,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("npc_swoonerfly.js LOADED");
-
 // generated ok 2011-06-16 11:00:40

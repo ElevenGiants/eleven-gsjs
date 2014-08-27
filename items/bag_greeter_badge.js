@@ -451,6 +451,4 @@ itemDef.keys_in_pack = {
 	"u"	: "unmute"
 };
 
-log.info("bag_greeter_badge.js LOADED");
-
 // generated ok 2012-11-11 16:06:38 by mygrant

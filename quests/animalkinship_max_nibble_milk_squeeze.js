@@ -74,6 +74,4 @@ var rewards = {
 	}
 };
 
-//log.info("animalkinship_max_nibble_milk_squeeze.js LOADED");
-
 // generated ok (NO DATE)

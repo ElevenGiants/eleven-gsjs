@@ -120,6 +120,4 @@ itemDef.keys_in_pack = {
 	"e"	: "release"
 };
 
-log.info("hogtied_piggy_explorer.js LOADED");
-
 // generated ok 2012-02-28 17:54:08 by martlume

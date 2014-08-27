@@ -667,6 +667,4 @@ itemDef.keys_in_pack = {
 	"u"	: "use"
 };
 
-log.info("egg_seasoner.js LOADED");
-
 // generated ok 2012-12-09 12:50:56 by ali

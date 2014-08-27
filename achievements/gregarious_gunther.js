@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("gregarious_gunther.js LOADED");
-
 // generated ok (NO DATE)

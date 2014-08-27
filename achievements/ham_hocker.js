@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("ham_hocker.js LOADED");
-
 // generated ok (NO DATE)

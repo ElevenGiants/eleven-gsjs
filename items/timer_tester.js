@@ -103,6 +103,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("timer_tester.js LOADED");
-
 // generated ok 2011-06-16 11:59:50

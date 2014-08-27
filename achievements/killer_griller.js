@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("killer_griller.js LOADED");
-
 // generated ok (NO DATE)

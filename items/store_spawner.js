@@ -128,6 +128,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("store_spawner.js LOADED");
-
 // generated ok 2011-05-17 20:31:20

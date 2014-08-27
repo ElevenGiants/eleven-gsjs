@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("fox_tourist.js LOADED");
-
 // generated ok (NO DATE)

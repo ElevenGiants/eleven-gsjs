@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("all_right_hatcher.js LOADED");
-
 // generated ok (NO DATE)

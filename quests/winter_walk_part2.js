@@ -105,6 +105,4 @@ function onStarted(pc){
 	return {ok: 1};
 }
 
-//log.info("winter_walk_part2.js LOADED");
-
 // generated ok (NO DATE)

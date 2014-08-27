@@ -697,6 +697,4 @@ itemDef.keys_in_pack = {
 	"z"	: "sort_musicblocks"
 };
 
-log.info("bag_test_item.js LOADED");
-
 // generated ok 2012-11-05 09:31:23 by mygrant

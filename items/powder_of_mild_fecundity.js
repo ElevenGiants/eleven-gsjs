@@ -602,6 +602,4 @@ itemDef.keys_in_pack = {
 	"k"	: "sprinkle"
 };
 
-log.info("powder_of_mild_fecundity.js LOADED");
-
 // generated ok 2012-10-28 18:09:22 by mygrant

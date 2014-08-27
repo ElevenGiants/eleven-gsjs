@@ -74,6 +74,4 @@ function onCreate(pc){
 	this.remembered = {};
 }
 
-//log.info("remember_ghosts_1.js LOADED");
-
 // generated ok (NO DATE)

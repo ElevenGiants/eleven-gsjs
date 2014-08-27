@@ -714,6 +714,4 @@ itemDef.keys_in_pack = {
 	"j"	: "upgrade"
 };
 
-log.info("furniture_fireplace.js LOADED");
-
 // generated ok 2012-11-16 16:47:41 by martlume

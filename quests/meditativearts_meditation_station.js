@@ -61,6 +61,4 @@ var rewards = {
 	}
 };
 
-//log.info("meditativearts_meditation_station.js LOADED");
-
 // generated ok (NO DATE)

@@ -583,6 +583,4 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {};
 
-log.info("npc_spinning_wheel.js LOADED");
-
 // generated ok 2012-08-14 15:10:33 by simon

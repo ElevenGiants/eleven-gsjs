@@ -76,6 +76,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("golgi_apparatus.js LOADED");
-
 // generated ok 2011-06-24 14:30:17

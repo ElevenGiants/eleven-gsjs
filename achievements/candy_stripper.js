@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("candy_stripper.js LOADED");
-
 // generated ok (NO DATE)

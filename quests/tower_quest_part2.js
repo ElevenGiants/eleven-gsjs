@@ -39,6 +39,4 @@ function onAccepted(pc){
 	pc.events_add({ callback: 'instances_create_delayed', tsid: 'LCR8MQ9JJI12IIK', instance_id: 'tower_quest_headspace', x: -911, y: -410, exit_delay: 2*60, options: {no_auto_return: true}}, 0.1);
 }
 
-//log.info("tower_quest_part2.js LOADED");
-
 // generated ok (NO DATE)

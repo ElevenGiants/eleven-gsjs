@@ -156,6 +156,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("mabon.js LOADED");
-
 // generated ok 2012-06-04 18:40:17 by kristi

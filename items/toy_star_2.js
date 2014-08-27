@@ -82,6 +82,4 @@ itemDef.tags = [
 itemDef.keys_in_location = {};
 itemDef.keys_in_pack = {};
 
-log.info("toy_star_2.js LOADED");
-
 // generated ok 2012-08-01 13:47:56

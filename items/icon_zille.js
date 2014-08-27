@@ -542,6 +542,4 @@ itemDef.keys_in_pack = {
 	"h"	: "tithe"
 };
 
-log.info("icon_zille.js LOADED");
-
 // generated ok 2012-12-06 16:51:13 by martlume

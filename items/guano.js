@@ -148,6 +148,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("guano.js LOADED");
-
 // generated ok 2012-09-17 13:06:44 by martlume

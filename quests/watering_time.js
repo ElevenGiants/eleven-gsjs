@@ -58,6 +58,4 @@ function onComplete_custom(pc){
 	delete pc.soaked;
 }
 
-//log.info("watering_time.js LOADED");
-
 // generated ok (NO DATE)

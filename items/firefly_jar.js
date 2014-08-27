@@ -539,6 +539,4 @@ itemDef.keys_in_pack = {
 	"o"	: "open"
 };
 
-log.info("firefly_jar.js LOADED");
-
 // generated ok 2012-11-16 16:09:15 by martlume

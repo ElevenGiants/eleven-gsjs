@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("egg_transmutator_apprentice.js LOADED");
-
 // generated ok (NO DATE)

@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("rook_ranger.js LOADED");
-
 // generated ok (NO DATE)

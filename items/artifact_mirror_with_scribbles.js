@@ -152,6 +152,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("artifact_mirror_with_scribbles.js LOADED");
-
 // generated ok 2012-09-21 14:04:44

@@ -175,6 +175,4 @@ itemDef.keys_in_pack = {
 	"n"	: "invoke"
 };
 
-log.info("bean_garden.js LOADED");
-
 // generated ok 2011-11-04 13:29:35 by eric

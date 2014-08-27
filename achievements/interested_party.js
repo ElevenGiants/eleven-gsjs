@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("interested_party.js LOADED");
-
 // generated ok (NO DATE)

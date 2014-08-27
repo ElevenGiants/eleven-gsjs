@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("serious_scrabbler.js LOADED");
-
 // generated ok (NO DATE)

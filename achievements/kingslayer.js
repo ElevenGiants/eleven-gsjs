@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("kingslayer.js LOADED");
-
 // generated ok (NO DATE)

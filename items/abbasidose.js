@@ -156,6 +156,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("abbasidose.js LOADED");
-
 // generated ok 2012-06-04 17:44:08 by kristi

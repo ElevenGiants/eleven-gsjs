@@ -272,6 +272,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("million_currant_trophy.js LOADED");
-
 // generated ok 2012-08-24 10:52:29 by martlume

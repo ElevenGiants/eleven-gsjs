@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("nighmystical_lepidopteral_manipulator.js LOADED");
-
 // generated ok (NO DATE)

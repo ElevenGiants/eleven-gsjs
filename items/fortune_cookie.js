@@ -319,6 +319,4 @@ itemDef.keys_in_pack = {
 	"g"	: "give"
 };
 
-log.info("fortune_cookie.js LOADED");
-
 // generated ok 2012-11-20 17:14:33 by mygrant

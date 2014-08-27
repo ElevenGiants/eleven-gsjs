@@ -349,6 +349,4 @@ itemDef.keys_in_pack = {
 	"v"	: "give"
 };
 
-log.info("ice.js LOADED");
-
 // generated ok 2012-11-01 15:23:53 by martlume

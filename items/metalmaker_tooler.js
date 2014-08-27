@@ -639,6 +639,4 @@ itemDef.keys_in_pack = {
 	"h"	: "place"
 };
 
-log.info("metalmaker_tooler.js LOADED");
-
 // generated ok 2012-09-17 11:46:13 by martlume

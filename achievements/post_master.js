@@ -48,6 +48,4 @@ var rewards	= {
 	}
 };
 
-//log.info("post_master.js LOADED");
-
 // generated ok (NO DATE)

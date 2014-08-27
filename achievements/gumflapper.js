@@ -47,6 +47,4 @@ var rewards	= {
 	}
 };
 
-//log.info("gumflapper.js LOADED");
-
 // generated ok (NO DATE)

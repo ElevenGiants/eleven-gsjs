@@ -77,6 +77,4 @@ var rewards = {
 	}
 };
 
-//log.info("spicemilling_transform_spices.js LOADED");
-
 // generated ok (NO DATE)
