@@ -3812,7 +3812,6 @@ function onGeometryReplaced(){
 	if (this.isInstance()) return false;
 
 	log.info(this+' onGeometryReplaced calling jobs_modify_connections');
-	//log.printStackTrace();
 	
 	// Set timers to allow us to set flags on this location that will affect these functions, like in instances
 	this.apiSetTimer('geo_links_cleanup', 3000);

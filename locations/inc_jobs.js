@@ -529,7 +529,6 @@ function jobs_get_primary_loc(id, do_full_check){
 
 function jobs_modify_connections(){
 	log.info(this+' running jobs_modify_connections');
-	//log.printStackTrace();
 	
 	var jobs = this.jobs_get_all();
 	for (var i in jobs){

@@ -383,8 +383,8 @@ function playerIsOut(pc){
 // Player is exiting the shared instance
 function playerLeavingInstance(pc) {
 	if(!this.players[pc.tsid]) {
-		log.info('[GAMES] '+"Error: somehow, player "+pc+" is attempting to leave shared instance without actually being there.");
-		log.printStackTrace();
+		log.info(new Error('dummy error for stack trace'),
+			'[GAMES] '+"Error: somehow, player "+pc+" is attempting to leave shared instance without actually being there.");
 		return;
 	}
 

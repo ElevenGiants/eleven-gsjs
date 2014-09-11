@@ -349,8 +349,8 @@ function is_chance(prob){
 	if (prob <= 0) return 0;
 	if (prob == 1) return 1;
 	if (prob > 1){
-		log.error('is_chance called with probability greater than 1. Fix this!');
-		log.printStackTrace();
+		log.error(new Error('dummy error for stack trace'),
+			'is_chance called with probability greater than 1. Fix this!');
 		prob /= 100;
 	}
 	if (Math.random() <= prob) return 1;

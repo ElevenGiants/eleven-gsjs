@@ -4,7 +4,8 @@ function skills_init(){
 		//log.info('*******************************************SKILLS-INIT');
 
 		if (this.stats && this.stats.level > 1){
-			log.error(this+' WARNING: Recreating skills container with level = '+this.stats.level);
+			log.error(new Error('dummy error for stack trace'),
+				this+' WARNING: Recreating skills container with level = '+this.stats.level);
 			log.error(this+' WARNING: Existing skills ref = '+skills);
 			if (this.skills){
 				log.error(this+' WARNING: skills actually exist = '+this.skills+' vs '+skills);
@@ -12,8 +13,6 @@ function skills_init(){
 			else{
 				log.error(this+' WARNING: Skills DC is definitely missing = '+this.skills+' vs '+skills);
 			}
-
-			log.printStackTrace();
 		}
 
 		this.skills = apiNewOwnedDC(this);
