@@ -271,7 +271,7 @@ verbs.install = { // defined by machine_base
 			itemstack_tsid: this.tsid,
 			delta_x: delta_x,
 			delta_y: -60,
-			swf_url: pc.overlay_key_to_url('installing'),
+			swf_url: overlay_key_to_url('installing'),
 			word_progress: config.word_progress_map['installing']
 		};
 
@@ -423,7 +423,7 @@ verbs.pickup = { // defined by machine_base
 				itemstack_tsid: this.tsid,
 				delta_x: delta_x,
 				delta_y: 20,
-				swf_url: pc.overlay_key_to_url('uninstalling')
+				swf_url: overlay_key_to_url('uninstalling')
 			};
 
 			if (distance) annc['delay_ms'] = Math.round(distance / 400 * 1000);
@@ -1341,7 +1341,7 @@ function onDisassemble(pc){ // defined by machine_base
 		itemstack_tsid: this.tsid,
 		delta_x: delta_x,
 		delta_y: -60,
-		swf_url: pc.overlay_key_to_url('disassembling'),
+		swf_url: overlay_key_to_url('disassembling'),
 		word_progress: config.word_progress_map['disassembling']
 	};
 
@@ -1394,7 +1394,7 @@ function onFullyDisassemble(pc){ // defined by machine_base
 		itemstack_tsid: this.tsid,
 		delta_x: delta_x,
 		delta_y: -60,
-		swf_url: pc.overlay_key_to_url('disassembling'),
+		swf_url: overlay_key_to_url('disassembling'),
 		word_progress: config.word_progress_map['disassembling']
 	};
 

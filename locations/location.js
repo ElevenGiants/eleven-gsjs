@@ -3793,7 +3793,7 @@ function announce_itemstack_overlay(args){
 
 	for (var i in args){
 		if (i == 'overlay_key'){
-			rsp['swf_url'] = this.overlay_key_to_url(args[i]);
+			rsp['swf_url'] = overlay_key_to_url(args[i]);
 		}
 		else{
 			rsp[i] = args[i];

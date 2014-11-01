@@ -3013,7 +3013,7 @@ function show_rainbow(overlay_key, delay){
 	var duration = 4000;
 	var args = {
 		type: 'pc_overlay',
-		swf_url: this.overlay_key_to_url(overlay_key),
+		swf_url: overlay_key_to_url(overlay_key),
 		duration: duration,
 		pc_tsid: this.tsid,
 		delta_x: 0,

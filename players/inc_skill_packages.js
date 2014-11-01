@@ -269,7 +269,7 @@ function runSkillPackage(class_id, source_item, args){
 			if (source_item.hasTag('npc')) annc['follow'] = true;
 			
 			if (args.overlay_id){
-				annc['swf_url'] = this.overlay_key_to_url(args.overlay_id);
+				annc['swf_url'] = overlay_key_to_url(args.overlay_id);
 			}
 			else{
 				annc['item_class'] = args.tool_item.class_tsid;
@@ -305,7 +305,7 @@ function runSkillPackage(class_id, source_item, args){
 			};
 			
 			if (args.overlay_id){
-				anncx['swf_url'] = this.overlay_key_to_url(args.overlay_id);
+				anncx['swf_url'] = overlay_key_to_url(args.overlay_id);
 			}
 			else{
 				anncx['item_class'] = args.tool_item.class_tsid;
@@ -327,7 +327,7 @@ function runSkillPackage(class_id, source_item, args){
 			};
 			
 			if (args.overlay_id){
-				annc['swf_url'] = this.overlay_key_to_url(args.overlay_id);
+				annc['swf_url'] = overlay_key_to_url(args.overlay_id);
 			}
 			else{
 				annc['item_class'] = args.tool_item.class_tsid;
@@ -359,7 +359,7 @@ function runSkillPackage(class_id, source_item, args){
 			};
 			
 			if (args.overlay_id){
-				anncx['swf_url'] = this.overlay_key_to_url(args.overlay_id);
+				anncx['swf_url'] = overlay_key_to_url(args.overlay_id);
 			}
 			else{
 				anncx['item_class'] = args.tool_item.class_tsid;

@@ -588,7 +588,7 @@ function showBonus(pc){
 		uid: 'icon_bestow',
 		type: "pc_overlay",
 		pc_tsid: pc.tsid,
-		swf_url: pc.overlay_key_to_url('icon_giant_love'),
+		swf_url: overlay_key_to_url('icon_giant_love'),
 		duration: 3250,
 		locking: false,
 		dismissible: false,

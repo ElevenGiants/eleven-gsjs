@@ -208,7 +208,7 @@ function doReviveComplete(pc, ret, force_full_revive){
 		// Show rainbow overlay
 		var args = {
 			type: 'itemstack_overlay',
-			swf_url: this.overlay_key_to_url('rainbow_fullyrevived'),
+			swf_url: overlay_key_to_url('rainbow_fullyrevived'),
 			duration: 4000,
 			itemstack_tsid: this.tsid,
 			delta_x: 0,

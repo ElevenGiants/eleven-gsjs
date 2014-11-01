@@ -2094,7 +2094,7 @@ var buffs = {
 				locking: true,
 				delta_x: 0,
 				delta_y: -115,
-				swf_url: pc.overlay_key_to_url('rooked'),
+				swf_url: overlay_key_to_url('rooked'),
 				uid: pc.tsid+'_rooked'
 			};
 			pc.apiSendAnnouncement(annc);*/

@@ -237,7 +237,7 @@ verbs.assemble = { // defined by machine_part_base
 			itemstack_tsid: this.tsid,
 			delta_x: delta_x,
 			delta_y: 20,
-			swf_url: pc.overlay_key_to_url('assembling')
+			swf_url: overlay_key_to_url('assembling')
 		};
 
 		if (distance) annc['delay_ms'] = Math.round(distance / 400 * 1000);
@@ -312,7 +312,7 @@ verbs.disassemble = { // defined by machine_part_base
 			itemstack_tsid: this.tsid,
 			delta_x: delta_x,
 			delta_y: 20,
-			swf_url: pc.overlay_key_to_url('disassembling')
+			swf_url: overlay_key_to_url('disassembling')
 		};
 
 		if (distance) annc['delay_ms'] = Math.round(distance / 400 * 1000);

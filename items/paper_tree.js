@@ -286,7 +286,7 @@ verbs.harvest = { // defined by paper_tree
 		// Start overlays
 		pc.apiSendAnnouncement({
 			type: 'itemstack_overlay',
-			'swf_url': pc.overlay_key_to_url('trant_harvest'),
+			'swf_url': overlay_key_to_url('trant_harvest'),
 			word_progress: config.word_progress_map['harvest'],
 			duration: duration + 100,
 			itemstack_tsid: this.tsid,
@@ -299,7 +299,7 @@ verbs.harvest = { // defined by paper_tree
 
 		pc.location.apiSendAnnouncementX({
 			type: 'pc_overlay',
-			'swf_url': pc.overlay_key_to_url('trant_harvest'),
+			'swf_url': overlay_key_to_url('trant_harvest'),
 			duration: duration + 100,
 			pc_tsid: pc.tsid,
 			delta_x: 0,

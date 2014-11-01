@@ -194,7 +194,7 @@ function trading_request_start(target_tsid){
 		bubble: true,
 		width: 70,
 		height: 70,
-		swf_url: this.overlay_key_to_url('trading'),
+		swf_url: overlay_key_to_url('trading'),
 		uid: this.tsid+'_trading'
 	};
 

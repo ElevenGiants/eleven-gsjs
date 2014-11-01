@@ -109,7 +109,7 @@ function announce_vp_overlay(args){
 	
 	for (var i in args){
 		if (i == 'overlay_key'){
-			rsp['swf_url'] = this.overlay_key_to_url(args[i]);
+			rsp['swf_url'] = overlay_key_to_url(args[i]);
 		}
 		else{
 			rsp[i] = args[i];
@@ -126,7 +126,7 @@ function announce_window_overlay(args){
 	
 	for (var i in args){
 		if (i == 'overlay_key'){
-			rsp['swf_url'] = this.overlay_key_to_url(args[i]);
+			rsp['swf_url'] = overlay_key_to_url(args[i]);
 		}
 		else{
 			rsp[i] = args[i];
@@ -143,7 +143,7 @@ function announce_pc_overlay(args){
 	
 	for (var i in args){
 		if (i == 'overlay_key'){
-			rsp['swf_url'] = this.overlay_key_to_url(args[i]);
+			rsp['swf_url'] = overlay_key_to_url(args[i]);
 		}
 		else{
 			rsp[i] = args[i];
@@ -160,7 +160,7 @@ function announce_itemstack_overlay(args){
 	
 	for (var i in args){
 		if (i == 'overlay_key'){
-			rsp['swf_url'] = this.overlay_key_to_url(args[i]);
+			rsp['swf_url'] = overlay_key_to_url(args[i]);
 		}
 		else{
 			rsp[i] = args[i];
@@ -177,7 +177,7 @@ function announce_location_overlay(args){
 	
 	for (var i in args){
 		if (i == 'overlay_key'){
-			rsp['swf_url'] = this.overlay_key_to_url(args[i]);
+			rsp['swf_url'] = overlay_key_to_url(args[i]);
 		}
 		else{
 			rsp[i] = args[i];
@@ -599,7 +599,7 @@ function announce_build_indicator_annc(uid){
 		annc.item_class = indicator.overlay_key;
 	}
 	else{
-		annc.swf_url= this.overlay_key_to_url(indicator.overlay_key);
+		annc.swf_url= overlay_key_to_url(indicator.overlay_key);
 	}
 
 	if (indicator.state){

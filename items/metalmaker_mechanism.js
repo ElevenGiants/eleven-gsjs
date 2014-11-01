@@ -155,7 +155,7 @@ verbs.disassemble = { // defined by machine_part_base
 			itemstack_tsid: this.tsid,
 			delta_x: delta_x,
 			delta_y: 20,
-			swf_url: pc.overlay_key_to_url('disassembling'),
+			swf_url: overlay_key_to_url('disassembling'),
 			word_progress: config.word_progress_map['disassembling']
 		};
 
@@ -391,7 +391,7 @@ verbs.assemble = { // defined by machine_part_base
 			itemstack_tsid: this.tsid,
 			delta_x: delta_x,
 			delta_y: 20,
-			swf_url: pc.overlay_key_to_url('assembling'),
+			swf_url: overlay_key_to_url('assembling'),
 			word_progress: config.word_progress_map['assembling']
 		};
 
