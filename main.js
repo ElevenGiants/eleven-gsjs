@@ -2230,7 +2230,8 @@ function doChatCommand(pc, msg, txt){
 	}else if (words[0] == '/eval'){
 
 		words.shift();
-		eval(words.join(" "));
+		//eval(words.join(" "));
+		pc.sendActivity('sorry, /eval is disabled');
 
 		// needed to make sure changes are propagated
 		pc.apiSendLocMsg({ type: 'location_event' });
