@@ -723,7 +723,7 @@ function teleportToLocation(tsid, x, y, args){
 				},
 				loading_info: target.getLoadingInfo(this)
 			});
-			this.location.apiMoveOut(this, target);
+			this.location.apiMoveOutX(this, target, x, y);
 			return {
 				'ok' : 1,
 				'was_online' : 1
