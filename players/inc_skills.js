@@ -401,7 +401,7 @@ function skills_get_all(is_admin){
 				ok = 0;
 			}
 			
-			out[i].queue = queue[i];
+			out[i].queue = utils.copy_hash(queue[i]);
 			out[i].queue.time_remaining = this.skills_points_to_seconds(queue[i].points_remaining, s.category_id);
 		}
 		
