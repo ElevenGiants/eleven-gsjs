@@ -1102,6 +1102,7 @@ var class_tsids = [
 	"test_item2",
 	"test_item3",
 	"test_tube",
+	"tester_widget",
 	"thread",
 	"tiite",
 	"timer_tester",
