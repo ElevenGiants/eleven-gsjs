@@ -1702,6 +1702,7 @@ function adminBackfillNewxpPhysics(args){
 
 function adminResetPlayer(){
 	this.resetForTesting(false);
+	this.createItem('tester_widget', 1);
 }
 
 function adminBackfillSnapUpgrades(){
