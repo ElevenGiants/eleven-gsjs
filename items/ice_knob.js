@@ -370,9 +370,18 @@ function startScraping(pc, msg){ // defined by ice_knob
 	pc['!scraping'] = this.tsid;
 	this.addScraper(pc);
 
-	var no_upgrade = pc.party_scraping;
-
-	var success = pc.runSkillPackage('ice_scraping', this, {word_progress: {type:"scrape2"}, tool_item: scraper, source_delta_y: 80, source_delta_x: 40, callback: 'onScrapingComplete', msg: msg, no_img_upgrades: no_upgrade});
+	var args = {
+		word_progress: {type: "scrape2"},
+		tool_item: scraper,
+		source_delta_y: 80,
+		source_delta_x: 40,
+		callback: 'onScrapingComplete',
+		msg: msg,
+	};
+	if (pc.hasOwnProperty('party_scraping')) {
+		args.no_img_upgrades = pc.party_scraping;
+	}
+	var success = pc.runSkillPackage('ice_scraping', this, args);
 
 	if (!success['ok']){
 		if (success['error_tool_broken']) {
