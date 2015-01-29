@@ -91,7 +91,7 @@ verbs.teleport = { // defined by admin_widget
 	}
 };
 
-verbs.redeal = { 
+verbs.redeal = {
 	"name"				: "redeal",
 	"ok_states"			: ["in_pack"],
 	"requires_target_pc"		: false,
@@ -311,6 +311,38 @@ verbs.learn = {
 	}
 };
 
+verbs.items = {
+	"name"				: "items",
+	"ok_states"			: ["in_pack"],
+	"requires_target_pc"		: false,
+	"requires_target_item"		: false,
+	"include_target_items_from_location"		: false,
+	"is_default"			: false,
+	"is_emote"			: false,
+	"sort_on"			: 62,
+	"tooltip"			: "Create useful items",
+	"is_drop_target"		: false,
+	"conditions"			: function(pc, drop_stack){
+		return {state:'enabled'};
+	},
+	"handler"			: function(pc, msg, suppress_activity){
+		var choices = {
+			1: {value: 'items_emblems', txt: 'Emblems'},
+			2: {value: 'items_grain_bushel', txt: 'Grain'},
+			3: {value: 'items_meat', txt: 'Meat'},
+			4: {value: 'items_milk_butterfly', txt: 'Milk'},
+			5: {value: 'items_fertilidust', txt: 'Fertilidust'},
+		};
+		pc.apiSendMsgAsIs({
+			type: 'conversation',
+			itemstack_tsid: this.id,
+			txt: "What can I help you with?",
+			choices: choices,
+		});
+		return true;
+	}
+};
+
 function endConversation(pc, msg){ // defined by admin_widget
 	pc.apiSendMsgAsIs({
 		type: 'conversation_choice',
@@ -348,6 +380,20 @@ function onConversation(pc, msg){ // defined by admin_widget
 				break;
 			case 'quests':
 				pc.quests_reset();
+				break;
+		}
+	}
+	else if (msg.choice.substr(0,6) == 'items_') {
+		var id = msg.choice.substr(6);
+		switch (id) {
+			case 'emblems':
+				config.giants.forEach(function create(giant) {
+					pc.createItemFromGround('emblem_' + giant);
+				});
+				break;
+			default:
+				var proto = api.apiFindItemPrototype(id);
+				pc.createItemFromGround(id, proto.stackmax || 1);
 				break;
 		}
 	}
