@@ -91,7 +91,7 @@ verbs.teleport = { // defined by admin_widget
 	}
 };
 
-verbs.redeal = { 
+verbs.redeal = {
 	"name"				: "redeal",
 	"ok_states"			: ["in_pack"],
 	"requires_target_pc"		: false,
@@ -308,6 +308,46 @@ verbs.learn = {
 		var skill = pc.skills_get_learning();
 		pc.skills_give(skill.id);
 		return true;
+	}
+};
+
+verbs.img = {
+	"name"				: "iMG",
+	"ok_states"			: ["in_pack"],
+	"requires_target_pc"		: false,
+	"requires_target_item"		: false,
+	"include_target_items_from_location"		: false,
+	"is_default"			: false,
+	"is_emote"			: false,
+	"sort_on"			: 63,
+	"tooltip"			: "+100,000 iMG",
+	"is_drop_target"		: false,
+	"conditions"			: function(pc, drop_stack){
+
+		return {state:'enabled'};
+	},
+	"handler"			: function(pc, msg, suppress_activity){
+
+		var failed = 0;
+		var orig_count = this.count;
+		var self_msgs = [];
+		var self_effects = [];
+		var they_effects = [];
+
+		var context = {'class_id':this.class_tsid, 'verb':'img'};
+		var val = pc.stats_add_xp(100000, true, context);
+		if (val){
+			self_effects.push({
+				"type"    : "xp_give",
+				"which"    : "",
+				"value"    : val
+			});
+		}
+
+		var pre_msg = this.buildVerbMessage(msg.count, 'consider', 'considered', failed, self_msgs, self_effects, they_effects);
+		if (!suppress_activity && pre_msg) pc.sendActivity(pre_msg);
+
+		return failed ? false : true;
 	}
 };
 
