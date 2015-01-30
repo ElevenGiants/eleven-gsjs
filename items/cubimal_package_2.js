@@ -112,8 +112,8 @@ verbs.open = { // defined by cubimal_package_base
 		var chance = (randInt(0, 10000) / 100);
 
 		for (var i in this.cubimals){
-			if (chance <= i){
-				var s = this.replaceWith('npc_cubimal_'+this.cubimals[i]);
+			if (chance <= this.cubimals[i].chance){
+				var s = this.replaceWith('npc_cubimal_'+this.cubimals[i].type);
 				self_msgs.push("You got a "+s.label+"!");
 				break;
 			}
@@ -128,28 +128,28 @@ verbs.open = { // defined by cubimal_package_base
 
 // global block from cubimal_package_2
 // The cubimals and their relative chances
-var cubimals = {
-	'14.5': 'fox',
-	'29': 'sloth',
-	'37': 'emobear',
-	'45': 'foxranger',
-	'54': 'groddlestreetspirit',
-	'61': 'uraliastreetspirit',
-	'69': 'firebogstreetspirit',
-	'77': 'gnome',
-	'81': 'butler',
-	'85': 'craftybot',
-	'89': 'phantom',
-	'93': 'ilmenskiejones',
-	'94': 'trisor',
-	'95': 'toolvendor',
-	'96': 'mealvendor',
-	'97': 'gardeningtoolsvendor',
-	'98': 'maintenancebot',
-	'99': 'senorfunpickle',
-	'99.5': 'hellbartender',
-	'100': 'scionofpurple',
-};
+var cubimals = [
+	{ chance: 14.5, type: 'fox' },
+	{ chance: 29, type: 'sloth' },
+	{ chance: 37, type: 'emobear' },
+	{ chance: 45, type: 'foxranger' },
+	{ chance: 54, type: 'groddlestreetspirit' },
+	{ chance: 61, type: 'uraliastreetspirit' },
+	{ chance: 69, type: 'firebogstreetspirit' },
+	{ chance: 77, type: 'gnome' },
+	{ chance: 81, type: 'butler' },
+	{ chance: 85, type: 'craftybot' },
+	{ chance: 89, type: 'phantom' },
+	{ chance: 93, type: 'ilmenskiejones' },
+	{ chance: 94, type: 'trisor' },
+	{ chance: 95, type: 'toolvendor' },
+	{ chance: 96, type: 'mealvendor' },
+	{ chance: 97, type: 'gardeningtoolsvendor' },
+	{ chance: 98, type: 'maintenancebot' },
+	{ chance: 99, type: 'senorfunpickle' },
+	{ chance: 99.5, type: 'hellbartender' },
+	{ chance: 100, type: 'scionofpurple' }
+];
 
 function getDescExtras(pc){
 	var out = [];
