@@ -112,8 +112,8 @@ verbs.open = { // defined by cubimal_package_base
 		var chance = (randInt(0, 10000) / 100);
 
 		for (var i in this.cubimals){
-			if (chance <= i){
-				var s = this.replaceWith('npc_cubimal_'+this.cubimals[i]);
+			if (chance <= this.cubimals[i].chance){
+				var s = this.replaceWith('npc_cubimal_'+this.cubimals[i].type);
 				self_msgs.push("You got a "+s.label+"!");
 				break;
 			}
@@ -128,36 +128,36 @@ verbs.open = { // defined by cubimal_package_base
 
 // global block from cubimal_package
 // The cubimals and their relative chances
-var cubimals = {
-	'17': 'chick',
-	'34': 'piggy',
-	'50': 'butterfly',
+var cubimals = [
+	{ chance: 17, type: 'chick' },
+	{ chance: 34, type: 'piggy' },
+	{ chance: 50, type: 'butterfly' },
 
-	'58': 'crab',
-	'66': 'batterfly',
-	'74': 'frog',
-	'82': 'firefly',
+	{ chance: 58, type: 'crab' },
+	{ chance: 66, type: 'batterfly' },
+	{ chance: 74, type: 'frog' },
+	{ chance: 82, type: 'firefly' },
 
-	'84': 'bureaucrat',
-	'86': 'cactus',
-	'88': 'snoconevendor',
-	'90': 'squid',
-	'92': 'juju',
+	{ chance: 84, type: 'bureaucrat' },
+	{ chance: 86, type: 'cactus' },
+	{ chance: 88, type: 'snoconevendor' },
+	{ chance: 90, type: 'squid' },
+	{ chance: 92, type: 'juju' },
 
-	'93.25': 'smuggler',
-	'94.50': 'deimaginator',
-	'95.75': 'greeterbot',
-	'97': 'dustbunny',
+	{ chance: 93.25, type: 'smuggler' },
+	{ chance: 94.50, type: 'deimaginator' },
+	{ chance: 95.75, type: 'greeterbot' },
+	{ chance: 97, type: 'dustbunny' },
 
-	'97.5': 'gwendolyn',
-	'98': 'unclefriendly',
-	'98.5': 'helga',
-	'99': 'magicrock',
-	'99.5': 'yeti',
+	{ chance: 97.5, type: 'gwendolyn' },
+	{ chance: 98, type: 'unclefriendly' },
+	{ chance: 98.5, type: 'helga' },
+	{ chance: 99, type: 'magicrock' },
+	{ chance: 99.5, type: 'yeti' },
 
-	'99.75': 'rube',
-	'100': 'rook',
-};
+	{ chance: 99.75, type: 'rube' },
+	{ chance: 100, type: 'rook' }
+];
 
 function getDescExtras(pc){
 	var out = [];
