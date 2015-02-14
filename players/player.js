@@ -1,4 +1,4 @@
-//#include inc_admin.js, inc_groups.js, inc_organizations.js, inc_making.js
+﻿//#include inc_admin.js, inc_groups.js, inc_organizations.js, inc_making.js
 //#include inc_stores.js, inc_skills.js, inc_stats.js
 //#include inc_metabolics.js, inc_items.js
 //#include inc_buddies.js, inc_quests.js, inc_buffs.js
@@ -1827,7 +1827,7 @@ function distanceFromPlayerXY(x, y){
 // this is called any time after a player does "something"
 //
 
-var meditation_ok_types = ['itemstack_mouse_over'];
+var meditation_ok_types = ['itemstack_mouse_over', 'ping'];
 var meditation_ok_verbs = ['meditate', 'focus_energy', 'focus_mood', 'radiate'];
 var please_wait_ok_types = ['party_chat', 'groups_chat', 'local_chat', 'buff_tick', 'conversation_choice', 'buff_start', 'prompt_choice'];
 function performPostProcessing(msg){
