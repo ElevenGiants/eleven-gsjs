@@ -29,7 +29,7 @@ function performPetting(pc, msg){
 	
 	var package_id = 'light_green_thumb_pet';
 	// For the easter egg hunt:
-	if (this.class_tsid == 'trant_egg'){
+	if (this.class_tsid == 'trant_egg' && isEaster()){
 		package_id = 'lgt_egg_plant_pet';
 	}
 	var ret = pc.runSkillPackage(package_id, this, {word_progress: config.word_progress_map['pet'], no_fail: !pc.has_done_intro, overlay_id: 'trant_pet', callback: 'onPettingComplete', place_at_bottom: true, source_delta_y: -140, source_delta_x: 0, msg: msg});
