@@ -289,6 +289,19 @@ function isZilloween() {
 	return false;
 }
 
+function isEaster(){
+
+	// Enabled from 4th of April 00:00 to 6th of April 00:00
+	var now = time();
+	var start = 1428105600;
+	var end = 1428105600 + 60 * 60 * 72; // 3 days.
+	if (now > start && now < end) {
+		return true;
+	}
+
+	return false;
+}
+
 function isGlitchmas() {
 
 	// Currently enabled up until the 2012-01-03 10AM PST
