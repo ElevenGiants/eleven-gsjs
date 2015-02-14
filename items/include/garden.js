@@ -122,8 +122,8 @@ function adminTendGarden(args){
 	var achievement_key = this.tsid;
 	if (args.action == 'water'){
 		
-		function is_watering_can(it){ return it.class_tsid == 'irrigator_9000' && it.isWorking() ? true : false; }
-		var watering_can = pc.findFirst(is_watering_can);
+		function is_irrigator_9000(it){ return it.class_tsid == 'irrigator_9000' && it.isWorking() ? true : false; }
+		var watering_can = pc.findFirst(is_irrigator_9000);
 		if (!watering_can){
 			function is_watering_can(it){ return it.class_tsid == 'watering_can' && it.isWorking() ? true : false; }
 			watering_can = pc.findFirst(is_watering_can);
@@ -231,8 +231,8 @@ function adminTendGarden(args){
 	}
 
 	if (args.action == 'hoe' && this.data.plots[args.plot].state == 'dirty'){
-		function is_hoe(it){ return it.class_tsid =='high_class_hoe' && it.isWorking() ? true : false; }
-		var hoe = pc.findFirst(is_hoe);
+		function is_high_class_hoe(it){ return it.class_tsid =='high_class_hoe' && it.isWorking() ? true : false; }
+		var hoe = pc.findFirst(is_high_class_hoe);
 		if (!hoe){
 			function is_hoe(it){ return it.class_tsid == 'hoe' && it.isWorking() ? true : false; }
 			hoe = pc.findFirst(is_hoe);
