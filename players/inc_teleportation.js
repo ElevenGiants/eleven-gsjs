@@ -938,17 +938,14 @@ function teleportation_get_energy_cost(){
 }
 
 function teleportation_get_cooldown_time(){
-
-	// End of the world - reduce all cooldowns by a factor of 60
-	
 	if (this.skills_has('teleportation_5')){
-		return 5;
+		return 300;
 	}
 	else if (this.skills_has('teleportation_4')){
-		return 5;
+		return 300;
 	}
 	else if (this.skills_has('teleportation_1')){
-		return 5;
+		return 300;
 	}
 
 	return null; 
@@ -957,10 +954,10 @@ function teleportation_get_cooldown_time(){
 function teleportation_get_max_map_teleports(){
 	
 	if (this.skills_has('teleportation_5')){
-		return 1000;
+		return 5;
 	}
 	else if (this.skills_has('teleportation_4')){
-		return 1000;
+		return 5;
 	}
 	
 	return 0; 
