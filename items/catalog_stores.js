@@ -1389,43 +1389,43 @@ var stores = {
 			},
 			{
 				class_tsid: "party_pack_pitchen_lilliputt",
-				cost: 1100,
+				cost: 25000,
 			},
 			{
 				class_tsid: "party_pack_toxic_moon",
-				cost: 1100,
+				cost: 25000,
 			},
 			{
 				class_tsid: "party_pack_nylon_phool",
-				cost: 1100,
+				cost: 30000,
 			},
 			{
 				class_tsid: "party_pack_double_rainbow",
-				cost: 1100,
+				cost: 17500,
 			},
 			{
 				class_tsid: "party_pack_mazzala_gala",
-				cost: 1100,
+				cost: 30000,
 			},
 			{
 				class_tsid: "party_pack_taster_double_rainbow",
-				cost: 220,
+				cost: 3850,
 			},
 			{
 				class_tsid: "party_pack_taster_mazzala_gala",
-				cost: 220,
+				cost: 6600,
 			},
 			{
 				class_tsid: "party_pack_taster_nylon_phool",
-				cost: 220,
+				cost: 6600,
 			},
 			{
 				class_tsid: "party_pack_taster_pitchen_lilliputt",
-				cost: 220,
+				cost: 5500,
 			},
 			{
 				class_tsid: "party_pack_taster_toxic_moon",
-				cost: 220,
+				cost: 5500,
 			},
 			{
 				class_tsid: "bag_gift_box",
@@ -1437,19 +1437,19 @@ var stores = {
 			},
 			{
 				class_tsid: "party_pack_taster_val_holla",
-				cost: 220,
+				cost: 5500,
 			},
 			{
 				class_tsid: "party_pack_val_holla",
-				cost: 1100,
+				cost: 25000,
 			},
 			{
 				class_tsid: "party_pack_aquarius",
-				cost: 1100,
+				cost: 25000,
 			},
 			{
 				class_tsid: "party_pack_taster_aquarius",
-				cost: 220,
+				cost: 5500,
 			},
 			{
 				class_tsid: "camera",
