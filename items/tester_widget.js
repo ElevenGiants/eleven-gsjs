@@ -399,7 +399,7 @@ function onConversation(pc, msg){ // defined by admin_widget
 			pc.buffs_remove(buff);
 		}
 		else {
-			pc.buffs_apply(buff, { tick_duration: 9999999999 });
+			pc.buffs_apply(buff);
 		}
 	}
 	else if (msg.choice === 'remove_all_buffs') { // Remove ALL buffs.
