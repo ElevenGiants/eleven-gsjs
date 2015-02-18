@@ -1,4 +1,4 @@
-//#include include/cultivation.js, include/npc_conversation.js
+﻿//#include include/cultivation.js, include/npc_conversation.js
 
 var label = "Dark Patch";
 var version = "1352936202";
@@ -395,8 +395,8 @@ verbs.tend = { // defined by patch
 			var hoe = pc.getAllContents()[msg.target_itemstack_tsid];
 		}
 		else{
-			function is_hoe(it){ return it.class_tsid =='high_class_hoe' && it.isWorking() ? true : false; }
-			var hoe = pc.findFirst(is_hoe);
+			function is_high_class_hoe(it){ return it.class_tsid =='high_class_hoe' && it.isWorking() ? true : false; }
+			var hoe = pc.findFirst(is_high_class_hoe);
 			if (!hoe){
 				function is_hoe(it){ return it.class_tsid == 'hoe' && it.isWorking() ? true : false; }
 				hoe = pc.findFirst(is_hoe);

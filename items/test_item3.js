@@ -1,4 +1,4 @@
-//#include include/npc_conversation.js
+﻿//#include include/npc_conversation.js
 
 var label = "test";
 var version = "1351280528";
@@ -91,8 +91,8 @@ verbs.scrape = { // defined by mortar_barnacle
 			return this.startScraping(pc, msg);
 		}
 		else{
-			function is_scraper(it){ return it.class_tsid =='super_scraper' && it.isWorking() ? true : false; }
-			var scraper = pc.findFirst(is_scraper);
+			function is_super_scraper(it){ return it.class_tsid =='super_scraper' && it.isWorking() ? true : false; }
+			var scraper = pc.findFirst(is_super_scraper);
 			if (!scraper){
 				function is_scraper(it){ return it.class_tsid =='scraper' && it.isWorking() ? true : false; }
 				scraper = pc.findFirst(is_scraper);
