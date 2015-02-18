@@ -1,4 +1,4 @@
-﻿//#include inc_admin.js, inc_groups.js, inc_organizations.js, inc_making.js
+//#include inc_admin.js, inc_groups.js, inc_organizations.js, inc_making.js
 //#include inc_stores.js, inc_skills.js, inc_stats.js
 //#include inc_metabolics.js, inc_items.js
 //#include inc_buddies.js, inc_quests.js, inc_buffs.js

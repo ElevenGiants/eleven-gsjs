@@ -1,4 +1,4 @@
-﻿//#include include/cultivation.js, include/npc_conversation.js
+//#include include/cultivation.js, include/npc_conversation.js
 
 var label = "Patch";
 var version = "1352936202";

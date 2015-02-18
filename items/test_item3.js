@@ -1,4 +1,4 @@
-﻿//#include include/npc_conversation.js
+//#include include/npc_conversation.js
 
 var label = "test";
 var version = "1351280528";
