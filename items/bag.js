@@ -194,15 +194,18 @@ function addItemStack(stack, slot, pc){
 		for (var i in candidates){
 			var path = candidates[i];
 			var bag = items[path];
-			
-			for (var it in bag.items){
-				var tmp = bag.items[it];
-				if (tmp.class_id == stack.class_id && tmp.stackmax != tmp.count && tmp.tsid != stack.tsid){
-					remaining = bag.addItemStack(stack, tmp.slot, pc);
+			var sortedItems = bag.getContents();
 
-					// Are we done?
-					if (!remaining){
-						return 0;
+			for (var i = 0; i < sortedItems.length; i++){
+				if (sortedItems[i]) {
+					var tmp = sortedItems[i];
+					if (tmp.class_id == stack.class_id && tmp.stackmax != tmp.count && tmp.tsid != stack.tsid){
+						remaining = bag.addItemStack(stack, tmp.slot, pc);
+
+						// Are we done?
+						if (!remaining){
+							return 0;
+						}
 					}
 				}
 			}
