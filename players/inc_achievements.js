@@ -260,10 +260,111 @@ function achievements_run_callback_queue(){
 	}
 
 	if (num_keys(args) > 1){
-		utils.http_post('callbacks/achievement_counter.php', args, this.tsid);
+		// utils.http_post('callbacks/achievement_counter.php', args, this.tsid);
+		this.achievements_counter(args, this.tsid);
 	}
 
 	this.achievements.callback_queue = remainder;
+}
+
+//
+// Replacement for callbacks/achievement_counter.php
+//
+
+function achievements_counter(args, tsid){
+	if (!this.achievements.counters) {
+		this.achievements.counters = {};
+	}
+
+	// Parse args.
+	var achs = {};
+	for (var value in args) {
+		if (value.indexOf('achievement') === 0) {
+			var path = value.split('[').splice(1);
+			for (i = 0; i < path.length; i++) {
+				path[i] = path[i].substr(0, path[i].length - 1);
+			}
+
+			if (!achs[path[0]]) {
+				achs[path[0]] = {
+					to_check: {}
+				};
+			}
+			if (path[1] !== 'to_check') {
+				achs[path[0]][path[1]] = args[value];
+			}
+			else {
+				if (!achs[path[0]].to_check[path[2]]) {
+					achs[path[0]].to_check[path[2]] = {};
+				}
+				if (!achs[path[0]].to_check[path[2]][path[3]]) {
+					achs[path[0]].to_check[path[2]][path[3]] = {};
+				}
+				achs[path[0]].to_check[path[2]][path[3]][path[4]] = args[value];
+			}
+		}
+	}
+
+	// Update counters and then grant any achievements.
+	for (var id in achs) {
+
+		var counter = achs[id];
+		if (!this.achievements.counters[counter.group]) {
+			this.achievements.counters[counter.group] = {};
+		}
+		if (!this.achievements.counters[counter.group][counter.label]) {
+			this.achievements.counters[counter.group][counter.label] = 0;
+		}
+
+		switch (counter.mode) {
+			case 'increment':
+				this.achievements.counters[counter.group][counter.label] += counter.value;
+				break;
+			case 'decrement':
+				this.achievements.counters[counter.group][counter.label] -= counter.value;
+				break;
+			case 'set':
+				this.achievements.counters[counter.group][counter.label] = counter.value;
+				break;
+		}
+
+		for (var achievement in counter.to_check) {
+			var conditions = counter.to_check[achievement], completed = 0;
+			for (var cid in conditions) {
+				var thisCondition = conditions[cid];
+				switch(thisCondition.type) {
+					case 'group_count':
+						// value must be equal or larger than the number of items in the group.
+						if (Object.keys(this.achievements.counters[thisCondition.group]).length >= thisCondition.value) {
+							completed++;
+						}
+						break;
+					case 'group_sum':
+						// value must be equal or larger than the sum of all items in the group.
+						var sum = 0;
+						for (var label in this.achievements.counters[thisCondition.group]) {
+							sum += this.achievements.counters[thisCondition.group][label];
+						}
+						if (sum >= thisCondition.value) {
+							completed++;
+						}
+						break;
+					case 'counter':
+						// value must be equal or larger than the counter value.
+						if (!this.achievements.counters[thisCondition.group] || !this.achievements.counters[thisCondition.group][thisCondition.label]) {
+							break;
+						}
+						if (this.achievements.counters[thisCondition.group][thisCondition.label] >= thisCondition.value) {
+							completed++;
+						}
+						break;
+				}
+			}
+			if (completed >= Object.keys(conditions).length) {
+				this.achievements_grant(achievement);
+			}
+		}
+	}
 }
 
 //
