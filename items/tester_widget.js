@@ -380,6 +380,44 @@ verbs.img = {
 	}
 };
 
+verbs.doquests = {
+	"name"				: "do quests",
+	"ok_states"			: ["in_pack"],
+	"requires_target_pc"		: false,
+	"requires_target_item"		: false,
+	"include_target_items_from_location"		: false,
+	"is_default"			: false,
+	"is_emote"			: false,
+	"sort_on"			: 64,
+	"tooltip"			: "Finish all pending quests",
+	"is_drop_target"		: false,
+	"conditions"			: function(pc, drop_stack){
+
+		if (Object.keys(pc.quests_get_all().todo).length === 0) return {state:'disabled', reason:'You have no pending quests!'};
+		return {state:'enabled'};
+	},
+	"handler"			: function(pc, msg, suppress_activity){
+		var questStr = "";
+		for (var class_tsid in pc.quests_get_all().todo) {
+			var quest = pc.getQuestInstance(class_tsid);
+			questStr += '<li>' + quest.getTitle(pc) + '</li>';
+		}
+
+		var choices = {
+			1: {value: 'doallquests', txt: 'Do it!'},
+			2: {value: 'close', txt: 'Never mind'}
+		};
+		pc.apiSendMsgAsIs({
+			type: 'conversation',
+			itemstack_tsid: this.id,
+			txt: "This action will complete the following quests:<ul>" + questStr + "</ul>" +
+				"<br>Note: You will <b>not</b> recieve quest rewards for any completed quests.",
+			choices: choices,
+		});
+		return true;
+	}
+};
+
 function endConversation(pc, msg){ // defined by admin_widget
 	pc.apiSendMsgAsIs({
 		type: 'conversation_choice',
@@ -390,7 +428,13 @@ function endConversation(pc, msg){ // defined by admin_widget
 }
 
 function onConversation(pc, msg){ // defined by admin_widget
-	if (msg.choice.substr(0,10) == 'tele_tsid_') { // Teleport to TSID
+	if (msg.choice === 'doallquests') {
+		for (var class_tsid in pc.quests_get_all().todo) {
+			pc.quests_remove(class_tsid);
+			pc.quests_give_finished(class_tsid);
+		}
+	}
+	else if (msg.choice.substr(0,10) == 'tele_tsid_') { // Teleport to TSID
 		var tsid = msg.choice.substr(10);
 		pc.sendActivity('Teleporting you to '+tsid+' ...');
 		pc.teleportToLocation(tsid, 0, -100);
@@ -492,5 +536,6 @@ itemDef.keys_in_location = {
 };
 itemDef.keys_in_pack = {
 	"r"	: "drop",
-	"t"	: "teleport"
+	"t"	: "teleport",
+	"e" : "resurrect"
 };
