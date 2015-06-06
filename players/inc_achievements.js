@@ -190,7 +190,8 @@ function achievements_do_callback(mode, group, label, value){
 function achievements_run_callback_queue(){
 
 	var args = {
-		player: this.tsid
+		player: this.tsid,
+		achievement: [],
 	};
 
 	var idx = 0;
@@ -202,28 +203,21 @@ function achievements_run_callback_queue(){
 			var labels = groups[group];
 			for (var label in labels){
 				var value = labels[label];
-
-				var l_args = {
+				args.achievement[idx] = {
 					mode: mode,
 					group: group
 				};
-
-				if (label != 'no_label') l_args.label = label;
-
-				var key = 'achievement['+idx+']';
-				for (var k in l_args){
-					args[key+'['+k+']'] = l_args[k];
-				}
+				if (label != 'no_label') args.achievement[idx].label = label;
 
 				if (value !== undefined){
-					args[key+'[value]'] = intval(value);
-					if (value - args[key+'[value]']){
+					var v = intval(value);
+					args.achievement[idx].value = v;
+					if (value - v){
 						if (!remainder[mode]) remainder[mode] = {};
 						if (!remainder[mode][group]) remainder[mode][group] = {};
 						if (!remainder[mode][group][label]) remainder[mode][group][label] = 0;
-						remainder[mode][group][label] += (value - args[key+'[value]']);
+						remainder[mode][group][label] += (value - v);
 					}
-					//log.info(args);
 
 					var achievements = this.achievements_get_from_counter(group, label);
 					for (var i in achievements){
@@ -233,37 +227,33 @@ function achievements_run_callback_queue(){
 				
 							if (!ac || !num_keys(ac.conditions)) continue;
 
-							var key2 = key+'[to_check]['+id+']';
-							var conditions = '';
+							if (!args.achievement[idx].to_check) {
+								args.achievement[idx].to_check = {};
+							}
 							for (var j in ac.conditions){
 								var condition = ac.conditions[j];
 								if (num_keys(ac.conditions) == 1 && condition.type == 'has_currants') continue;
 
-								args[key2+'['+j+'][type]'] = condition.type;
-								if (condition.group) args[key2+'['+j+'][group]'] = condition.group;
-								if (condition.label) args[key2+'['+j+'][label]'] = condition.label;
-								args[key2+'['+j+'][value]'] = condition.value;
+								args.achievement[idx].to_check[id] = {};
+								args.achievement[idx].to_check[id][j] = {
+									type: condition.type,
+									value: condition.value,
+								};
+								if (condition.group) {
+									args.achievement[idx].to_check[id][j].group = condition.group;
+								}
+								if (condition.label) {
+									args.achievement[idx].to_check[id][j].label = condition.label;
+								}
 							}
 						}
 					}
 				}
-				else{
-					//log.info(args);
-				}
-
-				//log.info(args);
-				//utils.http_post('callbacks/achievement_counter.php', args, this.tsid);
-
 				idx++;
 			}
 		}
 	}
-
-	if (num_keys(args) > 1){
-		// utils.http_post('callbacks/achievement_counter.php', args, this.tsid);
-		this.achievements_counter(args, this.tsid);
-	}
-
+	this.achievements_counter(args, this.tsid);
 	this.achievements.callback_queue = remainder;
 }
 
@@ -275,40 +265,10 @@ function achievements_counter(args, tsid){
 	if (!this.achievements.counters) {
 		this.achievements.counters = {};
 	}
-
-	// Parse args.
-	var achs = {};
-	for (var value in args) {
-		if (value.indexOf('achievement') === 0) {
-			var path = value.split('[').splice(1);
-			for (i = 0; i < path.length; i++) {
-				path[i] = path[i].substr(0, path[i].length - 1);
-			}
-
-			if (!achs[path[0]]) {
-				achs[path[0]] = {
-					to_check: {}
-				};
-			}
-			if (path[1] !== 'to_check') {
-				achs[path[0]][path[1]] = args[value];
-			}
-			else {
-				if (!achs[path[0]].to_check[path[2]]) {
-					achs[path[0]].to_check[path[2]] = {};
-				}
-				if (!achs[path[0]].to_check[path[2]][path[3]]) {
-					achs[path[0]].to_check[path[2]][path[3]] = {};
-				}
-				achs[path[0]].to_check[path[2]][path[3]][path[4]] = args[value];
-			}
-		}
-	}
-
 	// Update counters and then grant any achievements.
-	for (var id in achs) {
+	for (var id in args.achievement) {
 
-		var counter = achs[id];
+		var counter = args.achievement[id];
 		if (!this.achievements.counters[counter.group]) {
 			this.achievements.counters[counter.group] = {};
 		}
