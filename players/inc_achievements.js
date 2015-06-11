@@ -190,7 +190,8 @@ function achievements_do_callback(mode, group, label, value){
 function achievements_run_callback_queue(){
 
 	var args = {
-		player: this.tsid
+		player: this.tsid,
+		achievement: [],
 	};
 
 	var idx = 0;
@@ -202,28 +203,21 @@ function achievements_run_callback_queue(){
 			var labels = groups[group];
 			for (var label in labels){
 				var value = labels[label];
-
-				var l_args = {
+				args.achievement[idx] = {
 					mode: mode,
 					group: group
 				};
-
-				if (label != 'no_label') l_args.label = label;
-
-				var key = 'achievement['+idx+']';
-				for (var k in l_args){
-					args[key+'['+k+']'] = l_args[k];
-				}
+				if (label != 'no_label') args.achievement[idx].label = label;
 
 				if (value !== undefined){
-					args[key+'[value]'] = intval(value);
-					if (value - args[key+'[value]']){
+					var v = intval(value);
+					args.achievement[idx].value = v;
+					if (value - v){
 						if (!remainder[mode]) remainder[mode] = {};
 						if (!remainder[mode][group]) remainder[mode][group] = {};
 						if (!remainder[mode][group][label]) remainder[mode][group][label] = 0;
-						remainder[mode][group][label] += (value - args[key+'[value]']);
+						remainder[mode][group][label] += (value - v);
 					}
-					//log.info(args);
 
 					var achievements = this.achievements_get_from_counter(group, label);
 					for (var i in achievements){
@@ -233,37 +227,104 @@ function achievements_run_callback_queue(){
 				
 							if (!ac || !num_keys(ac.conditions)) continue;
 
-							var key2 = key+'[to_check]['+id+']';
-							var conditions = '';
+							if (!args.achievement[idx].to_check) {
+								args.achievement[idx].to_check = {};
+							}
 							for (var j in ac.conditions){
 								var condition = ac.conditions[j];
 								if (num_keys(ac.conditions) == 1 && condition.type == 'has_currants') continue;
 
-								args[key2+'['+j+'][type]'] = condition.type;
-								if (condition.group) args[key2+'['+j+'][group]'] = condition.group;
-								if (condition.label) args[key2+'['+j+'][label]'] = condition.label;
-								args[key2+'['+j+'][value]'] = condition.value;
+								args.achievement[idx].to_check[id] = {};
+								args.achievement[idx].to_check[id][j] = {
+									type: condition.type,
+									value: condition.value,
+								};
+								if (condition.group) {
+									args.achievement[idx].to_check[id][j].group = condition.group;
+								}
+								if (condition.label) {
+									args.achievement[idx].to_check[id][j].label = condition.label;
+								}
 							}
 						}
 					}
 				}
-				else{
-					//log.info(args);
-				}
-
-				//log.info(args);
-				//utils.http_post('callbacks/achievement_counter.php', args, this.tsid);
-
 				idx++;
 			}
 		}
 	}
-
-	if (num_keys(args) > 1){
-		utils.http_post('callbacks/achievement_counter.php', args, this.tsid);
-	}
-
+	this.achievements_counter(args, this.tsid);
 	this.achievements.callback_queue = remainder;
+}
+
+//
+// Replacement for callbacks/achievement_counter.php
+//
+
+function achievements_counter(args, tsid){
+	if (!this.achievements.counters) {
+		this.achievements.counters = {};
+	}
+	// Update counters and then grant any achievements.
+	for (var id in args.achievement) {
+
+		var counter = args.achievement[id];
+		if (!this.achievements.counters[counter.group]) {
+			this.achievements.counters[counter.group] = {};
+		}
+		if (!this.achievements.counters[counter.group][counter.label]) {
+			this.achievements.counters[counter.group][counter.label] = 0;
+		}
+
+		switch (counter.mode) {
+			case 'increment':
+				this.achievements.counters[counter.group][counter.label] += counter.value;
+				break;
+			case 'decrement':
+				this.achievements.counters[counter.group][counter.label] -= counter.value;
+				break;
+			case 'set':
+				this.achievements.counters[counter.group][counter.label] = counter.value;
+				break;
+		}
+
+		for (var achievement in counter.to_check) {
+			var conditions = counter.to_check[achievement], completed = 0;
+			for (var cid in conditions) {
+				var thisCondition = conditions[cid];
+				switch(thisCondition.type) {
+					case 'group_count':
+						// value must be equal or larger than the number of items in the group.
+						if (Object.keys(this.achievements.counters[thisCondition.group]).length >= thisCondition.value) {
+							completed++;
+						}
+						break;
+					case 'group_sum':
+						// value must be equal or larger than the sum of all items in the group.
+						var sum = 0;
+						for (var label in this.achievements.counters[thisCondition.group]) {
+							sum += this.achievements.counters[thisCondition.group][label];
+						}
+						if (sum >= thisCondition.value) {
+							completed++;
+						}
+						break;
+					case 'counter':
+						// value must be equal or larger than the counter value.
+						if (!this.achievements.counters[thisCondition.group] || !this.achievements.counters[thisCondition.group][thisCondition.label]) {
+							break;
+						}
+						if (this.achievements.counters[thisCondition.group][thisCondition.label] >= thisCondition.value) {
+							completed++;
+						}
+						break;
+				}
+			}
+			if (completed >= Object.keys(conditions).length) {
+				this.achievements_grant(achievement);
+			}
+		}
+	}
 }
 
 //
