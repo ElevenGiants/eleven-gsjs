@@ -26,7 +26,7 @@ var classProps = {
 	"mood_required"	: "0",	// defined by herb_base
 	"herb_munch_msg"	: "Do you feel lucky? Yes, you do!",	// defined by herb_base (overridden by rubeweed)
 	"herb_munch_tooltip"	: "Rubeweed makes you feel lucky.",	// defined by herb_base (overridden by rubeweed)
-	"herb_buff"	: "max_luck",	// defined by herb_base (overridden by rubeweed)
+	"herb_buff"	: "rubeweed",	// defined by herb_base (overridden by rubeweed)
 	"herb_delay"	: "0",	// defined by herb_base
 	"is_herb"	: "1",	// defined by herb_base
 	"seed_failure"	: "0",	// defined by herb_base
