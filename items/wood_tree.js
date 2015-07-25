@@ -1061,6 +1061,8 @@ function performTending(msg, type, pc){ // defined by wood_tree
 		args.word_progress = config.word_progress_map['pet'];
 	}
 	else{
+		// Does this 'trant' need water?
+		if (!this.canWater(pc)) return false;
 		// Find a watering_can
 		if (msg.target_itemstack_tsid){
 			var watering_can = pc.getAllContents()[msg.target_itemstack_tsid];
