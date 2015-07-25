@@ -139,6 +139,12 @@ function onCreate(){ // defined by spawner
 	this.startSpawn();
 }
 
+function make_config(){
+	return {
+		r: this.getInstanceProp('spawn_radius')
+	};
+}
+
 function onPlayerEnter(pc){ // defined by spawner
 	log.info(this+' in '+this.container+' onPlayerEnter() player entered '+pc);
 	if (this.timerPaused){
