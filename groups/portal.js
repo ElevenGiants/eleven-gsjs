@@ -6,6 +6,7 @@ function init(){
 }
 
 function create_portal(location, x, y){
+	if (!this.portals) this.init();
 	
 	var drop_location = this.bump_drop_location(location, x, y);
 	x = drop_location['x'];
