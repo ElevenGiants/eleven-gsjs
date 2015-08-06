@@ -231,8 +231,8 @@ var home_limits = {
 	START_TEXTURE_CEILING		: 'starter_crappy_ceiling',
 	START_TEXTURE_FLOOR		: 'starter_crappy',
 
-	START_INT_TEMPLATE		: 'meadows_int_default__high',
-	START_EXT_TEMPLATE		: 'meadow_ext_default_high',
+	START_INT_TEMPLATE		: 'kaiyon_int_default__high',
+	START_EXT_TEMPLATE		: 'kaiyon_ext_default_high',
 
 	FRONTYARD_EXPAND_COSTS: [
 		100, 125, 156, 195, 244, 305, 381, 477, 596, 745,
