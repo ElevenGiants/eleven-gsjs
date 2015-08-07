@@ -51,6 +51,7 @@ function clone_location(tsid, label){
 	var base_info = base_location.getInfo();
 	
 	var instance = base_location.apiCopyLocation(label ? label : base_info.label, base_info.moteid, base_info.hubid, true, this.location_type ? this.location_type : null);
+	instance = apiFindObject(instance.tsid);
 	instance.setProp('instance_of', tsid);
 	
 	if (instance){
@@ -106,6 +107,7 @@ function clone_location(tsid, label){
 				var target_instance;
 				if (target_loc.tsid != tsid){
 					target_instance = target_loc.apiCopyLocation(target_info.label, target_info.moteid, target_info.hubid, true, this.location_type ? this.location_type : null);
+					target_instance = apiFindObject(target_instance.tsid);
 					if (target_instance) target_instance.setProp('instance_of', target_loc.tsid);
 				}
 				else{

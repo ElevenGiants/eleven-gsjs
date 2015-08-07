@@ -1129,6 +1129,7 @@ function houses_create_location(label, type, db_sync){
 
 	// TODO: Separate location classes for interior/exterior?
 	var new_loc = source.apiCopyLocation(label, config.is_prod ? '15' : '28', 'POL_'+this.tsid, false, 'home');
+	new_loc = apiFindObject(new_loc.tsid);
 
 	// TODO: Shrink down the geo from the template to make the initial street
 

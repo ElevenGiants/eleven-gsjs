@@ -884,7 +884,7 @@ var homes_exterior_configs = {
 		"thumb"		: "homes\/2012-03-23\/1332545707.png"
 	},
 	"meadow_ext_default_high"	: {
-		"template"	: "L2U2QCPWIQAHMPLXXX",
+		"template"	: "LHVCQ5V0EPR21H7",
 		"main_image"	: "\/c2.glitch.bz\/streets\/2012-04-02\/LHVCQ5V0EPR21H7_main_1333401207.jpg",
 		"loading_image"	: "\/c2.glitch.bz\/streets\/2012-04-02\/LHVCQ5V0EPR21H7_loading_1333401206.jpg",
 		"is_visible"	: true,
@@ -893,7 +893,7 @@ var homes_exterior_configs = {
 		"thumb"		: "homes\/2012-03-30\/1333140057.png"
 	},
 	"kaiyon_ext_default_high"	: {
-		"template"	: "LHVCQ5V0EPR21H7",
+		"template"	: "L2U2QCPWIQAHMPLXXX",
 		"main_image"	: "\/c2.glitch.bz\/streets\/2012-04-02\/LHVCQ5V0EPR21H7_main_1333401207.jpg",
 		"loading_image"	: "\/c2.glitch.bz\/streets\/2012-04-02\/LHVCQ5V0EPR21H7_loading_1333401206.jpg",
 		"is_visible"	: true,

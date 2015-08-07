@@ -29,7 +29,9 @@ function instances_next_instance(instance_id, max_members, max_instances){
 	var instance = null;
 	for (var i in this.instances.instances[instance_id]){
 		var tmp = this.instances.instances[instance_id][i];
-		if (!tmp){
+		if(tmp != null)
+			tmp = apiFindObject(tmp.tsid);
+		if (tmp == null || tmp == undefined){
 			array_remove(this.instances.instances[instance_id], i);
 			continue;
 		}
