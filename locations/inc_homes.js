@@ -219,6 +219,7 @@ function homes_add_floor_at(x, source){
 
 function homes_create_door_item(x, direction){
 	var s = apiNewItemStack('furniture_door', 1);
+		s = apiFindObject(s.tsid);
 	if (!s) return null;
 
 	s.setInstanceProp('door_direction', direction);
@@ -2352,6 +2353,7 @@ function homes_demo_backyard(){
 	this.homes_delete_items_of_class('magic_rock');
 
 	var i5 = apiNewItem('magic_rock');
+	i5 = apiFindObject(i5.tsid);
 	this.apiPutItemIntoPosition(i5, -29, -155);
 	i5.setProp('only_visible_to', this.owner.tsid);
 
@@ -2462,11 +2464,13 @@ function homes_demo_frontyard(make_empty){
 
 	if (!make_empty){
 		var i4 = apiNewItem('furniture_chassis');
+		i4 = apiFindObject(i4.tsid);
 		i4.setInstanceProp('facing_right', 0);
 		this.apiPutItemIntoPosition(i4, door.x, door.y);
 		door.itemstack_tsid = i4.tsid;
 
 		var i5 = apiNewItem('magic_rock');
+		i5 = apiFindObject(i5.tsid);
 		this.apiPutItemIntoPosition(i5, 221, -144);
 		i5.setProp('only_visible_to', this.owner.tsid);
 	}
@@ -2499,6 +2503,7 @@ function homes_restore_chassis(){
 		delete door.deco;
 
 		chassis = apiNewItem('furniture_chassis');
+		chassis = apiFindObject(chasis.tsid);
 		chassis.setInstanceProp('facing_right', 0);
 		this.apiPutItemIntoPosition(chassis, door.x, door.y);
 		door.itemstack_tsid = chassis.tsid;
@@ -3058,6 +3063,7 @@ function homes_position_tower(tower, x, y){
 	var chassis = this.homes_get_tower_chassis();
 	if (!chassis){
 		chassis = apiNewItem('furniture_tower_chassis');
+		chassis = apiFindObject(chassis.tsid);
 		this.apiPutItemIntoPosition(chassis, x, y);
 	}
 	else{

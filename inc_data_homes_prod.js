@@ -572,7 +572,7 @@ var homes_interior_configs = {
 		"up_deco_h"		: 166
 	},
 	"kaiyon_int_default__high"	: {
-		"template"		: "L3U3QCPWIQAHMPLXXX",
+		"template"		: "L3U2QCPWIQAHMPLXXX",
 		"main_image"		: "\/c2.glitch.bz\/streets\/2012-04-10\/LHVM75QATPR2DF9_main_1334088155.jpg",
 		"loading_image"		: "\/c2.glitch.bz\/streets\/2012-04-10\/LHVM75QATPR2DF9_loading_1334088154.jpg",
 		"is_visible"		: true,

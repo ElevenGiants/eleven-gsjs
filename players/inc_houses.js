@@ -865,8 +865,15 @@ function houses_go_to_new_house(force_recreate, no_teleport, go_inside){
 		var marker_inside = this.home.interior.geo_get_teleport_point();
 		var marker_outside = this.home.exterior.geo_get_teleport_point();
 
-		this.home.interior.geo_door_set_dest_pos(doors_out[0].door_id, this.home.exterior, marker_outside.found ? marker_outside.x : doors_in[0].my_x, marker_outside.found ? marker_outside.y : doors_in[0].my_y);
-		this.home.exterior.geo_door_set_dest_pos(doors_in[0].door_id, this.home.interior, marker_inside.found ? marker_inside.x : doors_out[0].my_x, marker_inside.found ? marker_inside.y : doors_out[0].my_y);
+		var ext = apiFindObject(this.home.exterior.tsid);
+		var interior = apiFindObject(this.home.interior.tsid);
+		this.home.interior.geo_door_set_dest_pos(doors_out[0].door_id, ext, marker_outside.found ? marker_outside.x : doors_in[0].my_x, marker_outside.found ? marker_outside.y : doors_in[0].my_y, true, ext.geo_get_info());
+		this.home.exterior.geo_door_set_dest_pos(doors_in[0].door_id, interior, marker_inside.found ? marker_inside.x : doors_out[0].my_x, marker_inside.found ? marker_inside.y : doors_out[0].my_y, true, interior.geo_get_info());
+
+		if (!interior.geometry.sources) interior.geometry.sources = {};
+			interior.geometry.sources[ext.tsid] = 1;
+		if (!ext.geometry.sources) ext.geometry.sources = {};
+			ext.geometry.sources[interior.tsid] = 1;
 
 		// update home street clientGeo after changes to its geometry property
 		// (in geo_door_set_dest_pos); unclear why this was not required with
@@ -1055,6 +1062,7 @@ function houses_teleport_to(target_house, x, y){
 	// Decide where to go
 	//
 
+	target_house = apiFindObject(target_house.tsid);
 	var landing = target_house.homes_get_teleport_location();
 	if (x === undefined) x = landing.x;
 	if (y === undefined) y = landing.y;
