@@ -76,8 +76,7 @@ function geo_signpost_add_dest_pos(signpost_id, dest, x, y, skip_source){
 function geo_door_set_dest_pos(door_id, dest, x, y, skip_source, info){
 
 	var door = this.geometry.layers.middleground.doors[door_id];
-	if(!info)
-		var info = dest.geo_get_info();
+	var info = dest.geo_get_info();
 
 	door.connect = {
 		target	: dest,
