@@ -338,6 +338,12 @@ function adminTendGarden(args){
 
 	if (args.action == 'plant' && this.data.plots[args.plot].state == 'clean'){
 
+		// pumpkin seeds can only be planted during zilloween
+		if (args.seed === 'seed_pumpkin' && !isZilloween()) {
+			pc.sendActivity("You can only plant Pumpkin Seeds during Zilloween!");
+			return {ok: 0};
+		}
+
 		// check that we have the specified seed
 		if (pc.items_has(args.seed, 1)){
 			if (talkback_key) talkback_key += 'plant';

@@ -166,7 +166,7 @@ function potionTendGarden(args){
 				this.data.plots[p].wet = true;
 				this.clearEvents(p, 'dry');
 				this.data.plots[p].start_water = time();
-				this.pushEvent(p, timings.water, 'dry');
+				this.pushEvent(p, this.timings.water, 'dry');
 				
 				var overlay_item_class = "watering_can";
 				
