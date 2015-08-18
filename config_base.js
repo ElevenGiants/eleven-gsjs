@@ -225,7 +225,7 @@ var home_limits = {
 	MAX_WALL_SEGMENTS		: 20,	// this includes end caps!
 	MAX_FLOORS			: 3,	// R2: 2, R3: 3
 
-	UPGRADES_ARE_FREE		: false,
+	UPGRADES_ARE_FREE		: true,
 
 	START_TEXTURE_WALL		: 'grey_unfinished',
 	START_TEXTURE_CEILING		: 'starter_crappy_ceiling',
