@@ -418,6 +418,26 @@ verbs.doquests = {
 	}
 };
 
+verbs.whistle = {
+	"name"				: "Swallow",
+	"ok_states"			: ["in_pack"],
+	"requires_target_pc"		: false,
+	"requires_target_item"		: false,
+	"include_target_items_from_location"		: false,
+	"is_default"			: false,
+	"is_emote"			: false,
+	"sort_on"			: 65,
+	"tooltip"			: "Grants Firefly Whistling",
+	"is_drop_target"		: false,
+	"conditions"			: function(pc, drop_stack){
+		return {state:'enabled'};
+	},
+	"handler"			: function(pc, msg, suppress_activity){
+		pc.achievements_grant('firefly_whistling');
+		return true;
+	}
+};
+
 function endConversation(pc, msg){ // defined by admin_widget
 	pc.apiSendMsgAsIs({
 		type: 'conversation_choice',
