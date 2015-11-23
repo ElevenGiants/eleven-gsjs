@@ -230,11 +230,11 @@ function achievements_run_callback_queue(){
 							if (!args.achievement[idx].to_check) {
 								args.achievement[idx].to_check = {};
 							}
+							args.achievement[idx].to_check[id] = {};
 							for (var j in ac.conditions){
 								var condition = ac.conditions[j];
 								if (num_keys(ac.conditions) == 1 && condition.type == 'has_currants') continue;
 
-								args.achievement[idx].to_check[id] = {};
 								args.achievement[idx].to_check[id][j] = {
 									type: condition.type,
 									value: condition.value,
