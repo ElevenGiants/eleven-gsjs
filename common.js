@@ -305,7 +305,7 @@ function isEaster(){
 function isGlitchmas() {
 
 	// Enabled throughout December.
-	if ((date.getUTCMonth() +1) === 12){
+	if ((new Date().getUTCMonth() + 1) === 12){
 		return true;
 	}
 	
