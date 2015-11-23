@@ -295,6 +295,9 @@ function achievements_counter(args, tsid){
 				switch(thisCondition.type) {
 					case 'group_count':
 						// value must be equal or larger than the number of items in the group.
+						if (!this.achievements.counters[thisCondition.group]) {
+							break;
+						}
 						if (Object.keys(this.achievements.counters[thisCondition.group]).length >= thisCondition.value) {
 							completed++;
 						}
