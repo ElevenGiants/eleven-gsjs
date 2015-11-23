@@ -389,7 +389,7 @@ verbs.doquests = {
 	"is_default"			: false,
 	"is_emote"			: false,
 	"sort_on"			: 64,
-	"tooltip"			: "Finish all pending quests",
+	"tooltip"			: "Finish some or all pending quests",
 	"is_drop_target"		: false,
 	"conditions"			: function(pc, drop_stack){
 
@@ -397,21 +397,17 @@ verbs.doquests = {
 		return {state:'enabled'};
 	},
 	"handler"			: function(pc, msg, suppress_activity){
-		var questStr = "";
+		var choices = [];
 		for (var class_tsid in pc.quests_get_all().todo) {
 			var quest = pc.getQuestInstance(class_tsid);
-			questStr += '<li>' + quest.getTitle(pc) + '</li>';
+			choices.push({value: 'doquest_' + class_tsid, txt: quest.getTitle(pc)});
 		}
-
-		var choices = {
-			1: {value: 'doallquests', txt: 'Do it!'},
-			2: {value: 'close', txt: 'Never mind'}
-		};
+		choices.push({value: 'doallquests', txt: 'ALL PENDING QUESTS!'});
+		choices.push({value: 'close', txt: 'Never mind (Cancel)'});
 		pc.apiSendMsgAsIs({
 			type: 'conversation',
 			itemstack_tsid: this.id,
-			txt: "This action will complete the following quests:<ul>" + questStr + "</ul>" +
-				"<br>Note: You will <b>not</b> recieve quest rewards for any completed quests.",
+			txt: "Note: You will <b>not</b> recieve quest rewards for any completed quests.",
 			choices: choices,
 		});
 		return true;
@@ -453,6 +449,11 @@ function onConversation(pc, msg){ // defined by admin_widget
 			pc.quests_remove(class_tsid);
 			pc.quests_give_finished(class_tsid);
 		}
+	}
+	else if (msg.choice.substr(0,8) == 'doquest_') {
+		var quest_id = msg.choice.substr(8);
+		pc.quests_remove(quest_id);
+		pc.quests_give_finished(quest_id);
 	}
 	else if (msg.choice.substr(0,10) == 'tele_tsid_') { // Teleport to TSID
 		var tsid = msg.choice.substr(10);
