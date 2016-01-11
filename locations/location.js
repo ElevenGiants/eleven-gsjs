@@ -537,7 +537,7 @@ function onPlayerEnter(pc){
 		pc.quests_set_flag('race_leave');
 	}
 
-	if (pc.getQuestStatus('explore_the_seams') == 'todo' && in_array_real(this.tsid, ['LDOC74759ST2IG1','LDOB5HTH1ID2MTL','LCR14T7ECHM18G8','LDOHDJ84BST2UI2','LTJ1KL16N2O13T2','LHVDIELDQQ7228K','LTJ1KOM8N2O1EFS','LM11E7ODKHO1QJE','LCR1516SFHM122V','LDOSHD9J6NT2HUJ'])){
+	if (pc.getQuestStatus('explore_the_seams') == 'todo' && in_array_real(this.tsid, ['LDOC74759ST2IG1','LDOB5HTH1ID2MTL','LCR14T7ECHM18G8','LDOHDJ84BST2UI2','LTJ1KL16N2O13T2','LHVDIELDQQ7228K','LTJ1KOM8N2O1EFS','LM11E7ODKHO1QJE','LCR1516SFHM122V','LDOSHD9J6NT2HUJ','LDO6NJEE1AE3MKL'])){
 		var explore_the_seams = pc.getQuestInstance('explore_the_seams');
 		if (explore_the_seams && explore_the_seams.isStarted() && !explore_the_seams.isDone() && explore_the_seams.isNewVisit(this.tsid)){
 			pc.quests_inc_counter('visit_seam_street', 1);
