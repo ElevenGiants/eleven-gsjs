@@ -321,6 +321,10 @@ function updateNeighborSignpost(){
 		// Could get messy on popular houses
 		// We can fake it by walking reverse contacts and checking if we are on their signposts
 	}
+	
+	// inform GS that the geometry has changed (signpost connects recreated)
+	// unclear why this was not required with the original server
+	this.apiGeometryUpdated();
 
 	// Tell the client
 	this.geo_signpost_updated(signpost_id);

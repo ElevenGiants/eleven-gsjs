@@ -1739,6 +1739,11 @@ function homes_rebuild_entrance(){
 
 	this.geo_door_set_dest_pos(doors_in[0].door_id, interior, marker_inside.x, marker_inside.y);
 
+	// tell GS that the geometry has changed (door connect recreated in
+	// geo_door_set_dest_pos); unclear why this was not required with
+	// the original server
+	this.apiGeometryUpdated();
+
 	return {ok: 1};
 }
 
