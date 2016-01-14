@@ -2594,12 +2594,6 @@ function homes_get_expand_costs(){
 			out.floor.work[CLASS_WORK] = WORK_FOR_FLOOR_THREE;
 		}
 
-		if (config.home_limits.UPGRADES_ARE_FREE){
-			out.floor.items = {};
-			out.floor.work = {};
-			out.floor.items['plank'] = 10;
-		}
-
 		var cfg = this.homes_get_config();
 		if (cfg.layout == 'house-below'){
 			out.floor.door_placement.direction = 'down';

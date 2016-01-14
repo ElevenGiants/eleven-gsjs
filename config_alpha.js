@@ -26,3 +26,14 @@ var population_controls = {
 // assign everybody to the same live help group (no distinction by level for now)
 this.live_help_groups = ['RA512UITCLA22AD'];
 this.newbie_live_help_groups = ['RA512UITCLA22AD'];
+
+// make all wall/floor/etc textures free
+this.home_limits.UPGRADES_ARE_FREE = true;
+
+// limit POL choice to the available templates
+this.homes_interior_configs = {
+	meadows_int_default__high: this.homes_interior_configs.meadows_int_default__high,
+};
+this.homes_exterior_configs = {
+	meadow_ext_default_high: this.homes_exterior_configs.meadow_ext_default_high,
+};

@@ -1434,14 +1434,12 @@ function houses_extend(){
 		}
 	}
 
-	if (!config.home_limits.UPGRADES_ARE_FREE){
-		if (!this.items_destroy_multi(items)){
-			return {
-				ok: 0,
-				error: 'missing_mats',
-				mats: costs.wall.items,
-			};
-		}
+	if (!this.items_destroy_multi(items)){
+		return {
+			ok: 0,
+			error: 'missing_mats',
+			mats: costs.wall.items,
+		};
 	}
 
 	var ret = this.home.interior.homes_extend();
@@ -1479,13 +1477,11 @@ function houses_expand_yard(side){
 			};
 		}
 
-		if (!config.home_limits.UPGRADES_ARE_FREE){
-			if (!this.stats_try_remove_imagination(costs.img_cost, context)){
-				return {
-					ok: 0,
-					error: 'not_enough_img',
-				};
-			}
+		if (!this.stats_try_remove_imagination(costs.img_cost, context)){
+			return {
+				ok: 0,
+				error: 'not_enough_img',
+			};
 		}
 
 		return this.location.home_add_expansion();
@@ -1517,13 +1513,11 @@ function houses_expand_yard(side){
 			};
 		}
 
-		if (!config.home_limits.UPGRADES_ARE_FREE){
-			if (!this.stats_try_remove_imagination(costs.img_cost, context)){
-				return {
-					ok: 0,
-					error: 'not_enough_img',
-				};
-			}
+		if (!this.stats_try_remove_imagination(costs.img_cost, context)){
+			return {
+				ok: 0,
+				error: 'not_enough_img',
+			};
 		}
 
 		return this.location.home_add_expansion(side);
@@ -1654,13 +1648,11 @@ function houses_style_set(t){
 		'to_style'	: t,
 	};
 
-	if (!config.home_limits.UPGRADES_ARE_FREE){
-		if (!this.stats_try_remove_imagination(this.house_style_switch_cost(), context)){
-			return {
-				ok: 0,
-				error: 'not_enough_img',
-			};
-		}
+	if (!this.stats_try_remove_imagination(this.house_style_switch_cost(), context)){
+		return {
+			ok: 0,
+			error: 'not_enough_img',
+		};
 	}
 
 	apiLogAction('HOME_STYLE_SWITCH', 'pc='+this.tsid, 'location='+this.location.tsid, 'street_type='+s, 'old_style='+this.location.style, 'new_style='+t);
