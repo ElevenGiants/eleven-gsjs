@@ -425,6 +425,9 @@ verbs.pour = { // defined by potion_garden_plant
 		for (var i in items){
 			var it = items[i];
 
+			if (it.class_tsid === 'seed_pumpkin' && !isZilloween()) {
+				continue;
+			}
 			if (type === "herb" && it.hasTag('herb_seed')){
 				uniques[it.class_tsid] = it.tsid;
 			}
