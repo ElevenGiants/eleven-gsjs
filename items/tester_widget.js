@@ -334,6 +334,7 @@ verbs.items = {
 			5: {value: 'items_fertilidust', txt: 'Fertilidust'},
 			6: {value: 'items_fiber', txt: 'Fiber'},
 			7: {value: 'items_guano', txt: 'Guano'},
+			8: {value: 'items_general_building_permit', txt: 'Permit'},
 		};
 		pc.apiSendMsgAsIs({
 			type: 'conversation',
