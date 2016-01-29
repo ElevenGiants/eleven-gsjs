@@ -23,9 +23,9 @@ var population_controls = {
 	}
 };
 
-// assign everybody to the same live help group (no distinction by level for now)
-this.live_help_groups = ['RA512UITCLA22AD'];
-this.newbie_live_help_groups = ['RA512UITCLA22AD'];
+// no "live help" chat groups for now
+this.live_help_groups = [];
+this.newbie_live_help_groups = [];
 
 // make all wall/floor/etc textures free
 this.home_limits.UPGRADES_ARE_FREE = true;
