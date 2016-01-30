@@ -210,19 +210,19 @@ function conversation_run_read_label_craftybot(pc, msg, replay){ // defined by c
 	choices['5'] = {};
 	if (!msg.choice){
 		choices['0']['read_label_craftybot-0-2'] = {txt: "Oh, great. What is it?", value: 'read_label_craftybot-0-2'};
-		this.conversation_start(pc, "Special 'End-of-Ur' delivery.", choices['0'], null, null, null, {title: conversation_title});
+		this.conversation_start(pc, "Special Delivury!", choices['0'], null, null, null, {title: conversation_title});
 		pc.conversations_set_current_state(this.tsid, 'read_label_craftybot', msg.choice);
 	}
 
 	if (msg.choice == "read_label_craftybot-0-2"){
 		choices['1']['read_label_craftybot-1-2'] = {txt: "Uh ok, what is it?", value: 'read_label_craftybot-1-2'};
-		this.conversation_reply(pc, msg, "Well someone in Ur has been busy working on this for what feels like forever.", choices['1'], null, null, null, {title: conversation_title});
+		this.conversation_reply(pc, msg, "Someone in the Beforetimes was working on this for what feels like forever.", choices['1'], null, null, null, {title: conversation_title});
 		pc.conversations_set_current_state(this.tsid, 'read_label_craftybot', msg.choice);
 	}
 
 	if (msg.choice == "read_label_craftybot-1-2"){
-		choices['2']['read_label_craftybot-2-2'] = {txt: "Cobble together what?", value: 'read_label_craftybot-2-2'};
-		this.conversation_reply(pc, msg, "Figured since the end of Ur was nigh, we'd just cobble some together and let you play with one.", choices['2'], null, null, null, {title: conversation_title});
+		choices['2']['read_label_craftybot-2-2'] = {txt: "Bring some what?", value: 'read_label_craftybot-2-2'};
+		this.conversation_reply(pc, msg, "Figured that since this is a new world we'd just bring some forward and let you play with one.", choices['2'], null, null, null, {title: conversation_title});
 		pc.conversations_set_current_state(this.tsid, 'read_label_craftybot', msg.choice);
 	}
 
@@ -234,7 +234,7 @@ function conversation_run_read_label_craftybot(pc, msg, replay){ // defined by c
 
 	if (msg.choice == "read_label_craftybot-3-2"){
 		choices['4']['read_label_craftybot-4-2'] = {txt: "...", value: 'read_label_craftybot-4-2'};
-		this.conversation_reply(pc, msg, "Just open this box to let him loose.", choices['4'], null, null, null, {title: conversation_title});
+		this.conversation_reply(pc, msg, "Just open this box to let it loose.", choices['4'], null, null, null, {title: conversation_title});
 		pc.conversations_set_current_state(this.tsid, 'read_label_craftybot', msg.choice);
 	}
 
