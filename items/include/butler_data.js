@@ -67,7 +67,7 @@ function getTextString(strId, pc, owner, item, message, param, targetPC){
 	
 	if (message) { 
 		log.info(this.getLabel()+" message is "+message);
-		var message_time = ago(gametime_to_timestamp(message.time)); // $message_time
+		var message_time = utils.ago(gametime_to_timestamp(message.time)); // $message_time
 		var message_text = message.message; // $message_text
 	}
 	else {

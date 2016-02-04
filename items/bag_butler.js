@@ -1101,11 +1101,11 @@ verbs.leave_package = { // defined by bag_butler
 					var text = "";
 
 					if (count > 1){
-						text = this.getTextString("packageGivePlural", pc, owner);
+						text = this.getTextString("packageGivePlural", pc, owner, stack);
 						var article = "these";
 					}
 					else {
-						text = this.getTextString("packageGiveSingle", pc, owner);
+						text = this.getTextString("packageGiveSingle", pc, owner, stack);
 						var article = "this";
 					}
 
@@ -2694,7 +2694,7 @@ function giveNextPackage(){ // defined by bag_butler
 				
 				total ++;
 
-				var timestamp = ago(gametime_to_timestamp(it.time));
+				var timestamp = utils.ago(gametime_to_timestamp(it.time));
 				this.stack_to_give = stack;
 
 				// Only process one item at a time.
