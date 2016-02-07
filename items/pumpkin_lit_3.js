@@ -122,7 +122,7 @@ verbs.drop = { // defined by carved_pumpkin_base
 
 		if (result) {
 			if (isZilloween()) {
-				if (isLit()) {
+				if (this.isLit()) {
 					pc.achievements_increment('pumpkins_placed', 'lit');
 				}
 				else {
