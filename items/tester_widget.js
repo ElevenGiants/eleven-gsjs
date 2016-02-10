@@ -203,15 +203,24 @@ verbs.cash = {
 	"is_default"			: false,
 	"is_emote"			: false,
 	"sort_on"			: 58,
-	"tooltip"			: "+100,000 currants",
+	"tooltip"			: "get currants",
 	"is_drop_target"		: false,
 	"conditions"			: function(pc, drop_stack){
 
 		return {state:'enabled'};
 	},
 	"handler"			: function(pc, msg, suppress_activity){
-
-		pc.stats_add_currants(100000);
+		var choices = {
+			1: {value: 'currants_1000', txt: 'some currants'},
+			2: {value: 'currants_10000', txt: 'some more currants'},
+			3: {value: 'currants_100000', txt: 'moar currants'},
+		};
+		pc.apiSendMsgAsIs({
+			type: 'conversation',
+			itemstack_tsid: this.id,
+			txt: "How many currants would you like?",
+			choices: choices,
+		});
 		return true;
 	}
 };
@@ -354,31 +363,57 @@ verbs.img = {
 	"is_default"			: false,
 	"is_emote"			: false,
 	"sort_on"			: 63,
-	"tooltip"			: "+100,000 iMG",
+	"tooltip"			: "get some iMG",
 	"is_drop_target"		: false,
 	"conditions"			: function(pc, drop_stack){
 		return {state:'enabled'};
 	},
 	"handler"			: function(pc, msg, suppress_activity){
-		var failed = 0;
-		var orig_count = this.count;
-		var self_msgs = [];
-		var self_effects = [];
-		var they_effects = [];
-		var context = {'class_id':this.class_tsid, 'verb':'img'};
-		var val = pc.stats_add_xp(100000, true, context);
-		if (val){
-			self_effects.push({
-				"type"    : "xp_give",
-				"which"    : "",
-				"value"    : val
-			});
-		}
-		var pre_msg = this.buildVerbMessage(msg.count, 'consider', 'considered', failed, self_msgs, self_effects, they_effects);
-		if (!suppress_activity && pre_msg) pc.sendActivity(pre_msg);
-		return failed ? false : true;
-	}
+		var choices = {
+			1: {value: 'img_1000', txt: 'some iMG'},
+			2: {value: 'img_10000', txt: 'some more iMG'},
+			3: {value: 'img_100000', txt: 'moar iMG'},
+		};
+		pc.apiSendMsgAsIs({
+			type: 'conversation',
+			itemstack_tsid: this.id,
+			txt: "How much iMG would you like?",
+			choices: choices,
+		});
+		return true;
+	}	
 };
+
+verbs.credits = {
+	"name"				: "credits",
+	"ok_states"			: ["in_pack"],
+	"requires_target_pc"		: false,
+	"requires_target_item"		: false,
+	"include_target_items_from_location"		: false,
+	"is_default"			: false,
+	"is_emote"			: false,
+	"sort_on"			: 64,
+	"tooltip"			: "get some credits",
+	"is_drop_target"		: false,
+	"conditions"			: function(pc, drop_stack){
+		return {state:'enabled'};
+	},
+	"handler"			: function(pc, msg, suppress_activity){
+		var choices = {
+			1: {value: 'credits_1000', txt: 'some credits'},
+			2: {value: 'credits_10000', txt: 'some more credits'},
+			3: {value: 'credits_100000', txt: 'moar credits'},
+		};
+		pc.apiSendMsgAsIs({
+			type: 'conversation',
+			itemstack_tsid: this.id,
+			txt: "How many credits would you like?",
+			choices: choices,
+		});
+		return true;
+	}	
+};
+
 
 verbs.doquests = {
 	"name"				: "do quests",
@@ -388,7 +423,7 @@ verbs.doquests = {
 	"include_target_items_from_location"		: false,
 	"is_default"			: false,
 	"is_emote"			: false,
-	"sort_on"			: 64,
+	"sort_on"			: 65,
 	"tooltip"			: "Finish some or all pending quests",
 	"is_drop_target"		: false,
 	"conditions"			: function(pc, drop_stack){
@@ -422,7 +457,7 @@ verbs.whistle = {
 	"include_target_items_from_location"		: false,
 	"is_default"			: false,
 	"is_emote"			: false,
-	"sort_on"			: 65,
+	"sort_on"			: 66,
 	"tooltip"			: "Grants Firefly Whistling",
 	"is_drop_target"		: false,
 	"conditions"			: function(pc, drop_stack){
@@ -498,6 +533,36 @@ function onConversation(pc, msg){ // defined by admin_widget
 				pc.createItemFromGround(id, proto.stackmax || 1);
 				break;
 		}
+	}
+	else if (msg.choice.substr(0,9) == 'currants_') {
+		var amount = msg.choice.substr(9);
+		pc.stats_add_currants(parseInt(amount));
+	}
+
+	else if (msg.choice.substr(0,8) == 'credits_') {
+		var amount = msg.choice.substr(8);
+		var oldCredits = pc.stats.credits.value;
+		pc.stats.credits.setVal(oldCredits + parseInt(amount));
+	}
+
+	else if (msg.choice.substr(0,4) == 'img_') {
+		var amount = msg.choice.substr(4);
+		var failed = 0;
+		var orig_count = this.count;
+		var self_msgs = [];
+		var self_effects = [];
+		var they_effects = [];
+		var context = {'class_id':this.class_tsid, 'verb':'img'};
+		var val = pc.stats_add_xp(parseInt(amount), true, context);
+		if (val){
+			self_effects.push({
+				"type"    : "xp_give",
+				"which"    : "",
+				"value"    : val
+			});
+		}
+		var pre_msg = this.buildVerbMessage(msg.count, 'consider', 'considered', failed, self_msgs, self_effects, they_effects);
+		if (pre_msg) pc.sendActivity(pre_msg);
 	}
 
 	this.endConversation(pc, msg);
