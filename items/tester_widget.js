@@ -66,11 +66,12 @@ verbs.teleport = { // defined by admin_widget
 	"handler"			: function(pc, msg, suppress_activity){
 
 		var choices = {
-			1: {value: 'tele_tsid_LHVDIELDQQ7228K', txt: 'Plexus'},
-			2: {value: 'tele_tsid_LA9QTSIOV4F31QH', txt: 'Bliss'},
-			3: {value: 'tele_tsid_LHV88RQU60B3Q0G', txt: 'Lotha Harte'},
-			4: {value: 'tele_tsid_LA918AIN63127HB', txt: 'Dobak Fathom'},
-			5: {value: 'tele_tsid_LIF15S7VPRV1DIP', txt: 'Kiehiman Course'},
+			1: {value: 'tele_tsid_LLI32G3NUTD100I', txt: 'Gregarious Grange'},
+			2: {value: 'tele_tsid_LHVDIELDQQ7228K', txt: 'Plexus'},
+			3: {value: 'tele_tsid_LA9QTSIOV4F31QH', txt: 'Bliss'},
+			4: {value: 'tele_tsid_LHV88RQU60B3Q0G', txt: 'Lotha Harte'},
+			5: {value: 'tele_tsid_LA918AIN63127HB', txt: 'Dobak Fathom'},
+			6: {value: 'tele_tsid_LIF15S7VPRV1DIP', txt: 'Kiehiman Course'},
 		};
 
 		var extra = pc.teleportation_get_history();
@@ -81,10 +82,11 @@ verbs.teleport = { // defined by admin_widget
 		}
 
 		pc.apiSendMsgAsIs({
-		    type: 'conversation',
-		    itemstack_tsid: this.id,
-		    txt: "Where would you like to go? (@locs are from your history)",
-		    choices: choices,
+			type: 'conversation',
+			itemstack_tsid: this.id,
+			txt: 'Where would you like to go?' +
+				(pc.is_god ? ' (@locs are from your history)' : ''),
+			choices: choices,
 		});
 
 		return true;
@@ -113,24 +115,36 @@ verbs.redeal = {
 	}
 };
 
-verbs.home = {
-	"name"				: "home",
-	"ok_states"			: ["in_pack"],
-	"requires_target_pc"		: false,
-	"requires_target_item"		: false,
-	"include_target_items_from_location"		: false,
-	"is_default"			: false,
-	"is_emote"			: false,
-	"sort_on"			: 55,
-	"tooltip"			: "Teleports you to Gregarious Grange",
-	"is_drop_target"		: false,
-	"conditions"			: function(pc, drop_stack){
-
-		return {state:'enabled'};
+this.verbs.stubway = {
+	"name": "stubway",
+	"ok_states": ["in_pack"],
+	"requires_target_pc": false,
+	"requires_target_item": false,
+	"include_target_items_from_location": false,
+	"is_default": false,
+	"is_emote": false,
+	"sort_on": 55,
+	"tooltip": "Lets you ride an imaginary subway",
+	"is_drop_target": false,
+	"conditions": function(pc, drop_stack) {
+		var stations = config.transit_instances.subway_1.stations;
+		for (var k in stations) {
+			if (pc.location.tsid === stations[k].connects_to) return {state: 'enabled'};
+		}
+		return {state: 'disabled', reason: 'There is no subway station here'};
 	},
-	"handler"			: function(pc, msg, suppress_activity){
-
-		pc.teleportToLocation('LLI32G3NUTD100I', 2540, -39);
+	"handler": function(pc, msg, suppress_activity) {
+		var choices = {};
+		var stations = config.transit_instances.subway_1.stations;
+		for (var k in stations) {
+			choices[k] = {value: 'tele_stubway_' + k, txt: stations[k].name};
+		}
+		pc.apiSendMsgAsIs({
+			type: 'conversation',
+			itemstack_tsid: this.id,
+			txt: 'Where would you like to go?',
+			choices: choices,
+		});
 		return true;
 	}
 };
@@ -492,8 +506,14 @@ function onConversation(pc, msg){ // defined by admin_widget
 	}
 	else if (msg.choice.substr(0,10) == 'tele_tsid_') { // Teleport to TSID
 		var tsid = msg.choice.substr(10);
-		pc.sendActivity('Teleporting you to '+tsid+' ...');
+		pc.sendActivity('Teleporting you to '+tsid+'...');
 		pc.teleportToLocation(tsid, 0, -100);
+	}
+	else if (msg.choice.substr(0,13) == 'tele_stubway_') { // Teleport to subway station
+		var k = msg.choice.substr(13);
+		var station = config.transit_instances.subway_1.stations[k];
+		pc.sendActivity('Taking the train to ' + station.name + '...');
+		pc.teleportToLocation(station.connects_to, 0, -1000);
 	}
 	else if (msg.choice.substr(0,5) == 'buff_') { // Give/remove buffs.
 		var buff = msg.choice.substr(5);
