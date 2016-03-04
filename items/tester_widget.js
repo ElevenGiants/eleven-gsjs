@@ -442,12 +442,12 @@ verbs.doquests = {
 	"is_drop_target"		: false,
 	"conditions"			: function(pc, drop_stack){
 
-		if (Object.keys(pc.quests_get_all().todo).length === 0) return {state:'disabled', reason:'You have no pending quests!'};
+		if (Object.keys(pc.quests.todo.quests).length === 0) return {state:'disabled', reason:'You have no pending quests!'};
 		return {state:'enabled'};
 	},
 	"handler"			: function(pc, msg, suppress_activity){
 		var choices = [];
-		for (var class_tsid in pc.quests_get_all().todo) {
+		for (var class_tsid in pc.quests.todo.quests) {
 			var quest = pc.getQuestInstance(class_tsid);
 			choices.push({value: 'doquest_' + class_tsid, txt: quest.getTitle(pc)});
 		}
