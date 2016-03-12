@@ -637,21 +637,6 @@ function get_message_goodies(msg_id, no_prompts) {
 		return;
 	}
 	
-	// REMOVEME: if we have an item on this message, try fixing in case it is broken.
-	if(this.mail.inbox[msg_id].items) {
-		for (var i in this.mail.inbox[msg_id].items) {
-			var stack = apiFindObject(this.mail.inbox[msg_id].items[i]);
-			if(stack) {
-				log.info("Running mail item recovery on item "+stack);
-				if(!stack.apiRecoverAndReturnToContainer()) {
-					// If this fails once, it should at least load it from the GS, so the second call should succeed.
-					// May be a problem if the item and container are on separate GSs.
-					stack.apiRecoverAndReturnToContainer();
-				}
-			}
-		}
-	}
-	
 	// Receive any items from the message
 	var unsent = this.mail_receive_message_items(msg_id);
 	
