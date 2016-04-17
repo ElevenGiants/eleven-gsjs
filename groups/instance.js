@@ -189,6 +189,9 @@ function clone_location(tsid, label){
 				}
 			}
 		}
+		// inform GS that the geometry has changed (doors/signposts)
+		// unclear why this was not required with the original server
+		instance.apiGeometryUpdated();
 	}
 }
 
