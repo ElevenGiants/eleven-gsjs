@@ -651,6 +651,7 @@ function onInterval(){
 				remaining -= day;
 			}
 		
+			chance = Math.min(chance, 1);
 			if (is_chance(chance)){
 				log.info('Trant dying of old age with chance: '+chance);
 				//if (config.is_prod) utils.irc_inject('#stats', this.label+' tree died of old age in '+this.container.label+'.');
