@@ -860,7 +860,7 @@ function maps_get_hubs(){
 		return {
 			"name"		: "Massadoe",
 			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_bg_massadoe_73050.jpg",
-			"fg"		: "\/c1.glitch.bz\/img\/maps\/map_bg_massadoe_73050.png",
+			"fg"		: "\/c1.glitch.bz\/img\/maps\/map_fg_massadoe_73050.png",
 			"color"		: "a77e00",
 			"btm_color"	: "897e88",
 			"top_color"	: "a897a3",
@@ -11813,7 +11813,7 @@ function maps_get_maps(){
 				}
 			},
 			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_bg_massadoe_73050.jpg",
-			"fg"	: "\/c1.glitch.bz\/img\/maps\/map_bg_massadoe_73050.png",
+			"fg"	: "\/c1.glitch.bz\/img\/maps\/map_fg_massadoe_73050.png",
 			"color"	: "a77e00"
 		};
 	}
