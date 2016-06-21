@@ -860,7 +860,7 @@ function maps_get_hubs(){
 		return {
 			"name"		: "Massadoe",
 			"bg"		: "\/c1.glitch.bz\/img\/maps\/map_bg_massadoe_73050.jpg",
-			"fg"		: "\/c1.glitch.bz\/img\/maps\/map_bg_massadoe_73050.png",
+			"fg"		: "\/c1.glitch.bz\/img\/maps\/map_fg_massadoe_73050.png",
 			"color"		: "a77e00",
 			"btm_color"	: "897e88",
 			"top_color"	: "a897a3",
@@ -2963,30 +2963,6 @@ function maps_get_maps(){
 					"tsid"	: "LCRVT5V0BDO1HLF"
 				},
 				"40"	: {
-					"type"	: "S",
-					"x1"	: 40,
-					"y1"	: 120,
-					"x2"	: 240,
-					"y2"	: 120,
-					"tsid"	: "LCR101Q98A12EHH"
-				},
-				"41"	: {
-					"type"	: "S",
-					"x1"	: 40,
-					"y1"	: 160,
-					"x2"	: 240,
-					"y2"	: 160,
-					"tsid"	: "LA5134UPLRU29OH"
-				},
-				"42"	: {
-					"type"	: "S",
-					"x1"	: 40,
-					"y1"	: 200,
-					"x2"	: 240,
-					"y2"	: 200,
-					"tsid"	: "LDONEDVHC4030KF"
-				},
-				"43"	: {
 					"type"		: "X",
 					"x"		: 446,
 					"y"		: 414,
@@ -2996,7 +2972,7 @@ function maps_get_maps(){
 					"hub_id"	: "63",
 					"tsid"		: "LLI4HJ9GRLI1C4E"
 				},
-				"44"	: {
+				"41"	: {
 					"type"		: "X",
 					"x"		: 692,
 					"y"		: 325,
@@ -3006,7 +2982,7 @@ function maps_get_maps(){
 					"hub_id"	: "56",
 					"tsid"		: "LLIE7307LTG11T2"
 				},
-				"45"	: {
+				"42"	: {
 					"type"		: "X",
 					"x"		: 136,
 					"y"		: 319,
@@ -3016,7 +2992,7 @@ function maps_get_maps(){
 					"hub_id"	: "27",
 					"tsid"		: "LM413RQ6LRG9N"
 				},
-				"46"	: {
+				"43"	: {
 					"type"		: "X",
 					"x"		: 581,
 					"y"		: 21,
@@ -4148,10 +4124,10 @@ function maps_get_maps(){
 				},
 				"11"	: {
 					"type"	: "S",
-					"x1"	: 326,
-					"y1"	: 134,
-					"x2"	: 369,
-					"y2"	: 215,
+					"x2"	: 326,
+					"y2"	: 134,
+					"x1"	: 369,
+					"y1"	: 215,
 					"tsid"	: "LIF10O20NQU1B2P"
 				},
 				"12"	: {
@@ -5000,22 +4976,6 @@ function maps_get_maps(){
 					"tsid"	: "LA9MJQRNCDT23BP"
 				},
 				"39"	: {
-					"type"	: "S",
-					"x1"	: 40,
-					"y1"	: 80,
-					"x2"	: 240,
-					"y2"	: 80,
-					"tsid"	: "LA9H1V6OGRU2FSB"
-				},
-				"40"	: {
-					"type"	: "S",
-					"x1"	: 40,
-					"y1"	: 120,
-					"x2"	: 240,
-					"y2"	: 120,
-					"tsid"	: "LA9EBPF8M2031HB"
-				},
-				"41"	: {
 					"type"		: "X",
 					"x"		: 124,
 					"y"		: 189,
@@ -5025,7 +4985,7 @@ function maps_get_maps(){
 					"hub_id"	: "85",
 					"tsid"		: "LHV2JBHA9152QAS"
 				},
-				"42"	: {
+				"40"	: {
 					"type"		: "X",
 					"x"		: 644,
 					"y"		: 434,
@@ -5035,7 +4995,7 @@ function maps_get_maps(){
 					"hub_id"	: "102",
 					"tsid"		: "LA5JI29VIMB2SDT"
 				},
-				"43"	: {
+				"41"	: {
 					"type"		: "X",
 					"x"		: 157,
 					"y"		: 431,
@@ -5045,7 +5005,7 @@ function maps_get_maps(){
 					"hub_id"	: "76",
 					"tsid"		: "LCR10UJQ1922K16"
 				},
-				"44"	: {
+				"42"	: {
 					"type"		: "X",
 					"x"		: 727,
 					"y"		: 351,
@@ -5055,7 +5015,7 @@ function maps_get_maps(){
 					"hub_id"	: "105",
 					"tsid"		: "LIF3I4MK96E26KF"
 				},
-				"45"	: {
+				"43"	: {
 					"type"		: "X",
 					"x"		: 717,
 					"y"		: 36,
@@ -5065,7 +5025,7 @@ function maps_get_maps(){
 					"hub_id"	: "97",
 					"tsid"		: "LA9NT2E8FF8243N"
 				},
-				"46"	: {
+				"44"	: {
 					"type"		: "X",
 					"x"		: 517,
 					"y"		: 29,
@@ -9100,21 +9060,13 @@ function maps_get_maps(){
 				},
 				"31"	: {
 					"type"	: "S",
-					"x1"	: 193,
-					"y1"	: 11,
-					"x2"	: 393,
-					"y2"	: 11,
-					"tsid"	: "LDOOSA8V29J24I3"
-				},
-				"32"	: {
-					"type"	: "S",
 					"x1"	: 70,
 					"y1"	: 303,
 					"x2"	: 139,
 					"y2"	: 235,
 					"tsid"	: "LHVK0T750DT2D3K"
 				},
-				"33"	: {
+				"32"	: {
 					"type"	: "S",
 					"x1"	: 294,
 					"y1"	: 359,
@@ -9122,7 +9074,7 @@ function maps_get_maps(){
 					"y2"	: 326,
 					"tsid"	: "LHV21H2S5DT2VF8"
 				},
-				"34"	: {
+				"33"	: {
 					"type"	: "S",
 					"x1"	: 242,
 					"y1"	: 270,
@@ -9130,7 +9082,7 @@ function maps_get_maps(){
 					"y2"	: 206,
 					"tsid"	: "LHV73IC58DT2RO7"
 				},
-				"35"	: {
+				"34"	: {
 					"type"	: "S",
 					"x1"	: 118,
 					"y1"	: 133,
@@ -9138,23 +9090,7 @@ function maps_get_maps(){
 					"y2"	: 90,
 					"tsid"	: "LHVC7554ADT2VA1"
 				},
-				"36"	: {
-					"type"	: "S",
-					"x1"	: 40,
-					"y1"	: 120,
-					"x2"	: 240,
-					"y2"	: 120,
-					"tsid"	: "LHVUFJ6HGRU2V0E"
-				},
-				"37"	: {
-					"type"	: "S",
-					"x1"	: 40,
-					"y1"	: 160,
-					"x2"	: 240,
-					"y2"	: 160,
-					"tsid"	: "LHV6HOCAH203RMF"
-				},
-				"38"	: {
+				"35"	: {
 					"type"		: "X",
 					"x"		: 45,
 					"y"		: 87,
@@ -9164,7 +9100,7 @@ function maps_get_maps(){
 					"hub_id"	: "92",
 					"tsid"		: "LIF16CPE89723EI"
 				},
-				"39"	: {
+				"36"	: {
 					"type"		: "X",
 					"x"		: 719,
 					"y"		: 340,
@@ -9174,7 +9110,7 @@ function maps_get_maps(){
 					"hub_id"	: "88",
 					"tsid"		: "LNVEA19502I2S8M"
 				},
-				"40"	: {
+				"37"	: {
 					"type"		: "X",
 					"x"		: 730,
 					"y"		: 117,
@@ -9184,7 +9120,7 @@ function maps_get_maps(){
 					"hub_id"	: "112",
 					"tsid"		: "LIFG7L7VG4I21HR"
 				},
-				"41"	: {
+				"38"	: {
 					"type"		: "X",
 					"x"		: 57,
 					"y"		: 432,
@@ -9194,7 +9130,7 @@ function maps_get_maps(){
 					"hub_id"	: "75",
 					"tsid"		: "LHV1VI5GPD32VAN"
 				},
-				"42"	: {
+				"39"	: {
 					"type"		: "X",
 					"x"		: 509,
 					"y"		: 433,
@@ -9204,7 +9140,7 @@ function maps_get_maps(){
 					"hub_id"	: "105",
 					"tsid"		: "LIF35OFPH4E21T2"
 				},
-				"43"	: {
+				"40"	: {
 					"type"		: "X",
 					"x"		: 575,
 					"y"		: 25,
@@ -9364,21 +9300,13 @@ function maps_get_maps(){
 				},
 				"17"	: {
 					"type"	: "S",
-					"x1"	: 40,
-					"y1"	: 40,
-					"x2"	: 240,
-					"y2"	: 40,
-					"tsid"	: "LA9MU59GB792T80"
-				},
-				"18"	: {
-					"type"	: "S",
 					"x1"	: 171,
 					"y1"	: 79,
 					"x2"	: 184,
 					"y2"	: 189,
 					"tsid"	: "LA9NRNJSB792OG4"
 				},
-				"19"	: {
+				"18"	: {
 					"type"	: "S",
 					"x1"	: 188,
 					"y1"	: 296,
@@ -9386,7 +9314,7 @@ function maps_get_maps(){
 					"y2"	: 397,
 					"tsid"	: "LA9I4JIPBE92B8M"
 				},
-				"20"	: {
+				"19"	: {
 					"type"	: "S",
 					"x1"	: 542,
 					"y1"	: 158,
@@ -9394,7 +9322,7 @@ function maps_get_maps(){
 					"y2"	: 250,
 					"tsid"	: "LA9I92MRBE92S8Q"
 				},
-				"21"	: {
+				"20"	: {
 					"type"	: "S",
 					"x1"	: 66,
 					"y1"	: 299,
@@ -9402,7 +9330,7 @@ function maps_get_maps(){
 					"y2"	: 296,
 					"tsid"	: "LA9JJL6KCE924IK"
 				},
-				"22"	: {
+				"21"	: {
 					"type"	: "S",
 					"x1"	: 541,
 					"y1"	: 154,
@@ -9410,7 +9338,7 @@ function maps_get_maps(){
 					"y2"	: 95,
 					"tsid"	: "LA9ELDLMNE92JHO"
 				},
-				"23"	: {
+				"22"	: {
 					"type"	: "S",
 					"x1"	: 288,
 					"y1"	: 123,
@@ -9418,7 +9346,7 @@ function maps_get_maps(){
 					"y2"	: 47,
 					"tsid"	: "LA97Q5LV0F92PU6"
 				},
-				"24"	: {
+				"23"	: {
 					"type"	: "S",
 					"x1"	: 424,
 					"y1"	: 108,
@@ -9426,7 +9354,7 @@ function maps_get_maps(){
 					"y2"	: 31,
 					"tsid"	: "LA99NEQK1F92ICE"
 				},
-				"25"	: {
+				"24"	: {
 					"type"	: "S",
 					"x1"	: 190,
 					"y1"	: 294,
@@ -9434,7 +9362,7 @@ function maps_get_maps(){
 					"y2"	: 247,
 					"tsid"	: "LA9LU1276F92KDP"
 				},
-				"26"	: {
+				"25"	: {
 					"type"	: "S",
 					"x1"	: 388,
 					"y1"	: 168,
@@ -9442,7 +9370,7 @@ function maps_get_maps(){
 					"y2"	: 155,
 					"tsid"	: "LA97VMVOOG92JGT"
 				},
-				"27"	: {
+				"26"	: {
 					"type"	: "S",
 					"x1"	: 602,
 					"y1"	: 250,
@@ -9450,7 +9378,7 @@ function maps_get_maps(){
 					"y2"	: 233,
 					"tsid"	: "LA9FDN44SG92SDQ"
 				},
-				"28"	: {
+				"27"	: {
 					"type"	: "S",
 					"x1"	: 601,
 					"y1"	: 421,
@@ -9458,7 +9386,7 @@ function maps_get_maps(){
 					"y2"	: 423,
 					"tsid"	: "LA9GT0J87H92MPR"
 				},
-				"29"	: {
+				"28"	: {
 					"type"	: "S",
 					"x1"	: 501,
 					"y1"	: 31,
@@ -9466,7 +9394,7 @@ function maps_get_maps(){
 					"y2"	: 34,
 					"tsid"	: "LHVSP6MKGDT2VUK"
 				},
-				"30"	: {
+				"29"	: {
 					"type"	: "S",
 					"x1"	: 572,
 					"y1"	: 373,
@@ -9474,7 +9402,7 @@ function maps_get_maps(){
 					"y2"	: 308,
 					"tsid"	: "LHVAP821MDT2L85"
 				},
-				"31"	: {
+				"30"	: {
 					"type"	: "S",
 					"x1"	: 635,
 					"y1"	: 104,
@@ -9482,7 +9410,7 @@ function maps_get_maps(){
 					"y2"	: 160,
 					"tsid"	: "LHVBSCOFMDT2VE0"
 				},
-				"32"	: {
+				"31"	: {
 					"type"	: "S",
 					"x1"	: 179,
 					"y1"	: 139,
@@ -9490,23 +9418,7 @@ function maps_get_maps(){
 					"y2"	: 178,
 					"tsid"	: "LHVCJB2OMDT2VD8"
 				},
-				"33"	: {
-					"type"	: "S",
-					"x1"	: 40,
-					"y1"	: 200,
-					"x2"	: 240,
-					"y2"	: 200,
-					"tsid"	: "LHVUR3UKGRU2SD2"
-				},
-				"34"	: {
-					"type"	: "S",
-					"x1"	: 40,
-					"y1"	: 240,
-					"x2"	: 240,
-					"y2"	: 240,
-					"tsid"	: "LHVEI9NVJ203LRO"
-				},
-				"35"	: {
+				"32"	: {
 					"type"		: "X",
 					"x"		: 38,
 					"y"		: 181,
@@ -9516,7 +9428,7 @@ function maps_get_maps(){
 					"hub_id"	: "90",
 					"tsid"		: "LIFMNSVS7952M4T"
 				},
-				"36"	: {
+				"33"	: {
 					"type"		: "X",
 					"x"		: 492,
 					"y"		: 413,
@@ -9526,7 +9438,7 @@ function maps_get_maps(){
 					"hub_id"	: "92",
 					"tsid"		: "LIFN23NRGG72NRR"
 				},
-				"37"	: {
+				"34"	: {
 					"type"		: "X",
 					"x"		: 323,
 					"y"		: 35,
@@ -9536,7 +9448,7 @@ function maps_get_maps(){
 					"hub_id"	: "101",
 					"tsid"		: "LHVT10TNRIA23L2"
 				},
-				"38"	: {
+				"35"	: {
 					"type"		: "X",
 					"x"		: 713,
 					"y"		: 231,
@@ -10287,22 +10199,6 @@ function maps_get_maps(){
 					"tsid"	: "LHV4U509S9B2MRV"
 				},
 				"26"	: {
-					"type"	: "S",
-					"x1"	: 40,
-					"y1"	: 40,
-					"x2"	: 240,
-					"y2"	: 40,
-					"tsid"	: "LIFI4FP9GRU2CC8"
-				},
-				"27"	: {
-					"type"	: "S",
-					"x1"	: 40,
-					"y1"	: 80,
-					"x2"	: 240,
-					"y2"	: 80,
-					"tsid"	: "LIF84CCRN203N7P"
-				},
-				"28"	: {
 					"type"		: "X",
 					"x"		: 330,
 					"y"		: 420,
@@ -10312,7 +10208,7 @@ function maps_get_maps(){
 					"hub_id"	: "98",
 					"tsid"		: "LA97Q5LV0F92PU6"
 				},
-				"29"	: {
+				"27"	: {
 					"type"		: "X",
 					"x"		: 43,
 					"y"		: 241,
@@ -10322,7 +10218,7 @@ function maps_get_maps(){
 					"hub_id"	: "100",
 					"tsid"		: "LIFSLDITPAH2CHG"
 				},
-				"30"	: {
+				"28"	: {
 					"type"		: "X",
 					"x"		: 703,
 					"y"		: 203,
@@ -11917,7 +11813,7 @@ function maps_get_maps(){
 				}
 			},
 			"bg"	: "\/c1.glitch.bz\/img\/maps\/map_bg_massadoe_73050.jpg",
-			"fg"	: "\/c1.glitch.bz\/img\/maps\/map_bg_massadoe_73050.png",
+			"fg"	: "\/c1.glitch.bz\/img\/maps\/map_fg_massadoe_73050.png",
 			"color"	: "a77e00"
 		};
 	}
@@ -13190,14 +13086,6 @@ function maps_get_maps(){
 					"tsid"	: "LUVPAQS5B9S2E00"
 				},
 				"10"	: {
-					"type"	: "SL",
-					"x1"	: 20,
-					"y1"	: 25,
-					"x2"	: 156,
-					"y2"	: 25,
-					"tsid"	: "LUVDI420COS2HJB"
-				},
-				"11"	: {
 					"type"	: "S",
 					"x1"	: 43,
 					"y1"	: 213,
@@ -13205,7 +13093,7 @@ function maps_get_maps(){
 					"y2"	: 173,
 					"tsid"	: "LUVDU3H5COS2S4O"
 				},
-				"12"	: {
+				"11"	: {
 					"type"	: "S",
 					"x1"	: 282,
 					"y1"	: 135,
@@ -13213,7 +13101,7 @@ function maps_get_maps(){
 					"y2"	: 139,
 					"tsid"	: "LUVEAT1BCOS25QL"
 				},
-				"13"	: {
+				"12"	: {
 					"type"	: "S",
 					"x1"	: 238,
 					"y1"	: 21,
@@ -13221,7 +13109,7 @@ function maps_get_maps(){
 					"y2"	: 90,
 					"tsid"	: "LUVHBDR6DOS2UED"
 				},
-				"14"	: {
+				"13"	: {
 					"type"	: "S",
 					"x1"	: 323,
 					"y1"	: 198,
@@ -13229,15 +13117,7 @@ function maps_get_maps(){
 					"y2"	: 234,
 					"tsid"	: "LUVIP8FLKOS2USV"
 				},
-				"15"	: {
-					"type"	: "SL",
-					"x1"	: 32,
-					"y1"	: 39,
-					"x2"	: 159,
-					"y2"	: 32,
-					"tsid"	: "LUVQS2A3POS2BU1"
-				},
-				"16"	: {
+				"14"	: {
 					"type"	: "S",
 					"x1"	: 433,
 					"y1"	: 332,
@@ -13245,7 +13125,7 @@ function maps_get_maps(){
 					"y2"	: 311,
 					"tsid"	: "LUV3HOATQOS2HNO"
 				},
-				"17"	: {
+				"15"	: {
 					"type"	: "S",
 					"x1"	: 426,
 					"y1"	: 95,
@@ -13253,7 +13133,7 @@ function maps_get_maps(){
 					"y2"	: 165,
 					"tsid"	: "LUVE5KV0TOS2N87"
 				},
-				"18"	: {
+				"16"	: {
 					"type"	: "S",
 					"x1"	: 588,
 					"y1"	: 214,
@@ -13261,7 +13141,7 @@ function maps_get_maps(){
 					"y2"	: 158,
 					"tsid"	: "LUVO1ABIQQS2QIF"
 				},
-				"19"	: {
+				"17"	: {
 					"type"	: "S",
 					"x1"	: 658,
 					"y1"	: 244,
@@ -13269,7 +13149,7 @@ function maps_get_maps(){
 					"y2"	: 342,
 					"tsid"	: "LUVPMRNUQQS2GF3"
 				},
-				"20"	: {
+				"18"	: {
 					"type"		: "X",
 					"x"		: 500,
 					"y"		: 411,
@@ -13279,7 +13159,7 @@ function maps_get_maps(){
 					"hub_id"	: "121",
 					"tsid"		: "LA54EE8QNMR2G7C"
 				},
-				"21"	: {
+				"19"	: {
 					"type"		: "X",
 					"x"		: 108,
 					"y"		: 390,
@@ -13289,7 +13169,7 @@ function maps_get_maps(){
 					"hub_id"	: "63",
 					"tsid"		: "LTJ12O0H7AO1IBS"
 				},
-				"22"	: {
+				"20"	: {
 					"type"		: "X",
 					"x"		: 584,
 					"y"		: 64,
@@ -16316,7 +16196,7 @@ function maps_get_streets(){
 				"LTJ128OL5NO1MFL"	: "z_keep_SM Aboveground 04 - embargo",
 				"LTJ101FB0SO17JK"	: "Quinmchary",
 				"LTJ101I3KSO1JQS"	: "Palsa Mosch",
-				"LTJ17MOFE6P1NJ3"	: "Likom‰rk‰",
+				"LTJ17MOFE6P1NJ3"	: "Likom√§rk√§",
 				"LTJN189C18Q1RBP"	: "z_TEMPLATE_SM Aboveground 07",
 				"LTJ101PRVCQ1RN0"	: "Niiske Kook",
 				"LTJ1024R2DQ1B5S"	: "Clam Calumny",
@@ -17949,9 +17829,9 @@ function maps_get_streets(){
 				"LIFRQBJ3K593KS7"	: "Winter Walk with Door",
 				"LIFHAO6QB4A34MO"	: "Being Watched",
 				"LUVCCQSMDIB3HOI"	: "An Autumn Day",
-				"LUVCL0STDIB37HE"	: "This feeling of Ö",
-				"LUVCLOOUDIB3432"	: "This feeling of Ö",
-				"LUVCMAKVDIB33B4"	: "This feeling of Ö",
+				"LUVCL0STDIB37HE"	: "This feeling of ‚Ä¶",
+				"LUVCLOOUDIB3432"	: "This feeling of ‚Ä¶",
+				"LUVCMAKVDIB33B4"	: "This feeling of ‚Ä¶",
 				"LIF4337D9VB3DEV"	: "B.T.C Room #3"
 			},
 			"67"	: {
@@ -18628,9 +18508,9 @@ function maps_get_streets(){
 				"LIFSFVGBAMA3MRK"	: "Light green thumb Groddle orange",
 				"LIFAG1T6JMA3UAF"	: "EZ cooking groddle",
 				"LIFACQEPQ0B3LFJ"	: "A Fall's Day Solidarity",
-				"LIFMAKESDAB3BGO"	: "This feeling of Ö",
-				"LIFOMV22UAB3007"	: "This feeling of Ö",
-				"LIFPA6H4UAB381E"	: "This Feeling of Ö",
+				"LIFMAKESDAB3BGO"	: "This feeling of ‚Ä¶",
+				"LIFOMV22UAB3007"	: "This feeling of ‚Ä¶",
+				"LIFPA6H4UAB381E"	: "This Feeling of ‚Ä¶",
 				"LIF5MBU87DB31H6"	: "Light Green Thumb Orange small",
 				"LIFF035ICDB3689"	: "Light Green Thumb Orange small - Tim Copied",
 				"LIFFMFLMCDB3LGH"	: "EZ Cooking Groddle 2",
@@ -19277,4 +19157,3 @@ function maps_get_streets(){
 }
 
 data_maps.streets = this.maps_get_streets();
-
