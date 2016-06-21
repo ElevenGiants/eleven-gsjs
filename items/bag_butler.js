@@ -1101,11 +1101,11 @@ verbs.leave_package = { // defined by bag_butler
 					var text = "";
 
 					if (count > 1){
-						text = this.getTextString("packageGivePlural", pc, owner);
+						text = this.getTextString("packageGivePlural", pc, owner, null, null, count + " " + stack.name_plural);
 						var article = "these";
 					}
 					else {
-						text = this.getTextString("packageGiveSingle", pc, owner);
+						text = this.getTextString("packageGiveSingle", pc, owner, null, null, stack.name_single);
 						var article = "this";
 					}
 
