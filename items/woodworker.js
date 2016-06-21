@@ -655,7 +655,9 @@ verbs.use = { // defined by machine_base
 			if (!this.canUse(pc)){
 				var time_left = secondsToString(getPlayer(this.last_user).machineTimeRemaining(this.tsid));
 
-				if(this.last_user == pc.tsid) {
+				if (parseInt(time_left) <= 0) {
+					return {state:'disabled', reason: "Someone else needs to collect from this machine before you can use it."}
+				} else if (this.last_user == pc.tsid) {
 					return {state:'disabled', reason: "The machine is still running. "+time_left+" remaining."};
 				} else {
 					return {state:'disabled', reason: "Someone else is using this. "+time_left+" remaining."};
@@ -1135,6 +1137,7 @@ function expireOldContents(pc){ // defined by machine_base
 			//log.info("Making: checking time "+time);
 			if (game_days_since_ts(time) > this.getClassProp("days_to_store_contents")) { 
 				log.info("Making: expired old contents for "+pc);
+				pc.sendActivity("The contents of the " + this.label + " in this location have expired.");
 				delete this.contents[pc.tsid];
 			}
 		}
@@ -1408,6 +1411,11 @@ function onPlayerEnter(pc){ // defined by machine_base
 	}
 
 	this.expireOldContents(pc);
+
+	// Unbreak this machine if it is broken.
+	if (this.kickMachine()) {
+		pc.announce_sound('CRAFTYBOT_KICK');
+	}
 
 	//log.info("Making: machine running? "+this.is_running+" and last user is "+this.last_user);
 	if (this.is_running && this.last_user === pc.tsid) { 
