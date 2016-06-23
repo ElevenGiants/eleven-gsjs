@@ -327,26 +327,6 @@ function run_overlay_done_script(name){
 	return false;
 }
 
-// this is used to match up functions with overlay script names
-var overlay_scripts_map = {
-	'top_of_tree': {
-		start: this.overlay_script_top_of_tree,
-		done: this.overlay_done_script_top_of_tree
-	},
-	'smuggling_explain_restrictions': {
-		start: this.overlay_script_smuggling_explain_restrictions,
-		done: this.overlay_done_script_smuggling_explain_restrictions
-	},
-	'smuggling_reveal_destination': {
-		start: this.overlay_script_smuggling_reveal_destination,
-		done: this.overlay_done_script_smuggling_reveal_destination
-	},
-	'return_to_gentle_island': {
-		start: this.overlay_script_return_to_gentle_island,
-		done: null
-	}
-};
-
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -505,6 +485,26 @@ function overlay_script_return_to_gentle_island(pc){
 	pc.apiSetTimer('newxpReturnToGentleIsland', 4000);
 	delete pc['!current_overlay_script'];
 }
+
+// this is used to match up functions with overlay script names
+var overlay_scripts_map = {
+	'top_of_tree': {
+		start: this.overlay_script_top_of_tree,
+		done: this.overlay_done_script_top_of_tree
+	},
+	'smuggling_explain_restrictions': {
+		start: this.overlay_script_smuggling_explain_restrictions,
+		done: this.overlay_done_script_smuggling_explain_restrictions
+	},
+	'smuggling_reveal_destination': {
+		start: this.overlay_script_smuggling_reveal_destination,
+		done: this.overlay_done_script_smuggling_reveal_destination
+	},
+	'return_to_gentle_island': {
+		start: this.overlay_script_return_to_gentle_island,
+		done: null
+	}
+};
 
 /////////////////////////////////////////////////////////////////////////////
 //
