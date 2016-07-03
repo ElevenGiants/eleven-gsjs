@@ -15,6 +15,12 @@ function on_apply(pc){
 	
 }
 var conditions = {
+    1000 : {
+        type	: "counter",
+        group	: "streets_visited_in_hub",
+        label	: "number_112",
+        value	: "27"
+    },
 };
 function onComplete(pc){ // generated from rewards
 	var multiplier = pc.buffs_has('gift_of_gab') ? 1.2 : pc.buffs_has('silvertongue') ? 1.05 : 1.0;

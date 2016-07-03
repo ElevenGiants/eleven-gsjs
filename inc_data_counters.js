@@ -1341,6 +1341,9 @@ var data_achievement_counters = {
 			},
 			"number_141"	: {
 				"0"	: "drifa_completist"
+			},
+			"number_112": {
+				"0": "brillah_completist"
 			}
 		},
 		"mortar_barnacle"		: {
