@@ -488,7 +488,7 @@ function onPropsChanged(){ // defined by quoin
 			this.instanceProps.respawn_time = 15;
 			this.instanceProps.is_random = "0";
 			this.instanceProps.benefit = "1";
-			this.instanceProps.type = 'mood';
+			this.instanceProps.type = 'currants';
 			break;
 	//
 	// I edited these  favor ones down quite a bit on Oct 2, 2010
