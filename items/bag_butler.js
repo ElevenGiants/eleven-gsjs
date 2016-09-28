@@ -5398,12 +5398,12 @@ function sendIM(pc, txt){ // defined by bag_butler
 	this.last_command_time = getTime();
 
 	// Add a delay for realism
+	// var delayMS = randInt(500, 1000);
+	// this.apiSetTimerMulti("im_send", delayMS, pc, txt, false);
 
-	var delayMS = randInt(500, 1000);
-
-	this.apiSetTimerMulti("im_send", delayMS, pc, txt, false);
-
-	//this.im_send(pc, txt, false);
+	// TODO: Temporary workaround to stop butler spam.
+	// see https://trello.com/c/Vp3AiN5N
+	this.im_send(pc, txt, false);
 }
 
 function setSpeakTime(){ // defined by bag_butler
