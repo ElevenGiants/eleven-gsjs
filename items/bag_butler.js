@@ -5399,11 +5399,13 @@ function sendIM(pc, txt){ // defined by bag_butler
 
 	// Add a delay for realism
 
-	var delayMS = randInt(500, 1000);
+	// var delayMS = randInt(500, 1000);
 
-	this.apiSetTimerMulti("im_send", delayMS, pc, txt, false);
+	// this.apiSetTimerMulti("im_send", delayMS, pc, txt, false);
 
-	//this.im_send(pc, txt, false);
+	// TODO: Temporary workaround to stop butler spam.
+	// https://trello.com/c/Vp3AiN5N/193-butler-reports-that-players-are-leaving-streets-repeatedly
+	this.im_send(pc, txt, false);
 }
 
 function setSpeakTime(){ // defined by bag_butler
