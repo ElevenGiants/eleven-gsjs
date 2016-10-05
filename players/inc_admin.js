@@ -301,6 +301,19 @@ function adminGetFullInfo(args){
 	
 	var out = {};
 
+	if (args.include_avatar) {
+		out.avatar = {
+			'100': this.av_meta.singles + '_100.png',
+			'172': this.av_meta.singles + '_172.png',
+			'50': this.av_meta.singles + '_50.png',
+			'flip': {
+				'100': this.av_meta.singles + '_100_flip.png',
+				'172': this.av_meta.singles + '_172_flip.png',
+				'50': this.av_meta.singles + '_50_flip.png'
+			}
+		};
+	}
+
 	//
 	// online?
 	//
@@ -317,7 +330,23 @@ function adminGetFullInfo(args){
 	// core stats
 	//
 
-	out.stats = this.stats_get();
+	var full_stats = this.stats_get();
+
+	if (args.short_stats) {
+		out.stats = {
+			'level': full_stats.level,
+			'xp': full_stats.xp.total,
+			'xp_max': full_stats.xp.nxt,
+			'currants': full_stats.currants,
+			'quoin_multiplier': full_stats.quoin_multiplier,
+			'imagination': full_stats.imagination,
+			'brain_capacity': full_stats.brain_capacity,
+			'is_subscriber': full_stats.is_subscriber
+		}
+	}
+	else {
+		out.stats = full_stats;
+	}
 
 	//
 	// contact status
@@ -327,6 +356,8 @@ function adminGetFullInfo(args){
 	out.is_contact = false;
 	out.is_rev_contact = false;
 	out.can_contact = false;
+	out.im_blocking_them = false
+	out.is_blocking_me = false;
 
 	if (args.viewer_tsid){
 
@@ -358,6 +389,9 @@ function adminGetFullInfo(args){
 
 		out.can_contact = (viewer && this.buddies_is_ignoring(viewer)) || (viewer && this.buddies_is_ignored_by(viewer)) || (args.viewer_tsid == this.tsid) ? false : true;
 
+		out.im_blocking_them = this.buddies_is_ignoring(viewer);
+		out.is_blocking_me = this.buddies_is_ignored_by(viewer);
+
 		//
 		// Iiii'm looking at the man inthemirror...
 		//
@@ -376,11 +410,19 @@ function adminGetFullInfo(args){
 	out.latest_skill = {};
 
 	if (typeof(skill) != 'undefined'){
+		var skill_data = this.skills_get(skill.id);
 		out.latest_skill = {
 			'id' : skill.id,
-			'name' : this.skills_get_name(skill.id)
+			'name' : skill_data.name,
+			'class_tsid': skill.id,
+			'url': "\/skills\/" + skill.id,
+			'description': skill_data.description,
+			'icon_44': skill_data.icons.icon_44,
+			'icon_100': skill_data.icons.icon_100,
+			'icon_460': skill_data.icons.icon_460
 		};
 	}
+
 	out.num_achievements = this.achievementsGetCount();
 
 	var latest_achievement = this.achievementsGetLatest();
@@ -401,6 +443,8 @@ function adminGetFullInfo(args){
 	}
 
 	out.num_upgrades = this.imagination_get_list().length;
+
+	// TODO - add latest upgrade using 'admin_imagination_latest_upgrades', when server has upgrade image data and assets
 
 	out.metabolics = this.profile_get_metabolics();
 
