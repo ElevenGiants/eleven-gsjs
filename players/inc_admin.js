@@ -244,6 +244,24 @@ function adminGetProfile(args){
 		out.can_unlearn = this.imagination_has_upgrade('unlearning_ability');
 	}
 
+	out.num_skills = this.skillsGetCount();
+	var latest_skill = this.skillsGetLatest();
+	out.latest_skill = {};
+
+	if (typeof(latest_skill) != 'undefined'){
+		var latest_skill_data = this.skills_get(latest_skill.id);
+		out.latest_skill = {
+			'id' : latest_skill.id,
+			'name' : latest_skill_data.name,
+			'class_tsid': latest_skill.id,
+			'url': "\/skills\/" + latest_skill.id,
+			'description': latest_skill_data.description,
+			'icon_44': latest_skill_data.icons.icon_44,
+			'icon_100': latest_skill_data.icons.icon_100,
+			'icon_460': latest_skill_data.icons.icon_460
+		};
+	}
+
 	if (!args.skip_groups) out.groups = this.profile_get_groups(out.is_me);
 
 	if (!args.skip_metabolics) out.metabolics = this.profile_get_metabolics();
@@ -254,11 +272,33 @@ function adminGetProfile(args){
 			out.friends = this.buddies_get_login(1000);
 			out.ignoring = this.buddies_get_ignoring_login();
 		} else {
+			out.friends_total = this.buddies_count();
 			out.friends = this.buddies_get_random_slice(args.limit_buddies);
 		}
 	}
 
 	if (!args.skip_achievements) out.achievements = this.achievements_get_profile();
+
+	out.num_achievements = this.achievementsGetCount();
+	var latest_achievement = this.achievementsGetLatest();
+	out.latest_achievement = {};
+
+	if (latest_achievement){
+		out.latest_achievement = {
+			'id'   : latest_achievement.id,
+			'name' : latest_achievement.name,
+			'icon_urls' : {
+				'swf' : latest_achievement.url_swf,
+				'180' : latest_achievement.url_img_180,
+				'60'  : latest_achievement.url_img_60,
+				'40'  : latest_achievement.url_img_40
+			}
+		};
+	}
+
+	out.num_upgrades = this.imagination_get_list().length;
+
+	// TODO - add latest upgrade using 'admin_imagination_latest_upgrades', when server has upgrade image data and assets
 
 	out.location = {
 		'name' : this.location.label,
@@ -268,7 +308,15 @@ function adminGetProfile(args){
 		'is_hidden' : this.location.is_hidden(),
 	};
 
-	out.a2 = this.avatar_hash();
+	out.avatar_icons = {
+		'100': this.av_meta.singles + '_100.png',
+		'172': this.av_meta.singles + '_172.png',
+		'50': this.av_meta.singles + '_50.png',
+	};
+
+	if (!args.skip_avatar_customization) {
+		out.a2 = this.avatar_hash();
+	}
 
 	out.houses = this.profile_get_houses();
 	out.home_street = this.profile_get_home_street();
