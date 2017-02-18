@@ -1106,7 +1106,9 @@ function chat_get_roster_msg(){
 	var names = [];
 	for (var i in this.chat_roster){
 		var pc = this.chat_roster[i];
-		if (pc !== null && pc !== undefined) names.push(utils.escape(pc.label));
+		if (pc !== null && pc !== undefined) {
+			names.push("<a href=\"event:pc|" + pc.tsid + "\">" + utils.escape(pc.label) + "</a>");
+		}
 	}
 	
 	var msg = "You are the only person here.";
