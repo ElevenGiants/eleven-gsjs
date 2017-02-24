@@ -64,11 +64,6 @@ function start_baqala_buff() {
 	this.baqala_times.entry_time = time();		
 
 //	if (this.baqala_times.total_time_spent > 60 * 60 && this.getQuestStatus('help_juju_bandits') == 'none' && is_chance(0.1)) {
-	if (this.getQuestStatus('help_juju_bandits') == 'none') {
-		this.baqala_times.offer_quest = true;
-	} else {
-		this.baqala_times.offer_quest = false;
-	}
 }
 
 function reset_baqala_times() {
@@ -290,10 +285,6 @@ function juju_bandit_curse() {
 	
 	var juju = this.location.createItemStack('npc_juju_bandit', 1, point.x, point.y);
 	juju.setParams(this, item_class);	
-
-	if (this.baqala_times.offer_quest && this.getQuestStatus('help_juju_bandits') == 'none') {
-		juju.setOfferQuest(true);
-	}	
 }
 
 function is_in_savanna() {
