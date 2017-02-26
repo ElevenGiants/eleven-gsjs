@@ -220,54 +220,47 @@ function onSpawnTimer(){ // defined by spawner
 	var spawn = (found < max) ? max - found : 0;
 	if (spawn > count) spawn = count;
 
-	if (spawn){
-		//log.info("Spawner "+this.tsid+" is spawning "+spawn+" "+classes[0]);
+	if (spawn) {
 		var class_id = this.getSpawnClass();
 		if (!class_id) return false;
 
-		for (var i=0; i<spawn; i++){
-
-			var spawn_at = this.getInstanceProp('spawn_at');
-			if (spawn_at !== null && spawn_at !== '' && spawn_at !== undefined){
-				var pt = spawn_at.split(',');
-				var x = intval(pt[0]);
-				var y = intval(pt[1]);
+		var spawn_at = this.getInstanceProp('spawn_at');
+		if (spawn_at !== null && spawn_at !== '' && spawn_at !== undefined) {
+			var pt = spawn_at.split(',');
+			var x = intval(pt[0]);
+			var y = intval(pt[1]);
+		}
+		else {
+			var x_diff = Math.random() * (radius + radius);
+			var x = Math.round(this.x + x_diff - radius);
+			if (x >= this.container.geo.r - 100){
+				x = this.container.geo.r - 100;
 			}
-			else{
-				var x_diff = Math.random() * (radius+radius);
-				var x = Math.round(this.x + x_diff - radius);
-				if (x >= this.container.geo.r - 100){
-					x = this.container.geo.r - 100;
-				}
-				else if (x <= this.container.geo.l + 100){
-					x = this.container.geo.l + 100;
-				}
-				var y = this.y;
-
-				// go lo
-				var pt = this.container.apiGetPointOnTheClosestPlatformLineBelow(x,y);
-				if (pt){
+			else if (x <= this.container.geo.l + 100) {
+				x = this.container.geo.l + 100;
+			}
+			var y = this.y;
+			// go lo
+			var pt = this.container.apiGetPointOnTheClosestPlatformLineBelow(x, y);
+			if (pt) {
+				y = pt.y;
+			}
+			else {
+				// go hi
+				var pt = this.container.apiGetPointOnTheClosestPlatformLineAbove(x, y);
+				if (pt) {
 					y = pt.y;
 				}
-				else{
-					// go hi
-					var pt = this.container.apiGetPointOnTheClosestPlatformLineAbove(x,y);
-
-					if (pt){
-						y = pt.y;
-					}
-				}
 			}
-
-			log.info("Spawner "+this.tsid+" is placing "+class_id+" at "+x+","+y);
-			var stack = apiNewItemStack(class_id, 1);
-			this.container.apiPutItemIntoPosition(stack, x, y);
 		}
+
+		log.info("Spawner " + this.tsid + " is placing " + spawn + " " + class_id + " at " + x + "," + y);
+		var stack = apiNewItemStack(class_id, spawn);
+		this.container.apiPutItemIntoPosition(stack, x, y);
 		this.container.apiSendMsg({ type: 'location_event' });
 	}
 
 	this.startSpawn();
-
 	return spawn;
 }
 
