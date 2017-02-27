@@ -1327,6 +1327,7 @@ var paradise_locations = {
 var recipe_xp_caps = true;
 
 var portal_group = 'RIFQS6N3PLH2TL4';
+var visiting_group = 'RVSDF6A3CYU2GY4';
 
 var teleportation_ok_streets = ['LDOOSA8V29J24I3', 'LA9QUBPI49J2MOB', 'LUV1CSSE49J2P2C']; // Streets where teleportation targets/scripts are ok, even if locked, etc
 var machine_rooms = ['LCR101Q98A12EHH', 'LIF16EM56A12FSB', 'LA9MU59GB792T80'];
