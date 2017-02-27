@@ -1572,6 +1572,11 @@ function onSqueezeComplete(pc, ret){ // defined by npc_chicken
 	var pre_msg = this.buildVerbMessage(this.count, 'squeeze', 'squeezed', failed, self_msgs, self_effects, they_effects);
 	pc.sendActivity(pre_msg);
 
+	// Easter check.
+	if (!failed && isEaster()) {
+		pc.runDropTable("chicken_squeeze_easter", this);
+	}
+
 	if (this['!is_flying']) {
 		this.fly();
 	}

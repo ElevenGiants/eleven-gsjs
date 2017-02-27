@@ -1,4 +1,26 @@
 var drop_tables = {
+	chicken_squeeze_easter: {
+		name: "Chicken Squeeze Easter Eggs",
+		drops: {
+			75: [
+			],
+			80: [
+				{class_id : "egghunt_egg_1", count : 1},
+			],
+			85: [
+				{class_id : "egghunt_egg_2", count : 1},
+			],
+			90: [
+				{class_id : "egghunt_egg_3", count : 1},
+			],
+			95: [
+				{class_id : "egghunt_egg_4", count : 1},
+			],
+			100: [
+				{class_id : "egghunt_egg_5", count : 1},
+			],
+		},
+	},
 	ak_chicken_squeeze : {
 		name : "Chicken Squeeze",
 		drops : {
