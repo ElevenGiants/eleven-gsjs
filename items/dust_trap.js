@@ -45,6 +45,12 @@ function doDrop(){ // defined by dust_trap
 			break;
 	}
 
+	// location check. only run the drop table if outside savanna!
+	if(this.getLocation().hub_region() != "Savanna") {
+		var items = this.pc.runDropTable(table, this, null, {x: 10, y:-105});
+		return;
+	}
+
 	// First, check chances of getting an organelle:
 	var check = Math.random();
 
@@ -107,7 +113,7 @@ function doDrop(){ // defined by dust_trap
 		} else if (buff_time < 9 * 60) {
 			chance = 0.35;
 		} else {
-			chance = 1.0;		
+			chance = 1.0;
 		}
 	}
 
