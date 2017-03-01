@@ -2959,6 +2959,11 @@ function doVerb(pc, msg) {
 			if (it.verbs[msg.verb].disable_proximity) check_for_proximity = false;
 		}
 
+		// Manual overide if dead in hell.
+		if (pc.location.isInHell()) {
+			required_range = 150;
+		}
+
 		// http://bugs.tinyspeck.com/9235
 		if (msg.verb == 'give') check_for_proximity = false;
 
