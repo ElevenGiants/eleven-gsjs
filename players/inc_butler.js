@@ -20,7 +20,7 @@ function createButler(x_pos) {
 	if (!loc) { return; }
 	
 	var butler = null;
-	if (loc == this.location) { 
+	if (loc.tsid == this.location.tsid) { 
 		if (Math.abs(x_pos - this.x) < 25) { 
 			if ((this.x +50) < this.location.geo.r) {
 				x_pos = this.x +50;
