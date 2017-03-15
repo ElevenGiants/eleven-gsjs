@@ -571,6 +571,28 @@ var homes_interior_configs = {
 		"up_deco_w"		: 107,
 		"up_deco_h"		: 166
 	},
+	"kaiyon_int_default__high"	: {
+		"template"		: "L2U3QCPWIQAHMPLXXX",
+		"main_image"		: "\/c2.glitch.bz\/streets\/2012-04-10\/LHVM75QATPR2DF9_main_1334088155.jpg",
+		"loading_image"		: "\/c2.glitch.bz\/streets\/2012-04-10\/LHVM75QATPR2DF9_loading_1334088154.jpg",
+		"is_visible"		: true,
+		"is_subscriber"		: false,
+		"label"			: "Plush Pasture",
+		"thumb"			: "homes\/2012-04-02\/1333391827.png",
+		"layout"		: "house-right",
+		"frame_style"		: "groddle",
+		"deco_swf"		: "home_groddle.swf",
+		"door_deco_swf"		: "home_groddle.swf",
+		"door_deco_class"	: "door_asset_entry_basic",
+		"door_deco_w"		: 75,
+		"door_deco_h"		: 236,
+		"down_deco_class"	: "door_asset_stairs_down_basic",
+		"down_deco_w"		: 108,
+		"down_deco_h"		: 166,
+		"up_deco_class"		: "door_asset_stairs_up_basic",
+		"up_deco_w"		: 107,
+		"up_deco_h"		: 166
+	},
 	"pol_int_coral_hor_high"	: {
 		"template"		: "LHVJA3I5IJ83NP9",
 		"main_image"		: "\/c2.glitch.bz\/streets\/2012-09-05\/LHVJA3I5IJ83NP9_main_1346894899.jpg",
@@ -863,6 +885,15 @@ var homes_exterior_configs = {
 	},
 	"meadow_ext_default_high"	: {
 		"template"	: "LHVCQ5V0EPR21H7",
+		"main_image"	: "\/c2.glitch.bz\/streets\/2012-04-02\/LHVCQ5V0EPR21H7_main_1333401207.jpg",
+		"loading_image"	: "\/c2.glitch.bz\/streets\/2012-04-02\/LHVCQ5V0EPR21H7_loading_1333401206.jpg",
+		"is_visible"	: true,
+		"is_subscriber"	: false,
+		"label"		: "Heartfelt Heath",
+		"thumb"		: "homes\/2012-03-30\/1333140057.png"
+	},
+	"kaiyon_ext_default_high"	: {
+		"template"	: "L2U2QCPWIQAHMPLXXX",
 		"main_image"	: "\/c2.glitch.bz\/streets\/2012-04-02\/LHVCQ5V0EPR21H7_main_1333401207.jpg",
 		"loading_image"	: "\/c2.glitch.bz\/streets\/2012-04-02\/LHVCQ5V0EPR21H7_loading_1333401206.jpg",
 		"is_visible"	: true,

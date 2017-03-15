@@ -825,6 +825,7 @@ function houses_go_to_new_house(force_recreate, no_teleport, go_inside){
 	//
 
 	if ((!this.home || !num_keys(this.home)) && (!this.home_is_creating || force_recreate || time() - this.home_is_creating > 2*60)){
+		apiSetIsCopying(true);
 		this.home_is_creating = time();
 		this.home = {};
 
@@ -1039,7 +1040,6 @@ function houses_visit(player_tsid){
 }
 
 function houses_teleport_to(target_house, x, y){
-
 	if (this.is_dead) return {ok: 0, error: "You are dead."};
 
 	if (this.making_is_making()) return {ok: 0, error: "You need to finish up what you're working on first."};
@@ -1054,6 +1054,7 @@ function houses_teleport_to(target_house, x, y){
 	//
 	// Decide where to go
 	//
+
 
 	var landing = target_house.homes_get_teleport_location();
 	if (x === undefined) x = landing.x;
@@ -1129,6 +1130,7 @@ function houses_create_location(label, type, db_sync){
 
 	// TODO: Separate location classes for interior/exterior?
 	var new_loc = source.apiCopyLocation(label, config.is_prod ? '15' : '28', 'POL_'+this.tsid, false, 'home');
+	new_loc = apiFindObject(new_loc.tsid);
 
 	// TODO: Shrink down the geo from the template to make the initial street
 

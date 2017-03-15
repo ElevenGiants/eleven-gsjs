@@ -57,6 +57,7 @@ function pols_write_create(source_tsid, pos_x, pos_y, door_type, db_sync){
 	//
 
 	var new_loc = source.apiCopyLocation(label, this.moteid, this.hubid, false);
+	new_loc = apiFindObject(new_loc.tsid);
 
 
 	//
@@ -267,6 +268,7 @@ function pols_write_replace(pol_tsid){
 	//
 
 	var new_pol = source.apiCopyLocation(settings.label, this.moteid, this.hubid, false);
+	new_pol = apiFindObject(new_pol.tsid);
 
 	new_pol.admin_make_house({
 		parent_tsid: settings.map_location,

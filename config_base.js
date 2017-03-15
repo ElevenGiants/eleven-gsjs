@@ -225,14 +225,14 @@ var home_limits = {
 	MAX_WALL_SEGMENTS		: 20,	// this includes end caps!
 	MAX_FLOORS			: 3,	// R2: 2, R3: 3
 
-	UPGRADES_ARE_FREE		: false,
+	UPGRADES_ARE_FREE		: true,
 
 	START_TEXTURE_WALL		: 'grey_unfinished',
 	START_TEXTURE_CEILING		: 'starter_crappy_ceiling',
 	START_TEXTURE_FLOOR		: 'starter_crappy',
 
-	START_INT_TEMPLATE		: 'meadows_int_default__high',
-	START_EXT_TEMPLATE		: 'meadow_ext_default_high',
+	START_INT_TEMPLATE		: 'kaiyon_int_default__high',
+	START_EXT_TEMPLATE		: 'kaiyon_ext_default_high',
 
 	FRONTYARD_EXPAND_COSTS: [
 		100, 125, 156, 195, 244, 305, 381, 477, 596, 745,
