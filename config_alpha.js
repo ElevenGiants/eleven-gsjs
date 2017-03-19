@@ -29,11 +29,17 @@ this.newbie_live_help_groups = [];
 
 // make all wall/floor/etc textures free
 this.home_limits.UPGRADES_ARE_FREE = true;
+this.home_limits.START_EXT_TEMPLATE = "uralia_2a_high";
+this.home_limits.START_INT_TEMPLATE = "uralia_2a_int_high";
 
 // limit POL choice to the available templates
 this.homes_interior_configs = {
-	meadows_int_default__high: this.homes_interior_configs.meadows_int_default__high,
+	uralia_2a_int_high: this.homes_interior_configs.uralia_2a_int_high,
+	basic_int: this.homes_interior_configs.basic_int,
+	_moon_int_high: this.homes_interior_configs._moon_int_high,
 };
 this.homes_exterior_configs = {
-	meadow_ext_default_high: this.homes_exterior_configs.meadow_ext_default_high,
+	uralia_2a_high: this.homes_exterior_configs.uralia_2a_high,
+	basic: this.homes_exterior_configs.basic,
+	_moon_high: this.homes_exterior_configs._moon_high,
 };
