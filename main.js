@@ -3250,6 +3250,7 @@ function doVerb(pc, msg) {
 	if (temp){
 		old_it = it;
 		it = temp;
+		temp.parent_tsid = old_it.tsid;
 	}
 	var old_count = it.count;
 
