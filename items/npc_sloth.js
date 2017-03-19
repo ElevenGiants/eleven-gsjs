@@ -583,8 +583,6 @@ function onIdleTick(){ // defined by npc_sloth
 
 function onLoad(){ // defined by npc_sloth
 	this.onPrototypeChanged();
-
-	this.metalizeComplete();
 }
 
 function onPlayerCollision(pc){ // defined by npc_sloth
