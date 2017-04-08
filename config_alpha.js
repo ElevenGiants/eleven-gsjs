@@ -58,7 +58,6 @@ var disabled_quests = [
 	'blue_and_white_part2',
 	'btc_room_3',
 	'btc_room_3_reminisce',
-	'eyeballery_identify_object',
 	'fuelmaking_refuel_robot',
 	'greedy_street_spirit_reminisce',
 	'greedy_street_spirit',
