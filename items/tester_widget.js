@@ -456,7 +456,7 @@ verbs.doquests = {
 		pc.apiSendMsgAsIs({
 			type: 'conversation',
 			itemstack_tsid: this.id,
-			txt: "Note: You will <b>not</b> recieve quest rewards for any completed quests.",
+			txt: "Note: You will <b>not</b> recieve quest rewards if you finish <b>all pending quests</b>.",
 			choices: choices,
 		});
 		return true;
@@ -501,8 +501,7 @@ function onConversation(pc, msg){ // defined by admin_widget
 	}
 	else if (msg.choice.substr(0,8) == 'doquest_') {
 		var quest_id = msg.choice.substr(8);
-		pc.quests_remove(quest_id);
-		pc.quests_give_finished(quest_id);
+		pc.completeQuest(quest_id);
 	}
 	else if (msg.choice.substr(0,10) == 'tele_tsid_') { // Teleport to TSID
 		var tsid = msg.choice.substr(10);
