@@ -578,6 +578,12 @@ function quests_remove(class_tsid){
 function quests_offer(class_tsid, force_now, delay){
 
 	if (!class_tsid) return;
+
+	if (config.disabled_quests.indexOf(class_tsid) > -1) {
+		log.info("Tried to offer quest " + class_tsid + " to " + this + " but quest has been disabled!");
+		this.quests_give_finished(class_tsid);
+		return;
+	}
 	
 	// Are quests turned off? if so, lets delay this quest
 	if (this.buffs_has('turn_off_quests')){ delay = true; }
