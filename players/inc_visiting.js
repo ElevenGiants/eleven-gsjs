@@ -80,7 +80,7 @@ function visiting_visit_random() {
 		return this.sendActivity("Uh-oh! I can't seem to find the street list. Please try again later.");
 	}
 
-	var target = visiting_group.fetch();
+	var target = visiting_group.fetch(this);
 	if (!target) {
 		return this.sendActivity("I couldn't find a street to send you to. Sorry about that!");
 	}
