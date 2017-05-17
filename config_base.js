@@ -462,3 +462,5 @@ var hi_emote_variants_name_map = {
 
 var hi_emote_base_mood = 5;
 var hi_emote_bonus_mood = 10;
+
+var disabled_quests = [];
