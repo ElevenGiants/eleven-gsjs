@@ -248,7 +248,7 @@ function adminGetProfile(args){
 	var latest_skill = this.skillsGetLatest();
 	out.latest_skill = {};
 
-	if (typeof(latest_skill) != 'undefined'){
+	if (latest_skill.id) {
 		var latest_skill_data = this.skills_get(latest_skill.id);
 		out.latest_skill = {
 			'id' : latest_skill.id,
