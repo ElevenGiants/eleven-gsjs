@@ -268,10 +268,10 @@ function isBirthday(pc) {
 //
 function isZilloween() {
 
-	// Special for Halloween 2016 - start 6pm on the 30th, runs for 48 hours
+	// Special for Halloween 2017 - Enabled from October 30th 00:00 to November 1st 00:00.
 	var now = time();
-	var start = 1477850400;
-	var end = 1477850400 + 60*60*48; // 48 hours
+	var start = 1509321600;
+	var end = 1509321600 + 60 * 60 * 48; // 2 days.
 	if (now > start && now < end) {
 		return true;
 	}
@@ -291,10 +291,10 @@ function isZilloween() {
 
 function isEaster(){
 
-	// Enabled from 14th of April 00:00 to 17th of April 00:00
+	// Enabled from 30th of March 00:00 to 2nd of April 00:00
 	var now = time();
-	var start = 1492128000;
-	var end = 1492128000 + 60 * 60 * 72; // 3 days.
+	var start = 1522368000;
+	var end = 1522368000 + 60 * 60 * 72; // 3 days.
 	if (now > start && now < end) {
 		return true;
 	}
