@@ -860,6 +860,46 @@ verbs.collect_currants = { // defined by bag_furniture_sdb
 	}
 };
 
+verbs.fill = {
+	"name"				: "fill",
+	"ok_states"			: ["in_location"],
+	"requires_target_pc"		: false,
+	"requires_target_item"		: false,
+	"include_target_items_from_location"		: false,
+	"is_single"			: 1,
+	"is_default"			: false,
+	"is_emote"			: false,
+	"sort_on"			: 99,
+	"tooltip"			: "GOD: Add 50 stacks to this SDB",
+	"is_drop_target"		: false,
+	"disable_proximity"		: true,
+	"conditions"			: function(pc, drop_stack){
+		if (!pc.is_god) return {state:null};
+		if (this.items.length >= 50) return {state:'disabled', reason:'Maximum number of stacks allowed (50)'};
+		if (this.class_type) return {state:'enabled'};
+		return {state:'disabled', reason:'There are no items in this SDB!'};
+	},
+	"handler"			: function(pc, msg, suppress_activity){
+		if (!pc.is_god) return true;
+		for (var tsid in this.items) {
+			this.items[tsid].apiDelete();
+		}
+		var proto = apiFindItemPrototype(this.class_type);
+		for (var i = 0; i < 50; i++) {
+			var stack = apiNewItemStack(this.class_type, proto.stackmax);
+			this.addItemStack(stack);
+		}
+		this.broadcastConfig();
+		this.setAndBroadcastState('full');
+		if (this.is_selling){
+			this.broadcastStoreConfig();
+			if (this.isSelling()) this.triggerUpdateCallback();
+		}
+		pc.sendActivity('SDB ' + this.tsid + ' set to 50 stacks');
+		return true;
+	}
+};
+
 function broadcastStoreConfig(){ // defined by bag_furniture_sdb
 	if (this.isForSale()) return this.parent_broadcastStoreConfig();
 	var store_info = this.getStoreInfo();
