@@ -354,7 +354,7 @@ function onCreateAsCopy(){ // defined by npc_firefly
 function startFlying(box_center){ // defined by npc_firefly
 	var box_width = intval(this.getInstanceProp('box_width'));
 	var box_height = intval(this.getInstanceProp('box_height'));
-	this.apiStartFlyingInTheAreaX(box_center[0], box_center[1], box_width, box_height, 15, false);
+	this.apiStartFlyingInTheAreaX(box_center[0]-box_width/2, box_center[1]-box_height/2, box_width, box_height, 15, false);
 }
 
 function wandering_onEnter(previous_state){ // defined by npc_firefly
