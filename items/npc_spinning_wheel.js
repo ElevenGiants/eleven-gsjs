@@ -470,6 +470,11 @@ function setMovementLimits(x_pos, y_pos, width){ // defined by npc
 	//log.info("move_limits is "+this.move_limits);
 }
 
+function onload() {
+	// if we persisted this without an owner, remove it.
+	if (!this.owner) this.apiDelete();
+}
+
 function getDescExtras(pc){
 	var out = [];
 	return out;
