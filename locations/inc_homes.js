@@ -3104,6 +3104,9 @@ function homes_position_tower(tower, x, y){
 		'y'		: teleport_pos[1],
 	};
 
+	// tell GS that the geometry has changed. unclear why 
+	// this was not required with the original server
+	this.apiGeometryUpdated();
 
 	//
 	// finally, make sure the tower exits here

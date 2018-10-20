@@ -1181,6 +1181,10 @@ function tower_build_exit(){
 			h		: geo_cfg.door_deco_h,
 		},
 	};
+
+	// tell GS that the geometry has changed. unclear why 
+	// this was not required with the original server
+	this.apiGeometryUpdated();
 }
 
 function tower_set_label(label){
