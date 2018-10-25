@@ -268,11 +268,14 @@ function isBirthday(pc) {
 //
 function isZilloween() {
 
-	// Special for Halloween 2017 - Enabled from October 30th 00:00 to November 1st 00:00.
-	var now = time();
-	var start = 1509321600;
-	var end = 1509321600 + 60 * 60 * 48; // 2 days.
-	if (now > start && now < end) {
+	// Enabled from October 25th through to November 1st every year.
+	var now = new Date();
+	// Oct 25th to Oct 31st.
+	if (now.getUTCMonth() + 1 === 10 && now.getUTCDate() >= 25) {
+		return true;
+	}
+	// Nov 1st only.
+	else if (now.getUTCMonth() + 1 === 11 && now.getUTCDate() === 1) {
 		return true;
 	}
 	
