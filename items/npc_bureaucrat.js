@@ -733,7 +733,7 @@ function idle_onEnter(previous_state){ // defined by npc_bureaucrat
 function idle_onMsg(msg){ // defined by npc_bureaucrat
 	if (msg.from == 'interval'){
 		if (is_chance(0.25) && this.container.instance_id && this.container.instance_id.substr(0, 17) == 'bureaucratic_hall'){
-			this.apiFindPath(randInt(500, 1060), -128, 0, 'onPathing');
+			this.apiFindPath(randInt(75, 550), -128, 0, 'onPathing');
 		}
 		else{
 			if (is_chance(0.1)) this.turnAround();
