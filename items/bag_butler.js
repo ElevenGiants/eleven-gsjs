@@ -276,12 +276,12 @@ verbs.eavesdrop = { // defined by bag_butler
 	"is_drop_target"		: false,
 	"conditions"			: function(pc, drop_stack){
 
-		if (pc != this.getOwner()) {
+		if (!pc.equals(this.getOwner())) {
 			return {state:null};
 		}
 
 
-		if (pc == this.getOwner() && this.notifications === undefined || this.notifications === true) { 
+		if (pc.equals(this.getOwner()) && this.notifications === undefined || this.notifications === true) { 
 			if (this.eavesdropping === false) {
 				return {state:'enabled'};
 			}
@@ -310,12 +310,12 @@ verbs.stop_eavesdropping = { // defined by bag_butler
 	"is_drop_target"		: false,
 	"conditions"			: function(pc, drop_stack){
 
-		if (pc != this.getOwner()) {
+		if (!pc.equals(this.getOwner())) {
 			return {state:null};
 		}
 
 
-		if (pc == this.getOwner() && this.notifications === undefined || this.notifications === true) { 
+		if (pc.equals(this.getOwner()) && this.notifications === undefined || this.notifications === true) { 
 			if (this.eavesdropping === undefined || this.eavesdropping == true) { 
 				return {state:'enabled'};
 			}
@@ -394,10 +394,10 @@ verbs.notify_about_visitors = { // defined by bag_butler
 	"is_drop_target"		: false,
 	"conditions"			: function(pc, drop_stack){
 
-		if (pc != this.getOwner()) {
+		if (!pc.equals(this.getOwner())) {
 			return {state:null};
 		}
-		if (pc == this.getOwner() && pc.is_god && this.notifications != undefined && !this.notifications) { 
+		if (pc.equals(this.getOwner()) && pc.is_god && this.notifications != undefined && !this.notifications) { 
 			return {state:'enabled'};
 		}
 
@@ -427,10 +427,10 @@ verbs.stop_notifying_about_visitors = { // defined by bag_butler
 	"is_drop_target"		: false,
 	"conditions"			: function(pc, drop_stack){
 
-		/*if (pc != this.getOwner()) {
+		/*if (!pc.equals(this.getOwner())) {
 			return {state:null};
 		}
-		if (pc == this.getOwner() && pc.is_god && (this.notifications == undefined || this.notifications)) { 
+		if (pc.equals(this.getOwner()) && pc.is_god && (this.notifications == undefined || this.notifications)) { 
 			return {state:'enabled'};
 		}*/
 
@@ -557,7 +557,7 @@ verbs.customize = { // defined by bag_butler
 	"disable_proximity"		: true,
 	"conditions"			: function(pc, drop_stack){
 
-		if (pc === this.getOwner()) { 
+		if (pc.equals(this.getOwner())) { 
 			return {state:'enabled'};
 		}
 
@@ -646,7 +646,7 @@ verbs.give = { // defined by bag_butler
 	"proximity_override"			: 550,
 	"conditions"			: function(pc, drop_stack){
 
-		if (pc == this.getOwner()) {
+		if (pc.equals(this.getOwner())) {
 			if (this.interact_pc) { 
 				return {state: 'disabled', reason: this.getTextString("interactFail")};
 			}
@@ -906,6 +906,12 @@ verbs.chat = { // defined by bag_butler
 	"tooltip"			: "Ask the Butler to IM you",
 	"is_drop_target"		: false,
 	"proximity_override"			: 550,
+	"conditions"			: function(pc, drop_stack){
+		if (pc.equals(this.getOwner())) {
+			return {state:'enabled'};
+		}
+		return {state:null};
+	},
 	"handler"			: function(pc, msg, suppress_activity){
 
 		if (this.reactionAllowed()) {
@@ -1208,7 +1214,7 @@ verbs.randomize = { // defined by bag_butler
 	"disable_proximity"		: true,
 	"conditions"			: function(pc, drop_stack){
 
-		/*if (pc === this.getOwner()) { 
+		/*if (pc.equals(this.getOwner())) { 
 			return {state:'enabled'};
 		}*/
 
@@ -1384,7 +1390,7 @@ verbs.visitors = { // defined by bag_butler
 	"proximity_override"			: 550,
 	"conditions"			: function(pc, drop_stack){
 
-		if (pc === this.getOwner()) { 
+		if (pc.equals(this.getOwner())) { 
 
 			var num = this.getVisitors();
 			this.visitors_num = num;
@@ -1595,7 +1601,7 @@ verbs.info = { // defined by bag_butler
 	"proximity_override"			: 550,
 	"conditions"			: function(pc, drop_stack){
 
-		if (pc && pc != this.getOwner()) { 
+		if (pc && !pc.equals(this.getOwner())) { 
 			return {state:'enabled'};
 		}
 		else { 
@@ -1846,7 +1852,7 @@ function buildState(){ // defined by bag_butler
 function bumpPlayer(pc){ // defined by bag_butler
 	//log.info(this.getLabel()+" bumped player");
 
-	/*	if (this.greet_queue && this.greet_queue.length > 0 && pc == this.greet_queue[0]) { 
+	/*	if (this.greet_queue && this.greet_queue.length > 0 && pc.equals(this.greet_queue[0])) { 
 			// If currently greeting this player, we're about to play a greeting, so skip this
 			log.info(this.getLabel()+" bumped player - is currently greeting");
 			return;
@@ -2399,7 +2405,7 @@ function getDoorPosition(){ // defined by bag_butler
 function getLabel(pc){ // defined by bag_butler
 	var owner = this.getOwner();
 
-	if (owner && (!pc || pc != owner)) {
+	if (owner && (!pc || !pc.equals(owner))) {
 		
 		var owner_name = owner.getLabel();
 
@@ -2455,13 +2461,13 @@ function getPlayerNameText(pc, possessive){ // defined by bag_butler
 }
 
 function giftCanGive(pc){ // defined by bag_butler
-	if (pc == this.getOwner()) { return false; }
+	if (pc.equals(this.getOwner())) { return false; }
 
 	if (!this.gift_item) { return false; } 
 
 	// This next one is to prevent cases of people getting a gift while the owner is swapping it 
 	// for something else.
-	if (this.interact_pc && this.interact_pc === this.getOwner()) { return false; }
+	if (this.interact_pc && this.interact_pc.equals(this.getOwner())) { return false; }
 
 	if (this.gifts && this.gifts[pc.tsid] && this.gifts[pc.tsid] == this.gift_item["class"]) {
 		return false;
@@ -2480,7 +2486,7 @@ function giftCanGive(pc){ // defined by bag_butler
 }
 
 function giveGift(pc){ // defined by bag_butler
-	if (pc == this.getOwner()) { return; }
+	if (pc.equals(this.getOwner())) { return; }
 
 	var already_given = false;
 
@@ -2539,7 +2545,7 @@ function giveGift(pc){ // defined by bag_butler
 	}
 
 
-	if (this.interact_pc === pc) { 
+	if (pc.equals(this.interact_pc)) { 
 		delete this.interact_pc;
 	}
 }
@@ -2776,7 +2782,7 @@ function giveNextPackage(){ // defined by bag_butler
 }
 
 function giveStack(pc){ // defined by bag_butler
-	if (this.stack_to_give && pc === this.getOwner()) { 
+	if (this.stack_to_give && pc.equals(this.getOwner())) { 
 		this.logDebugInfo("Calling add item stack");
 
 		var remainder = pc.addItemStack(this.stack_to_give);	
@@ -2854,7 +2860,7 @@ function greetPlayer(args){ // defined by bag_butler
 		this.apiSetTimerX("afterGreeting", 10 * 1000, player);
 	}
 	else { 
-		if (player === this.getOwner()) {
+		if (player.equals(this.getOwner())) {
 			this.sendBubbleAndChat(player, greeting, true, null, false);
 					
 		}
@@ -2883,7 +2889,7 @@ function greetPlayer(args){ // defined by bag_butler
 		for (var idx in this.greet_queue) {
 			var nextPlayer = this.greet_queue[idx];
 
-			if (nextPlayer .tsid == owner.tsid) { 
+			if (nextPlayer.tsid == owner.tsid) { 
 				greeting = this.getGreetingForOwner(nextPlayer );
 			}
 			else if (owner.buddies_is_buddy(nextPlayer )) {
@@ -3730,7 +3736,7 @@ function onInteractionEnding(pc){ // defined by bag_butler
 
 	this.last_command_time = getTime();
 
-	if (pc === this.interact_pc) { 
+	if (pc.equals(this.interact_pc)) { 
 		this.logDebugInfo(" onInteractionEnding");
 		delete this.interact_pc; 
 	}
@@ -4023,7 +4029,7 @@ function onPlayerCollision(pc, hitbox){ // defined by bag_butler
 		else { 
 			this.onPlayerNear(pc);
 
-			if (!gift && (pc == this.getOwner())) {
+			if (!gift && (pc.equals(this.getOwner()))) {
 				this.logDebugInfo("Checking quests & hints");
 
 				// First check if owner needs to complete the Join Club quest
@@ -4046,7 +4052,7 @@ function onPlayerCollision(pc, hitbox){ // defined by bag_butler
 	else if (hitbox == "far") {
 		this.onPlayerFar(pc);
 
-		if (!gift && (pc == this.getOwner())) {
+		if (!gift && (pc.equals(this.getOwner()))) {
 			this.doQuests(pc);	
 		}
 
@@ -4120,7 +4126,7 @@ function onPlayerEnter(pc){ // defined by bag_butler
 
 	if (!this.greet_queue) { this.greet_queue = []; }
 
-	if (this.greet_queue.some(function(element, index, array){return element == pc;})) {
+	if (this.greet_queue.some(function(element, index, array){return pc.equals(element);})) {
 		if (this.getCurrentState() == "greeting") {
 			// player is already in the greet queue, don't greet them twice!
 			// Note: I have no idea how it happens, but apparently it does because 
@@ -4252,12 +4258,12 @@ function onPlayerExit(pc){ // defined by bag_butler
 		this.logDebugInfo(this.getLabel()+" checking greeting");
 		var player = this.greet_queue[0];
 
-		if (pc === player) {
+		if (pc.equals(player)) {
 			this.cancelGreeting();
 		}
 	}
 
-	if (pc == this.hi_target) { 
+	if (pc.equals(this.hi_target)) { 
 		this.apiCancelTimer("doSayHi");
 		this.apiCancelTimer("sayHiHint");
 		this.apiCancelTimer("doHiResponse");
@@ -4266,15 +4272,15 @@ function onPlayerExit(pc){ // defined by bag_butler
 		delete this.hi_target;
 	}
 
-	if (pc === this.most_recent_notification) {
+	if (pc.equals(this.most_recent_notification)) {
 		delete this.most_recent_notification;
 	}
 
-	if (pc === this.summoner) { 
+	if (pc.equals(this.summoner)) { 
 		delete this.summoner;
 	}
 
-	if (pc === this.conversationalist) { 
+	if (pc.equals(this.conversationalist)) { 
 		delete this.conversationalist;
 
 		if (this.getCurrentState() === "interacting") { 
@@ -4294,7 +4300,7 @@ function onPlayerExit(pc){ // defined by bag_butler
 		delete this.eavesdropping_notifications[pc.tsid];
 	}
 
-	if (pc === this.interact_pc) { 
+	if (pc.equals(this.interact_pc)) { 
 		delete this.interact_pc;
 
 		if (this.getCurrentState() === "interacting") { 
@@ -4302,19 +4308,19 @@ function onPlayerExit(pc){ // defined by bag_butler
 		}
 	}
 
-	if (pc === owner && this.returning_old_gift) { 
+	if (pc.equals(owner) && this.returning_old_gift) { 
 		this.onReturnOldGift(pc);
 	}
 
 	// ***
 	this.giveStack(pc); // this will check if the pc is the owner
 
-	if (this.last_chat && this.last_chat.pc === pc) { 
+	if (this.last_chat && pc.equals(this.last_chat.pc)) { 
 		log.info(this.getLabel()+" deleting "+this.last_chat);
 		delete this.last_chat;
 	}
 
-	if (this['!lookTarget'] && (this['!lookTarget'].player === pc)) {
+	if (this['!lookTarget'] && pc.equals(this['!lookTarget'].player)) {
 		this['!lookTarget'] = null;
 	}
 
@@ -4335,20 +4341,20 @@ function onPlayerExit(pc){ // defined by bag_butler
 	if (this.collisions && this.collisions.list)  {
 		var collision_infos = this.collisions.list;
 		for (var c in collision_infos) {
-			if (pc == collision_infos[c]["player"]) {
+			if (pc.equals(collision_infos[c]["player"])) {
 				delete this.collisions.list[c];
 			}
 		}
 	}
 
 
-	if (pc != owner && !this.isOwnerHome() && owner.isOnline()) {
+	if (!pc.equals(owner) && !this.isOwnerHome() && owner.isOnline()) {
 		if (this.notifications === true || this.notifications == undefined) { 
 			this.sendIM(owner, this.getTextString("visitorNotifyOwnerLeft", pc, owner)); 
 			this.notification_time = getTime();
 		}
 	}
-	else if (pc != owner && owner.isOnline() && (this.ownerInsideHouse() || this.isOwnerInTower())) {
+	else if (!pc.equals(owner) && owner.isOnline() && (this.ownerInsideHouse() || this.isOwnerInTower())) {
 		if (this.notifications === true || this.notifications == undefined) { 
 			this.sendIM(owner, this.getTextString("visitorNotifyOwnerLeft", pc, owner)); 
 			this.notification_time = getTime();
@@ -4406,7 +4412,7 @@ function onPlayerLeavingCollisionArea(pc, hitbox){ // defined by bag_butler
 		var range = this.getClassProp("far_dist");
 		var numPlayers = this.getNumPlayersInRange(range);
 		this.logDebugInfo(" player leaving far, num players is "+numPlayers);
-		if ( numPlayers == 0 || (numPlayers == 1 && this.getPlayerInRange(range) == pc)) {
+		if ( numPlayers == 0 || (numPlayers == 1 && pc.equals(this.getPlayerInRange(range)))) {
 			this.logDebugInfo(" IDLE player leaving far");
 			// butler reverts to normal behaviour
 			if (this.getCurrentAnim() == "turnBack"){
@@ -4586,7 +4592,7 @@ function onStuck(){ // defined by bag_butler
 function onTalkTo(pc, msg){ // defined by bag_butler
 	apiLogAction('BUTLER_TALK', 'pc='+pc.tsid, 'butler='+this.tsid);
 
-	if (this.conversationalist === pc) { 
+	if (pc.equals(this.conversationalist)) { 
 		return true;
 	}
 
@@ -5122,7 +5128,7 @@ function ownerInsideHouse(){ // defined by bag_butler
 }
 
 function packageCanGive(pc, info){ // defined by bag_butler
-	if (pc != this.getOwner()) { return false; }
+	if (!pc.equals(this.getOwner())) { return false; }
 
 	if (!info) { return false; } 
 
@@ -5379,7 +5385,7 @@ function sendBubbleAndChat(pc, txt, privateMsg, durationMS, noBubble){ // define
 	}
 
 	// Don't repeat things!
-	if (this.last_chat && this.last_chat.txt === txt && this.last_chat.pc === pc) {
+	if (this.last_chat && this.last_chat.txt === txt && pc.equals(this.last_chat.pc)) {
 		log.info(this.getLabel()+" not repeating "+this.last_chat);
 		return;
 	}

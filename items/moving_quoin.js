@@ -136,7 +136,7 @@ function distributeQuoinShards(pc, amount){ // defined by quoin
 		actual = 0;
 
 		// Ignore the original quoin pc
-		if (players[i].pc == pc) continue;
+		if (pc.equals(players[i].pc)) continue;
 
 		// Ignore player if they're following someone
 		if (players[i].pc.followee) continue;

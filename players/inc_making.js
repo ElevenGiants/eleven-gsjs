@@ -913,7 +913,7 @@ function finishMakingKnown(inf){
 	if (msg.length > 0) msg += '.';
 	
 	if (info.item.getClassProp('making_type') == 'machine'){
-		if (info.item.container.pols_get_owner() != this) { 
+		if (!this.equals(info.item.container.pols_get_owner())) { 
 			msg += " Make sure to pick up your stuff soon, or it might disappear!"
 		}
 	}

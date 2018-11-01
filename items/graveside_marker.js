@@ -48,7 +48,7 @@ verbs.celebrate = { // defined by graveside_marker
 	"conditions"			: function(pc, drop_stack){
 
 		if (this.recognized) {
-			if (this.recognizer == pc) {
+			if (pc.equals(this.recognizer)) {
 				return {state: 'disabled', reason: "You have already recognized the passing of this Glitch."};
 			} else {
 				return {state: 'disabled', reason: "Someone else has already recognized the passing of this Glitch."};
@@ -99,7 +99,7 @@ verbs.mourn = { // defined by graveside_marker
 	"conditions"			: function(pc, drop_stack){
 
 		if (this.recognized) {
-			if (this.recognizer == pc) {
+			if (pc.equals(this.recognizer)) {
 				return {state: 'disabled', reason: "You have already recognized the passing of this Glitch."};
 			} else {
 				return {state: 'disabled', reason: "Someone else has already recognized the passing of this Glitch."};

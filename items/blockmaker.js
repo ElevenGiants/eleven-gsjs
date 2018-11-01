@@ -187,7 +187,7 @@ verbs.place = { // defined by machine_base
 
 			stack.verbs['place'].handler.call(stack, pc, msg);
 
-			if (this.assembler && this.assembler != pc) { 
+			if (this.assembler && !pc.equals(this.assembler)) { 
 				log.info("deleting assembler "+this.assembler);
 				delete this.assembler;
 			}
@@ -279,7 +279,7 @@ verbs.install = { // defined by machine_base
 
 		pc.apiSendAnnouncement(annc);
 
-		if (this.assembler && this.assembler != pc) { 
+		if (this.assembler && !pc.equals(this.assembler)) { 
 			log.info("deleting assembler "+this.assembler);
 			delete this.assembler;
 		}
@@ -410,7 +410,7 @@ verbs.pickup = { // defined by machine_base
 
 		this.onUninstallPart();
 
-		if (this.disassembler && this.disassembler != pc) { 
+		if (this.disassembler && !pc.equals(this.disassembler)) { 
 			delete this.disassembler;
 		}
 
@@ -1284,7 +1284,7 @@ function onAssembled(){ // defined by machine_base
 
 
 	//log.info("assembled machine, assembler is "+this.assembler+" and "+pc+" and class is "+this.class_id);
-	if (this.assembler && this.assembler == pc) { 
+	if (this.assembler && pc.equals(this.assembler)) { 
 		pc.achievements_increment("machines_assembled", this.class_id, 1);
 		delete this.assembler;
 	}
@@ -1355,7 +1355,7 @@ function onDisassemble(pc){ // defined by machine_base
 	if (this.isWorking()) { 
 		this.disassembler = pc;
 	}
-	else if (this.disassembler && this.disassembler != pc) { 
+	else if (this.disassembler && !pc.equals(this.disassembler)) { 
 		delete this.disassembler;
 	}
 

@@ -31,7 +31,7 @@ function getTextString(strId, pc, owner, item, message, param, targetPC){
 		
 		//log.info(this.getLabel()+" for strID "+strId+" target pc is "+targetPC+" and pc is "+pc);
 		
-		if (targetPC != pc) {
+		if (!pc.equals(targetPC)) {
 			var pc_name = this.getPlayerNameText(pc); // $pc
 		}
 		else { 
@@ -47,7 +47,7 @@ function getTextString(strId, pc, owner, item, message, param, targetPC){
 	}
 
 	if (owner) {
-		if (targetPC != owner) {
+		if (!owner.equals(targetPC)) {
 			var owner_name = this.getPlayerNameText(owner); // $owner
 		}
 		else {
@@ -1131,7 +1131,7 @@ function doFarCommand(pc, txt) {
 	this.logDebugInfo("doing far command "+txt);
 	
 	// **** Disable all far commands for now!
-	if (pc != owner) {
+	if (!pc.equals(owner)) {
 		this.logDebugInfo("you're not my owner");
 		// error check 
 		//this.sendIM(pc, this.getTextString("farCommandNotOwner", pc, owner)); 
@@ -1756,7 +1756,7 @@ function doCommand(pc, txt) {
 	
 	//this.logDebugInfo("Text addition is "+this.textAddition+" and waiting_for_response is "+waiting_for_response);
 	
-	if (waiting_for_response && waiting_for_response.pc === pc) {
+	if (waiting_for_response && pc.equals(waiting_for_response.pc)) {
 		this.logDebugInfo(" parsing response to "+ waiting_for_response);
 	
 		/*if (this.parseQuit(txt)) {
@@ -2393,7 +2393,7 @@ function notifyOwner(pc, txt) {
 	if (this.notifications === true || this.notifications == undefined) { 
 		if (this.eavesdropping || this.eavesdropping === undefined) { 
 	
-			if (pc != owner && owner.isOnline() && (!this.isOwnerHome() || (this.ownerInsideHouse() || this.isOwnerInTower()) )) {
+			if (!pc.equals(owner) && owner.isOnline() && (!this.isOwnerHome() || (this.ownerInsideHouse() || this.isOwnerInTower()) )) {
 				var text = this.getTextString("visitorSpeechReport", pc, owner, null, null, txt);
 
 				/*if (!this.notification_time 

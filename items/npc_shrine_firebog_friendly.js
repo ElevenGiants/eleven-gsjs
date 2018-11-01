@@ -73,7 +73,7 @@ verbs.debug = { // defined by npc
 		var self_effects = [];
 		var they_effects = [];
 
-		 
+
 		if (this.debugging === undefined) {
 			this.debugging = true;
 		}
@@ -84,10 +84,10 @@ verbs.debug = { // defined by npc
 		this.target_pc = pc;
 
 		if (this.debugging) {
-			var pre_msg = this.buildVerbMessage(msg.count, 'debug', 'are debugging', failed, self_msgs, self_effects, they_effects);	
+			var pre_msg = this.buildVerbMessage(msg.count, 'debug', 'are debugging', failed, self_msgs, self_effects, they_effects);
 		}
 		else {
-			var pre_msg = this.buildVerbMessage(msg.count, 'debug', 'stopped debugging', failed, self_msgs, self_effects, they_effects);	
+			var pre_msg = this.buildVerbMessage(msg.count, 'debug', 'stopped debugging', failed, self_msgs, self_effects, they_effects);
 		}
 
 		if (!suppress_activity && pre_msg) pc.sendActivity(pre_msg);
@@ -187,7 +187,7 @@ verbs.prime = { // defined by npc_shrine_base
 			if (this.container.isRooked()) {
 				return {state:'disabled', reason: "You need to know Piety I to prime Shrines during Rook Attacks."};
 			}
-			else { 
+			else {
 				return {state: null};
 			}
 
@@ -318,7 +318,7 @@ verbs.donate_to = { // defined by npc_shrine_base
 
 		if(this.primed) {
 			var emblem_name = 'emblem_'+this.get_giant();
-			
+
 			// If we have been primed, allow our own emblems.
 			if ((!stack.is_bag && !stack.hasTag('emblem') && !stack.hasTag('machine') && !stack.hasTag('no_donate')) || (stack.class_tsid == emblem_name)){
 				return true;
@@ -343,7 +343,7 @@ verbs.donate_to = { // defined by npc_shrine_base
 			}
 		} else {
 			var giant = this.get_giant();
-			if (pc.stats_has_favor_points(giant, pc.stats_get_max_favor(giant))){ 
+			if (pc.stats_has_favor_points(giant, pc.stats_get_max_favor(giant))){
 				return {state: 'disabled', reason: "Pick up your emblem first."};
 			}
 			else {
@@ -361,7 +361,7 @@ verbs.donate_to = { // defined by npc_shrine_base
 			var it = items[i];
 			if(this.primed) {
 				var emblem_name = 'emblem_'+this.get_giant();
-			
+
 				// If we have been primed, allow our own emblems.
 				if ((!it.is_bag && !it.hasTag('emblem') && !it.hasTag('machine') && !it.hasTag('no_donate')) || (it.class_tsid == emblem_name)){ // No bags, no emblems, no machines
 					uniques[it.class_tsid] = it.tsid;
@@ -496,7 +496,7 @@ verbs.check_favor = { // defined by npc_shrine_base
 function getFavorText(pc){ // defined by npc_shrine_base
 	var text = "";
 
-	if (pc) { 
+	if (pc) {
 		var giant = this.get_giant();
 		var points = pc.stats_get_favor_points(giant);
 		var max = pc.stats_get_max_favor(giant);
@@ -525,7 +525,7 @@ function onConversation(pc, msg){ // defined by npc_shrine_base
 		this.setAndBroadcastState('close');
 	}
 
-	if (this.pendingDonations && this.pendingDonations[pc.tsid]) { 
+	if (this.pendingDonations && this.pendingDonations[pc.tsid]) {
 		delete this.pendingDonations[pc.tsid];
 	}
 
@@ -577,7 +577,7 @@ function onPlayerCollision(pc, hitbox){ // defined by npc_shrine_base
 		}
 	}
 	else if (this.get_giant() == 'grendaline' && pc.getQuestStatus('donate_to_all_shrines') == 'done' && pc.getQuestStatus('last_pilgrimage_of_esquibeth') == 'none'){
-		
+
 		var donate_to_all_shrines = pc.getQuestInstance('donate_to_all_shrines');
 		if (donate_to_all_shrines && donate_to_all_shrines.ts_done && time() - donate_to_all_shrines.ts_done >= 30*60) pc.quests_offer('last_pilgrimage_of_esquibeth');
 	}
@@ -611,7 +611,7 @@ function onPlayerCollision(pc, hitbox){ // defined by npc_shrine_base
 function onPlayerExit(pc){ // defined by npc_shrine_base
 	this.npc_onPlayerExit(pc);
 
-	if(this.primed && pc == this.priming_pc) {
+	if(this.primed && pc.equals(this.priming_pc)) {
 		this.primeComplete();
 	}
 }

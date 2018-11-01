@@ -235,7 +235,7 @@ function msg_set_owner(details){ // defined by phantom_glitch
 }
 
 function onPlayerExit(pc){ // defined by phantom_glitch
-	if(this.owner && pc == this.owner) {
+	if(this.owner && pc.equals(this.owner)) {
 		this.apiDelete();
 	}
 }

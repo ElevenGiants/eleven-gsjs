@@ -87,7 +87,7 @@ function icon_ruminate(pc, msg, suppress_activity){
 	var amount = randInt(lower, upper);
 
 	// Most recent person to tithe gets a double bonus
-	if (pc == this.tither) {
+	if (pc.equals(this.tither)) {
 		amount = amount * 2;
 		this.tither = null;
 	}
@@ -151,7 +151,7 @@ function icon_revere(pc, msg, suppress_activity){
 	var amount = randInt(lower, upper);
 
 	// Most recent person to tithe gets a double bonus
-	if (pc == this.tither) {
+	if (pc.equals(this.tither)) {
 		amount = amount * 2;
 		this.tither = null;
 	}
@@ -215,7 +215,7 @@ function icon_reflect(pc, msg, suppress_activity){
 	var amount = randInt(lower, upper);
 
 	// Most recent person to tithe gets a double bonus
-	if (pc == this.tither) {
+	if (pc.equals(this.tither)) {
 		amount = amount * 2;
 		this.tither = null;
 	}
@@ -439,7 +439,7 @@ function doPlayerResponse(pc){
 					var amount = randInt(lower, upper);
 
 					// Most recent person to tithe gets a double bonus
-					if (pc == this.tither) {
+					if (pc.equals(this.tither)) {
 						amount = amount * 2;
 						this.tither = null;
 					}
@@ -468,7 +468,7 @@ function doPlayerResponse(pc){
 					var amount = randInt(lower, upper);
 
 					// Most recent person to tithe gets a double bonus
-					if (pc == this.tither) {
+					if (pc.equals(this.tither)) {
 						amount = amount * 2;
 						this.tither = null;
 					}
@@ -498,7 +498,7 @@ function doPlayerResponse(pc){
 					var amount = randInt(lower, upper);
 
 					// Most recent person to tithe gets a double bonus
-					if (pc == this.tither) {
+					if (pc.equals(this.tither)) {
 						amount = amount * 2;
 						this.tither = null;
 					}
@@ -525,7 +525,7 @@ function doPlayerResponse(pc){
 					}
 					
 					// Most recent person to tithe gets a double bonus
-					if (pc == this.tither) {
+					if (pc.equals(this.tither)) {
 						amount = amount * 2;
 						this.tither = null;
 					}

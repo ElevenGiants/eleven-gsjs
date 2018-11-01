@@ -393,7 +393,7 @@ function onPlayerCollision(pc){ // defined by npc_maintenance_bot
 		return;
 	}
 
-	if (pc != this.pc || this.collided) {
+	if (!pc.equals(this.pc) || this.collided) {
 		return;
 	}
 
@@ -402,7 +402,7 @@ function onPlayerCollision(pc){ // defined by npc_maintenance_bot
 }
 
 function onPlayerExit(pc){ // defined by npc_maintenance_bot
-	if (pc == this.pc) {
+	if (pc.equals(this.pc)) {
 		this.apiDelete();
 	}
 }

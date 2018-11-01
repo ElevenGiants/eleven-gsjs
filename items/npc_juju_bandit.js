@@ -230,7 +230,7 @@ function getTarget(){ // defined by npc_juju_bandit
 }
 
 function giveQuest(pc){ // defined by npc_juju_bandit
-	if (pc != this.pc || !this.ready_to_steal) {
+	if (!pc.equals(this.pc) || !this.ready_to_steal) {
 		return;
 	}
 
@@ -378,7 +378,7 @@ function onPathing(args){ // defined by npc_juju_bandit
 }
 
 function onPlayerCollision(pc){ // defined by npc_juju_bandit
-	if(pc == this.pc && this.target == 'player' && !this.done) {
+	if(pc.equals(this.pc) && this.target == 'player' && !this.done) {
 		if (this.offering_quest) {
 			this.giveQuest(pc);
 		} else {
@@ -388,7 +388,7 @@ function onPlayerCollision(pc){ // defined by npc_juju_bandit
 }
 
 function onPlayerExit(pc){ // defined by npc_juju_bandit
-	if(pc == this.pc) {
+	if(pc.equals(this.pc)) {
 		this.rageQuit();
 	}
 }
@@ -446,7 +446,7 @@ function setParams(pc, item_class){ // defined by npc_juju_bandit
 }
 
 function stealItem(pc){ // defined by npc_juju_bandit
-	if(pc != this.pc || this.container != pc.location || !this.ready_to_steal || this.stolen || this.offering_quest) {
+	if(!pc.equals(this.pc) || this.container != pc.location || !this.ready_to_steal || this.stolen || this.offering_quest) {
 		return;
 	}
 

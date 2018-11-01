@@ -190,8 +190,8 @@ verbs.talk_to = { // defined by npc_yoga_frog
 	"handler"			: function(pc, msg, suppress_activity){
 
 		if(this.delivered) {
-			this.sendBubble("Off to my yoga session, dude. You should drop in sometime â€” it's good for your, like, chi.", 3000, pc);	
-		} else if(pc != this.pc) {
+			this.sendBubble("Off to my yoga session, dude. You should drop in sometime — it's good for your, like, chi.", 3000, pc);	
+		} else if(!pc.equals(this.pc)) {
 			this.sendBubble("On delivery for "+this.pc.label+"! No time to talk, brah.", 3000, pc);
 		} else {
 			this.doDelivery();
@@ -232,8 +232,8 @@ function doDelivery(){ // defined by npc_yoga_frog
 	this.fsm_switch_state('dialog');
 
 	if(this.waitForSpace) {
-		var resp = "While I was waiting I had this, like, epiphanyâ€”" + choose_one(this.responses.epiphanies);
-		this.conversation_start(this.pc,  resp, {1: {txt: "Iâ€¦ what?", value: 'bye'}}, {offset_x: 0, offset_y:30}, null, null, null, true);
+		var resp = "While I was waiting I had this, like, epiphany—" + choose_one(this.responses.epiphanies);
+		this.conversation_start(this.pc,  resp, {1: {txt: "I… what?", value: 'bye'}}, {offset_x: 0, offset_y:30}, null, null, null, true);
 	} else {
 		if(this.mailType == 'auction') {
 			var rewards = this.pc.mail_build_auction_rewards(0, 10);
@@ -459,7 +459,7 @@ function getPlayerMailItem(){ // defined by npc_yoga_frog
 }
 
 function isDeliveringTo(pc){ // defined by npc_yoga_frog
-	if(this.pc == pc && !this.delivered) {
+	if(pc.equals(this.pc) && !this.delivered) {
 		return true;
 	} else {
 		return false;
@@ -538,7 +538,7 @@ function nextPlayerMailItem(pc, msg){ // defined by npc_yoga_frog
 	var msg_text = msg_data.text;
 
 	if (!this.previous_messages) {
-		var dialogue = "OK, so there's likeâ€¦ an express message for you from "+sender+".";
+		var dialogue = "OK, so there's like… an express message for you from "+sender+".";
 	} else if (this.previous_messages == 1) {
 		var dialogue = "Oh, right. There's also a message from "+sender+".";
 	} else {
@@ -595,7 +595,7 @@ function onConversation(pc, msg){ // defined by npc_yoga_frog
 		this.conversation_reply(pc, msg, "Just come talk to me when you're ready.", {1: {txt: "WIll do!.", value:'will-do'}}, null, null, null, null, true);
 	} else if (msg.choice == 'to-mailbox') {
 		this.sendMailToInbox();
-		this.conversation_reply(pc, msg, "'Kay, brah, but you shouldn't be so attached to material possessionsâ€”it's like major bad karma.", {1: {txt: "I'll keep that in mind.", value:'take-off'}}, null, null, null, null, true);
+		this.conversation_reply(pc, msg, "'Kay, brah, but you shouldn't be so attached to material possessions—it's like major bad karma.", {1: {txt: "I'll keep that in mind.", value:'take-off'}}, null, null, null, null, true);
 	} else if (msg.choice == 'take-off') {
 		this.finishDelivery(pc, msg)
 	} else if (msg.choice == 'will-do') {
@@ -631,7 +631,7 @@ function onCreate(){ // defined by npc_yoga_frog
 
 function onPlayerExit(pc){ // defined by npc_yoga_frog
 	// our player left, so we leave!
-	if(pc == this.pc && this.leaveState == undefined) {
+	if(pc.equals(this.pc) && this.leaveState == undefined) {
 		this.delivered = true;
 		this.pc.schedule_next_delivery();
 		this.leaveState = 0;

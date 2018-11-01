@@ -200,7 +200,7 @@ verbs.talk_to = { // defined by npc_smuggler
 
 		if (!this.target_pc){
 			return {state:null};
-		} else if (this.target_pc == pc){
+		} else if (pc.equals(this.target_pc)){
 			if (!this.has_conversed) return {state: 'enabled'};
 			return {state: 'disabled', reason: "We already talked!" }
 		} else {
@@ -246,7 +246,7 @@ function broadcastState(){ // defined by npc_smuggler
 }
 
 function buildState(pc){ // defined by npc_smuggler
-	if (pc == this.target_pc){
+	if (pc.equals(this.target_pc)){
 		if (this.dir){
 			if (this.dir == 'right'){
 				return '-' + this.state;
@@ -442,13 +442,13 @@ function onPlayerCollision(pc){ // defined by npc_smuggler
 		if (is_chance(0.2) || pc.buffs_has('max_luck')){
 			this.giveAppearForPlayer(pc);
 		}
-	} else if (this.instanceProps.task == 'receive' && pc == this.target_pc && !this.didAppear){
+	} else if (this.instanceProps.task == 'receive' && pc.equals(this.target_pc) && !this.didAppear){
 		this.receiveAppearForPlayer(pc);
 	}
 }
 
 function onPlayerExit(pc){ // defined by npc_smuggler
-	if (pc != this.target_pc){
+	if (!pc.equals(this.target_pc)){
 		return;
 	} else {
 		if (this.instanceProps.task == 'give'){

@@ -148,7 +148,7 @@ function doEmote(msg){
 		for (var i in players){
 	
 			// Ignore the acting pc
-			if (players[i].pc == this) continue;
+			if (this.equals(players[i].pc)) continue;
 			
 			// not with people blocked or blocking
 			if (this.buddies_is_ignored_by(players[i].pc)) continue;

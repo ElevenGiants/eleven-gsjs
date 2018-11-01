@@ -468,7 +468,7 @@ var buffs = {
 			pc.sendActivity("Gosh darn it, that was witty. Everyone laughed uproariously!");
 			
 			for(var i in players) {
-				if(players[i] != pc) {
+				if(!pc.equals(players[i])) {
 					players[i].playEmotionAnimation('happy');
 					players[i].metabolics_add_mood(10);
 					players[i].sendActivity(pc.label+" just said something wildly amusing. What a riot!");
@@ -2484,7 +2484,7 @@ var buffs = {
 			});
 			var players = pc.location.getActivePlayers();
 			for(var i in players) {
-				if(players[i] != pc) {
+				if(!pc.equals(players[i])) {
 					players[i].metabolics_add_mood(2);
 				} else {
 					players[i].metabolics_lose_mood(3);

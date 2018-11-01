@@ -289,7 +289,7 @@ function onInputBoxResponse(pc, uid, body, title, msg){ // defined by glitchmas_
 	//pc.sendActivity("last editor is "+this.last_editor);
 	//pc.sendActivity("pc tsid is "+pc.tsid);
 
-	if (this.last_editor && !(this.last_editor == pc.tsid || this.last_editor == pc)) return;
+	if (this.last_editor && !(this.last_editor == pc.tsid || pc.equals(this.last_editor))) return;
 
 	this.setInstanceProp('initial_text', '');
 	this.setInstanceProp('initial_title', '');

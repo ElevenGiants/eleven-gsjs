@@ -291,7 +291,7 @@ verbs.feed = { // defined by npc_sloth
 				var sloths = pc.location.find_items("npc_sloth", null);
 				var count = 0;
 				for (var s in sloths) { 
-					if (sloths[s].feeder === pc) { 
+					if (pc.equals(sloths[s].feeder)) { 
 						count ++;
 					}
 				}

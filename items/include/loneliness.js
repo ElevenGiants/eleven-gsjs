@@ -109,7 +109,7 @@ function lonelinessGetText(pc, type, option, location_name, stage, args) {
 			// Add other player names.
 			var others = [];
 			for (var i in this.loneliness.visitors) {
-				if (this.loneliness.visitors[i] != pc) {
+				if (!pc.equals(this.loneliness.visitors[i])) {
 					others.push(this.loneliness.visitors[i].label);
 				}
 			}
@@ -308,7 +308,7 @@ function lonelinessVisit(pc) {
 		case 'B':			
 			var players = this.container.getActivePlayers();
 			for (var i in players) {
-				if (players[i] != pc && this.isLonely()) {				
+				if (!pc.equals(players[i]) && this.isLonely()) {				
 					this.lonelinessUpdatePartyOverlay(players[i]);
 				} else {
 					this.lonelinessHideOverlay(players[i]);					
@@ -650,7 +650,7 @@ function onLonelinessPlayerEnter(pc) {
 			} else {
 				var players = this.container.getActivePlayers();
 				for (var i in players) {
-					if (players[i] == pc) {				
+					if (pc.equals(players[i])) {				
 						this.lonelinessShowPartyOverlay(players[i]);					
 					} else {
 						this.lonelinessUpdatePartyOverlay(players[i]);

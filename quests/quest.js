@@ -1892,7 +1892,7 @@ function doJobEffects(pc){
 							if (!offerer.wotd) { 
 								s.setMaxWearMultiplier(multiplier+0.05);
 								
-								if (offerer.restorer && offerer.restorer === pc) { 
+								if (offerer.restorer && pc.equals(offerer.restorer)) { 
 									var times = 1 + intval((multiplier - 1.0) / .05);
 									var max = pc.achievements_get("cultivation", "times_restored");
 									log.info("CULT: times is "+times+" and max is "+max+" for "+s.class_tsid);

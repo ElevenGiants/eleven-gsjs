@@ -192,7 +192,7 @@ function broadcastState(){ // defined by npc_deimaginator
 }
 
 function buildState(pc){ // defined by npc_deimaginator
-	if (pc == this.pc){
+	if (pc.equals(this.pc)){
 		if (this.dir){
 			// Fucking backwards fucking assets fuck
 			if ((this.dir == 'right' && this.state != 'walk') || (this.dir == 'left' && this.state == 'walk')){
@@ -206,7 +206,7 @@ function buildState(pc){ // defined by npc_deimaginator
 }
 
 function caughtPlayer(pc){ // defined by npc_deimaginator
-	if(pc != this.pc || this.container != pc.location || !this.ready_to_catch) {
+	if(!pc.equals(this.pc) || this.container != pc.location || !this.ready_to_catch) {
 		return;
 	}
 
@@ -310,7 +310,7 @@ function onPathing(args){ // defined by npc_deimaginator
 }
 
 function onPlayerCollision(pc){ // defined by npc_deimaginator
-	if(pc == this.pc) {
+	if(pc.equals(this.pc)) {
 		if (pc.isMovingStreets()){
 			this.stopMoving();
 			this.goAway();
@@ -342,7 +342,7 @@ function onPlayerCollision(pc){ // defined by npc_deimaginator
 }
 
 function onPlayerExit(pc){ // defined by npc_deimaginator
-	if (pc == this.pc){
+	if (pc.equals(this.pc)){
 		this.stopMoving();
 		this.goAway();
 	}

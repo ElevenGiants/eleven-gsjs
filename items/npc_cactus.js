@@ -185,7 +185,7 @@ verbs.talk_to = { // defined by npc_cactus
 
 		return {state:null};
 
-		if (this.talkPC == pc){
+		if (pc.equals(this.talkPC)){
 			return {state:'disabled', reason: "You already talked to it."};
 		}
 

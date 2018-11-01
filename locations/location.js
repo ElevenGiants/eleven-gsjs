@@ -125,7 +125,7 @@ function onPlayerEnter(pc){
 	// Check for 11 secret locations, which is an achievement rather than a quest
 	pc.showSecretLocationMarker(this);
 
-	if (!this.is_public && pc == this.owner){
+	if (!this.is_public && pc.equals(this.owner)){
 		// In their house
 		if (pc.crafty_bot && pc.crafty_bot.tsid){
 			var test_bot = apiFindObject(pc.crafty_bot.tsid);
@@ -160,7 +160,7 @@ function onPlayerEnter(pc){
 	if (is_pol && !is_instance){
 		pc.counters_increment('pols_visited', this.tsid);
 				
-		if (this.is_public && pc != this.owner){
+		if (this.is_public && !pc.equals(this.owner)){
 			if (this.home_id == "tower") {
 				pc.has_visited_tower = true;
 			}

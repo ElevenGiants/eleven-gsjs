@@ -388,7 +388,7 @@ function canPickup(pc, drop_stack){ // defined by still
 		return {ok: 0, error: "Stealing a Still from someone else's home is the basest of crimes."};
 	}
 	if (this.give_pc) {
-		if (this.give_pc == pc) {
+		if (pc.equals(this.give_pc)) {
 			return {ok: 0, error: "You are still collecting Hooch from this Still. Hold your horses!"};
 		} else {
 			return {ok: 0, error: "Someone is still collecting Hooch from this Still. Hold your horses!"};

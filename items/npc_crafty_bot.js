@@ -744,7 +744,7 @@ function canFetch(class_tsid, args){ // defined by npc_crafty_bot
 }
 
 function clientHandleMessage(pc, msg){ // defined by npc_crafty_bot
-	if (pc != this.owner){
+	if (!pc.equals(this.owner)){
 		pc.apiSendMsg(make_fail_rsp(msg));
 		return;
 	}

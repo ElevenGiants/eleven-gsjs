@@ -621,7 +621,7 @@ function onPlayerCollision(pc, hitbox){ // defined by npc_shrine_base
 function onPlayerExit(pc){ // defined by npc_shrine_base
 	this.npc_onPlayerExit(pc);
 
-	if(this.primed && pc == this.priming_pc) {
+	if(this.primed && pc.equals(this.priming_pc)) {
 		this.primeComplete();
 	}
 }

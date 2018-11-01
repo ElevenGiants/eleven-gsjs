@@ -379,7 +379,7 @@ verbs.set_free = { // defined by npc_chicken
 	"is_drop_target"		: false,
 	"conditions"			: function(pc, drop_stack){
 
-		if(!this.container.owner || this.container.owner != pc) {
+		if(!this.container.owner || !pc.equals(this.container.owner)) {
 			return {state:null};
 		}
 

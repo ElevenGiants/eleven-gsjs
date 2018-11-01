@@ -254,7 +254,7 @@ function juju_bandit_curse() {
 	// Is the PC currently being pursued by any jujus? If so, abort.
 	var jujus = this.location.find_items('npc_juju_bandit');
 	for (var i in jujus) {
-		if (jujus[i].getTarget() == this) {
+		if (this.equals(jujus[i].getTarget())) {
 			return;
 		}
 	}
