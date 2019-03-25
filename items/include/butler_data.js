@@ -734,7 +734,7 @@ function getNumPackagesWithMessages() {
 	
 	for (var tsid in messages) { 
 		for (var i in messages[tsid]) {
-			if (messages[tsid][i].withPackage) {
+			if (messages[tsid][i] && messages[tsid][i].withPackage) {
 				count ++;
 			}
 		}
