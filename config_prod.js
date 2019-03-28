@@ -50,7 +50,7 @@ var acl_keys_per_player_limit = 100;
 
 var all_players = [];
 
-var skill_points_per_second = 10;
+var skill_points_per_second = 1;
 var skill_learning_modifier_step = 0.05;
 var emblem_favor_cost = 1000;
 var emblem_favor_increment = 100;
